@@ -1,0 +1,100 @@
+BODY#boombang.lang_chl	H1,
+BODY#rankings.lang_chl	H1,
+BODY#shop.lang_chl		H1,
+/*BODY#shots.lang_chl		H1 { background-image: url('../images/isla/h1_boombang_chl.png'); }*//*Imagen de fondo con el fondo verde*/
+BODY#shots.lang_esp		H1 { background-image: url('../images/partner/h1_boombang_esp.png'); }/*Imagen de fondo con el fondo azul*/
+BODY#safety.lang_chl 	H1 { background-image: url('../images/h1_safety_chl.jpg'); }
+BODY#parents.lang_chl 	H1 { background-image: url('../images/h1_parents_chl.jpg'); }
+BODY#credits.lang_chl 	H1 { background-image: url('../images/h1_credits_chl.jpg'); }
+BODY#members.lang_chl 	H1 { background-image: url('../images/h1_members_chl.jpg'); }
+BODY#contact.lang_chl	H1 { background-image: url('../images/h1_contact_chl.jpg'); }
+
+/* PLAY */
+BODY#boombang.lang_chl	A#link_play ,
+BODY#rankings.lang_chl	A#link_play ,
+BODY#shop.lang_chl		A#link_play ,
+/*BODY#shots.lang_chl		A#link_play { background-image: url('../images/isla/play_boombang_chl.jpg'); }*/ /*Play con fondo de color azul*/
+BODY#shots.lang_chl		A#link_play { background-image: url('../images/partner/play_boombang_chl.jpg'); } /*Play con fondo de color verde*/
+BODY#safety.lang_chl	A#link_play { background-image: url('../images/play_safety_chl.jpg'); }
+BODY#parents.lang_chl	A#link_play { background-image: url('../images/play_parents_chl.jpg'); }
+BODY#credits.lang_chl	A#link_play { background-image: url('../images/play_credits_chl.jpg'); }
+BODY#members.lang_chl	A#link_play { background-image: url('../images/play_members_chl.jpg'); }
+BODY#contact.lang_chl	A#link_play { background-image: url('../images/play_contact_chl.jpg'); }
+
+/* MENU 1 */
+BODY#boombang.lang_chl 	UL#menu1 A 	,
+BODY#rankings.lang_chl 	UL#menu1 A 	,
+BODY#shop.lang_chl 		UL#menu1 A 	,
+BODY#shots.lang_chl 	UL#menu1 A 	{ background-image: url('../images/plantas/menu1_boombang_chl.jpg'); }
+BODY#safety.lang_chl 	UL#menu1 A 	{ background-image: url('../images/menu1_safety_chl.jpg'); }
+BODY#parents.lang_chl 	UL#menu1 A	{ background-image: url('../images/menu1_parents_chl.jpg'); }
+BODY#credits.lang_chl 	UL#menu1 A	{ background-image: url('../images/menu1_credits_chl.jpg'); }
+BODY#members.lang_chl 	UL#menu1 A	{ background-image: url('../images/menu1_members_chl.jpg'); }
+BODY#news.lang_chl 		UL#menu1 A	{ background-image: url('../images/menu1_news_chl.jpg'); }
+BODY#contact.lang_chl 	UL#menu1 A	{ background-image: url('../images/menu1_contact_chl.jpg'); }
+
+BODY.lang_chl UL#menu1 A#link_boombang 	{ background-position: 0px 0px;   width: 166px; }
+BODY.lang_chl UL#menu1 A#link_safety 	{ background-position: -166px 0px; width: 167px; }
+BODY.lang_chl UL#menu1 A#link_parents 	{ background-position: -333px 0px; width: 166px; }
+BODY.lang_chl UL#menu1 A#link_credits 	{ background-position: -499px 0px; width: 166px; }
+BODY.lang_chl UL#menu1 A#link_members 	{ background-position: -665px 0px; width: 165px; }
+BODY.lang_chl UL#menu1 A#link_contact 	{ background-position: -830px 0px; width: 148px; }
+
+BODY#boombang.lang_chl UL#menu1 A#link_boombang ,
+BODY.lang_chl UL#menu1 A#link_boombang:hover 	{ background-position: 0px -32px; }
+BODY#safety.lang_chl UL#menu1 A#link_safety ,
+BODY.lang_chl UL#menu1 A#link_safety:hover 		{ background-position: -166px -32px; }
+BODY#parents.lang_chl UL#menu1 A#link_parents ,
+BODY.lang_chl UL#menu1 A#link_parents:hover 	{ background-position: -333px -32px; }
+BODY#credits.lang_chl UL#menu1 A#link_credits ,
+BODY.lang_chl UL#menu1 A#link_credits:hover 	{ background-position: -499px -32px; }
+BODY#members.lang_chl UL#menu1 A#link_members ,
+BODY.lang_chl UL#menu1 A#link_members:hover 	{ background-position: -665px -32px; }
+BODY#contact.lang_chl UL#menu1 A#link_contact ,
+BODY.lang_chl UL#menu1 A#link_contact:hover		{ background-position: -830px -32px; }
+
+BODY.lang_chl UL#menu1 A#link_boombang:hover 	{ background-position: 0px -32px; }
+BODY.lang_chl UL#menu1 A#link_safety:hover 		{ background-position: -166px -32px; }
+BODY.lang_chl UL#menu1 A#link_parents:hover 	{ background-position: -333px -32px; }
+BODY.lang_chl UL#menu1 A#link_credits:hover 	{ background-position: -499px -32px; }
+BODY.lang_chl UL#menu1 A#link_members:hover 	{ background-position: -665px -32px; }
+BODY.lang_chl UL#menu1 A#link_contact:hover		{ background-position: -830px -32px; }
+
+/* MENU 2 */
+UL#menu2 LI A		{ background-image: url('../images/menu2_chl.png'); }
+
+BODY#boombang.lang_chl 	H2 { background-image: url('../images/plantas/h2_boombang_chl.png'); }
+BODY#safety.lang_chl 	H2 { background-image: url('../images/h2_safety_chl.png'); }
+BODY#parents.lang_chl 	H2 { background-image: url('../images/h2_parents_chl.png'); }
+BODY#credits.lang_chl 	H2 { background-image: url('../images/h2_credits_chl.png'); }
+BODY#members.lang_chl 	H2 { background-image: url('../images/h2_members_chl.png'); }
+BODY#blog.lang_chl 		H2 { background-image: url('../images/h2_news_chl.png'); }
+BODY#contact.lang_chl	H2 { background-image: url('../images/h2_contact_chl.png'); }
+BODY#shop.lang_chl 		H2 { background-image: url('../images/h2_shop_chl.png'); }
+BODY#shots.lang_chl 	H2 { background-image: url('../images/h2_shots_chl.png'); }
+
+BODY#boombang.lang_chl	DIV#box1	{ background-image: url('../images/plantas/boxes_boombang_chl.png'); }
+BODY#safety.lang_chl	DIV#box1	{ background-image: url('../images/boxes_safety_chl.png'); }
+BODY#parents.lang_chl	DIV#box1	{ background-image: url('../images/boxes_parents_chl.png'); }
+BODY#credits.lang_chl	DIV#box1	{ background-image: url('../images/boxes_credits_chl.png'); }
+BODY#members.lang_chl	DIV#box1	{ background-image: url('../images/boxes_members_chl.png'); }
+
+/* CREDITS */
+BODY#credits.lang_chl A#buy_btn { background-image: url('../images/buybtn_chl.png'); }
+
+/* CONTACT */
+BODY#contact.lang_chl A#contact_back { background-image: url('../images/contact_back_chl.png'); }
+BODY#contact.lang_chl A#contact_send { background-image: url('../images/contact_send_chl.png'); }
+
+/* SHOP */
+BODY#shop.lang_chl A#link_shirtcity	{ background-image: url('../images/shop_shirtcity_chl.png'); }
+BODY#shop.lang_chl A#link_cafepress { background-image: url('../images/shop_cafepress_chl.png'); }
+
+/* OPTOUT */
+BODY.optout_info_chl H1 		{ background-image: url('../images/optout_info_title_chl.png'); }
+BODY.optout_confirm_chl H1 		{ background-image: url('../images/optout_confirm_title_chl.png'); }
+BODY.optout_error_chl H1		{ background-image: url('../images/optout_error_title_chl.png'); }
+BODY.optout_success_chl H1 		{ background-image: url('../images/optout_success_title_chl.png'); }
+BODY.optout_wrongdata_chl H1 	{ background-image: url('../images/optout_wrongdata_title_chl.png'); }
+BODY.optout_confirm_chl FORM#confirm_form	{ background: url('../images/optout_confirm_formbg_chl.png') center left no-repeat; }
+BODY.optout_confirm_chl	BUTTON#confirm_submit { background: url('../images/optout_confirm_send_chl.png') top left no-repeat; }

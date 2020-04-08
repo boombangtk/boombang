@@ -1,0 +1,87 @@
+BODY
+{
+	background-color: #fff;
+}
+
+BODY#index
+{
+	background-position: 5px 5px;
+}
+
+BODY#index.lang_dev,
+BODY#ranking.lang_dev { background-image: url('../images/islands/pascua2011/top_esp.png'); }
+BODY#index.lang_esp,
+BODY#ranking.lang_esp { background-image: url('../images/islands/pascua2011/top_esp.png'); }
+BODY#index.lang_eng,
+BODY#ranking.lang_eng { background-image: url('../images/islands/pascua2011/top_eng.png'); }
+BODY#index.lang_chl,
+BODY#ranking.lang_chl { background-image: url('../images/islands/pascua2011/top_chl.png'); }
+
+BODY#index.lang_dev H1,
+BODY#ranking.lang_dev H1 { background-image: url('../images/islands/pascua2011/index_h1_esp.png'); }
+BODY#index.lang_esp H1,
+BODY#ranking.lang_esp H1 { background-image: url('../images/islands/pascua2011/index_h1_esp.png'); }
+BODY#index.lang_eng H1,
+BODY#ranking.lang_eng H1 { background-image: url('../images/islands/pascua2011/index_h1_eng.png'); }
+BODY#index.lang_chl H1,
+BODY#ranking.lang_chl H1 { background-image: url('../images/islands/pascua2011/index_h1_chl.png'); }
+
+P
+{
+	color: #ff6600;
+	background-image: url('../images/islands/pascua2011/p.png');
+}
+
+A#link_vote
+{
+	background-color: #fff;
+}
+
+BODY.lang_dev A#link_vote { background-image: url('../images/islands/pascua2011/vote_esp.png'); }
+BODY.lang_esp A#link_vote { background-image: url('../images/islands/pascua2011/vote_esp.png'); }
+BODY.lang_eng A#link_vote { background-image: url('../images/islands/pascua2011/vote_eng.png'); }
+BODY.lang_chl A#link_vote { background-image: url('../images/islands/pascua2011/vote_chl.png'); }
+
+A#link_ranking
+{
+	background-color: #fff;
+}
+
+BODY.lang_dev A#link_ranking { background-image: url('../images/islands/pascua2011/ranking_esp.png'); }
+BODY.lang_esp A#link_ranking { background-image: url('../images/islands/pascua2011/ranking_esp.png'); }
+BODY.lang_eng A#link_ranking { background-image: url('../images/islands/pascua2011/ranking_eng.png'); }
+BODY.lang_chl A#link_ranking { background-image: url('../images/islands/pascua2011/ranking_chl.png'); }
+
+FORM#search
+{
+	background-color: #fff;
+	background-image: none;
+	color: #0066ad;
+}
+
+BODY#view
+{
+	background-color: white;
+}
+
+BODY#view.lang_dev H1 { background-image: url('../images/islands/pascua2011/view_h1_esp.png'); }
+BODY#view.lang_esp H1 { background-image: url('../images/islands/pascua2011/view_h1_esp.png'); }
+BODY#view.lang_eng H1 { background-image: url('../images/islands/pascua2011/view_h1_eng.png'); }
+BODY#view.lang_chl H1 { background-image: url('../images/islands/pascua2011/view_h1_chl.png'); }
+
+BODY#view DIV#nicks
+{
+	background-color: #fff;
+	background-image: none;
+}
+
+BODY#view DIV#datos DIV
+{
+	background-image: url('../images/islands/pascua2011/view_votes_bg.png');
+	color: #fe81b4;
+}
+
+DIV#notfound
+{
+	background: url('../images/islands/pascua2011/notfound_bg.png') top left no-repeat;
+}
