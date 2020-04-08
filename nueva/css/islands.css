@@ -1,0 +1,453 @@
+IMG
+{
+	border: 0px;
+}
+
+BODY
+{
+	font-family: 'Verdana', sans-serif;
+	font-weight: bold;
+}
+
+BODY#index,
+BODY#ranking
+{
+	position: relative;
+	width: 900px;
+	margin: 0px;
+	padding: 272px 10px 10px 10px;
+	background-position: top left;
+	background-repeat: no-repeat;
+}
+
+H1
+{
+	width: 450px;
+	height: 63px;
+	margin-left: 50px;
+	text-indent: -9000px;
+	background-position: top left;
+	background-repeat: no-repeat;
+}
+
+P
+{
+	width: 410px;
+	padding: 3px 0px 10px 50px;
+	background-position: 20px 0px;
+	background-repeat: no-repeat;
+	font-size: 14px;
+}
+
+A#link_vote
+{
+	display: block;
+	width: 152px;
+	height: 86px;
+	text-indent: -9000px;
+	background-position: top left;
+	background-repeat: no-repeat; 
+}
+
+A#link_ranking
+{
+	display: block;
+	width: 152px;
+	height: 86px;
+	text-indent: -9000px;
+	background-position: top left;
+	background-repeat: no-repeat;
+}
+
+A.link_btn
+{
+	margin-bottom: 17px;
+}
+
+A.link_btn:active
+{
+	position: relative;
+	top: 2px;
+	left: 2px;
+}
+
+FORM#search
+{
+	width: 122px;
+	height: 56px;
+	font-size: 10px;
+	font-weight: bold;
+	margin: 0px 0px 20px 0px;
+	padding: 15px;
+}
+
+INPUT#search_nick
+{
+	border: 1px solid #0066ad;
+	width: 117px;
+	height: 20px;
+	line-height: 20px;
+	color: #0066ad;
+	background: white;
+}
+	
+BODY#index DIV#botones,
+BODY#ranking DIV#botones
+{
+	position: absolute;
+	top: 166px;
+	left: 536px;
+}
+
+DIV#notfound
+{
+	width: 149px;
+	height: 47px;
+	margin: 0px auto 0px auto;
+	padding: 0px 40px 0px 7px;
+	line-height: 47px;
+	color: red;
+	font-size: 10px;
+}
+
+BODY#ranking TABLE.ranking
+{
+	float: left;
+	table-layout: fixed;
+	white-space: nowrap;
+	border-collapse: collapse;
+	margin-left: 50px;
+	margin-bottom: 20px;
+	color: #0066ad;
+	background-color: white;
+}
+
+BODY#ranking TBODY TR
+{
+	color: white;
+	background-color: black;
+}
+
+BODY#ranking TD
+{
+	padding: 0px 3px 0px 3px;
+}
+
+BODY#ranking TABLE.ranking TR
+{
+	line-height: 35px;
+	font-size: 12px;
+}
+
+BODY#ranking TABLE.ranking TD.ranking_posicion
+{
+	width: 80px;
+	text-align: center;
+	background-position: center;
+	background-repeat: no-repeat;
+	border-top: 2px solid white;
+	border-bottom: 2px solid white;
+	font-size: 14px;
+}
+
+BODY#ranking TABLE.ranking TR.ranking_row_descalificado TD.ranking_posicion
+{
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+BODY#ranking TABLE.ranking TD.ranking_login
+{
+	width: 15ex;
+	text-align: left;
+	border-top: 2px solid white;
+	border-bottom: 2px solid white;
+}
+
+BODY#ranking TABLE.ranking TD.ranking_view
+{
+	width: 33px;
+	border-top: 2px solid white;
+	border-bottom: 2px solid white;
+	padding: 0px 10px 0px 10px;
+}
+
+BODY#ranking TABLE.ranking TD.ranking_cantidad
+{
+	color: #33ff00;
+	text-align: left;
+	width: 1em;
+	background-position: 5px;
+	background-repeat: no-repeat;
+	border-top: 2px solid white;
+	border-bottom: 2px solid white;
+}
+
+BODY#ranking TABLE.ranking FORM { display: inline; margin: 0px; padding: 0px; }
+
+BODY#ranking TR.ranking_row_0 { background-color: #0066ad; }
+BODY#ranking TR.ranking_row_1 { background-color: #339966; }
+BODY#ranking TR.ranking_row_2 { background-color: #722c79; }
+
+BODY#ranking A.ranking_view
+{
+	display: block;
+	width: 33px;
+	height: 23px;
+	text-indent: -9000px;
+	background-position: top left;
+	background-repeat: no-repeat;
+}
+BODY#ranking A.ranking_view:active
+{
+	position: relative;
+	top: 1px;
+	left: 1px;
+}
+BODY#ranking TR.ranking_row_0 A.ranking_view { background-image: url('../images/islands/ranking_viewbtn_0.png'); }
+BODY#ranking TR.ranking_row_1 A.ranking_view { background-image: url('../images/islands/ranking_viewbtn_1.png'); }
+BODY#ranking TR.ranking_row_2 A.ranking_view { background-image: url('../images/islands/ranking_viewbtn_2.png'); }
+
+BODY#ranking TR.ranking_row_0 TD.ranking_cantidad { color: #33ff00; }
+BODY#ranking TR.ranking_row_1 TD.ranking_cantidad { color: #ffff00; }
+BODY#ranking TR.ranking_row_2 TD.ranking_cantidad { color: #ff9900; }
+
+BODY#view
+{
+	position: relative;
+	width: 1012px;
+	margin: 5px 0px 0px 5px;
+	padding: 0px;
+}
+
+BODY#view H1
+{
+	position: absolute;
+	top: 662px;
+	left: 5px;
+	width: 400px;
+	height: 60px;
+	margin: 0px 0px 10px 0px;
+	padding: 0px;
+	background-position: top left;
+	background-repeat: no-repeat;
+	text-indent: -9000px;
+}
+
+BODY#view IMG#imagen
+{
+	margin: 0px auto 10px auto;
+}
+
+BODY#view DIV#nicks
+{
+	position: absolute;
+	top: 732px;
+	left: 5px;
+	width: 369px;
+	height: 68px;
+	margin: 0px 0px 10px 0px;
+	padding: 10px;
+	background-position: top left;
+	background-repeat: no-repeat;
+	color: #0066ad;
+	font-size: 14px;
+	line-height: 18px;
+}
+
+BODY#view DIV#search
+{
+	width: 122px;
+}
+	
+BODY#view DIV#nicks .owner
+{
+	color: #ff6600;
+}
+
+BODY#view DIV#botones
+{
+	position: absolute;
+	top: 662px;
+	right: 0px;
+	width: 152px;
+}
+
+BODY#view DIV#botones A
+{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+BODY#view DIV#banner,
+BODY#vote DIV#banner
+{
+	width: 200px;
+	height: 200px;
+	background: none;
+	position: absolute;
+	top: 662px;
+	right: 0px;
+}
+
+BODY#view IMG#logo
+{
+	display: block;
+	margin: 10px auto 10px auto;
+}
+
+BODY#view DIV#datos
+{
+	position: absolute;
+	top: 820px;
+	left: 5px;
+	margin: 10px 0px;
+	padding: 0px;
+}
+
+BODY#view DIV#datos DIV
+{
+	position: relative;
+	width: 138px;
+	height: 41px;
+	line-height: 41px;
+	margin: 0px 10px 0px 0px;
+	padding: 0px 10px;
+	float: left;
+	background-position: top left;
+	background-repeat: no-repeat;
+	font-size: 30px;
+}
+
+BODY#view DIV#datos DIV LABEL
+{
+	display: block;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	padding: 0px 5px;
+	font-size: 10px;
+	color: white;
+}
+
+BODY#view DIV#link
+{
+	position: absolute;
+	top: 0px;
+	width: 100%;
+	text-align: center;
+}
+
+BODY#view DIV#link BUTTON#get_link,
+BODY#view DIV#link BUTTON#fb_link
+{
+	height: 30px;
+	padding-left: 40px;
+	color: #ff6600;
+	font-weight: bold;
+	border: none;
+	cursor: pointer;
+}
+
+BODY#view DIV#link BUTTON#get_link { background: white url('../images/islands/camera.gif') 3px center no-repeat }
+BODY#view DIV#link BUTTON#fb_link  { background: white url('../images/islands/fb_blink.gif') 10px center no-repeat }
+
+BODY#vote
+{
+	position: relative;
+	width: 1012px;
+	margin: 5px 0px 0px 5px;
+	padding: 0px;
+}
+
+BODY#vote IMG#imagen
+{
+	margin: 0px 0px 10px 0px;
+}
+
+BODY#vote FORM#voto
+{
+	display: block;
+	width: 369px;
+	height: 83px;
+	line-height: 83px;
+	margin: 0px auto 0px auto;
+	padding: 0px 10px 0px 10px;
+	/*background: #dff2ff url('../images/islands/puntos_bg.png') top left no-repeat;*/
+	white-space: nowrap;
+	text-align: center;
+}
+
+BODY#vote FORM#voto LABEL
+{
+	float: left;
+	margin-right: 10px;
+	font-size: 14px;
+}
+
+BODY#vote A.punto
+{
+	display: block;
+	width: 40px;
+	text-align: center;
+	color: #ff6600;
+	background-color: white;
+	background-position: center center;
+	background-repeat: no-repeat;
+	margin: 0px;
+	padding: 0px 3px 0px 3px;
+	font-size: 16px;
+	font-weight: bold;
+	text-decoration: none;
+	text-indent: -9000px;
+	vertical-align: middle;
+	float: left;
+}
+BODY#vote A.punto:hover
+{
+	text-indent: 0px;
+}
+
+BODY#vote A#punto_1	{ background-image: url('../images/islands/punto_off_1.png'); }
+BODY#vote A#punto_2	{ background-image: url('../images/islands/punto_off_2.png'); }
+BODY#vote A#punto_3	{ background-image: url('../images/islands/punto_off_3.png'); }
+BODY#vote A#punto_4	{ background-image: url('../images/islands/punto_off_4.png'); }
+BODY#vote A#punto_5	{ background-image: url('../images/islands/punto_off_5.png'); }
+
+BODY#vote A#punto_1:hover,
+BODY#vote A#punto_2:hover,
+BODY#vote A#punto_3:hover,
+BODY#vote A#punto_4:hover,
+BODY#vote A#punto_5:hover { background-image: url('../images/islands/punto_on.png'); }
+
+BODY#vote IMG#logo
+{
+	display: block;
+	margin: 10px auto 10px auto;
+}
+
+BODY#vote A#link_ranking
+{
+	position: absolute;
+	top: 662px;
+	left: 5px;
+}
+
+DIV#publi_rp
+{
+	width: 300px;
+	height: 250px;
+}
+
+BODY#ranking DIV#publi_rp
+{
+	float:left;
+	margin-left: 10px;
+}
+
+BODY#view DIV#publi_rp
+{
+	position: absolute;
+	top: 662px;
+	right: 160px;
+}

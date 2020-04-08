@@ -1,0 +1,194 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="es" lang="es">
+<head>
+	<title>BoomBang está en Mantenimiento!</title>
+	<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+	<meta http-equiv="refresh" content="10">
+	<script type="text/javascript" src="../../../common.js"></script>
+	
+	<script type="text/javascript">
+	
+		var reload_seconds = 10;
+		var current_seconds = reload_seconds;
+		var loop = null;
+		var preloaded_digits = new Array();
+		
+		function refresh_clock()
+		{
+			var clock = document.getElementById('clock');
+			if (current_seconds < 1)
+			{
+				clearInterval(loop);
+			}
+			var clock_content = secs_to_time(current_seconds);
+			clock.innerHTML = clock_content;
+			current_seconds--;
+		}
+		
+		function start_clock()
+		{
+			refresh_clock();
+			loop = setInterval(refresh_clock, 1000);
+		}
+		
+		addEvent(window, 'load', start_clock);
+		
+		function secs_to_time(secs)
+		{
+			var seconds = secs % 60;
+			secs -= seconds;
+			var minutes = (secs % (60 * 60)) / 60;
+			secs -= (minutes * 60);
+			var hours = secs / (60 * 60);
+			var sep = ':';
+			if (seconds < 10)
+			{
+				seconds = '0' + seconds;
+			}
+			if (minutes < 10)
+			{
+				minutes = '0' + minutes;
+			}
+			return (hours + sep + minutes+ sep +seconds);
+		}
+		
+		function time_to_img(time)
+		{
+			var result = document.createElement('div');
+			for (i in time)
+			{
+				var img = new Image();
+				if (time[i] == ':')
+				{
+					img.src = '../../../images/mant_clock_sep.gif';
+				}
+				else
+				{
+					img.src = '../../../images/mant_clock_' + time[i] + '.png';
+				}
+				result.appendChild(img);
+			}
+			return result;
+		}
+		
+	</script>
+	<style type="text/css">
+	
+		BODY
+		{
+			background: #05556d url('../../../images/mant_bg_esp.jpg') top left no-repeat;
+		}
+	
+		H1#title
+		{
+			display: block;
+			position: absolute;
+			left: 20px;
+			top: 280px;
+			width: 350px;
+			height: 20px;
+			margin: 0px;
+			padding: 0px;
+			color: white;
+			font-family: sans-serif;
+			font-size: 18px;
+			font-weight: bold;
+		}
+		
+		DIV#explanation
+		{
+			position: absolute;
+			left: 20px;
+			top: 310px;
+			width: 350px;
+			height: 120px;
+			margin: 0px;
+			padding: 0px;
+			color: white;
+			font-family: sans-serif;
+			font-size: 14px;
+			overflow: auto;
+		}
+	
+		DIV#clock_label
+		{
+			margin: 0px;
+			padding: 0px;
+			position: absolute;
+			left: 20px;
+			top: 430px;
+			height: 16px;
+			line-height: 16px;
+			padding-left: 20px;
+			font-family: sans-serif;
+			font-size: 10px;
+			font-weight: bold;
+			color: #02d1e1;
+			background: #095169 url('../../../images/mant_li.png') top left no-repeat;
+		}
+	
+		DIV#clock
+		{
+			display: block;
+			position: absolute;
+			left: 20px;
+			top: 450px;
+			height: 40px;
+			margin: 0px;
+			padding: 0px;
+			color: #02d1e1;
+			font-family: monospace;
+			font-size: 40px;
+		}
+		
+		DIV#clock IMG
+		{
+			margin-right: 3px;
+		}
+	
+		A#retrybtn
+		{
+			display: block;
+			position: absolute;
+			left: 273px;
+			top: 447px;
+			width: 103px;
+			height: 52px;
+			text-indent: -9000px;
+			background: url('../../../images/mant_retrybtn_esp.png') top left no-repeat;
+		}
+		
+		A#retrybtn:active
+		{
+			margin-left: 2px;
+			margin-top: 2px;
+		}
+	
+	</style>
+</head>
+<body>
+	<h1 id="title">BoomBang está en Mantenimiento!</h1>
+	<div id="explanation"><p>Estamos trabajando para que puedas volver a jugar lo antes posible.</p><p>No cierres esta ventana, intentaremos reconectarte automáticamente.</p></div>
+	<div id="clock_label">Próximo intento de reconexión en</div>
+	<div id="clock"></div>
+	<!--<a id="retrybtn" href="../../../esp/play/">Reintentar</a>-->
+	
+	<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-1615984-1']);
+  _gaq.push(['_setDomainName', 'none']);
+  _gaq.push(['_setAllowLinker', true]);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+	
+</body>
+</html>
+

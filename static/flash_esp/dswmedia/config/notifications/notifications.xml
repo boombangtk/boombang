@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notifications>
+	
+	<fabookImagesUrl src="http://static.boombang.tv/social/" />
+		
+	
+	<!-- HERE SHOULD STAY A LIST OF CHARACTERS TO BE SHOWN IN THE NOTIFICATION-->
+	<characters  name="joan"/>
+	
+	<level_up>
+	
+		<notification id="1"  background="BlueBackground" character="RingCharacter" >
+			<images>
+				<image src="ring_0001.jpg" level="1" />
+				<image src="ring_0002.jpg" level="2" />
+				<image src="ring_0003.jpg" level="3" />
+				<image src="ring_0004.jpg" level="4" />
+				<image src="ring_0005.jpg" level="5" />
+				<image src="ring_0006.jpg" level="6" />
+				<image src="ring_0007.jpg" level="7" />
+				<image src="ring_0008.jpg" level="8" />
+				<image src="ring_0009.jpg" level="9" />
+				<image src="ring_0010.jpg" level="10" />
+			</images>
+		</notification>
+		
+		<notification id="2"  background="BlueBackground" character="CocoCharacter" >
+			<images>
+				<image src="cocos_0001.jpg" level="1" />
+				<image src="cocos_0002.jpg" level="2" />
+				<image src="cocos_0003.jpg" level="3" />
+				<image src="cocos_0004.jpg" level="4" />
+				<image src="cocos_0005.jpg" level="5" />
+				<image src="cocos_0006.jpg" level="6" />
+				<image src="cocos_0007.jpg" level="7" />
+				<image src="cocos_0008.jpg" level="8" />
+				<image src="cocos_0009.jpg" level="9" />
+				<image src="cocos_0010.jpg" level="10" />
+			</images>
+		</notification>
+		
+		<notification id="3"  background="BlueBackground" character="ShurikenCharacter" >
+			<images>
+				<image src="shuriken_0001.jpg" level="1" localization=".3"/> <!-- this is an exception, add a parameter to the localization key-->
+				<image src="shuriken_0002.jpg" level="2" />
+				<image src="shuriken_0003.jpg" level="3" />
+				<image src="shuriken_0004.jpg" level="4" />
+				<image src="shuriken_0005.jpg" level="5" />
+				<image src="shuriken_0006.jpg" level="6" />
+				<image src="shuriken_0007.jpg" level="7" />
+				<image src="shuriken_0008.jpg" level="8" />
+				<image src="shuriken_0009.jpg" level="9" />
+				<image src="shuriken_0010.jpg" level="10" />
+			</images>
+		</notification>
+		
+		<notification id="4"  background="PinkBackground" character="PrettyIsland" >
+			<images>
+				<image src="thereisnotimagehere.png" level="1" />
+				<image src="thereisnotimagehere.png" level="2" />
+				<image src="thereisnotimagehere.png" level="3" />
+				<image src="thereisnotimagehere.png" level="4" />
+				<image src="thereisnotimagehere.png" level="5" />
+				<image src="thereisnotimagehere.png" level="6" />
+				<image src="thereisnotimagehere.png" level="7" />
+				<image src="thereisnotimagehere.png" level="8" />
+				<image src="thereisnotimagehere.png" level="9" />
+				<image src="thereisnotimagehere.png" level="10" />
+			</images>
+		</notification>
+	</level_up>
+	
+	<news>
+		<notification id="5"  popupSrcId="newsAliens.swf" />
+		<notification id="6"  popupSrcId="newsAliensSecondPart.swf" />
+		<notification id="7"  popupSrcId="newsAliensRobots.swf" />
+		<notification id="11"  popupSrcId="newsPirates.swf" />
+		<notification id="12"  popupSrcId="newsPiratesEnd.swf" />
+		<notification id="13"  popupSrcId="newsHalloween2011.swf" />
+		<notification id="14"  popupSrcId="newsChristmas2011.swf" />
+		<notification id="15"  popupSrcId="newsEastern2012.swf" />
+		<notification id="16"  popupSrcId="newsEastern2012_2.swf" />
+		<notification id="17"  popupSrcId="bracelet.swf" />
+	</news>
+	
+	<generic>
+		<notification id="8" />
+		<notification id="10"  popupSrcId="missionBig"/>
+	</generic>
+	
+	<games_tutorials>
+		<notification id="9" />
+	</games_tutorials>
+	
+	
+	
+	<!-- THESE ARE THE ICONS THAT APPEAR IN THE NOTIFICACION LEVEL UP POPUP AND THE ID CAME FROM THE SERVER-->
+	<icons>
+		<icon id="1" src="dswmedia/images/notificationIcons/1.png" />
+		<icon id="2" src="dswmedia/images/notificationIcons/2.png" />
+		<icon id="3" src="dswmedia/images/notificationIcons/3.png" />
+		<icon id="4" src="dswmedia/images/notificationIcons/4.png" />
+		<icon id="5" src="dswmedia/images/notificationIcons/5.png" />
+		<icon id="6" src="dswmedia/images/notificationIcons/6.png" />
+		<icon id="7" src="dswmedia/images/notificationIcons/7.png" />
+		<icon id="8" src="dswmedia/images/notificationIcons/8.png" />
+		<icon id="9" src="dswmedia/images/notificationIcons/9.png" />
+		<icon id="10" src="dswmedia/images/notificationIcons/10.png" />
+		<icon id="11" src="dswmedia/images/notificationIcons/11.png" />
+		<icon id="12" src="dswmedia/images/notificationIcons/12.png" />
+		<icon id="13" src="dswmedia/images/notificationIcons/13.png" />
+		<icon id="14" src="dswmedia/images/notificationIcons/14.png" />
+		<icon id="15" src="dswmedia/images/notificationIcons/15.png" />
+		<icon id="16" src="dswmedia/images/notificationIcons/16.png" />
+		<icon id="17" src="dswmedia/images/notificationIcons/17.png" />
+		<icon id="18" src="dswmedia/images/notificationIcons/18.png" />
+		<icon id="19" src="dswmedia/images/notificationIcons/19.png" />
+		<icon id="20" src="dswmedia/images/notificationIcons/20.png" />
+		<icon id="21" src="dswmedia/images/notificationIcons/21.png" />
+		<icon id="22" src="dswmedia/images/notificationIcons/22.png" />
+		<icon id="23" src="dswmedia/images/notificationIcons/23.png" />
+		<icon id="24" src="dswmedia/images/notificationIcons/24.png" />
+		<icon id="25" src="dswmedia/images/notificationIcons/25.png" />
+		<icon id="26" src="dswmedia/images/notificationIcons/26.png" />
+		<icon id="27" src="dswmedia/images/notificationIcons/27.png" />
+		<icon id="28" src="dswmedia/images/notificationIcons/28.png" />
+		<icon id="29" src="dswmedia/images/notificationIcons/29.png" />
+		<icon id="30" src="dswmedia/images/notificationIcons/30.png" />
+		<icon id="31" src="dswmedia/images/notificationIcons/31.png" />
+		<icon id="32" src="dswmedia/images/notificationIcons/32.png" />
+		<icon id="33" src="dswmedia/images/notificationIcons/33.png" />
+		<icon id="34" src="dswmedia/images/notificationIcons/34.png" />
+		<icon id="35" src="dswmedia/images/notificationIcons/35.png" />
+		<icon id="36" src="dswmedia/images/notificationIcons/36.png" />
+		<icon id="37" src="dswmedia/images/notificationIcons/37.png" />
+		<icon id="38" src="dswmedia/images/notificationIcons/38.png" />
+		<icon id="39" src="dswmedia/images/notificationIcons/39.png" />
+		<icon id="40" src="dswmedia/images/notificationIcons/40.png" />
+		<icon id="41" src="dswmedia/images/notificationIcons/41.png" />
+		<icon id="42" src="dswmedia/images/notificationIcons/42.png" />
+		<icon id="43" src="dswmedia/images/notificationIcons/43.png" />
+		<icon id="44" src="dswmedia/images/notificationIcons/44.png" />
+		<icon id="45" src="dswmedia/images/notificationIcons/45.png" />
+		<icon id="46" src="dswmedia/images/notificationIcons/46.png" />
+		<icon id="47" src="dswmedia/images/notificationIcons/47.png" />
+		<icon id="48" src="dswmedia/images/notificationIcons/48.png" />
+		<icon id="49" src="dswmedia/images/notificationIcons/49.png" />
+		<icon id="50" src="dswmedia/images/notificationIcons/50.png" />
+		<icon id="51" src="dswmedia/images/notificationIcons/51.png" />
+		<icon id="52" src="dswmedia/images/notificationIcons/52.png" />
+		<icon id="53" src="dswmedia/images/notificationIcons/53.png" />
+		<icon id="54" src="dswmedia/images/notificationIcons/54.png" />
+		<icon id="55" src="dswmedia/images/notificationIcons/55.png" />
+		<icon id="56" src="dswmedia/images/notificationIcons/56.png" />
+		<icon id="57" src="dswmedia/images/notificationIcons/57.png" />
+		<icon id="58" src="dswmedia/images/notificationIcons/58.png" />
+	</icons>
+	
+</notifications>

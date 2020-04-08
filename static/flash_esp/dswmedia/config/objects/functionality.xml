@@ -1,0 +1,227 @@
+<objects>
+
+	<object name="estrella_fugaz_navidad" class="FlyingStar"/>
+
+	<object name="puppy_001_new" class="Puppy001New"/>
+	<object name="loro_002_new" class="Loro002New"/>
+	
+	<!-- AddObjects -->
+	<object name="grefusitos_bailando_objeto" class="AdObject"/>
+	<object name="banquillo_grefusa" class="AdObject"/>
+	<object name="ipad_grefumarka" class="AdObject"/>
+	
+	<object name="globo_corazon8" class="BallonMovement"/>
+	<object name="globo_corazon7" class="BallonMovement"/>
+	<object name="globo_corazon6" class="BallonMovement"/>
+	<object name="globo_corazon5" class="BallonMovement"/>
+	<object name="globo_corazon4" class="BallonMovement"/>
+	<object name="globo_corazon3" class="BallonMovement"/>
+	<object name="globo_corazon2" class="BallonMovement"/>
+	<object name="globo_corazon1" class="BallonMovement"/>
+	
+	<object name="sarcofago_humano" class="OpenSarcophagus"/>
+	<object name="sarcofago_lobo" class="OpenSarcophagus"/>
+	<object name="sarcofago_buho" class="OpenSarcophagus"/>
+	<object name="timon_barco" class="OpenSarcophagus"/>
+	<object name="jack_in_the_box_calabaza" class="OpenSarcophagus"/>
+	<object name="jack_in_the_box_esqueleto" class="OpenSarcophagus"/>
+	<object name="jack_in_the_box_murcielago" class="OpenSarcophagus"/>
+	<object name="jack_in_the_box_ojo" class="OpenSarcophagus"/>
+	<object name="jack_in_the_box_payaso" class="OpenSarcophagus"/>
+	
+	<object name="efecto_escenario_billetes" class="MovingLayer"/>
+	<object name="efecto_escenario_corazones" class="MovingLayer"/>
+	<object name="efecto_escenario_confeti" class="MovingLayer"/>
+	<object name="efecto_escenario_lluvia" class="MovingLayer"/>
+	<object name="efecto_escenario_nieve" class="MovingLayer"/>
+	<object name="efecto_escenario_viento" class="MovingLayer"/>
+	
+	<object name="caja_cupcakes" class="SurpriseBox"/>
+	<object name="caja_estatuas_egipcias" class="SurpriseBox"/>
+	<object name="caja_pasteles" class="SurpriseBox"/>
+	<object name="mona_pascua_huevo" class="SurpriseBox"/>
+	<object name="contenedor_bbox_egipto" class="SurpriseBox"/>
+	<object name="contenedor_bbox_egipto_2" class="SurpriseBox"/>
+	<object name="contenedor_bbox_egipto_2b" class="SurpriseBox"/>
+	<object name="contenedor_bbox_egipto_3" class="SurpriseBox"/>
+	<object name="contenedor_bbox_escalera_egipto_1" class="SurpriseBox"/>
+	<object name="contenedor_bbox_escalera_egipto_2" class="SurpriseBox"/>
+	<object name="contenedor_bbox_escalera_egipto_2b" class="SurpriseBox"/>
+	<object name="jack_in_the_box_contenedor" class="SurpriseBox"/>
+	<object name="calabaza_caramelos" class="SurpriseBox"/>
+	<object name="caja_pociones" class="SurpriseBox"/>
+	<object name="caja_pociones_acido" class="SurpriseBox"/>
+	<object name="caja_pociones_apestado" class="SurpriseBox"/>
+	<object name="caja_pociones_diminuto" class="SurpriseBox"/>
+	<object name="caja_pociones_espectro" class="SurpriseBox"/>
+	<object name="caja_pociones_fantasma" class="SurpriseBox"/>
+	<object name="caja_pociones_gigante" class="SurpriseBox"/>
+	<object name="caja_pociones_inversa" class="SurpriseBox"/>
+	<object name="caja_pociones_invisible" class="SurpriseBox"/>
+	<object name="caja_pociones_lengua_trapo" class="SurpriseBox"/>
+	<object name="caja_pociones_mudo" class="SurpriseBox"/>
+	<object name="caja_pociones_murcielago" class="SurpriseBox"/>
+	<object name="caja_pociones_rayo" class="SurpriseBox"/>
+	<object name="caja_pociones_sapo" class="SurpriseBox"/>
+	<object name="caja_pociones_teleport" class="SurpriseBox"/>
+	<object name="caja_pociones_teleport_master" class="SurpriseBox"/>
+	<object name="cake_sv_box" class="SurpriseBox"/>
+	<object name="luces_navidad_contenedor_luces" class="SurpriseBox"/>
+	<object name="contenedor_huevos_pascua" class="SurpriseBox"/>
+	
+	<!--Plantas-->
+	<object name="alien_mushroom_a" class="Plant"/>
+	<object name="alien_mushroom_b" class="Plant"/>
+	<object name="alien_mushroom_c" class="Plant"/>
+	<object name="alien_mushroom_d" class="Plant"/>
+	<object name="alien_mushroom_e" class="Plant"/>
+	<object name="crecimiento_lirio" class="Plant"/>
+	<object name="crecimiento_margarita" class="Plant"/>
+	<object name="crecimiento_orquidea" class="Plant"/>
+	<object name="crecimiento_rosa" class="Plant"/>
+	<object name="crecimiento_tulipan" class="Plant"/>
+	<object name="halloweenTree" class="Plant"/>
+	<object name="Plantas_BosqueShroom" class="Plant"/>
+	<object name="Plantas_Butterfly" class="Plant"/>
+	<object name="Plantas_Cactus" class="Plant"/>
+	<object name="Plantas_ChocoBranchBunny" class="Plant"/>
+	<object name="Plantas_ChocoBunnyTree" class="Plant"/>
+	<object name="Plantas_ChocoCarrot" class="Plant"/>
+	<object name="Plantas_Daisy" class="Plant"/>
+	<object name="Plantas_Evil" class="Plant"/>
+	<object name="Plantas_Lala" class="Plant"/>
+	<object name="Plantas_Panda" class="Plant"/>
+	<object name="Plantas_Pitcher" class="Plant"/>
+	<object name="Plantas_Sunflower" class="Plant"/>
+	<object name="plant_rose_1" class="Plant"/>
+	<object name="plant_rose_2" class="Plant"/>
+	<object name="plant_rose_3" class="Plant"/>
+	<object name="pumpkin" class="Plant"/>
+	<object name="tree_ants" class="Plant"/>
+	<object name="dragon1_peque" class="Plant"/>
+	<object name="dragon2_peque" class="Plant"/>
+	<object name="dragon3_peque" class="Plant"/>
+	<object name="dragon4_peque" class="Plant"/>
+	<object name="dragon5_peque" class="Plant"/>
+	<object name="dragon6_peque" class="Plant"/>
+	<object name="dragon7_peque" class="Plant"/>
+	<object name="dragon8_peque" class="Plant"/>
+	<object name="dragon9_peque" class="Plant"/>
+	<object name="dragon10_peque" class="Plant"/>
+	<object name="huevo_planta_cerrado_1" class="Plant"/>
+	<object name="huevo_planta_cerrado_2" class="Plant"/>
+	<object name="huevo_planta_cerrado_3" class="Plant"/>
+	<object name="huevo_planta_cerrado_4" class="Plant"/>
+	<object name="huevo_planta_cerrado_5" class="Plant"/>
+	
+	
+	
+	<!--Plantas finales-->
+	<object name="Plantas_Butterfly_Final" class="PlantFinal"/>
+	<object name="Plantas_Butterfly_Rare" class="PlantFinal"/>
+	<object name="Plantas_Cactus_Final" class="PlantFinal"/>
+	<object name="Plantas_Cactus_Rare" class="PlantFinal"/>
+	<object name="Plantas_Daisy_Final" class="PlantFinal"/>
+	<object name="Plantas_Daisy_Rare" class="PlantFinal"/>
+	<object name="Plantas_Evil_Final" class="PlantFinal"/>
+	<object name="Plantas_Evil_Rare" class="PlantFinal"/>
+	<object name="Plantas_Lala_Final" class="PlantFinal"/>
+	<object name="Plantas_Lala_Rare" class="PlantFinal"/>
+	<object name="Plantas_Panda_Final" class="PlantFinal"/>
+	<object name="Plantas_Panda_Rare" class="PlantFinal"/>
+	<object name="Plantas_Pitcher_Final" class="PlantFinal"/>
+	<object name="Plantas_Pitcher_Rare" class="PlantFinal"/>
+	<object name="Plantas_Sunflower_Final" class="PlantFinal"/>
+	<object name="Plantas_Sunflower_Rare" class="PlantFinal"/>
+	<object name="Plantas_ChocoBranchBunny_Final" class="PlantFinal"/>
+	<object name="Plantas_ChocoBranchBunny_Rare" class="PlantFinal"/>
+	<object name="Plantas_ChocoBunnyTree_Final" class="PlantFinal"/>
+	<object name="Plantas_ChocoBunnyTree_Rare" class="PlantFinal"/>
+	<object name="Plantas_ChocoCarrot_Final" class="PlantFinal"/>
+	<object name="Plantas_ChocoCarrot_Rare" class="PlantFinal"/>
+	<object name="Plantas_BosqueShroomFinal" class="PlantFinal"/>
+	<object name="Plantas_BosqueShroomRare" class="PlantFinal"/>
+	<object name="alien_mushroom_a_final" class="PlantFinal"/>
+	<object name="alien_mushroom_a_rare" class="PlantFinal"/>
+	<object name="alien_mushroom_b_final" class="PlantFinal"/>
+	<object name="alien_mushroom_b_rare" class="PlantFinal"/>
+	<object name="alien_mushroom_c_final" class="PlantFinal"/>
+	<object name="alien_mushroom_c_rare" class="PlantFinal"/>
+	<object name="alien_mushroom_d_final" class="PlantFinal"/>
+	<object name="alien_mushroom_d_rare" class="PlantFinal"/>
+	<object name="alien_mushroom_e_final" class="PlantFinal"/>
+	<object name="alien_mushroom_e_rare" class="PlantFinal"/>
+	<object name="tree_ants_final" class="PlantFinal"/>
+	<object name="halloweenTree_Final" class="PlantFinal"/>
+	<object name="halloweenTree_Rare" class="PlantFinal"/>
+	<object name="pumpkin_grown" class="PlantFinal"/>
+	<object name="pumpkin_rare" class="PlantFinal"/>
+	<object name="plant_rose_final_1" class="PlantFinal"/>
+	<object name="plant_rose_final_2" class="PlantFinal"/>
+	<object name="plant_rose_final_3" class="PlantFinal"/>
+	<object name="flores_lirio_final" class="PlantFinal"/>
+	<object name="flores_lirio_rare" class="PlantFinal"/>
+	<object name="flores_margarita_final" class="PlantFinal"/>
+	<object name="flores_margarita_rare" class="PlantFinal"/>
+	<object name="flores_orquidea_final" class="PlantFinal"/>
+	<object name="flores_orquidea_rare" class="PlantFinal"/>
+	<object name="flores_rosa_final" class="PlantFinal"/>
+	<object name="flores_rosa_rare" class="PlantFinal"/>
+	<object name="flores_tulipan_final" class="PlantFinal"/>
+	<object name="flores_tulipan_rare" class="PlantFinal"/>
+	<object name="huevo_planta_1" class="PlantFinal"/>
+	<object name="huevo_planta_2" class="PlantFinal"/>
+	<object name="huevo_planta_3" class="PlantFinal"/>
+	<object name="huevo_planta_4" class="PlantFinal"/>
+	<object name="huevo_planta_5" class="PlantFinal"/>
+
+	<object name="ballena_hielo" class="TrophiesWithRanking"/>
+	<object name="coyote_hielo" class="TrophiesWithRanking"/>
+	<object name="pegaso_hielo" class="TrophiesWithRanking"/>
+
+	<object name="Mundial_Boomer_Bronce" class="TrophiesWithRanking"/>
+	<object name="Mundial_Boomer_Oro" class="TrophiesWithRanking"/>
+	<object name="Mundial_Boomer_Plata" class="TrophiesWithRanking"/>
+	<object name="Mundial_Bruja_Bronce" class="TrophiesWithRanking"/>
+	<object name="Mundial_Bruja_Oro" class="TrophiesWithRanking"/>
+	<object name="Mundial_Bruja_Plata" class="TrophiesWithRanking"/>
+	<object name="Mundial_Cascos_Bronce" class="TrophiesWithRanking"/>
+	<object name="Mundial_Cascos_Oro" class="TrophiesWithRanking"/>
+	<object name="Mundial_Cascos_Plata" class="TrophiesWithRanking"/>
+	<object name="Mundial_Cholo_Bronce" class="TrophiesWithRanking"/>
+	<object name="Mundial_Cholo_Oro" class="TrophiesWithRanking"/>
+	<object name="Mundial_Cholo_Plata" class="TrophiesWithRanking"/>
+	<object name="Mundial_Empollon_Bronce" class="TrophiesWithRanking"/>
+	<object name="Mundial_Empollon_Oro" class="TrophiesWithRanking"/>
+	<object name="Mundial_Empollon_Plata" class="TrophiesWithRanking"/>
+	<object name="Mundial_Gata_Bronce" class="TrophiesWithRanking"/>
+	<object name="Mundial_Gata_Oro" class="TrophiesWithRanking"/>
+	<object name="Mundial_Gata_Plata" class="TrophiesWithRanking"/>
+	<object name="Mundial_India_Bronce" class="TrophiesWithRanking"/>
+	<object name="Mundial_India_Oro" class="TrophiesWithRanking"/>
+	<object name="Mundial_India_Plata" class="TrophiesWithRanking"/>
+	<object name="Mundial_Liliam_Bronce" class="TrophiesWithRanking"/>
+	<object name="Mundial_Liliam_Oro" class="TrophiesWithRanking"/>
+	<object name="Mundial_Liliam_Plata" class="TrophiesWithRanking"/>
+	<object name="Mundial_Marsu_Bronce" class="TrophiesWithRanking"/>
+	<object name="Mundial_Marsu_Oro" class="TrophiesWithRanking"/>
+	<object name="Mundial_Marsu_Plata" class="TrophiesWithRanking"/>
+	<object name="Mundial_Rastas_Bronce" class="TrophiesWithRanking"/>
+	<object name="Mundial_Rastas_Oro" class="TrophiesWithRanking"/>
+	<object name="Mundial_Rastas_Plata" class="TrophiesWithRanking"/>
+	<object name="Mundial_Yayo_Bronce" class="TrophiesWithRanking"/>
+	<object name="Mundial_Yayo_Oro" class="TrophiesWithRanking"/>
+	<object name="Mundial_Yayo_Plata" class="TrophiesWithRanking"/>
+
+	<object name="Christmas_Trophy_Silver" class="TrophiesWithRanking"/>
+	<object name="Christmas_Trophy_Gold" class="TrophiesWithRanking"/>
+	<object name="Christmas_Trophy_Bronze" class="TrophiesWithRanking"/>
+
+	<object name="Christmas_ContestHat_1" class="TrophiesWithRanking"/>
+	<object name="Christmas_ContestHat_2" class="TrophiesWithRanking"/>
+	<object name="Christmas_ContestHat_3" class="TrophiesWithRanking"/>
+	
+	<object name="Nieve_TrofeoG" class="TrophiesWithRanking"/>
+
+	
+</objects>

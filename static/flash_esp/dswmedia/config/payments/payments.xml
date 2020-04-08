@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<payments>
+	<countries>
+		<country id="ES">
+			<method type="SMS" phone="4454" text="boom" new="true" logo="sms.jpg" currency="EUR">
+				<change pvp="5" credits="10000" />
+				<change pvp="10" credits="20000" />
+				<change pvp="20" credits="50000" />
+				<change pvp="50" credits="100000" />
+				<info>IVA incluido</info>
+				<promo obj="ssss" percent="1" multiplier="3" date="04/15/2011"/>
+			</method>
+			<method type="IVR" urlProvider="http://sarasa.xml" />
+			<method type="PPC" urlProvider="http://sarasa.xml" />
+			<method type="CC" urlProvider="http://sarasa.xml" />
+		</country>
+		<country id="MX">
+			<method type="sms" phone="4454" text="boom" new="true" logo="sms.jpg" currency="EUR">
+				<change pvp="5" credits="10000" />
+				<change pvp="10" credits="20000" />
+				<change pvp="20" credits="50000" />
+				<change pvp="50" credits="100000" />
+				<info>IVA incluido</info>
+			</method>
+		</country>
+		<country id="US">
+			<method type="sms" phone="4454" text="boom" new="true" logo="sms.jpg" currency="EUR">
+				<change pvp="5" credits="10000" />
+				<change pvp="10" credits="20000" />
+				<change pvp="20" credits="50000" />
+				<change pvp="50" credits="100000" />
+				<info>IVA incluido</info>
+				<promo obj="" percent="" multiplier="" date=""/>
+			</method>
+		</country>
+	</countries>
+</payments>

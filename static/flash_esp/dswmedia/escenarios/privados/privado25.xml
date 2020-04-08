@@ -1,0 +1,1048 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<escenario id="25" maxBBoxHeight="5">
+   	<nameScene name="exterior casa"/>
+	<matrix>
+		<row id="0"   data="1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1"/>
+		<row id="1"   data="1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1"/>
+		<row id="2"   data="1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1"/>
+		<row id="3"   data="1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1"/>
+		<row id="4"   data="1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1"/>
+		<row id="5"   data="1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1"/>
+		<row id="6"   data="1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1"/>
+		<row id="7"   data="1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1"/>
+		<row id="8"   data="1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1"/>
+		<row id="9"   data="1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1"/>
+		<row id="10"  data="1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1"/>
+		<row id="11"  data="1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1"/>
+		<row id="12"  data="1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1"/>
+		<row id="13"  data="1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1"/>
+		<row id="14"  data="1, 1, 1, 1, 1, 1, 1, 3, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1"/>
+		<row id="15"  data="1, 1, 1, 1, 1, 1, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1"/>
+		<row id="16"  data="1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1"/>
+		<row id="17"  data="1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1"/>
+		<row id="18"  data="1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1"/>
+		<row id="19"  data="1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1"/>
+		<row id="20"  data="1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1"/>
+		<row id="21"  data="1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1"/>
+		<row id="22"  data="1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1"/>
+		<row id="23"  data="1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 2, 2, 2, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1"/>
+		<row id="24"  data="1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 2, 2, 2, 2, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1"/>
+		<row id="25"  data="1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 2, 2, 2, 2, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1"/>
+		<row id="26"  data="1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 2, 2, 2, 2, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1"/>
+		<row id="27"  data="1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1"/>
+		<row id="28"  data="1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1"/>
+		<row id="29"  data="1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1"/>
+		<row id="30"  data="1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1"/>
+		<row id="31"  data="1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1"/>
+		<row id="32"  data="1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1"/>
+	</matrix>
+	
+	<coordenates x="-804" y="335"/>    
+   	<grupoScene id="4"/>
+    
+    <puertas>
+    	<puerta id="1" name="mcPuerta1" />
+    </puertas>
+    
+    <layers>          
+		<layer id="0" name="mcSkyColor" 							type="0" idprof="0" regpointx="0" regpointy="0" idcolor="0"  namePart="mcMiniColorSky"/>
+		<layer id="1" name="mcSkyFX"								type="0" idprof="0" regpointx="0" regpointy="0" idcolor="-1" namePart=""/>
+		<layer id="2" name="entorno"	    						type="1" idprof="0" regpointx="0" regpointy="0" idcolor="-1" namePart=""/>
+		<layer id="3" name="house"	    							type="1" idprof="0" regpointx="0" regpointy="0" idcolor="-1" namePart=""/>
+		<layer id="4" name="mcPuerta1"								type="0" idprof="2" regpointx="0" regpointy="0" idcolor="-1" namePart=""/>
+	</layers>
+	
+	<!-- id=0 Hill  id="1" name="Hill1" id="2" name="Hill2" id="3" name="Hill3" id="4" name="Hill4" id="5" name="Hill5" id="6" name="Hill6" id="7" name="Hill7" id="8" name="Hill8" id="9" name="Hill9"-->
+	<!-- id=1 Tree 1 id="10" name="Tree01Forest" id="15" name="Tree01Desert" id="20" name="Tree01Hielo" -->
+	<!-- id=2 Tree 2 id="11" name="Tree02Forest" id="16" name="Tree02Desert" id="21" name="Tree02Hielo" -->
+	<!-- id=3 Tree 3 id="12" name="Tree03Forest" id="17" name="Tree03Desert" id="22" name="Tree03Hielo" -->
+	<!-- id=4 Tree 4 id="13" name="Tree04Forest" id="18" name="Tree04Desert" id="23" name="Tree04Hielo" -->
+	<!-- id=5 Tree 5 id="14" name="Tree05Forest" id="19" name="Tree05Desert" id="24" name="Tree05Hielo" -->
+	<!-- id=6 GroundForest id="25" name="GroundForest" -->
+	<!-- id=7 GroundDesert id="26" name="GroundDesert" -->
+	<!-- id=8 GroundHielo  id="27" name="GroundHielo"-->
+	<!-- id=9 Shape01 id="28" name="Shape01" -->
+	<!-- id=10 TextureSphereLineHouse  id="29" name="LineTexture" id="41" name="SphereRoundeTexture" id="40" name="SphereEmptyTexture" -->
+	<!-- id=11 FlowerLineTexture id="0" name="Empty" id="30" name="FlowerLineTexture" -->
+	<!-- id=12 esferaFx id="31" name="esferaFx" -->
+	<!-- id=13 LineWindowLineTexture id="32" name="LineWindowLineTexture" id="0" name="Empty" -->
+	<!-- id=14 FrontDoorLineTexture id="39" name="FrontDoorLineTexture" id="45" name="FrontDoorTennisTexture" -->
+	<!-- id=15 DoorBarricades id="0" name="Empty" id="34" name="DoorBarricades" -->
+    <!-- id=16 IvyLineTexture id="0" name="Empty" id="35" name="IvyLineTexture" -->
+	<!-- id=17 RoofLineTexture  id="37" name="RoofLineTexture" id="36" name="RoundWindowLineTexture" id="0" name="Empty" -->
+	<!-- id=18 WoodFenceLineTexture id="0" name="Empty" id="38" name="WoodFenceLineTexture" -->
+	<!-- id=19 SphereStrip id="42" name="SphereStrip" -->
+	<!-- id=20 StripTexture id="43" name="StripTexture"-->
+	<!-- id=21 TennisTexture id="44" name="TennisTexture"-->
+	<!-- id=22 ElectricFence id="0" name="Empty" id="46" name="ElectricFence"-->
+	<!-- id=23 ShadowHouse id="0" name="Empty" id="47" name="ShadowHouse" id="55" name="ShadowHouseRobot" -->
+	<!-- id=24 SphereBricks id="48" name="SphereBricks" id="50" name="BricksWindowRight" id="51" name="BricksWindowLeft" id="52" name="BricksBothWindows" -->
+	<!-- id=25 FrontDoorCastle id="33" name="FrontDoorCastle"-->
+	<!-- id=26 DoorGrid id="0" name="Empty" id="49" name="DoorGrid" -->
+	<!-- id=27 NONONONONONONONONO BricksWindows id="0" name="Empty" id="50" name="BricksWindowRight" id="51" name="BricksWindowLeft" id="52" name="BricksBothWindows" -->
+	<!-- id=28 DoorGrid id="0" name="Empty" id="53" name="Horns" -->
+	<!-- id=29 StoneWalls id="0" name="Empty" id="54" name="StoneWalls" -->
+	<!-- id=30 RobotSphere id="56" name="RobotSphere" -->
+	<!-- id=31 DoorRobot id="57" name="DoorRobot" -->
+	<!-- id=32 RobotArms id="58" name="RobotArms" -->
+	<!-- id=33 RobotHeadEyes id="59" name="RobotHeadEyes01"  id="60" name="RobotHeadEyes02" -->
+	
+	<!--template id="0" name="forest"-->
+	<!--template id="1" name="desert"-->
+	<!--template id="2" name="hielo"-->
+	<!--template id="3" name="LineHouse"-->
+	<!--template id="4" name="DotHouse"-->
+	<!--template id="5" name="TennisHouse"-->
+	<!--template id="6" name="CastleHouse"-->
+	<!--template id="7" name="RobotHouse"-->
+	<!--template id="8" name="EvilFaceHouse"-->
+	
+			
+	<objectsSkineables>
+		<object id="0" name="entorno">
+			<templates>
+				<template id="0" name="templateForest" member="0">
+					<elements>
+						<element id ="0" type="selectable" nameMenu="MenuHill">
+							<skins>
+								<skin id="6" name="Hill6"/>
+								<skin id="1" name="Hill1"/>
+								<skin id="2" name="Hill2"/>
+								<skin id="3" name="Hill3"/>
+								<skin id="4" name="Hill4"/>
+								<skin id="5" name="Hill5"/>
+								<skin id="7" name="Hill7"/>
+								<skin id="8" name="Hill8"/>
+								<skin id="9" name="Hill9"/>
+							</skins>
+						</element>
+						
+						<element id ="1" type="selectable" nameMenu="MenuTree1">
+							<skins>
+								<skin id="10" name="Tree01Forest"/>
+								<skin id="15" name="Tree01Desert"/>
+								<skin id="20" name="Tree01Hielo"/>
+							</skins>
+						</element>
+						
+						<element id ="2" type="selectable" nameMenu="MenuTree2">
+							<skins>
+								<skin id="11" name="Tree02Forest"/>
+								<skin id="16" name="Tree02Desert"/>
+								<skin id="21" name="Tree02Hielo"/>
+							</skins>
+						</element>
+						
+						<element id ="3" type="selectable" nameMenu="MenuTree3">
+							<skins>
+								<skin id="12" name="Tree03Forest"/>
+								<skin id="17" name="Tree03Desert"/>
+								<skin id="22" name="Tree03Hielo"/>
+							</skins>
+						</element>
+						
+						<element id ="4" type="selectable" nameMenu="MenuTree4">
+							<skins>
+								<skin id="13" name="Tree04Forest"/>
+								<skin id="18" name="Tree04Desert"/>
+								<skin id="23" name="Tree04Hielo"/>
+							</skins>
+						</element>
+						
+						<element id ="5" type="selectable" nameMenu="MenuTree5">
+							<skins>
+								<skin id="14" name="Tree05Forest"/>
+								<skin id="19" name="Tree05Desert"/>
+								<skin id="24" name="Tree05Hielo"/>
+							</skins>
+						</element>
+						
+						<element id ="6" type="fixed">
+							<skins>
+								<skin id="25" name="GroundForest"/>
+							</skins>
+						</element>
+						
+						<element id ="9" type="fixed">
+							<skins>
+								<skin id="28" name="Shape01"/>
+							</skins>
+						</element>
+					
+					</elements>
+				</template>
+				
+				<template id="1" name="templateDesert" member="0">
+					<elements>
+						<element id ="0" type="selectable" nameMenu="MenuHill">
+							<skins>
+								<skin id="3" name="Hill3"/>
+								<skin id="1" name="Hill1"/>
+								<skin id="2" name="Hill2"/>
+								<skin id="4" name="Hill4"/>
+								<skin id="5" name="Hill5"/>
+								<skin id="6" name="Hill6"/>
+								<skin id="7" name="Hill7"/>
+								<skin id="8" name="Hill8"/>
+								<skin id="9" name="Hill9"/>
+							</skins>
+						</element>
+						
+						<element id ="1" type="selectable" nameMenu="MenuTree1">
+							<skins>
+								<skin id="15" name="Tree01Desert"/>
+								<skin id="10" name="Tree01Forest"/>
+								<skin id="20" name="Tree01Hielo"/>
+							</skins>
+						</element>
+						
+						<element id ="2" type="selectable" nameMenu="MenuTree2">
+							<skins>								
+								<skin id="16" name="Tree02Desert"/>
+								<skin id="11" name="Tree02Forest"/>
+								<skin id="21" name="Tree02Hielo"/>
+							</skins>
+						</element>
+						
+						<element id ="3" type="selectable" nameMenu="MenuTree3">
+							<skins>								
+								<skin id="17" name="Tree03Desert"/>
+								<skin id="12" name="Tree03Forest"/>
+								<skin id="22" name="Tree03Hielo"/>
+							</skins>
+						</element>
+						
+						<element id ="4" type="selectable" nameMenu="MenuTree4">
+							<skins>								
+								<skin id="18" name="Tree04Desert"/>
+								<skin id="13" name="Tree04Forest"/>
+								<skin id="23" name="Tree04Hielo"/>
+							</skins>
+						</element>
+						
+						<element id ="5" type="selectable" nameMenu="MenuTree5">
+							<skins>								
+								<skin id="19" name="Tree05Desert"/>
+								<skin id="14" name="Tree05Forest"/>
+								<skin id="24" name="Tree05Hielo"/>
+							</skins>
+						</element>
+						
+						<element id ="7" type="fixed">
+							<skins>
+								<skin id="26" name="GroundDesert"/>
+							</skins>
+						</element>
+						
+					</elements>
+				</template>
+				
+				<template id="2" name="templateHielo" member="0">
+					<elements>
+						<element id ="0" type="selectable" nameMenu="MenuHill">
+							<skins>
+								<skin id="5" name="Hill5"/>
+								<skin id="1" name="Hill1"/>
+								<skin id="2" name="Hill2"/>
+								<skin id="3" name="Hill3"/>
+								<skin id="4" name="Hill4"/>
+								<skin id="6" name="Hill6"/>
+								<skin id="7" name="Hill7"/>
+								<skin id="8" name="Hill8"/>
+								<skin id="9" name="Hill9"/>
+							</skins>
+						</element>
+						
+						<element id ="1" type="selectable" nameMenu="MenuTree1">
+							<skins>
+								<skin id="20" name="Tree01Hielo"/>
+								<skin id="10" name="Tree01Forest"/>
+								<skin id="15" name="Tree01Desert"/>
+							</skins>
+						</element>
+						
+						<element id ="2" type="selectable" nameMenu="MenuTree2">
+							<skins>
+								<skin id="21" name="Tree02Hielo"/>
+								<skin id="11" name="Tree02Forest"/>
+								<skin id="16" name="Tree02Desert"/>								
+							</skins>
+						</element>
+						
+						<element id ="3" type="selectable" nameMenu="MenuTree3">
+							<skins>
+								<skin id="22" name="Tree03Hielo"/>
+								<skin id="12" name="Tree03Forest"/>
+								<skin id="17" name="Tree03Desert"/>								
+							</skins>
+						</element>
+						
+						<element id ="4" type="selectable" nameMenu="MenuTree4">
+							<skins>
+								<skin id="23" name="Tree04Hielo"/>
+								<skin id="13" name="Tree04Forest"/>
+								<skin id="18" name="Tree04Desert"/>								
+							</skins>
+						</element>
+						
+						<element id ="5" type="selectable" nameMenu="MenuTree5">
+							<skins>
+								<skin id="24" name="Tree05Hielo"/>
+								<skin id="14" name="Tree05Forest"/>
+								<skin id="19" name="Tree05Desert"/>								
+							</skins>
+						</element>
+						
+						<element id ="8" type="fixed">
+							<skins>
+								<skin id="27" name="GroundHielo"/>
+							</skins>
+						</element>
+						
+					</elements>
+				</template>
+				
+				
+			</templates>
+		</object>
+		
+		<object id="1" name="house">
+			<templates>
+				<template id="3" name="templateLineHouse" member="0">
+					<elements>
+						<element id ="10" type="selectable" nameMenu="MenuTextureCasa">
+							<skins>
+								<skin id="29" name="LineTexture"/>
+								<skin id="41" name="SphereRoundeTexture"/>
+								<skin id="40" name="SphereEmptyTexture"/>
+							</skins>
+						</element>
+						<element id ="11" type="checkBox" nameMenu="MenuPetalo">
+							<skins>
+								<skin id="0" name="Empty"/>
+								<skin id="30" name="FlowerLineTexture"/>
+							</skins>
+						</element>
+						<element id ="12" type="fixed">
+							<skins>
+								<skin id="31" name="esferaFx"/>
+							</skins>
+						</element>
+						<element id ="13" type="checkBox" nameMenu="MenuWindow">
+							<skins>
+								<skin id="32" name="LineWindowLineTexture"/>
+								<skin id="0" name="Empty"/>
+							</skins>
+						</element>
+						<element id ="14" type="fixed">
+							<skins>
+								<skin id="39" name="FrontDoorLineTexture"/>
+							</skins>
+						</element>
+						<element id ="15" type="checkBox" nameMenu="MenuBarricades">
+							<skins>
+								<skin id="0" name="Empty"/>
+								<skin id="34" name="DoorBarricades"/>								
+							</skins>
+						</element>
+						<element id ="16" type="checkBox" nameMenu="MenuEnredadera">
+							<skins>
+								<skin id="35" name="IvyLineTexture"/>
+								<skin id="0" name="Empty"/>
+							</skins>
+						</element>
+						<element id ="17" type="selectable" nameMenu="MenuVarios">
+							<skins>
+								<skin id="37" name="RoofLineTexture"/>
+								<skin id="36" name="RoundWindowLineTexture"/>
+								<skin id="0" name="Empty"/>
+							</skins>
+						</element>
+						<element id ="18" type="checkBox" nameMenu="MenuFence">
+							<skins>								
+								<skin id="0" name="Empty"/>
+								<skin id="38" name="WoodFenceLineTexture"/>
+							</skins>
+						</element>
+					</elements>
+				</template>
+				
+				<template id="4" name="DotHouse" member="1">
+					<elements>
+						<element id ="19" type="fixed">
+							<skins>
+								<skin id="42" name="SphereStrip"/>
+							</skins>
+						</element>
+						<element id ="20" type="fixed">
+							<skins>
+								<skin id="43" name="StripTexture"/>							
+							</skins>
+						</element>
+						<element id ="12" type="fixed">
+							<skins>
+								<skin id="31" name="esferaFx"/>
+							</skins>
+						</element>
+						<element id ="14" type="fixed">
+							<skins>
+								<skin id="39" name="FrontDoorLineTexture"/>
+							</skins>
+						</element>
+						<element id ="15" type="checkBox" nameMenu="MenuBarricades">
+							<skins>
+								<skin id="0" name="Empty"/>
+								<skin id="34" name="DoorBarricades"/>								
+							</skins>
+						</element>
+						<element id ="16" type="checkBox" nameMenu="MenuEnredadera">
+							<skins>
+								<skin id="35" name="IvyLineTexture"/>
+								<skin id="0" name="Empty"/>
+							</skins>
+						</element>
+						<element id ="17" type="checkBox" nameMenu="MenuWindow">
+							<skins>
+								<skin id="0" name="Empty"/>
+								<skin id="36" name="RoundWindowLineTexture"/>
+							</skins>
+						</element>
+						<element id ="18" type="checkBox" nameMenu="MenuFence">
+							<skins>								
+								<skin id="0" name="Empty"/>
+								<skin id="38" name="WoodFenceLineTexture"/>
+							</skins>
+						</element>	
+					</elements>
+				</template>
+				
+				<template id="5" name="TennisHouse" member="1">
+					<elements>
+						<element id ="21" type="fixed">
+							<skins>
+								<skin id="44" name="TennisTexture"/>	
+							</skins>
+						</element>
+						<element id ="12" type="fixed">
+							<skins>
+								<skin id="31" name="esferaFx"/>
+							</skins>
+						</element>
+						<element id ="14" type="fixed">
+							<skins>
+								<skin id="45" name="FrontDoorTennisTexture"/>
+							</skins>
+						</element>
+						<element id ="16" type="checkBox" nameMenu="MenuEnredadera">
+							<skins>
+								<skin id="35" name="IvyLineTexture"/>
+								<skin id="0" name="Empty"/>
+							</skins>
+						</element>
+						<element id ="17" type="checkBox" nameMenu="MenuWindow">
+							<skins>
+								<skin id="0" name="Empty"/>
+								<skin id="36" name="RoundWindowLineTexture"/>
+							</skins>
+						</element>
+						<element id ="22" type="checkBox" nameMenu="MenuElectricFence">
+							<skins>
+								<skin id="46" name="ElectricFence"/>
+								<skin id="0" name="Empty"/>								
+							</skins>
+						</element>
+					</elements>
+				</template>
+				
+				<template id="6" name="CastleHouse" member="1">
+					<elements>
+						<element id ="23" type="checkBox" nameMenu="MenuShadowHouse">
+							<skins>
+								<skin id="0" name="Empty"/>
+								<skin id="47" name="ShadowHouse"/>
+							</skins>
+						</element>
+						<element id ="24" type="selectable" nameMenu="MenuWindow">
+							<skins>
+								<skin id="52" name="BricksBothWindows"/>
+								<skin id="48" name="SphereBricks"/>	
+								<skin id="50" name="BricksWindowRight"/>	
+								<skin id="51" name="BricksWindowLeft"/>										
+							</skins>
+						</element>
+						<element id ="12" type="fixed">
+							<skins>
+								<skin id="31" name="esferaFx"/>
+							</skins>
+						</element>
+						<element id ="25" type="fixed">
+							<skins>
+								<skin id="33" name="FrontDoorCastle"/>
+							</skins>
+						</element>
+						<element id ="26" type="fixed">
+							<skins>
+								<skin id="49" name="DoorGrid"/>
+							</skins>
+						</element>
+						<element id ="16" type="checkBox" nameMenu="MenuEnredadera">
+							<skins>
+								<skin id="0" name="Empty"/>
+								<skin id="35" name="IvyLineTexture"/>
+							</skins>
+						</element>
+						<element id ="28" type="checkBox" nameMenu="MenuHorns">
+							<skins>
+								<skin id="0" name="Empty"/>
+								<skin id="53" name="Horns"/>
+							</skins>
+						</element>
+						<element id ="29" type="checkBox" nameMenu="MenuStoneWalls">
+							<skins>
+								<skin id="54" name="StoneWalls"/>
+								<skin id="0" name="Empty"/>
+							</skins>
+						</element>
+						<element id ="22" type="checkBox" nameMenu="MenuElectricFence">
+							<skins>
+								<skin id="0" name="Empty"/>
+								<skin id="46" name="ElectricFence"/>
+							</skins>
+						</element>
+					</elements>
+				</template>
+				
+				<template id="7" name="RobotHouse" member="1">
+					<elements>
+						<element id ="23" type="checkBox" nameMenu="MenuShadowHouse">
+							<skins>
+								<skin id="0" name="Empty"/>
+								<skin id="55" name="ShadowHouseRobot"/>
+							</skins>
+						</element>
+						<element id ="30" type="fixed">
+							<skins>
+								<skin id="56" name="RobotSphere"/>	
+							</skins>
+						</element>
+						<element id ="31" type="fixed">
+							<skins>
+								<skin id="57" name="DoorRobot"/>	
+							</skins>
+						</element>
+						<element id ="32" type="fixed">
+							<skins>
+								<skin id="58" name="RobotArms"/>	
+							</skins>
+						</element>
+						<element id ="33" type="selectable" nameMenu="MenuRobotHeadEyes">
+							<skins>
+								<skin id="59" name="RobotHeadEyes01"/>
+								<skin id="60" name="RobotHeadEyes02"/>
+							</skins>
+						</element>
+					</elements>
+				</template>
+				
+				<template id="8" name="EvilFaceHouse" member="1">
+					<elements>
+						<element id ="34" type="fixed">
+							<skins>
+								<skin id="61" name="EvilFaceHead"/>	
+							</skins>
+						</element>
+						<element id ="35" type="fixed">
+							<skins>
+								<skin id="62" name="EvilFaceEye"/>	
+							</skins>
+						</element>
+						<element id ="12" type="fixed">
+							<skins>
+								<skin id="31" name="esferaFx"/>
+							</skins>
+						</element>
+						<element id ="14" type="fixed">
+							<skins>
+								<skin id="39" name="FrontDoorLineTexture"/>
+							</skins>
+						</element>
+						<element id ="15" type="checkBox" nameMenu="MenuBarricades">
+							<skins>
+								<skin id="0" name="Empty"/>
+								<skin id="34" name="DoorBarricades"/>								
+							</skins>
+						</element>
+						<element id ="16" type="checkBox" nameMenu="MenuEnredadera">
+							<skins>
+								<skin id="35" name="IvyLineTexture"/>
+								<skin id="0" name="Empty"/>
+							</skins>
+						</element>
+						<element id ="18" type="checkBox" nameMenu="MenuFence">
+							<skins>								
+								<skin id="0" name="Empty"/>
+								<skin id="38" name="WoodFenceLineTexture"/>
+							</skins>
+						</element>
+						
+					</elements>
+				</template>
+			</templates>
+		</object>
+		
+	</objectsSkineables>
+	
+	<skins>
+		<skin id="0" name="Empty" namePart="">
+			<movieclip name="mcEmpty"		idprof="0" regpointx="0" regpointy="0" idcolor="-1"/>
+		</skin>
+		<!-- Colinas -->
+		<skin id="1" name="Hill1" namePart="mcMiniColorHill1">
+			<movieclip name="mcHill01Color" 	idprof="0" regpointx="0" regpointy="0" idcolor="1" namePart="mcMiniColorHill1" namePartColor="Hill"/>
+			<movieclip name="mcHill01FX"		idprof="0" regpointx="0" regpointy="0" idcolor="-1"/>
+		</skin>
+		<skin id="2" name="Hill2" namePart="mcMiniColorHill2">
+			<movieclip name="mcHill02Color" 	idprof="0" regpointx="0" regpointy="0" idcolor="2" namePart="mcMiniColorHill2" namePartColor="Hill"/>
+			<movieclip name="mcHill02FX"		idprof="0" regpointx="0" regpointy="0" idcolor="-1"/>
+		</skin>
+		<skin id="3" name="Hill3" namePart="mcMiniColorHill3">
+			<movieclip name="mcHill03Color" 	idprof="0" regpointx="0" regpointy="0" idcolor="3" namePart="mcMiniColorHill3" namePartColor="Hill"/>
+			<movieclip name="mcHill03FX"		idprof="0" regpointx="0" regpointy="0" idcolor="-1"/>
+		</skin>
+		<skin id="4" name="Hill4" namePart="mcMiniColorHill4">
+			<movieclip name="mcHill04Color" 	idprof="0" regpointx="0" regpointy="0" idcolor="4" namePart="mcMiniColorHill4" namePartColor="Hill"/>
+			<movieclip name="mcHill04FX"		idprof="0" regpointx="0" regpointy="0" idcolor="-1"/>
+		</skin>
+		<skin id="5" name="Hill5" namePart="mcMiniColorHill5">
+			<movieclip name="mcHill05Color" 	idprof="0" regpointx="0" regpointy="0" idcolor="5" namePart="mcMiniColorHill5" namePartColor="Hill"/>
+			<movieclip name="mcHill05FX"		idprof="0" regpointx="0" regpointy="0" idcolor="-1"/>
+		</skin>
+		<skin id="6" name="Hill6" namePart="mcMiniColorHill6">
+			<movieclip name="mcHill06Color" 	idprof="0" regpointx="0" regpointy="0" idcolor="6" namePart="mcMiniColorHill6" namePartColor="Hill"/>
+			<movieclip name="mcHill06FX"		idprof="0" regpointx="0" regpointy="0" idcolor="-1"/>
+		</skin>
+		<skin id="7" name="Hill7" namePart="mcMiniColorHill7">
+			<movieclip name="mcHill07Color" 	idprof="0" regpointx="0" regpointy="0" idcolor="7" namePart="mcMiniColorHill7" namePartColor="Hill"/>
+			<movieclip name="mcHill07FX"		idprof="0" regpointx="0" regpointy="0" idcolor="-1"/>
+		</skin>
+		<skin id="8" name="Hill8" namePart="mcMiniColorHill8">
+			<movieclip name="mcHill08Color" 	idprof="0" regpointx="0" regpointy="0" idcolor="8" namePart="mcMiniColorHill8" namePartColor="Hill"/>
+			<movieclip name="mcHill08FX"		idprof="0" regpointx="0" regpointy="0" idcolor="-1"/>
+		</skin>
+		<skin id="9" name="Hill9" namePart="mcMiniColorHill9">
+			<movieclip name="mcHill09Color" 	idprof="0" regpointx="0" regpointy="0" idcolor="9" namePart="mcMiniColorHill9" namePartColor="Hill"/>
+			<movieclip name="mcHill09FX"		idprof="0" regpointx="0" regpointy="0" idcolor="-1"/>
+		</skin>
+		
+		<!-- Forest Trees -->
+		<skin id="10" name="Tree01Forest" namePart="mcMiniColorTree01Forest">
+			<movieclip name="mcTree01Part02Color" 	idprof="0" regpointx="0" regpointy="0" idcolor="11" namePart="mcMiniColorTree01Part02Forest" namePartColor="TroncoForest"/>
+			<movieclip name="mcTree01Part01Color" 	idprof="0" regpointx="0" regpointy="0" idcolor="10" namePart="mcMiniColorTree01Part01Forest" namePartColor="CopaForest"/>
+			<movieclip name="mcTree01FX"			idprof="0" regpointx="0" regpointy="0" idcolor="-1"/>
+		</skin>
+		<skin id="11" name="Tree02Forest" namePart="mcMiniColorTree02Forest">
+			<movieclip name="mcTree02Part02Color" 	idprof="0" regpointx="0" regpointy="0" idcolor="13" namePart="mcMiniColorTree02Part02Forest" namePartColor="TroncoForest"/>
+			<movieclip name="mcTree02Part01Color" 	idprof="0" regpointx="0" regpointy="0" idcolor="12" namePart="mcMiniColorTree02Part01Forest" namePartColor="CopaForest"/>
+			<movieclip name="mcTree02FX"			idprof="0" regpointx="0" regpointy="0" idcolor="-1"/>
+		</skin>
+		<skin id="12" name="Tree03Forest" namePart="mcMiniColorTree03Forest">
+			<movieclip name="mcTree03Part02Color" 	idprof="0" regpointx="0" regpointy="0" idcolor="15" namePart="mcMiniColorTree03Part02Forest" namePartColor="TroncoForest"/>
+			<movieclip name="mcTree03Part01Color" 	idprof="0" regpointx="0" regpointy="0" idcolor="14" namePart="mcMiniColorTree03Part01Forest" namePartColor="CopaForest"/>
+			<movieclip name="mcTree03FX"			idprof="0" regpointx="0" regpointy="0" idcolor="-1"/>
+		</skin>
+		<skin id="13" name="Tree04Forest" namePart="mcMiniColorTree04Forest">
+			<movieclip name="mcTree04Part02Color" 	idprof="0" regpointx="0" regpointy="0" idcolor="17" namePart="mcMiniColorTree04Part02Forest" namePartColor="TroncoForest"/>
+			<movieclip name="mcTree04Part01Color" 	idprof="0" regpointx="0" regpointy="0" idcolor="16" namePart="mcMiniColorTree04Part01Forest" namePartColor="CopaForest"/>
+			<movieclip name="mcTree04FX"			idprof="0" regpointx="0" regpointy="0" idcolor="-1"/>
+		</skin>
+		<skin id="14" name="Tree05Forest" namePart="mcMiniColorTree05Forest">
+			<movieclip name="mcTree05Part02Color" 	idprof="0" regpointx="0" regpointy="0" idcolor="19" namePart="mcMiniColorTree05Part02Forest" namePartColor="TroncoForest"/>
+			<movieclip name="mcTree05Part01Color" 	idprof="0" regpointx="0" regpointy="0" idcolor="18" namePart="mcMiniColorTree05Part01Forest" namePartColor="CopaForest"/>
+			<movieclip name="mcTree05FX"			idprof="0" regpointx="0" regpointy="0" idcolor="-1"/>
+		</skin>
+		
+		<!-- Desert Trees -->
+		<skin id="15" name="Tree01Desert" namePart="mcMiniColorTree01Desert">                                         
+			<movieclip name="mcPalmtree01Part02Color" 	idprof="0" regpointx="0" regpointy="0" idcolor="21" namePart="mcMiniColorTree01Part02Desert" namePartColor="TroncoDesert"/>
+			<movieclip name="mcPalmtree01Part01Color" 	idprof="0" regpointx="0" regpointy="0" idcolor="20" namePart="mcMiniColorTree01Part01Desert" namePartColor="CopaDesert"/>
+			<movieclip name="mcPalmtree01FX"			idprof="0" regpointx="0" regpointy="0" idcolor="-1"/>
+		</skin>
+		<skin id="16" name="Tree02Desert" namePart="mcMiniColorTree02Desert">
+			<movieclip name="mcPalmtree02Part02Color" 	idprof="0" regpointx="0" regpointy="0" idcolor="23" namePart="mcMiniColorTree02Part02Desert" namePartColor="TroncoDesert"/>
+			<movieclip name="mcPalmtree02Part01Color" 	idprof="0" regpointx="0" regpointy="0" idcolor="22" namePart="mcMiniColorTree02Part01Desert" namePartColor="CopaDesert"/>
+			<movieclip name="mcPalmtree02FX"			idprof="0" regpointx="0" regpointy="0" idcolor="-1"/>
+		</skin>
+		<skin id="17" name="Tree03Desert" namePart="mcMiniColorTree03Desert">
+			<movieclip name="mcPalmtree03Part02Color" 	idprof="0" regpointx="0" regpointy="0" idcolor="25" namePart="mcMiniColorTree03Part02Desert" namePartColor="TroncoDesert"/>
+			<movieclip name="mcPalmtree03Part01Color" 	idprof="0" regpointx="0" regpointy="0" idcolor="24" namePart="mcMiniColorTree03Part01Desert" namePartColor="CopaDesert"/>
+			<movieclip name="mcPalmtree03FX"			idprof="0" regpointx="0" regpointy="0" idcolor="-1"/>
+		</skin>
+		<skin id="18" name="Tree04Desert" namePart="mcMiniColorTree04Desert">
+			<movieclip name="mcPalmtree04Part02Color" 	idprof="0" regpointx="0" regpointy="0" idcolor="27" namePart="mcMiniColorTree04Part02Desert" namePartColor="TroncoDesert"/>
+			<movieclip name="mcPalmtree04Part01Color" 	idprof="0" regpointx="0" regpointy="0" idcolor="26" namePart="mcMiniColorTree04Part01Desert" namePartColor="CopaDesert"/>
+			<movieclip name="mcPalmtree04FX"			idprof="0" regpointx="0" regpointy="0" idcolor="-1"/>
+		</skin>
+		<skin id="19" name="Tree05Desert" namePart="mcMiniColorTree05Desert">
+			<movieclip name="mcPalmtree05Part02Color" 	idprof="0" regpointx="0" regpointy="0" idcolor="29" namePart="mcMiniColorTree05Part02Desert" namePartColor="TroncoDesert"/>
+			<movieclip name="mcPalmtree05Part01Color" 	idprof="0" regpointx="0" regpointy="0" idcolor="28" namePart="mcMiniColorTree05Part01Desert" namePartColor="CopaDesert"/>
+			<movieclip name="mcPalmtree05FX"			idprof="0" regpointx="0" regpointy="0" idcolor="-1"/>
+		</skin>	
+		<!-- Desert Trees -->
+		<skin id="20" name="Tree01Hielo" namePart="mcMiniColorTree01Hielo">
+			<movieclip name="mcPinetree01Part02Color" 	idprof="0" regpointx="0" regpointy="0" idcolor="31" namePart="mcMiniColorTree01Part02Hielo" namePartColor="TroncoHielo"/>
+			<movieclip name="mcPinetree01Part01Color" 	idprof="0" regpointx="0" regpointy="0" idcolor="30" namePart="mcMiniColorTree01Part01Hielo" namePartColor="CopaHielo"/>
+			<movieclip name="mcPinetree01FX"			idprof="0" regpointx="0" regpointy="0" idcolor="-1"/>
+		</skin>
+		<skin id="21" name="Tree02Hielo" namePart="mcMiniColorTree02Hielo">
+			<movieclip name="mcPinetree02Part02Color" 	idprof="0" regpointx="0" regpointy="0" idcolor="33" namePart="mcMiniColorTree02Part02Hielo" namePartColor="TroncoHielo"/>
+			<movieclip name="mcPinetree02Part01Color" 	idprof="0" regpointx="0" regpointy="0" idcolor="32" namePart="mcMiniColorTree02Part01Hielo" namePartColor="CopaHielo"/>
+			<movieclip name="mcPinetree02FX"			idprof="0" regpointx="0" regpointy="0" idcolor="-1"/>
+		</skin>
+		<skin id="22" name="Tree03Hielo" namePart="mcMiniColorTree03Hielo">
+			<movieclip name="mcPinetree03Part02Color" 	idprof="0" regpointx="0" regpointy="0" idcolor="35" namePart="mcMiniColorTree03Part02Hielo" namePartColor="TroncoHielo"/>
+			<movieclip name="mcPinetree03Part01Color" 	idprof="0" regpointx="0" regpointy="0" idcolor="34" namePart="mcMiniColorTree03Part01Hielo" namePartColor="CopaHielo"/>
+			<movieclip name="mcPinetree03FX"			idprof="0" regpointx="0" regpointy="0" idcolor="-1"/>
+		</skin>
+		<skin id="23" name="Tree04Hielo" namePart="mcMiniColorTree04Hielo">
+			<movieclip name="mcPinetree04Part02Color" 	idprof="0" regpointx="0" regpointy="0" idcolor="37" namePart="mcMiniColorTree04Part02Hielo" namePartColor="TroncoHielo"/>
+			<movieclip name="mcPinetree04Part01Color" 	idprof="0" regpointx="0" regpointy="0" idcolor="36" namePart="mcMiniColorTree04Part01Hielo" namePartColor="CopaHielo"/>
+			<movieclip name="mcPinetree04FX"			idprof="0" regpointx="0" regpointy="0" idcolor="-1"/>
+		</skin>
+		<skin id="24" name="Tree05Hielo" namePart="mcMiniColorTree05Hielo">
+			<movieclip name="mcPinetree05Part02Color" 	idprof="0" regpointx="0" regpointy="0" idcolor="39" namePart="mcMiniColorTree05Part02Hielo" namePartColor="TroncoHielo"/>
+			<movieclip name="mcPinetree05Part01Color" 	idprof="0" regpointx="0" regpointy="0" idcolor="38" namePart="mcMiniColorTree05Part01Hielo" namePartColor="CopaHielo"/>
+			<movieclip name="mcPinetree05FX"			idprof="0" regpointx="0" regpointy="0" idcolor="-1"/>
+		</skin>
+		<!-- Ground -->
+		<skin id="25" name="GroundForest" namePart="mcMiniColorGround">
+			<movieclip name="mcGroundColor" 			idprof="0" regpointx="0" regpointy="0" idcolor="40" namePart="mcMiniColorGround" namePartColor="GroundForestMini"/>
+			<movieclip name="mcGroundFX"				idprof="0" regpointx="0" regpointy="0" idcolor="-1"/>
+		</skin>
+		<skin id="26" name="GroundDesert" namePart="mcMiniColorGround">
+			<movieclip name="mcGroundColor" 			idprof="0" regpointx="0" regpointy="0" idcolor="41" namePart="mcMiniColorGround" namePartColor="GroundDesertMini"/>
+			<movieclip name="mcGroundFX"				idprof="0" regpointx="0" regpointy="0" idcolor="-1"/>
+		</skin>
+		<skin id="27" name="GroundHielo" namePart="mcMiniColorGround">
+			<movieclip name="mcGroundColor" 			idprof="0" regpointx="0" regpointy="0" idcolor="42" namePart="mcMiniColorGround" namePartColor="GroundHieloMini"/>
+			<movieclip name="mcGroundFX"				idprof="0" regpointx="0" regpointy="0" idcolor="-1"/>
+		</skin>
+		<skin id="28" name="Shape01" namePart="mcMiniColorShape01">
+			<movieclip name="mcShape01Color2" 			idprof="0" regpointx="0" regpointy="0" idcolor="44" namePart="mcMiniColorShape01Color2" namePartColor="Shape1Color1"/>
+			<movieclip name="mcShape01Color1" 			idprof="0" regpointx="0" regpointy="0" idcolor="43" namePart="mcMiniColorShape01Color1" namePartColor="Shape1Color2"/>
+			<movieclip name="mcShape01FX"				idprof="0" regpointx="0" regpointy="0" idcolor="-1"/>
+		</skin>
+		
+		
+		
+		<skin id="29" name="LineTexture" namePart="mcMiniColorLineTexture">
+			<movieclip name="Shadow2House" 				idprof="0" regpointx="0" regpointy="0" idcolor="-1" namePart="mcMiniColorShadowHouse" namePartColor="Shadow2House"/>
+			<movieclip name="Sphere" 					idprof="0" regpointx="0" regpointy="0" idcolor="45" namePart="mcMiniColorSphere" namePartColor="Sphere"/>
+			<movieclip name="LineMiddleTexture" 		idprof="0" regpointx="0" regpointy="0" idcolor="46" namePart="mcMiniColorLineMiddleTexture" namePartColor="LineMiddleTexture"/>
+			<movieclip name="LineDownTexture" 			idprof="0" regpointx="0" regpointy="0" idcolor="47" namePart="mcMiniColorLineDownTexture" namePartColor="LineDownTexture"/>
+		</skin>
+		<skin id="30" name="FlowerLineTexture" namePart="mcMiniColorFlowerTexture">
+			<movieclip name="FlowerTexture" 			idprof="0" regpointx="0" regpointy="0" idcolor="48" namePart="mcMiniColorFlowerTexture" namePartColor="FlowerTexture"/>
+		</skin>
+		<skin id="31" name="esferaFx" namePart="mcMiniColoresferaFx">
+			<movieclip name="esferaFx" 					idprof="0" regpointx="0" regpointy="0" idcolor="-1" namePart="mcMiniColoresferaFx" namePartColor="esferaFx"/>
+		</skin>
+		<skin id="32" name="LineWindowLineTexture" namePart="mcMiniColorLineWindow">
+			<movieclip name="LineWindow" 				idprof="0" regpointx="0" regpointy="0" idcolor="49" namePart="mcMiniColorLineWindow" namePartColor="LineWindow"/>
+			<movieclip name="LineWindowFx" 				idprof="0" regpointx="0" regpointy="0" idcolor="-1" namePart="mcMiniColorLineWindowFx" namePartColor="LineWindowFx"/>
+		</skin>
+		<skin id="33" name="FrontDoorCastle" namePart="mcMiniColorFrontDoorCastle">
+			<movieclip name="FrontDoorOut" 				idprof="0" regpointx="0" regpointy="0" idcolor="58" namePart="mcMiniColorFrontDoorOut" namePartColor="FrontDoorOut"/>
+			<movieclip name="FrontDoorIn" 				idprof="0" regpointx="0" regpointy="0" idcolor="59" namePart="mcMiniColorFrontDoorIn" namePartColor="FrontDoorIn"/>
+			<movieclip name="FrontDoorFx" 				idprof="0" regpointx="0" regpointy="0" idcolor="-1" namePart="mcMiniColorFrontDoorFx" namePartColor="FrontDoorFx"/>
+		</skin>
+		<skin id="34" name="DoorBarricades" namePart="mcMiniColorDoorBarricades">
+			<movieclip name="DoorBarricades" 			idprof="0" regpointx="0" regpointy="0" idcolor="-1" namePart="mcMiniColorDoorBarricades" namePartColor="DoorBarricades"/>
+		</skin>
+		<skin id="35" name="IvyLineTexture" namePart="mcMiniColorIvy">
+			<movieclip name="Ivy" 						idprof="0" regpointx="0" regpointy="0" idcolor="51" namePart="mcMiniColorIvy" namePartColor="Ivy"/>
+			<movieclip name="IvyFx" 					idprof="0" regpointx="0" regpointy="0" idcolor="-1" namePart="mcMiniColorIvyFx" namePartColor="IvyFx"/>
+		</skin>
+		<skin id="36" name="RoundWindowLineTexture" namePart="mcMiniColorRoundWindow">
+			<movieclip name="RoundWindowOutside" 		idprof="0" regpointx="0" regpointy="0" idcolor="52" namePart="mcMiniColorRoundWindowOutside" namePartColor="RoundWindowOutside"/>
+			<movieclip name="RoundWindowInside" 		idprof="0" regpointx="0" regpointy="0" idcolor="53" namePart="mcMiniColorRoundWindowInside" namePartColor="RoundWindowInside"/>
+			<movieclip name="RoundWindowBright" 		idprof="0" regpointx="0" regpointy="0" idcolor="-1" namePart="mcMiniColorRoundWindowBright" namePartColor="RoundWindowBright"/>
+			<movieclip name="RoundWindowGlass" 			idprof="0" regpointx="0" regpointy="0" idcolor="54" namePart="mcMiniColorRoundWindowGlass" namePartColor="RoundWindowGlass"/>
+			<movieclip name="RoundWindowFx" 			idprof="0" regpointx="0" regpointy="0" idcolor="-1" namePart="mcMiniColorRoundWindowFx" namePartColor="RoundWindowFx"/>
+		</skin>
+		<skin id="37" name="RoofLineTexture" namePart="mcMiniColorRoof">
+			<movieclip name="RoofShadow" 				idprof="0" regpointx="0" regpointy="0" idcolor="-1" namePart="mcMiniColorRoofShadow" namePartColor="RoofShadow"/>
+			<movieclip name="Roof" 						idprof="0" regpointx="0" regpointy="0" idcolor="55" namePart="mcMiniColorRoof" namePartColor="Roof"/>
+			<movieclip name="RoofFx" 					idprof="0" regpointx="0" regpointy="0" idcolor="-1" namePart="mcMiniColorRoofFx" namePartColor="RoofFx"/>
+		</skin>
+		<skin id="38" name="WoodFenceLineTexture" namePart="mcMiniColorWoodFence">
+			<movieclip name="WoodFence" 				idprof="0" regpointx="0" regpointy="0" idcolor="56" namePart="mcMiniColorWoodFence" namePartColor="WoodFence"/>
+			<movieclip name="WoodFenceNailShadow" 		idprof="0" regpointx="0" regpointy="0" idcolor="-1" namePart="mcMiniColorWoodFenceNailShadow" namePartColor="WoodFenceNailShadow"/>
+			<movieclip name="WoodFenceNail" 			idprof="0" regpointx="0" regpointy="0" idcolor="57" namePart="mcMiniColorWoodFenceNail" namePartColor="WoodFenceNail"/>
+			<movieclip name="WoodFenceFx" 				idprof="0" regpointx="0" regpointy="0" idcolor="-1" namePart="mcMiniColorWoodFenceFx" namePartColor="WoodFenceFx"/>
+		</skin>
+		<skin id="39" name="FrontDoorLineTexture" namePart="mcMiniColorFrontDoor">
+			<movieclip name="FrontDoorOut" 				idprof="0" regpointx="0" regpointy="0" idcolor="58" namePart="mcMiniColorFrontDoorOut" namePartColor="FrontDoorOut"/>
+			<movieclip name="FrontDoorIn" 				idprof="0" regpointx="0" regpointy="0" idcolor="59" namePart="mcMiniColorFrontDoorIn" namePartColor="FrontDoorIn"/>
+			<movieclip name="FrontDoorFx" 				idprof="0" regpointx="0" regpointy="0" idcolor="-1" namePart="mcMiniColorFrontDoorFx" namePartColor="FrontDoorFx"/>
+			<movieclip name="FrontDoorKey" 				idprof="0" regpointx="0" regpointy="0" idcolor="-1" namePart="mcMiniColorFrontDoorKey" namePartColor="FrontDoorKey"/>
+		</skin>
+		<skin id="40" name="SphereEmptyTexture" namePart="mcMiniColorSphere">
+			<movieclip name="Shadow2House" 				idprof="0" regpointx="0" regpointy="0" idcolor="-1" namePart="mcMiniColorShadowHouse" namePartColor="Shadow2House"/>
+			<movieclip name="Sphere" 					idprof="0" regpointx="0" regpointy="0" idcolor="45" namePart="mcMiniColorSphere" namePartColor="Sphere"/>
+		</skin>
+		<skin id="41" name="SphereRoundeTexture" namePart="mcMiniColorSphereRoundeTexture">
+			<movieclip name="Shadow2House" 				idprof="0" regpointx="0" regpointy="0" idcolor="-1" namePart="mcMiniColorShadowHouse" namePartColor="Shadow2House"/>
+			<movieclip name="Sphere" 					idprof="0" regpointx="0" regpointy="0" idcolor="45" namePart="mcMiniColorSphere" namePartColor="Sphere"/>
+			<movieclip name="SpheresTexture" 			idprof="0" regpointx="0" regpointy="0" idcolor="60" namePart="mcMiniColorSpheresTexture" namePartColor="SpheresTexture"/>
+		</skin>
+		<skin id="42" name="SphereStrip" namePart="mcMiniColorSphere">
+			<movieclip name="Shadow2House" 				idprof="0" regpointx="0" regpointy="0" idcolor="-1" namePart="mcMiniColorShadowHouse" namePartColor="Shadow2House"/>
+			<movieclip name="Sphere" 					idprof="0" regpointx="0" regpointy="0" idcolor="61" namePart="mcMiniColorSphere" namePartColor="Sphere"/>
+		</skin>
+		<skin id="43" name="StripTexture" namePart="mcMiniColorStripTexture">
+			<movieclip name="Strip01" 					idprof="0" regpointx="0" regpointy="0" idcolor="62" namePart="mcMiniColorStrip01" namePartColor="Strip01"/>
+			<movieclip name="Strip02" 					idprof="0" regpointx="0" regpointy="0" idcolor="63" namePart="mcMiniColorStrip02" namePartColor="Strip02"/>
+			<movieclip name="Strip03" 					idprof="0" regpointx="0" regpointy="0" idcolor="64" namePart="mcMiniColorStrip03" namePartColor="Strip03"/>
+			<movieclip name="StripDots" 				idprof="0" regpointx="0" regpointy="0" idcolor="65" namePart="mcMiniColorStripDots" namePartColor="StripDots"/>
+		</skin>
+		<skin id="44" name="TennisTexture" namePart="mcMiniColorTennisTexture">
+			<movieclip name="Shadow2House" 				idprof="0" regpointx="0" regpointy="0" idcolor="-1" namePart="mcMiniColorShadowHouse" namePartColor="Shadow2House"/>
+			<movieclip name="Sphere" 					idprof="0" regpointx="0" regpointy="0" idcolor="66" namePart="mcMiniColorSphere" namePartColor="Sphere"/>
+			<movieclip name="TennisTexture" 			idprof="0" regpointx="0" regpointy="0" idcolor="-1" namePart="mcMiniColorTennisTexture" namePartColor="TennisTexture"/>
+		</skin>
+		<skin id="45" name="FrontDoorTennisTexture" namePart="mcMiniColorFrontDoor">
+			<movieclip name="FrontDoorOut" 				idprof="0" regpointx="0" regpointy="0" idcolor="67" namePart="mcMiniColorFrontDoorOut" namePartColor="FrontDoorOut"/>
+			<movieclip name="FrontDoorIn" 				idprof="0" regpointx="0" regpointy="0" idcolor="68" namePart="mcMiniColorFrontDoorIn" namePartColor="FrontDoorIn"/>
+			<movieclip name="FrontDoorFx" 				idprof="0" regpointx="0" regpointy="0" idcolor="-1" namePart="mcMiniColorFrontDoorFx" namePartColor="FrontDoorFx"/>
+			<movieclip name="FrontDoorKey" 				idprof="0" regpointx="0" regpointy="0" idcolor="-1" namePart="mcMiniColorFrontDoorKey" namePartColor="FrontDoorKey"/>		
+		</skin>
+		<skin id="46" name="ElectricFence" namePart="mcMiniColorElectricFence">
+			<movieclip name="ElectricFence" 			idprof="0" regpointx="0" regpointy="0" idcolor="-1" namePart="mcMiniColorElectricFence" namePartColor="ElectricFence"/>
+		</skin>
+		<skin id="47" name="ShadowHouse" namePart="mcMiniColorShadowHouse">
+			<movieclip name="ShadowHouse" 				idprof="0" regpointx="0" regpointy="0" idcolor="69" namePart="mcMiniColorShadowHouse" namePartColor="ShadowHouseMini"/>
+		</skin>
+		<skin id="48" name="SphereBricks" namePart="mcMiniColorBricks">
+			<movieclip name="Shadow2House" 				idprof="0" regpointx="0" regpointy="0" idcolor="-1" namePart="mcMiniColorShadowHouse" namePartColor="Shadow2House"/>
+			<movieclip name="Sphere" 					idprof="0" regpointx="0" regpointy="0" idcolor="70" namePart="mcMiniColorSphere" namePartColor="Sphere"/>
+			<movieclip name="Bricks" 					idprof="0" regpointx="0" regpointy="0" idcolor="70" namePart="mcMiniColorBricks" namePartColor="Bricks"/>
+			<movieclip name="BricksFx" 					idprof="0" regpointx="0" regpointy="0" idcolor="-1" namePart="mcMiniColorBricksFx" namePartColor="BricksFx"/>
+			<movieclip name="StonesDoorShadow" 			idprof="0" regpointx="0" regpointy="0" idcolor="-1" namePart="mcMiniColorStonesDoorShadow" namePartColor="StonesDoorShadow"/>
+			<movieclip name="StonesDoor" 				idprof="0" regpointx="0" regpointy="0" idcolor="70" namePart="mcMiniColorStonesDoor" namePartColor="StonesDoor"/>
+			<movieclip name="StonesDoorFx" 				idprof="0" regpointx="0" regpointy="0" idcolor="-1" namePart="mcMiniColorStonesDoorFx" namePartColor="StonesDoorFx"/>
+		</skin>
+		<skin id="49" name="DoorGrid" namePart="mcMiniColorDoorGrid">
+			<movieclip name="DoorGrid" 					idprof="0" regpointx="0" regpointy="0" idcolor="-1" namePart="mcMiniColorDoorGrid" namePartColor="DoorGrid"/>
+		</skin>	
+		<skin id="50" name="BricksWindowRight" namePart="mcMiniColorBricks">
+			<movieclip name="Shadow2House" 				idprof="0" regpointx="0" regpointy="0" idcolor="-1" namePart="mcMiniColorShadowHouse" namePartColor="Shadow2House"/>
+			<movieclip name="Sphere" 					idprof="0" regpointx="0" regpointy="0" idcolor="70" namePart="mcMiniColorSphere" namePartColor="Sphere"/>
+			<movieclip name="Bricks" 					idprof="0" regpointx="0" regpointy="0" idcolor="70" namePart="mcMiniColorBricks" namePartColor="Bricks"/>
+			<movieclip name="BricksFx" 					idprof="0" regpointx="0" regpointy="0" idcolor="-1" namePart="mcMiniColorBricksFx" namePartColor="BricksFx"/>
+			<movieclip name="StonesDoorShadow" 			idprof="0" regpointx="0" regpointy="0" idcolor="-1" namePart="mcMiniColorStonesDoorShadow" namePartColor="StonesDoorShadow"/>
+			<movieclip name="StonesDoor" 				idprof="0" regpointx="0" regpointy="0" idcolor="70" namePart="mcMiniColorStonesDoor" namePartColor="StonesDoor"/>
+			<movieclip name="StonesDoorFx" 				idprof="0" regpointx="0" regpointy="0" idcolor="-1" namePart="mcMiniColorStonesDoorFx" namePartColor="StonesDoorFx"/>
+			<movieclip name="BricksWindowRight" 		idprof="0" regpointx="0" regpointy="0" idcolor="70" namePart="mcMiniColorBricksWindowRight" namePartColor="BricksWindowRight"/>
+			<movieclip name="BricksWindowRightInside" 	idprof="0" regpointx="0" regpointy="0" idcolor="72" namePart="mcMiniColorBricksWindowRightInside" namePartColor="BricksWindowRightInside"/>
+			<movieclip name="BricksWindowRightFx" 		idprof="0" regpointx="0" regpointy="0" idcolor="-1" namePart="mcMiniColorBricksWindowRightFx" namePartColor="BricksWindowRightFx"/>
+		</skin>
+		<skin id="51" name="BricksWindowLeft" namePart="mcMiniColorBricks">
+			<movieclip name="Shadow2House" 				idprof="0" regpointx="0" regpointy="0" idcolor="-1" namePart="mcMiniColorShadowHouse" namePartColor="Shadow2House"/>
+			<movieclip name="Sphere" 					idprof="0" regpointx="0" regpointy="0" idcolor="70" namePart="mcMiniColorSphere" namePartColor="Sphere"/>
+			<movieclip name="Bricks" 					idprof="0" regpointx="0" regpointy="0" idcolor="70" namePart="mcMiniColorBricks" namePartColor="Bricks"/>
+			<movieclip name="BricksFx" 					idprof="0" regpointx="0" regpointy="0" idcolor="-1" namePart="mcMiniColorBricksFx" namePartColor="BricksFx"/>
+			<movieclip name="StonesDoorShadow" 			idprof="0" regpointx="0" regpointy="0" idcolor="-1" namePart="mcMiniColorStonesDoorShadow" namePartColor="StonesDoorShadow"/>
+			<movieclip name="StonesDoor" 				idprof="0" regpointx="0" regpointy="0" idcolor="70" namePart="mcMiniColorStonesDoor" namePartColor="StonesDoor"/>
+			<movieclip name="StonesDoorFx" 				idprof="0" regpointx="0" regpointy="0" idcolor="-1" namePart="mcMiniColorStonesDoorFx" namePartColor="StonesDoorFx"/>
+			<movieclip name="BricksWindowLeft" 			idprof="0" regpointx="0" regpointy="0" idcolor="70" namePart="mcMiniColorBricksWindowLeft" namePartColor="BricksWindowLeft"/>
+			<movieclip name="BricksWindowLeftInside" 	idprof="0" regpointx="0" regpointy="0" idcolor="72" namePart="mcMiniColorBricksWindowLeftInside" namePartColor="BricksWindowLeftInside"/>
+			<movieclip name="BricksWindowLeftFx" 		idprof="0" regpointx="0" regpointy="0" idcolor="-1" namePart="mcMiniColorBricksWindowLeftFx" namePartColor="BricksWindowLeftFx"/>
+		</skin>
+		<skin id="52" name="BricksBothWindows" namePart="mcMiniColorBricks">
+			<movieclip name="Shadow2House" 				idprof="0" regpointx="0" regpointy="0" idcolor="-1" namePart="mcMiniColorShadowHouse" namePartColor="Shadow2House"/>
+			<movieclip name="Sphere" 					idprof="0" regpointx="0" regpointy="0" idcolor="70" namePart="mcMiniColorSphere" namePartColor="Sphere"/>
+			<movieclip name="Bricks" 					idprof="0" regpointx="0" regpointy="0" idcolor="70" namePart="mcMiniColorBricks" namePartColor="Bricks"/>
+			<movieclip name="BricksFx" 					idprof="0" regpointx="0" regpointy="0" idcolor="-1" namePart="mcMiniColorBricksFx" namePartColor="BricksFx"/>
+			<movieclip name="StonesDoorShadow" 			idprof="0" regpointx="0" regpointy="0" idcolor="-1" namePart="mcMiniColorStonesDoorShadow" namePartColor="StonesDoorShadow"/>
+			<movieclip name="StonesDoor" 				idprof="0" regpointx="0" regpointy="0" idcolor="70" namePart="mcMiniColorStonesDoor" namePartColor="StonesDoor"/>
+			<movieclip name="StonesDoorFx" 				idprof="0" regpointx="0" regpointy="0" idcolor="-1" namePart="mcMiniColorStonesDoorFx" namePartColor="StonesDoorFx"/>
+			<movieclip name="BricksWindowLeft" 			idprof="0" regpointx="0" regpointy="0" idcolor="70" namePart="mcMiniColorBricksWindowLeft" namePartColor="BricksWindowLeft"/>
+			<movieclip name="BricksWindowLeftInside" 	idprof="0" regpointx="0" regpointy="0" idcolor="72" namePart="mcMiniColorBricksWindowLeftInside" namePartColor="BricksWindowLeftInside"/>
+			<movieclip name="BricksWindowLeftFx" 		idprof="0" regpointx="0" regpointy="0" idcolor="-1" namePart="mcMiniColorBricksWindowLeftFx" namePartColor="BricksWindowLeftFx"/>
+			<movieclip name="BricksWindowRight" 		idprof="0" regpointx="0" regpointy="0" idcolor="70" namePart="mcMiniColorBricksWindowRight" namePartColor="BricksWindowRight"/>
+			<movieclip name="BricksWindowRightInside" 	idprof="0" regpointx="0" regpointy="0" idcolor="72" namePart="mcMiniColorBricksWindowRightInside" namePartColor="BricksWindowRightInside"/>
+			<movieclip name="BricksWindowRightFx" 		idprof="0" regpointx="0" regpointy="0" idcolor="-1" namePart="mcMiniColorBricksWindowRightFx" namePartColor="BricksWindowRightFx"/>
+		</skin>
+		<skin id="53" name="Horns" namePart="mcMiniColorHorns">
+			<movieclip name="HornsShadow" 				idprof="0" regpointx="0" regpointy="0" idcolor="-1" namePart="mcMiniColorHornsShadow" namePartColor="HornsShadow"/>
+			<movieclip name="Horns" 					idprof="0" regpointx="0" regpointy="0" idcolor="73" namePart="mcMiniColorHorns" namePartColor="HornsMini"/>
+			<movieclip name="HornsFx" 					idprof="0" regpointx="0" regpointy="0" idcolor="-1" namePart="mcMiniColorHornsFx" namePartColor="HornsFx"/>
+		</skin>
+		<skin id="54" name="StoneWalls" namePart="mcMiniColorStoneWalls">
+			<movieclip name="StoneWalls" 				idprof="0" regpointx="0" regpointy="0" idcolor="74" namePart="mcMiniColorStoneWalls" namePartColor="StoneWallsMini"/>
+			<movieclip name="StoneWallsFx" 				idprof="0" regpointx="0" regpointy="0" idcolor="-1" namePart="mcMiniColorStoneWallsFx" namePartColor="StoneWallsFx"/>
+		</skin>
+		<skin id="55" name="ShadowHouseRobot" namePart="mcMiniColorShadowHouse">
+			<movieclip name="ShadowHouse" 				idprof="0" regpointx="0" regpointy="0" idcolor="75" namePart="mcMiniColorShadowHouse" namePartColor="ShadowHouseMini"/>
+		</skin>
+		<skin id="56" name="RobotSphere" namePart="mcMiniColorRobotSphere">
+			<movieclip name="Sphere" 					idprof="0" regpointx="0" regpointy="0" idcolor="76" namePart="mcMiniColorSphere" namePartColor="RobotMini"/>
+			<movieclip name="RobotU" 					idprof="0" regpointx="0" regpointy="0" idcolor="77" namePart="mcMiniColorRobotU" namePartColor="RobotU"/>
+			<movieclip name="RobotUFx" 					idprof="0" regpointx="0" regpointy="0" idcolor="-1" namePart="mcMiniColorRobotUFx" namePartColor="RobotUFx"/>
+			<movieclip name="esferaFx" 					idprof="0" regpointx="0" regpointy="0" idcolor="-1" namePart="mcMiniColoresferaFx" namePartColor="esferaFx"/>
+			<movieclip name="RobotRightLeg" 			idprof="0" regpointx="0" regpointy="0" idcolor="-1" namePart="mcMiniColorRobotRightLeg" namePartColor="RobotRightLeg"/>
+			<movieclip name="RobotRightLegColor" 		idprof="0" regpointx="0" regpointy="0" idcolor="78" namePart="mcMiniColorRobotRightLegColor" namePartColor="RobotRightLegColor"/>
+			<movieclip name="RobotLeftLeg" 				idprof="0" regpointx="0" regpointy="0" idcolor="-1" namePart="mcMiniColorRobotLeftLeg" namePartColor="RobotLeftLeg"/>
+			<movieclip name="RobotLeftLegColor" 		idprof="0" regpointx="0" regpointy="0" idcolor="78" namePart="mcMiniColorRobotLeftLegColor" namePartColor="RobotLeftLegColor"/>
+		</skin>
+		<skin id="57" name="DoorRobot" namePart="mcMiniColorDoorRobot">
+			<movieclip name="FrontDoorOut" 				idprof="0" regpointx="0" regpointy="0" idcolor="79" namePart="mcMiniColorFrontDoorOut" namePartColor="FrontDoorOut"/>
+			<movieclip name="FrontDoorIn" 				idprof="0" regpointx="0" regpointy="0" idcolor="80" namePart="mcMiniColorFrontDoorIn" namePartColor="FrontDoorIn"/>
+			<movieclip name="FrontDoorHorizontal" 		idprof="0" regpointx="0" regpointy="0" idcolor="-1" namePart="mcMiniColorFrontDoorHorizontal" namePartColor="FrontDoorHorizontal"/>
+			<movieclip name="FrontDoorFx" 				idprof="0" regpointx="0" regpointy="0" idcolor="-1" namePart="mcMiniColorFrontDoorFx" namePartColor="FrontDoorFx"/>
+		</skin>
+		<skin id="58" name="RobotArms" namePart="mcMiniColorRobotArms">
+			<movieclip name="RobotLeftArmShoulderIn" 	idprof="0" regpointx="0" regpointy="0" idcolor="81" namePart="mcMiniColorRobotLeftArmShoulderIn" namePartColor="RobotLeftArmShoulderIn"/>
+			<movieclip name="RobotLeftArmShoulderOut" 	idprof="0" regpointx="0" regpointy="0" idcolor="82" namePart="mcMiniColorRobotLeftArmShoulderOut" namePartColor="RobotLeftArmShoulderOut"/>
+			<movieclip name="RobotLeftArmHand" 			idprof="0" regpointx="0" regpointy="0" idcolor="83" namePart="mcMiniColorRobotLeftArmHand" namePartColor="RobotLeftArmHand"/>
+			<movieclip name="RobotLeftArmHandUp" 		idprof="0" regpointx="0" regpointy="0" idcolor="84" namePart="mcMiniColorRobotLeftArmHandUp" namePartColor="RobotLeftArmHandUp"/>
+			<movieclip name="RobotLeftArmFx" 			idprof="0" regpointx="0" regpointy="0" idcolor="-1" namePart="mcMiniColorRobotLeftArmFx" namePartColor="RobotLeftArmFx"/>
+			<movieclip name="RobotRightArmShoulderIn" 	idprof="0" regpointx="0" regpointy="0" idcolor="81" namePart="mcMiniColorRobotRightArmShoulderIn" namePartColor="RobotRightArmShoulderIn"/>
+			<movieclip name="RobotRightArmShoulderOut" 	idprof="0" regpointx="0" regpointy="0" idcolor="82" namePart="mcMiniColorRobotRightArmShoulderOut" namePartColor="RobotRightArmShoulderOut"/>
+			<movieclip name="RobotRightArmHand" 		idprof="0" regpointx="0" regpointy="0" idcolor="83" namePart="mcMiniColorRobotRightArmHand" namePartColor="RobotRightArmHand"/>
+			<movieclip name="RobotRightArmHandUp" 		idprof="0" regpointx="0" regpointy="0" idcolor="84" namePart="mcMiniColorRobotRightArmHandUp" namePartColor="RobotRightArmHandUp"/>
+			<movieclip name="RobotRightArmHandFx" 		idprof="0" regpointx="0" regpointy="0" idcolor="-1" namePart="mcMiniColorRobotRightArmHandFx" namePartColor="RobotRightArmHandFx"/>
+		</skin>
+		<skin id="59" name="RobotHeadEyes01" namePart="mcMiniColorRobotHeadEyes01">
+			<movieclip name="RobotHead" 				idprof="0" regpointx="0" regpointy="0" idcolor="-1" namePart="mcMiniColorRobotHead" namePartColor="RobotHead"/>
+			<movieclip name="RobotHeadEyes01" 			idprof="0" regpointx="0" regpointy="0" idcolor="-1" namePart="mcMiniColorRobotHeadEyes01" namePartColor="RobotHeadEyes01"/>
+		</skin>
+		<skin id="60" name="RobotHeadEyes02" namePart="mcMiniColorRobotHeadEyes02">
+			<movieclip name="RobotHead" 				idprof="0" regpointx="0" regpointy="0" idcolor="-1" namePart="mcMiniColorRobotHead" namePartColor="RobotHead"/>
+			<movieclip name="RobotHeadEyes02" 			idprof="0" regpointx="0" regpointy="0" idcolor="-1" namePart="mcMiniColorRobotHeadEyes02" namePartColor="RobotHeadEyes02"/>
+		</skin>
+		<skin id="61" name="EvilFaceHead" namePart="mcMiniColorEvilFaceHead">
+			<movieclip name="Shadow2House" 				idprof="0" regpointx="0" regpointy="0" idcolor="-1" namePart="mcMiniColorShadowHouse" namePartColor="Shadow2House"/>
+			<movieclip name="Sphere" 					idprof="0" regpointx="0" regpointy="0" idcolor="85" namePart="mcMiniColorSphere" namePartColor="Sphere"/>
+			<movieclip name="EvilFaceNose" 				idprof="0" regpointx="0" regpointy="0" idcolor="86" namePart="mcMiniColorEvilFaceNose" namePartColor="EvilFaceNose"/>
+			<movieclip name="EvilFaceMouth" 			idprof="0" regpointx="0" regpointy="0" idcolor="-1" namePart="mcMiniColorEvilFaceMouth" namePartColor="EvilFaceMouth"/>
+			<movieclip name="EvilFaceTheet" 			idprof="0" regpointx="0" regpointy="0" idcolor="87" namePart="mcMiniColorEvilFaceTheet" namePartColor="EvilFaceTheet"/>
+			<movieclip name="EvilFaceForeHead" 			idprof="0" regpointx="0" regpointy="0" idcolor="88" namePart="mcMiniColorEvilFaceForeHead" namePartColor="EvilFaceForeHead"/>
+			<movieclip name="EvilFaceFx" 				idprof="0" regpointx="0" regpointy="0" idcolor="-1" namePart="mcMiniColorEvilFaceFx" namePartColor="EvilFaceFx"/>
+		</skin>
+		<skin id="62" name="EvilFaceEye" namePart="mcMiniColorEvilFaceEye">
+			<movieclip name="EvilFaceRightEyeOutside" 	idprof="0" regpointx="0" regpointy="0" idcolor="89" namePart="mcMiniColorEvilFaceRightEyeOutside" namePartColor="EvilFaceRightEyeOutside"/>
+			<movieclip name="EvilFaceRightEyeInside" 	idprof="0" regpointx="0" regpointy="0" idcolor="90" namePart="mcMiniColorEvilFaceRightEyeInside" namePartColor="EvilFaceRightEyeInside"/>
+			<movieclip name="EvilFaceLeftEyeOutside" 	idprof="0" regpointx="0" regpointy="0" idcolor="91" namePart="mcMiniColorEvilFaceLeftEyeOutside" namePartColor="EvilFaceLeftEyeOutside"/>
+			<movieclip name="EvilFaceLeftEyeInside" 	idprof="0" regpointx="0" regpointy="0" idcolor="92" namePart="mcMiniColorEvilFaceLeftEyeInside" namePartColor="EvilFaceLeftEyeInside"/>
+		</skin>
+		
+	</skins>
+	
+	<colors idAlpha="0">
+		<color id="0" rgb="E0F8FF" alpha="100" pointx="63" pointy="74" name="Sky"/>
+		<!-- Hills -->
+		<color id="1" rgb="FFE5AD" alpha="100" pointx="91" pointy="56" name="Hill1"/>
+    	<color id="2" rgb="FFE5AD" alpha="100" pointx="91" pointy="56" name="Hill2"/>
+    	<color id="3" rgb="FFE5AD" alpha="100" pointx="91" pointy="56" name="Hill3"/>
+    	<color id="4" rgb="FAFBFF" alpha="100" pointx="71" pointy="73" name="Hill4"/>
+    	<color id="5" rgb="FAFBFF" alpha="100" pointx="71" pointy="73" name="Hill5"/>
+    	<color id="6" rgb="E6FF99" alpha="100" pointx="80" pointy="42" name="Hill6"/>
+    	<color id="7" rgb="FAFBFF" alpha="100" pointx="71" pointy="73" name="Hill7"/>
+    	<color id="8" rgb="E6FF99" alpha="100" pointx="80" pointy="42" name="Hill8"/>
+    	<color id="9" rgb="E6FF99" alpha="100" pointx="80" pointy="42" name="Hill9"/>
+		<!-- Forest Trees -->
+		<color id="10" rgb="87FF47" alpha="100" pointx="63" pointy="17" name="Tree1Part1"/>
+    	<color id="11" rgb="E0DE84" alpha="100" pointx="88" pointy="45" name="Tree1Part2"/>
+    	<color id="12" rgb="87FF47" alpha="100" pointx="63" pointy="17" name="Tree2Part1"/>
+    	<color id="13" rgb="E0DE84" alpha="100" pointx="88" pointy="45" name="Tree2Part2"/>
+    	<color id="14" rgb="87FF47" alpha="100" pointx="63" pointy="17" name="Tree3Part1"/>
+    	<color id="15" rgb="E0DE84" alpha="100" pointx="88" pointy="45" name="Tree3Part2"/>
+    	<color id="16" rgb="87FF47" alpha="100" pointx="63" pointy="17" name="Tree4Part1"/>
+    	<color id="17" rgb="E0DE84" alpha="100" pointx="88" pointy="45" name="Tree4Part2"/>
+    	<color id="18" rgb="87FF47" alpha="100" pointx="63" pointy="17" name="Tree5Part1"/>
+    	<color id="19" rgb="E0DE84" alpha="100" pointx="88" pointy="45" name="Tree5Part2"/>
+		<!-- Desert Trees -->
+		<color id="20" rgb="6ED13F" alpha="79" pointx="62" pointy="19" name="Palmtree1Part1"/>
+    	<color id="21" rgb="BF9A6B" alpha="49" pointx="100" pointy="53" name="Palmtree1Part2"/>
+    	<color id="22" rgb="6ED13F" alpha="79" pointx="62" pointy="19" name="Palmtree2Part1"/>
+    	<color id="23" rgb="BF9A6B" alpha="49" pointx="100" pointy="53" name="Palmtree2Part2"/>
+    	<color id="24" rgb="6ED13F" alpha="79" pointx="62" pointy="19" name="Palmtree3Part1"/>
+    	<color id="25" rgb="BF9A6B" alpha="49" pointx="100" pointy="53" name="Palmtree3Part2"/>
+    	<color id="26" rgb="6ED13F" alpha="79" pointx="62" pointy="19" name="Palmtree4Part1"/>
+    	<color id="27" rgb="BF9A6B" alpha="49" pointx="100" pointy="53" name="Palmtree4Part2"/>
+    	<color id="28" rgb="6ED13F" alpha="79" pointx="62" pointy="19" name="Palmtree5Part1"/>
+    	<color id="29" rgb="BF9A6B" alpha="49" pointx="100" pointy="53" name="Palmtree5Part2"/>
+		<!-- Hielo Trees -->
+		<color id="30" rgb="F4FFFF" alpha="100" pointx="68" pointy="72" name="Pinetree1Part1"/>
+    	<color id="31" rgb="BF9963" alpha="75" pointx="103" pointy="50" name="Pinetree1Part2"/>
+    	<color id="32" rgb="F4FFFF" alpha="100" pointx="68" pointy="72" name="Pinetree2Part1"/>
+    	<color id="33" rgb="BF9963" alpha="75" pointx="103" pointy="50" name="Pinetree2Part2"/>
+    	<color id="34" rgb="F4FFFF" alpha="100" pointx="68" pointy="72" name="Pinetree3Part1"/>
+    	<color id="35" rgb="BF9963" alpha="75" pointx="103" pointy="50" name="Pinetree3Part2"/>
+    	<color id="36" rgb="F4FFFF" alpha="100" pointx="68" pointy="72" name="Pinetree4Part1"/>
+    	<color id="37" rgb="BF9963" alpha="75" pointx="103" pointy="50" name="Pinetree4Part2"/>
+    	<color id="38" rgb="F4FFFF" alpha="100" pointx="68" pointy="72" name="Pinetree5Part1"/>
+    	<color id="39" rgb="BF9963" alpha="75" pointx="103" pointy="50" name="Pinetree5Part2"/>
+		<!-- Forest -->
+    	<color id="40" rgb="C8FF1B" alpha="100" pointx="91" pointy="5" name="Ground"/>
+    	<!-- Desert -->
+    	<color id="41" rgb="FFE8C2" alpha="100" pointx="86" pointy="61" name="Ground"/>
+    	<!-- Snow -->
+    	<color id="42" rgb="E9F8FF" alpha="100" pointx="66" pointy="74" name="Ground"/>
+		
+		<color id="43" rgb="C1F9C4" alpha="98"  pointx="62" pointy="58" name="Shape1Color1"/>
+    	<color id="44" rgb="FFFBE1" alpha="100" pointx="77" pointy="65" name="Shape1Color2"/>
+		
+
+		<color id="45" rgb="FCF2FF" alpha="100" pointx="73" pointy="76" name="SphereLineTexture"/>
+		<color id="46" rgb="ADFF67" alpha="100" pointx="70" pointy="26" name="LineMiddleTexture"/>
+		<color id="47" rgb="1347FE" alpha="100" pointx="120" pointy="25" name="LineDownTexture"/>
+		<color id="48" rgb="FFAFE7" alpha="100" pointx="90" pointy="88" name="FlowerLineTexture"/>
+		<color id="49" rgb="9657E0" alpha="88" pointx="70" pointy="119" name="LineWindowLineTexture"/>
+		<!--color id="50" rgb="FFFBE1" alpha="100" pointx="77" pointy="65" name="StonesDoorNormalCastle"/-->
+		<color id="51" rgb="056D4E" alpha="100" pointx="77" pointy="65" name="IvyLineTexture"/>
+		<color id="52" rgb="FFBFDC" alpha="100" pointx="89" pointy="81" name="RoundWindowOutsideLineTexture"/>
+		<color id="53" rgb="FFFBE1" alpha="100" pointx="77" pointy="65" name="RoundWindowInsideLineTexture"/>
+		<color id="54" rgb="FFFBE1" alpha="100" pointx="77" pointy="65" name="RoundWindowGlassLineTexture"/>
+		<color id="55" rgb="FF679A" alpha="100" pointx="115" pointy="87" name="RoofLineTexture"/>
+		<color id="56" rgb="F2BD72" alpha="95" pointx="105" pointy="49" name="WoodFenceLineTexture"/>
+		<color id="57" rgb="F1FEE9" alpha="100" pointx="77" pointy="65" name="WoodFenceNailLineTexture"/>
+		<color id="58" rgb="FF694A" alpha="100" pointx="126" pointy="62" name="FrontDoorOutLineTexture"/>
+		<color id="59" rgb="FFE133" alpha="100" pointx="111" pointy="24" name="FrontDoorInLineTexture"/>
+		<color id="60" rgb="F02FFF" alpha="100" pointx="99" pointy="129" name="SphereRoundeTexture"/>
+		<color id="61" rgb="FFFBE1" alpha="100" pointx="77" pointy="65" name="SphereStrip"/>
+		<color id="62" rgb="DD5D42" alpha="87" pointx="125" pointy="62" name="Strip01"/>
+		<color id="63" rgb="961B1B" alpha="59" pointx="135" pointy="72" name="Strip02"/>
+		<color id="64" rgb="E07C2D" alpha="88" pointx="127" pointy="45" name="Strip03"/>
+		<color id="65" rgb="FAFFB3" alpha="100" pointx="82" pointy="51" name="StripDots"/>
+		<color id="66" rgb="FFF41C" alpha="100" pointx="109" pointy="14" name="SphereTennis"/>
+		<color id="67" rgb="8FFF50" alpha="100" pointx="64" pointy="20" name="FrontDoorOutTennisTexture"/>
+		<color id="68" rgb="FFF741" alpha="100" pointx="103" pointy="23" name="FrontDoorInTennisTexture"/>
+		<color id="69" rgb="FFFBE1" alpha="100" pointx="77" pointy="65" name="ShadowHouse"/>
+		<color id="70" rgb="F7DDAD" alpha="97" pointx="90" pointy="58" name="SphereBricks"/>
+		<!--color id="71" rgb="FFFBE1" alpha="100" pointx="77" pointy="65" name="Bricks"/-->
+		<color id="72" rgb="BAA77C" alpha="73" pointx="91" pointy="55" name="BricksWindowsInside"/>
+		<color id="73" rgb="FFE6AB" alpha="100" pointx="91" pointy="55" name="Horns"/>
+		<color id="74" rgb="FFE6AB" alpha="100" pointx="91" pointy="55" name="StoneWalls"/>
+		<color id="75" rgb="FFFBE1" alpha="100" pointx="77" pointy="65" name="ShadowHouseRobot"/>
+		<color id="76" rgb="FFFFFF" alpha="100" pointx="72" pointy="72" name="RobotSphere"/>
+		<color id="77" rgb="FF0000" alpha="100" pointx="143" pointy="68" name="RobotU"/>
+		<color id="78" rgb="FF2831" alpha="100" pointx="137" pointy="75" name="RobotLegColor"/>
+		<color id="79" rgb="353231" alpha="21" pointx="77" pointy="71" name="FrontDoorOutRobot"/>
+		<color id="80" rgb="FF3F3F" alpha="100" pointx="130" pointy="72" name="FrontDoorInRobot"/>
+		<color id="81" rgb="FF1913" alpha="100" pointx="143" pointy="70" name="RobotArmShoulderIn"/>
+		<color id="82" rgb="FFFFFF" alpha="100" pointx="72" pointy="72" name="RobotArmShoulderOut"/>
+		<color id="83" rgb="FFFFFF" alpha="100" pointx="72" pointy="72" name="RobotArmHand"/>
+		<color id="84" rgb="FF1B13" alpha="100" pointx="143" pointy="69" name="RobotArmHandUp"/>
+		<color id="85" rgb="ECE9EF" alpha="94" pointx="72" pointy="74" name="SphereEvilFace"/>
+		<color id="86" rgb="FF40BF" alpha="100" pointx="116" pointy="109" name="EvilFaceNose"/>
+		<color id="87" rgb="FF55C9" alpha="100" pointx="111" pointy="105" name="EvilFaceTheet"/>
+		<color id="88" rgb="5CAAFF" alpha="100" pointx="30" pointy="97" name="EvilFaceForeHead"/>
+		<color id="89" rgb="FF74F2" alpha="100" pointx="96" pointy="106" name="EvilFaceRightEyeOutside"/>
+		<color id="90" rgb="C132C1" alpha="76" pointx="101" pointy="122" name="EvilFaceRightEyeInside"/>
+		<color id="91" rgb="000000" alpha="0" pointx="73" pointy="75" name="EvilFaceLeftEyeOutside"/>
+		<color id="92" rgb="FF4258" alpha="100" pointx="129" pointy="79" name="EvilFaceLeftEyeInside"/>
+    </colors>    
+</escenario>

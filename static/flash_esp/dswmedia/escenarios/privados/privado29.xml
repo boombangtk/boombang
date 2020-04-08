@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<escenario id="29" maxBBoxHeight="5"> 
+   	<nameScene name="Lounge"/>
+	<matrix>
+		<row id="0"   data="1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1"/>
+		<row id="1"   data="1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1"/>
+		<row id="2"   data="1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1"/>
+		<row id="3"   data="1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1"/>
+		<row id="4"   data="1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1"/>
+		<row id="5"   data="1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1"/>
+		<row id="6"   data="1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1"/>
+		<row id="7"   data="1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1"/>
+		<row id="8"   data="1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1"/>
+		<row id="9"   data="1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1"/>
+		<row id="10"  data="1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1"/>
+		<row id="11"  data="1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1"/>
+		<row id="12"  data="1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1"/>
+		<row id="13"  data="1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1"/>
+		<row id="14"  data="1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1"/>
+		<row id="15"  data="1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1"/>
+		<row id="16"  data="1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1"/>
+		<row id="17"  data="1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1"/>
+		<row id="18"  data="1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1"/>
+		<row id="19"  data="1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1"/>
+		<row id="20"  data="1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1"/>
+		<row id="21"  data="1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1"/>
+		<row id="22"  data="1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1"/>
+		<row id="23"  data="1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1"/>
+		<row id="24"  data="1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 2, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1"/>
+		<row id="25"  data="1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 2, 2, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1"/>
+		<row id="26"  data="1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1"/>
+		<row id="27"  data="1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1"/>
+		<row id="28"  data="1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1"/>
+		<row id="29"  data="1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1"/>
+		<row id="30"  data="1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1"/>
+		<row id="31"  data="1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1"/>
+		<row id="32"  data="1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1"/>
+	</matrix>
+	
+	<coordenates x="-804" y="335"/>    
+   	<grupoScene id="2"/>
+    <puertas>
+    	<puerta id="1" name="mcPuerta1" backDoor="true"/>
+    	<puerta id="2" name="mcPuerta2" />    	
+    </puertas>
+    
+    <layers>            	
+    	<layer id="0" name="mcBackground" 				idprof="0" regpointx="0" regpointy="0" idcolor="-1"/>
+		<layer id="1" name="mcHouse_FX" 				idprof="0" regpointx="0" regpointy="0" idcolor="-1"/>
+		<layer id="2" name="mcWall" 					idprof="0" regpointx="0" regpointy="0" idcolor="0"/>
+		<layer id="3" name="mcSkin01_Part01" 			idprof="0" regpointx="0" regpointy="0" idcolor="1"/>
+		<layer id="4" name="mcDoor01_Part01" 			idprof="0" regpointx="0" regpointy="0" idcolor="2"/>
+		<layer id="5" name="mcDoor01_FX" 				idprof="0" regpointx="0" regpointy="0" idcolor="-1"/>
+		<layer id="6" name="mcDoor01_Handle_Part01" 	idprof="0" regpointx="0" regpointy="0" idcolor="3"/>
+		<layer id="7" name="mcDoor01_Handle_FX" 		idprof="0" regpointx="0" regpointy="0" idcolor="-1"/>
+		<layer id="8" name="mcFloors_Part01" 			idprof="0" regpointx="0" regpointy="0" idcolor="4"/>
+		<layer id="9" name="mcFloors_FX" 				idprof="0" regpointx="0" regpointy="0" idcolor="-1"/>
+		<layer id="10" name="mcFX" 						idprof="0" regpointx="0" regpointy="0" idcolor="-1"/>
+		<layer id="11" name="mcWindow_FX" 				idprof="0" regpointx="0" regpointy="0" idcolor="-1"/>
+		<layer id="12" name="mcCeilingLamp02_OFF_Part01" idprof="2" regpointx="0" regpointy="0" idcolor="5"/>
+		<layer id="13" name="mcCeilingLamp02_OFF_FX" 	idprof="2" regpointx="0" regpointy="0" idcolor="-1"/>
+		<!-- 
+		<layer id="14" name="mcCeilingLamp02_ON_FX" 	idprof="0" regpointx="0" regpointy="0" idcolor="-1"/>
+		<layer id="15" name="mcCeilingLamp02_ON_Part01" idprof="0" regpointx="0" regpointy="0" idcolor="6"/>
+		<layer id="16" name="mcCeilingLamp02_ON_FX" 	idprof="0" regpointx="0" regpointy="0" idcolor="-1"/>
+		 -->
+		<layer id="17" name="mcWallLight03_OFF_Shadow" 	idprof="0" regpointx="0" regpointy="0" idcolor="-1"/>
+		<layer id="18" name="mcWallLight03_OFF_Part03" 	idprof="0" regpointx="0" regpointy="0" idcolor="7"/>
+		<layer id="19" name="mcWallLight03_OFF_Part02" 	idprof="0" regpointx="0" regpointy="0" idcolor="8"/>
+		<layer id="20" name="mcWallLight03_OFF_Part01" 	idprof="0" regpointx="0" regpointy="0" idcolor="9"/>
+		<layer id="21" name="mcWallLight03_OFF_FX" 		idprof="0" regpointx="0" regpointy="0" idcolor="-1"/>
+		<!-- 
+		<layer id="22" name="mcWallLight03_ON_Shadow" 	idprof="0" regpointx="0" regpointy="0" idcolor="-1"/>
+		<layer id="23" name="mcWallLight03_ON_Part03" 	idprof="0" regpointx="0" regpointy="0" idcolor="10"/>
+		<layer id="24" name="mcWallLight03_ON_Part02" 	idprof="0" regpointx="0" regpointy="0" idcolor="11"/>
+		<layer id="25" name="mcWallLight03_ON_FX" 		idprof="0" regpointx="0" regpointy="0" idcolor="-1"/>
+		<layer id="26" name="mcWallLight03_ON_Part01" 	idprof="0" regpointx="0" regpointy="0" idcolor="12"/>		 
+		<layer id="27" name="WallLight03_ON_FX" 		idprof="0" regpointx="0" regpointy="0" idcolor="-1"/>
+		 -->
+		<layer id="28" name="Door02_FX" 				idprof="2" regpointx="0" regpointy="0" idcolor="-1"/>
+		<layer id="28" name="mcPuerta1" 				idprof="2" regpointx="0" regpointy="0" idcolor="-1"/>
+		<layer id="28" name="mcPuerta2" 				idprof="2" regpointx="0" regpointy="0" idcolor="-1"/>
+    </layers> 
+        
+    <colors idAlpha="1">       	
+    	<color id="0" rgb="FFA21C" alpha="100" pointx="128" pointy="32" name="mcLoungeWall"/>
+		<color id="1" rgb="FFD01E" alpha="100" pointx="118" pointy="22" name="mcLoungeSkin01_Part01"/>
+		<color id="2" rgb="9CA56D" alpha="65" pointx="81" pointy="48" name="mcLoungeDoor01_Part01"/>
+		<color id="3" rgb="FFFFFF" alpha="100" pointx="72" pointy="72" name="mcLoungeDoor01_Handle_Part01"/>
+		<color id="4" rgb="F7E1BA" alpha="97" pointx="86" pointy="60" name="mcLoungeFloors_Part01"/>
+		<color id="5" rgb="FFFFFF" alpha="100" pointx="72" pointy="72" name="mcLoungeCeilingLamp02_OFF_Part01"/>
+		<color id="6" rgb="FFFFFF" alpha="100" pointx="72" pointy="72" name="mcLoungeCeilingLamp02_ON_Part01"/>
+		<color id="7" rgb="B27554" alpha="70" pointx="110" pointy="57" name="mcLoungeWallLight03_OFF_Part03"/>
+		<color id="8" rgb="FFCC3C" alpha="100" pointx="114" pointy="31" name="mcLoungeWallLight03_OFF_Part02"/>
+		<color id="9" rgb="ED6F23" alpha="93" pointx="132" pointy="47" name="mcLoungeWallLight03_OFF_Part01"/>
+		<color id="10" rgb="FFFFFF" alpha="100" pointx="72" pointy="72" name="mcLoungeWallLight03_ON_Part03"/>
+		<color id="11" rgb="FFFFFF" alpha="100" pointx="72" pointy="72" name="mcLoungeWallLight03_ON_Part02"/>
+		<color id="12" rgb="FFFFFF" alpha="100" pointx="72" pointy="72" name="mcLoungeWallLight03_ON_Part01"/>
+    </colors>
+</escenario>

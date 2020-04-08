@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<escenario id="37" maxBBoxHeight="5"> 
+	<nameScene name="BatCave"/>
+	<matrix>
+		<row id="0"   data="1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1"/>
+		<row id="1"   data="1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1"/>
+		<row id="2"   data="1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1"/>
+		<row id="3"   data="1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1"/>
+		<row id="4"   data="1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1"/>
+		<row id="5"   data="1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1"/>
+		<row id="6"   data="1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1"/>
+		<row id="7"   data="1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1"/>
+		<row id="8"   data="1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1"/>
+		<row id="9"   data="1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1"/>
+		<row id="10"  data="1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1"/>
+		<row id="11"  data="1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1"/>
+		<row id="12"  data="1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1"/>
+		<row id="13"  data="1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1"/>
+		<row id="14"  data="1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1"/>
+		<row id="15"  data="1, 1, 1, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1"/>
+		<row id="16"  data="1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1"/>
+		<row id="17"  data="1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1"/>
+		<row id="18"  data="1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1"/>
+		<row id="19"  data="1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1"/>
+		<row id="20"  data="1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1"/>
+		<row id="21"  data="1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1"/>
+		<row id="22"  data="1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1"/>
+		<row id="23"  data="1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 2, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1"/>
+		<row id="24"  data="1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 2, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1"/>
+		<row id="25"  data="1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 2, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1"/>
+		<row id="26"  data="1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 2, 2, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1"/>
+		<row id="27"  data="1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1"/>
+		<row id="28"  data="1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1"/>
+		<row id="29"  data="1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1"/>
+		<row id="30"  data="1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1"/>
+		<row id="31"  data="1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1"/>
+		<row id="32"  data="1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1"/>
+	</matrix>                
+	
+	<coordenates x="-810" y="330"/>
+    <grupoScene id="1"/>
+    
+    <layers>
+    	<layer id="0" name="mcBatCave_Floor" idprof="0" regpointx="0" regpointy="0" idcolor="0"/>    	
+    	<layer id="2" name="mcBatCave_Wall" idprof="0" regpointx="0" regpointy="0" idcolor="1"/>    	
+    	<layer id="4" name="mcBatCave_Caves" idprof="0" regpointx="0" regpointy="0" idcolor="2"/>    	
+    	<layer id="6" name="mcBatCave_Rock" idprof="0" regpointx="0" regpointy="0" idcolor="3"/>    	
+    	<layer id="8" name="mcBatCave_Bleach" idprof="0" regpointx="0" regpointy="0" idcolor="-1"/>
+    	<layer id="9" name="mcBatCave_Foreground" idprof="2" regpointx="0" regpointy="0" idcolor="4"/>    	
+    	<layer id="11" name="mcBatCave_Bat" idprof="0" regpointx="0" regpointy="0" idcolor="-1"/>
+    	<layer id="12" name="mcBatCave_Bat_2" idprof="2" regpointx="0" regpointy="0" idcolor="-1"/>
+    </layers> 
+
+    <colors idAlpha="1">
+    	<color id="0" rgb="D0ECFF" alpha="100" pointx="59" pointy="77" name="batCave_Floor">
+    		<colorsRef>
+				<colorRef id= "0" rgb="D0ECFF" alpha="100" pointx="59" pointy="77"/>
+				<colorRef id= "1" rgb="06ADD0" alpha="82" pointx="2" pointy="84"/>
+				<colorRef id= "2" rgb="3EDDFE" alpha="100" pointx="17" pointy="81"/>
+				<colorRef id= "3" rgb="E5D0C7" alpha="90" pointx="81" pointy="68"/>
+				<colorRef id= "4" rgb="A2391D" alpha="64" pointx="129" pointy="58"/>
+				<colorRef id= "5" rgb= "7FD6BD" alpha="84" pointx="42" pointy="63"/>
+    		</colorsRef>
+    	</color>
+    	<color id="1" rgb="6E9393" alpha="58" pointx="52" pointy="72" name="batCave_Wall">
+    		<colorsRef>
+				<colorRef id= "0" rgb="6E9393" alpha="58" pointx="52" pointy="72"/>
+				<colorRef id= "1" rgb="84935D" alpha="58" pointx="78" pointy="45"/>
+				<colorRef id= "2" rgb="115B45" alpha="36" pointx="15" pointy="53"/>
+				<colorRef id= "3" rgb="4B86A0" alpha="63" pointx="33" pointy="85"/>
+				<colorRef id= "4" rgb="AF3A3C" alpha="69" pointx="123" pointy="73"/>
+				<colorRef id= "5" rgb="8C6481" alpha="55" pointx="87" pointy="86"/>
+    		</colorsRef>
+    	</color>
+    	<color id="2" rgb="DBFCB5" alpha="99" pointx="73" pointy="50" name="batCave_Caves">
+    		<colorsRef>
+				<colorRef id= "0" rgb="DBFCB5" alpha="99" pointx="73" pointy="50"/>
+				<colorRef id= "1" rgb="83AEC6" alpha="78" pointx="48" pointy="81"/>
+				<colorRef id= "2" rgb="AF3949" alpha="69" pointx="123" pointy="79"/>
+				<colorRef id= "3" rgb="A7C63B" alpha="78" pointx="87" pointy="20"/>
+				<colorRef id= "4" rgb="20CBDD" alpha="87" pointx="6" pointy="78"/>
+				<colorRef id= "5" rgb="E5DCE7" alpha="91" pointx="73" pointy="75"/>
+    		</colorsRef>
+    	</color>
+    	<color id="3" rgb="CADADB" alpha="86" pointx="66" pointy="72" name="batCave_Rock">
+    		<colorsRef>
+				<colorRef id= "0" rgb="CADADB" alpha="86" pointx="66" pointy="72"/>
+				<colorRef id= "1" rgb="56C8D1" alpha="82" pointx="27" pointy="75"/>
+				<colorRef id= "2" rgb="AD4140" alpha="68" pointx="120" pointy="71"/>
+				<colorRef id= "3" rgb="83B798" alpha="72" pointx="54" pointy="59"/>
+				<colorRef id= "4" rgb="ADA16E" alpha="68" pointx="90" pointy="51"/>
+				<colorRef id= "5" rgb="ADA16E" alpha="68" pointx="90" pointy="51"/>
+    		</colorsRef>
+    	</color>
+    	<color id="4" rgb="BCCDD3" alpha="83" pointx="64" pointy="74" name="batCave_Foreground">
+    		<colorsRef>
+				<colorRef id= "0" rgb="BCCDD3" alpha="83" pointx="64" pointy="74"/>
+				<colorRef id= "1" rgb="23A823" alpha="66" pointx="41" pointy="19"/>
+				<colorRef id= "2" rgb="AF4F3E" alpha="69" pointx="121" pointy="64"/>
+				<colorRef id= "3" rgb="3096C4" alpha="77" pointx="17" pointy="90"/>
+				<colorRef id= "4" rgb="927FC4" alpha="77" pointx="66" pointy="98"/>
+				<colorRef id= "5" rgb="B77CA5" alpha="72" pointx="90" pointy="88"/>
+    		</colorsRef>
+    	</color>
+    </colors>
+</escenario>

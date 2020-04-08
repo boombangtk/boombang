@@ -1,0 +1,511 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="es" lang="es">
+<head>
+	<title>Contacto y soporte: consulta tus dudas – BoomBang</title>
+	<meta name="description" lang="es" content="" />
+	<meta name="keywords" lang="es" content="" />
+	<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+		<script type="text/javascript" src="../../../../../common.js?1388751915"></script>
+		<script type="text/javascript" src="../../../../../browser_detection.js"></script>
+		<script type="text/javascript" src="../../../../../AC_OETags.js"></script>
+			<link rel="stylesheet" type="text/css" href="../../../../../estilo.css?1400494566" />
+		<link rel="stylesheet" type="text/css" href="../../../../../css/lang_chl.css?1388751915" />
+		<link rel="shortcut icon" href="../../../../../favicon.ico" type="image/x-icon" />
+	<link rel="icon" href="../../../../../favicon.ico" type="image/x-icon" />
+	
+	<script type="text/javascript">
+		function contact_form_verify()
+		{
+			var theForm = document.getElementById('contact_form');
+			for (i = 0; i < theForm.elements.length; i++)
+			{
+				var theElement = theForm.elements[i];
+				theElement.focus();
+				switch (theElement.name)
+				{
+					case 'email':
+						if (theElement.value.length < 5)
+						{
+							alert('Escribe tu dirección de e-mail.');
+							return false;
+						}
+					break;
+					case 'captcha_key':
+						if (theElement.value.length != 4)
+						{
+							alert('Escribe el código de verificación.');
+							return false;
+						}
+					break;
+				}
+			}
+			return true;
+		}
+		
+		function contact_form_flashfill(field, value)
+		{
+			document.title = field + ': ' + value;
+			switch (field)
+			{
+				case ('os'):
+				case ('manufacturer'):
+				case ('playertype'):
+				case ('isdebugger'):
+				case ('verfromflash'):
+					document.getElementById('contact_form_flash_' + field).value = value;
+				break;
+			}
+		}
+		
+		function contact_form_submit()
+		{
+			var theForm = document.getElementById('contact_form');
+			document.getElementById('contact_form_browser').value = BrowserDetect.browser + ' ' + BrowserDetect.version + ' (' + BrowserDetect.OS + ')';
+			document.getElementById('contact_form_flashversion').value = GetSwfVer();
+			document.getElementById('contact_form_javascript').value = 'si';
+			document.getElementById('contact_form_screensize').value = screen.width + "x"+ screen.height;
+			document.getElementById('contact_form_screenavailable').value = screen.availWidth +"x"+screen.availHeight;
+			document.getElementById('contact_form_colordepth').value = screen.colorDepth;
+			if (contact_form_verify())
+			{
+				theForm.submit();
+			}
+		}
+		
+		function class_over()
+		{
+			this.className = 'over';
+		}
+		
+		function class_out()
+		{
+			this.className = '';
+		}
+	</script>
+	<style type="text/css">
+		A#contact_back
+		{
+			float: left;
+			display: block;
+			width: 68px;
+			height: 35px;
+			background: url('../../../../../images/contact_back_chl_off.png') top left no-repeat;
+			text-indent: -9000px;
+		}
+		
+		A#contact_back:hover
+		{
+			background: url('../../../../../images/contact_back_chl_on.png') top left no-repeat;
+		}
+		
+		A#contact_back:active
+		{
+			position: relative;
+			left: 2px;
+			top: 2px;
+		}
+		
+		A#contact_send
+		{
+			float: left;
+			display: block;
+			width: 79px;
+			height: 44px;
+			background: url('../../../../../images/contact_send_chl_off.png') top left no-repeat;
+			text-indent: -9000px;
+			margin-top: -2px;
+			margin-left: 0px;
+			position: relative;
+			left: 330px;
+		}
+		
+		A#contact_send:hover
+		{
+			background: url('../../../../../images/contact_send_chl_on.png') top left no-repeat;
+		}
+		
+		A#contact_send:active
+		{
+			position: relative;
+			left: 332px;
+			top: 2px;
+		}
+		
+		IMG#captcha_img
+		{
+			vertical-align: middle;
+		}
+		
+		INPUT#captcha_input
+		{
+			width: 52px;
+			height: 21px;
+			font-size: 12px;
+			font-weight: bold;
+			font-family: 'Comic Sans MS';
+			border: none;
+			margin: 0px;
+			padding: 0px;
+			color: white;
+			background: #009898 url('../../../../../images/captcha_input_bg.png') top left no-repeat;
+			text-align: center;
+		}
+		
+		TABLE#captcha_table
+		{
+			float: left;
+			border-collapse: collapse;
+			border: none;
+			background: url('../../../../../images/captcha_table_bg.png') top left no-repeat;
+			width: 238px;
+			height: 33px;
+			line-height: 12px;
+			margin: 0px;
+			margin-left: 0px;
+			margin-right: 10px;
+			padding: 0px;
+			position: relative;
+			left: 330px;
+		}
+		
+		TABLE#captcha_table TD
+		{
+			margin: 0px;
+			padding: 0px;
+			vertical-align: middle;
+		}
+		
+		FORM#contact_form
+		{
+			padding-left: 20px;
+			padding-right: 20px;
+			margin-top: 10px;
+			margin-bottom: 0px;
+			position: relative;
+		}
+
+		TABLE.contact_fieldgroup 
+		{
+			width: 715px;
+			margin-bottom: 10px;
+			border-collapse: collapse;
+			table-layout: fixed;
+			background: #006f6e url('../../../../../images/contact_table_bg.png');
+		}
+
+		TABLE.contact_fieldgroup TR
+		{
+			height: 30px;
+			padding: 0px;
+			margin: 0px;
+		}
+
+		TABLE.contact_fieldgroup LABEL
+		{
+			font-size: 12px;
+		}
+
+		TABLE.contact_fieldgroup TR.inputs
+		{
+			background: url('../../../../../images/contact_table_field_bg.png');
+		}
+		
+		TABLE.contact_fieldgroup TR.radios
+		{
+			background: url('../../../../../images/contact_table_bg.png');
+		}
+
+		TABLE.contact_fieldgroup TD,
+		TABLE.contact_fieldgroup TH
+		{
+			margin: 0px;
+			padding: 0px;
+			height: 30px;
+			line-height: 30px;
+			text-align: left;
+		}
+
+		TABLE.contact_fieldgroup TR TH
+		{
+			color: white;
+			font-weight: bold;
+			font-size: 12px;
+			text-align: left;
+			vertical-align: bottom;
+			background: none;
+			padding-left: 10px;
+		}
+
+		TABLE.contact_fieldgroup TR TH.first-child
+		{
+			padding-left: 10px;
+		}
+
+		TABLE.contact_fieldgroup INPUT
+		{
+			width: 85%;
+			padding-left: 15px;
+			border: none;
+			margin: 0px;
+			margin-top: 5px;
+			color: white;
+			background: none;
+		}
+		
+		TABLE.contact_fieldgroup INPUT.radio
+		{
+			padding-left: 15px;
+			margin-left: 20px;
+			margin-right: 5px;
+			width: 1em;
+			color: white;
+			background: none;
+		}
+
+		TABLE.contact_fieldgroup TD DIV
+		{
+			height: 30px;
+			margin: 0px;
+			padding: 0px;
+			background: url('../../../../../images/contact_table_field_left.png') top left no-repeat;
+		}
+
+		TABLE.contact_fieldgroup TD DIV DIV
+		{
+			background: url('../../../../../images/contact_table_field_right.png') top right no-repeat;
+		}
+
+		TABLE.contact_fieldgroup TR.textarea TEXTAREA
+		{
+			height: 190px;
+			width: 98%;
+			border: 0px;
+			overflow: auto;
+			color: white;
+			background: #009898;
+		}
+
+		TABLE.contact_fieldgroup TR.textarea DIV
+		{
+			margin: 0px;
+			padding: 0px;
+			padding-left: 19px;
+			width: auto;
+			height: 200px;
+			border: none;
+			background: url('../../../../../images/contact_table_ta_left.png') top left no-repeat;
+		}
+
+		TABLE.contact_fieldgroup TR.textarea DIV DIV
+		{
+			padding: 0px;
+			padding-right: 19px;
+			background: #009898 url('../../../../../images/contact_table_ta_right.png') top right no-repeat;
+		}
+
+		TABLE.contact_fieldgroup TH.top-left,
+		TABLE.contact_fieldgroup TD.top-left
+		{
+			background: url('../../../../../images/contact_table_top_left.png') no-repeat top left;
+		}
+
+		TABLE.contact_fieldgroup TH.top-right,
+		TABLE.contact_fieldgroup TD.top-right
+		{
+			background: url('../../../../../images/contact_table_top_right.png') no-repeat top right;
+		}
+
+		TABLE.contact_fieldgroup TH.bottom-left,
+		TABLE.contact_fieldgroup TD.bottom-left
+		{
+			background: url('../../../../../images/contact_table_bottom_left.png') no-repeat bottom left;
+		}
+
+		TABLE.contact_fieldgroup TH.bottom-right,
+		TABLE.contact_fieldgroup TD.bottom-right
+		{
+			background: url('../../../../../images/contact_table_bottom_right.png') no-repeat bottom right;
+		}
+
+		TABLE.contact_fieldgroup TR.bottomrow,
+		TABLE.contact_fieldgroup TR.bottomrow TD
+		{
+			margin: 0px;
+			padding: 0px;
+			height: 2px;
+			line-height: 13px;
+			font-size: 3px;
+		}
+	</style>
+
+	</head>
+<body id="contact" class="lang_chl">
+<div id="page">
+
+
+<h1>BoomBang: Chat &amp; Play</h1>
+<div id="social_follow_links">
+	<ul>
+		<li><a id="social_follow_facebook" href="http://www.facebook.com/BoomBangFans" target="_blank" title="Síguenos en Facebook">Facebook</a></li>
+		<li><a id="social_follow_twitter" href="http://twitter.com/boombang " target="_blank" title="Síguenos en Twitter">Twitter</a></li>
+		<li><a id="social_follow_tuenti" href="http://www.tuenti.com/#m=Page&func=index&page_key=1_2006_73235169" target="_blank" title="Síguenos en Tuenti">Tuenti</a></li>
+		<li><a id="social_follow_youtube" href="http://www.youtube.com/user/BoomBangNewsTV " target="_blank" title="Síguenos en Youtube">YouTube</a></li>
+	</ul>
+</div>
+<script type="text/javascript">
+  function recordOutboundLink(link, category, action) {
+    _gat._getTrackerByName()._trackEvent(category, action);
+    //setTimeout('document.location = "' + link.href + '"', 100);
+  }
+</script>
+
+<a id="link_play" href="../../../../../chl/play/" onclick="javascript: return popUp('../../../../../chl/play/')">Play</a>
+<ul id="menu1">
+	<li><a id="link_boombang" href="../../../../../chl/">BoomBang</a></li>
+	<li><a id="link_safety" href="../../../../../chl/safety/">Seguridad</a></li>
+	<li><a id="link_parents" href="../../../../../chl/parents/">Guía Padres</a></li>
+	<li><a id="link_credits" href="../../../../../chl/credits/">Créditos</a></li>
+	<li><a id="link_members" href="../../../../../chl/members/">Members</a></li>
+	<li><a id="link_contact" href="../../../../../chl/contact/">Contacto</a></li>
+	</ul>
+<ul id="menu2">
+		<li><a id="link_shots" href="../../../../../chl/screenshots/">Pantallazos</a></li>
+	<li><a id="link_fanart" href="../../../../../chl/fanart/" target="_blank">Fanart</a></li>
+	<li><a id="link_shop" href="../../../../../chl/shop/">Tienda</a></li>
+	<li><a id="link_rankings" href="../../../../../chl/rankings/">Rankings</a></li>
+		<li><a id="link_contest" href="../../../../../chl/islands/" target="_blank">Concurso</a></li>
+	</ul>
+<h2>Contacto</h2>
+<div id="content">
+	<form id="contact_form" method="post" action="../../../../../chl/contact/send/parents/comments/">
+		<table class="contact_fieldgroup">
+    <tr>
+        <th class="top-left first-child"><label for="contact_form_name">Nombre</label></th>
+        <th class="top-right last-child"><label for="contact_form_email">Email</label></th>
+    </tr>
+    <tr class="inputs">
+    	<td class="first-child"><div><div><input id="contact_form_name" type="text" name="name"/></div></div></td>
+    	<td class="last-child"><div><div><input id="contact_form_email" type="text" name="email" /></div></div></td>
+    </tr>
+    <tr>
+        <th><label for="contact_form_login">Nombre del personaje de su hijo</label></th>
+        <th><label for="contact_form_country">País</label></th>
+    </tr>
+    <tr class="inputs">
+        <td class="first-child"><div><div><input id="contact_form_login" type="text" name="login" /></div></div></td>
+        <td class="last-child"><div><div><input id="contact_form_country" type="text" name="country" /></div></div></td>
+    </tr>
+    <tr class="bottomrow"><td class="bottom-left">&nbsp;</td><td class="bottom-right">&nbsp;</td></tr>
+</table>
+<table class="contact_fieldgroup">
+    <tr>
+        <th class="top-left first-child"><label for="contact_form_message">Mensaje</label></th>
+        <th class="top-right last-child">&nbsp;</th>
+    </tr>
+    <tr class="textarea">
+        <td colspan="2"><div><div><textarea id="contact_form_message" name="message" cols="50" rows="10"></textarea></div></div></td>
+    </tr>
+    <tr class="bottomrow"><td class="bottom-left">&nbsp;</td><td class="bottom-right">&nbsp;</td></tr>
+</table>
+		<div><a id="contact_back" href="../../../../../chl/contact/">Atrás</a></div>
+		<table id="captcha_table">
+			<tr>
+				<td><img src="../../../../../images/captcha_text_chl.png" alt="Introduce el código en la casilla" /></td>
+				<td><img id="captcha_img" src="../../../../../chl/captcha/png/190/" alt=""/></td>
+				<td><input type="text" id="captcha_input" maxlength="4" name="captcha_key" /></td>
+			</tr>
+		</table>
+		<input id="contact_form_agent" type="hidden" name="agent" value="Wget/1.13.4 (linux-gnu)"/>
+		<input id="contact_form_flashversion" type="hidden" name="flashversion" value=""/>
+		<input id="contact_form_browser" type="hidden" name="browser" value=""/>
+		<input id="contact_form_javascript" type="hidden" name="javascript" value="no"/>
+		<input id="contact_form_flash_os" type="hidden" name="flash_os" value=""/>
+		<input id="contact_form_flash_manufacturer" type="hidden" name="flash_manufacturer" value=""/>
+		<input id="contact_form_flash_playertype" type="hidden" name="flash_playertype" value=""/>
+		<input id="contact_form_flash_isdebugger" type="hidden" name="flash_isdebugger" value=""/>
+		<input id="contact_form_flash_verfromflash" type="hidden" name="flash_verfromflash" value=""/>
+		<input id="contact_form_screensize" type="hidden" name="screensize" value=""/>
+		<input id="contact_form_screenavailable" type="hidden" name="screenavailable" value=""/>
+		<input id="contact_form_colordepth" type="hidden" name="colordepth" value=""/>
+		<div><a id="contact_send" href="javascript:contact_form_submit()">Enviar</a></div>
+	</form>
+</div>
+<script src="../../../../../flashspecs/AC_OETags.js" language="javascript"></script>
+<script src="../../../../../flashspecs/history/history.js" language="javascript"></script>
+<script language="JavaScript" type="text/javascript">
+<!--
+
+// Version check based upon the values defined in globals
+var hasRequestedVersion = DetectFlashVer(9, 0, 115);
+
+if (hasRequestedVersion) {
+	// if we've detected an acceptable version
+	// embed the Flash Content SWF when all tests are passed
+	AC_FL_RunContent(
+			"src", "../../../../../flashspecs/FlashSpecs",
+			"width", "0",
+			"height", "0",
+			"align", "middle",
+			"id", "FlashSpecs",
+			"quality", "high",
+			"bgcolor", "#869ca7",
+			"name", "FlashSpecs",
+			"allowScriptAccess","always",
+			"type", "application/x-shockwave-flash",
+			"pluginspage", "http://www.adobe.com/go/getflashplayer"
+	);
+  } 
+// -->
+</script>
+<noscript>
+		<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"
+				id="FlashSpecs" width="100%" height="100%"
+				codebase="http://fpdownload.macromedia.com/get/flashplayer/current/swflash.cab">
+				<param name="movie" value="../../../../../flashspecs/FlashSpecs.swf" />
+				<param name="quality" value="high" />
+				<param name="bgcolor" value="#869ca7" />
+				<param name="allowScriptAccess" value="always" />
+				<embed src="../../../../..//flashspecs/FlashSpecs.swf" quality="high" bgcolor="#869ca7"
+					width="0" height="0" name="FlashSpecs" align="middle"
+					play="true"
+					loop="false"
+					quality="high"
+					allowScriptAccess="always"
+					type="application/x-shockwave-flash"
+					pluginspage="http://www.adobe.com/go/getflashplayer">
+				</embed>
+		</object>
+	</noscript>
+<div id="bottomlinks">
+	&copy; BoomBang 2014|
+	<a href="javascript:popUpLegal('../../../../../chl/terms/popup/')">Términos y condiciones</a> |
+	<a href="javascript:popUpLegal('../../../../../chl/privacy/popup/')">Política de privacidad</a>
+</div>
+<div id="banner_partner"></div>
+<!-- Publicidad.net - Retargeting Pixel -->
+<script src="http://bt.spublicidad.net/rt/boombang/ai/"></script>
+</div>
+
+
+</div>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-1615984-1']);
+  _gaq.push(['_setDomainName', 'none']);
+  _gaq.push(['_setAllowLinker', true]);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+</body>
+</html>

@@ -1,0 +1,241 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="es" lang="es">
+<head>
+	<title>Contacto y soporte: consulta tus dudas – BoomBang</title>
+	<meta name="description" lang="es" content="Contacta con el equipo de soporte de BoomBang para resolver tus dudas y/o problemas en la comunidad de BoomBang." />
+	<meta name="keywords" lang="es" content="soporte problemas" />
+	<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+		<script type="text/javascript" src="../../common.js?1388751915"></script>
+			<link rel="stylesheet" type="text/css" href="../../estilo.css?1400494566" />
+		<link rel="stylesheet" type="text/css" href="../../css/lang_mex.css?1388751915" />
+		<link rel="shortcut icon" href="../../favicon.ico" type="image/x-icon" />
+	<link rel="icon" href="../../favicon.ico" type="image/x-icon" />
+	
+	<script type="text/javascript">
+	<!--
+		var new_navi_sel = new Array();
+		var navi_sel = new Array();
+	
+		addEvent(window, 'load', inicio_contact);
+		
+		function inicio_contact()
+		{
+			if (navi = document.getElementById('contact_navi'))
+			{
+				var navi_lis = document.getElementById('contact_navi').getElementsByTagName('li');
+				for (var i = 0; i < navi_lis.length; i++)
+				{
+					navi_lis[i].onmouseover = navi_on;
+					navi_lis[i].onmouseout = navi_off;
+					navi_lis[i].onclick = navi_click;
+				}
+				navi.onclick = clear_sel;
+			}
+			
+			addEvent(document.getElementById('contact_send'), 'mouseover', class_over);
+			addEvent(document.getElementById('contact_send'), 'mouseout', class_out);
+		}
+		
+		function class_over()
+		{
+			this.className = 'over';
+		}
+		
+		function class_out()
+		{
+			this.className = '';
+		}
+		
+		function navi_on()
+		{
+			if (this.className != 'sel')
+				this.className = 'over';
+		}
+		
+		function navi_off()
+		{
+			if (this.className != 'sel')
+				this.className = '';
+		}
+		
+		function navi_click()
+		{
+			this.className = 'sel';
+			new_navi_sel.push(this);
+		}
+		
+		function clear_sel()
+		{
+			for (sel in navi_sel)
+			{
+				var del = true;
+				for (newsel in new_navi_sel)
+				{
+					if (new_navi_sel[newsel] == navi_sel[sel])
+					{
+						del = false;
+						break;
+					}
+				}
+				if (del)
+				{
+					navi_sel[sel].className = '';
+				}
+			}
+			navi_sel = new_navi_sel;
+			new_navi_sel = new Array();
+		}
+	-->
+	</script>
+	<style type="text/css">
+		
+		UL#contact_navi
+		{
+			margin: 0px;
+			margin-left: 40px;
+			padding: 0px;
+			padding-top: 20px;
+			color: white;
+			width: 164px;
+			position: relative;
+			height: 300px;
+		}
+		
+		UL#contact_navi UL
+		{
+			display: none;
+			margin: 0px;
+			padding: 0px;
+			padding-top: 20px;
+			position: absolute;
+			top: 0px;
+			left: 170px;
+		}
+		
+		UL#contact_navi LI
+		{
+			color: white;
+			cursor: pointer;
+			list-style: none;
+			width: 144px;
+			height: 40px;
+			line-height: 40px;
+			padding-left: 20px;
+			margin-bottom: 5px;
+			font-size: 14px;
+			font-weight: bold;
+			background: url('../../images/contact_btn.png') no-repeat 0px 0px;
+		}
+		
+		UL#contact_navi LI A
+		{
+			display: block;
+			margin-left: -20px;
+			padding-left: 20px;
+			width: 164px;
+			height: 40px;
+			color: white;
+			text-decoration: none;
+		}
+		
+		UL#contact_navi LI A:hover
+		{
+			color: #07f92b;
+		}
+		
+		UL#contact_navi LI:hover,
+		UL#contact_navi LI.over,
+		UL#contact_navi LI.sel
+		{
+			color: #07f92b;
+			background-position: -164px 0px;
+		}
+		
+		UL#contact_navi LI.sel UL
+		{
+			display: block;
+		}
+		
+		UL#contact_navi LI.sel UL UL
+		{
+			display: none;
+		}
+		
+		UL#contact_navi LI.sel LI.sel UL
+		{
+			display: block;
+		}
+		
+	</style>
+
+	</head>
+<body id="contact" class="lang_mex">
+
+
+<div id="page">
+<h1>BoomBang: Chat &amp; Play</h1>
+<div id="social_follow_links">
+	<ul>
+		<li><a id="social_follow_facebook" href="http://www.facebook.com/BoomBangFans" target="_blank" title="Síguenos en Facebook">Facebook</a></li>
+		<li><a id="social_follow_twitter" href="http://twitter.com/boombang " target="_blank" title="Síguenos en Twitter">Twitter</a></li>
+		<li><a id="social_follow_tuenti" href="http://www.tuenti.com/#m=Page&func=index&page_key=1_2006_73235169" target="_blank" title="Síguenos en Tuenti">Tuenti</a></li>
+		<li><a id="social_follow_youtube" href="http://www.youtube.com/user/BoomBangNewsTV " target="_blank" title="Síguenos en Youtube">YouTube</a></li>
+	</ul>
+</div>
+<script type="text/javascript">
+  function recordOutboundLink(link, category, action) {
+    _gat._getTrackerByName()._trackEvent(category, action);
+    //setTimeout('document.location = "' + link.href + '"', 100);
+  }
+</script>
+
+<a id="link_play" href="../../mex/play/" onclick="javascript: return popUp('../../mex/play/')">Play</a>
+<ul id="menu1">
+	<li><a id="link_boombang" href="../../mex/">BoomBang</a></li>
+	<li><a id="link_safety" href="../../mex/safety/">Seguridad</a></li>
+	<li><a id="link_parents" href="../../mex/parents/">Guía Padres</a></li>
+	<li><a id="link_credits" href="../../mex/credits/">Créditos</a></li>
+	<li><a id="link_members" href="../../mex/members/">Members</a></li>
+	<li><a id="link_contact" href="../../mex/contact/">Contacto</a></li>
+	</ul>
+<ul id="menu2">
+		<li><a id="link_shots" href="../../mex/screenshots/">Pantallazos</a></li>
+	<li><a id="link_fanart" href="../../mex/fanart/" target="_blank">Fanart</a></li>
+	<li><a id="link_shop" href="../../mex/shop/">Tienda</a></li>
+	<li><a id="link_rankings" href="../../mex/rankings/">Rankings</a></li>
+	</ul>
+<h2>Contacto</h2>
+<div id="content">
+<ul id="contact_navi"><li>Jugadores<ul ><li><a href="../../mex/contact/form/players/comments/">Comentarios</a></li><li><a href="../../mex/contact/form/players/password/">Contraseña</a></li><li>Problemas Pagos<ul ><li><a href="../../mex/contact/form/players/payments/phone/">Teléfono</a></li><li><a href="../../mex/contact/form/players/payments/credit/">Tarjeta de crédito</a></li><li><a href="../../mex/contact/form/players/payments/prepaid/">Prepago</a></li></ul></li><li><a href="../../mex/contact/form/players/cantplay/">No puedo jugar</a></li><li><a href="../../mex/contact/form/players/cancel/">Dar de baja</a></li><li><a href="../../mex/contact/form/players/react/">Activar cuenta</a></li></ul></li><li>Padres<ul ><li><a href="../../mex/contact/form/parents/comments/">Comentarios</a></li><li>Problemas Pagos<ul ><li><a href="../../mex/contact/form/parents/payments/phone/">Teléfono</a></li><li><a href="../../mex/contact/form/parents/payments/credit/">Tarjeta de crédito</a></li><li><a href="../../mex/contact/form/parents/payments/prepaid/">Prepago</a></li></ul></li></ul></li><li><a href="../../mex/contact/form/business/">Negocio</a></li><li><a href="../../mex/contact/form/advertising/">Publicidad</a></li></ul></div>
+<div id="bottomlinks">
+	&copy; BoomBang 2014|
+	<a href="javascript:popUpLegal('../../mex/terms/popup/')">Términos y condiciones</a> |
+	<a href="javascript:popUpLegal('../../mex/privacy/popup/')">Política de privacidad</a>
+</div>
+<div id="banner_partner"></div>
+<!-- Publicidad.net - Retargeting Pixel -->
+<script src="http://bt.spublicidad.net/rt/boombang/ai/"></script>
+
+
+</div>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-1615984-1']);
+  _gaq.push(['_setDomainName', 'none']);
+  _gaq.push(['_setAllowLinker', true]);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+</body>
+</html>

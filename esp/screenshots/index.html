@@ -1,0 +1,411 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<title>Screenshots – BoomBang</title>
+	<meta name="description" lang="en" content="Some pics so you can have a look and see what BoomBang is all about" />
+	<meta name="keywords" lang="en" content="screenshots photos" />
+	<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+		<script type="text/javascript" src="../../common.js?1388751915"></script>
+			<link rel="stylesheet" type="text/css" href="../../estilo.css?1400494566" />
+		<link rel="stylesheet" type="text/css" href="../../css/lang_eng.css" />
+		<link rel="shortcut icon" href="../../favicon.ico" type="image/x-icon" />
+	<link rel="icon" href="../../favicon.ico" type="image/x-icon" />
+	
+
+		<script type="text/javascript">
+	
+		BBWEB_SHOTS_NUM = 15;
+		addEvent(window, 'load', shots_init);
+		
+		var screenshot_window;
+		var screenshot_window_image;
+		var screenshot_window_close;
+		var screenshot_window_prev;
+		var screenshot_window_next;
+		
+		function shots_init(e)
+		{
+			screenshot_window = document.getElementById('screenshot_window');
+			screenshot_window_image = document.getElementById('screenshot_window_image');
+			screenshot_window_close = document.getElementById('screenshot_window_close');
+			screenshot_window_prev = document.getElementById('screenshot_window_prev');
+			screenshot_window_next = document.getElementById('screenshot_window_next');
+			addEvent(screenshot_window_image, 'click', hide_screenshot);
+			addEvent(screenshot_window_close, 'click', hide_screenshot);
+			addEvent(screenshot_window_prev, 'click', next_screenshot);
+			addEvent(screenshot_window_next, 'click', prev_screenshot);
+			
+			current_screenshot = null;
+			
+			for (var i = 1; i <= BBWEB_SHOTS_NUM; i++)
+			{
+				var screenshot_thumb = document.getElementById('screenshot_thumb_' + i);
+				screenshot_thumb.shot_id = i;
+				addEvent(screenshot_thumb, 'click', screenshot_thumb_click);
+			}
+		}
+		
+		function screenshot_thumb_click(e)
+		{
+			var shot_id = (e.srcElement) ? e.srcElement.shot_id : this.shot_id;
+			show_screenshot(shot_id);
+			
+			if (e.preventDefault)
+				e.preventDefault();
+			else
+				e.returnValue = false;
+		}
+		
+		function show_screenshot(id)
+		{
+			screenshot_window_image.src = '../../images/screenshots/'+id+'.jpg';
+			screenshot_window.className = 'on';
+			current_screenshot = id;
+			screenshot_window_next.className = (current_screenshot > 1) ? 'visible' : 'hidden';
+			screenshot_window_prev.className = (current_screenshot < BBWEB_SHOTS_NUM) ? 'visible' : 'hidden';
+		}
+		
+		function hide_screenshot(e)
+		{
+			screenshot_window.className = null;
+			screenshot_window_image.src = null;
+		}
+		
+		function next_screenshot()
+		{
+			if (current_screenshot < BBWEB_SHOTS_NUM)
+				show_screenshot(current_screenshot + 1);
+		}
+		
+		function prev_screenshot()
+		{
+			if (current_screenshot > 1)
+				show_screenshot(current_screenshot - 1);
+		}
+		
+	</script>
+	<style type="text/css">
+		.visible { visibility: visible; }
+		.hidden { visibility: hidden; }
+	
+		BODY { height: 100%; }
+	
+		P
+		{
+			width: 500px;
+		}
+	
+		DIV#screenshot_thumbs
+		{
+			margin-left: 40px;
+		}
+	
+		DIV.screenshot
+		{
+			float: left;
+			background: url('../../images/screenshot_thumb_bg.png') center center no-repeat;
+			padding: 10px;
+			width: 194px;
+			height: 133px;
+			margin-right: 12px;
+			margin-bottom: 12px;
+			z-index: 200;
+		}
+		
+		DIV#screenshot_window
+		{
+			background: none;
+			position: absolute;
+			left: 0px;
+			right: 0px;
+			top: 0px;
+			bottom: 0px;
+			z-index: 20;
+			width: 100%;
+			height: 100%;
+			min-height: 100%;
+			text-align: center;
+			display: none;
+			line-height: 100%;
+		}
+		DIV#screenshot_window.on 	{ display: block; }
+		BODY > DIV#screenshot_window { position: fixed; }
+		BODY > DIV#screenshot_window.on { display: table;}
+		
+		DIV#screenshot_content
+		{
+			margin-top: 5%;
+			margin-left: auto;
+			margin-right: auto;
+			text-align: center;
+			position: relative;
+			width: 770px;
+		}
+		
+		IMG#screenshot_window_image
+		{
+			margin: 0px;
+			padding: 10px;
+			background: white;
+		}
+		
+		DIV#screenshot_window_prev,
+		DIV#screenshot_window_next,
+		DIV#screenshot_window_close
+		{
+			height: 32px;
+			line-height: 32px;
+			width: 150px;
+			color: black;
+			background: white;
+			font-weight: bold;
+			cursor: pointer;
+			z-index: 25;
+		}
+		
+		DIV#screenshot_window_prev
+		{
+			position: absolute;
+			left: 0px;
+			top: 0px;
+		}
+		
+		DIV#screenshot_window_next
+		{
+			position: absolute;
+			right: 0px;
+			top: 0px;
+		}
+		
+		DIV#screenshot_window_close
+		{
+			position: absolute;
+			bottom: 5px;
+			right: 0px;
+		}
+		
+		DIV#screenshot_window_bg
+		{
+			position: absolute;
+			left: 0px;
+			right: 0px;
+			top: 0px;
+			bottom: 0px;
+			height: 100%;
+			width: 100%;
+			background: black;
+			opacity: .5;
+			filter: alpha(opacity = 50);
+			z-index: -1;
+		}
+		
+	</style>
+	</head>
+<body id="shots" class="lang_eng">
+
+
+<div id="page">
+<h1>BoomBang: Chat &amp; Play</h1>
+<div id="social_follow_links">
+	<ul>
+		<li><a id="social_follow_facebook" href="http://www.facebook.com/BoomBangFans" target="_blank" title="Follow us on Facebook">Facebook</a></li>
+		<li><a id="social_follow_twitter" href="http://twitter.com/boombang " target="_blank" title="Follow us on Twitter">Twitter</a></li>
+		<li><a id="social_follow_tuenti" href="http://www.tuenti.com/#m=Page&func=index&page_key=1_2006_73235169" target="_blank" title="Follow us on Tuenti">Tuenti</a></li>
+		<li><a id="social_follow_youtube" href="http://www.youtube.com/user/BoomBangNewsTV " target="_blank" title="Síguenos en Youtube">YouTube</a></li>
+	</ul>
+</div>
+<object id="top_flash"
+	classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" 
+	codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" 
+	width="978" 
+	height="385"
+	>
+	<param name="movie" value="../../images/partner/top_boombang_eng.swf?878">
+	<param name="allowScriptAccess" value="always">
+	<param name="quality" value="high">
+	<param name="wmode" value="transparent">
+	<embed 
+		src="../../images/partner/top_boombang_eng.swf?878" 
+		quality="high" 
+		allowScriptAccess="always"
+		pluginspage="http://www.macromedia.com/go/getflashplayer" 
+		type="application/x-shockwave-flash" 
+		width="978" 
+		height="385"
+		wmode="transparent"
+		name="top_flash"
+		>
+	</embed>
+</object>
+<script type="text/javascript">
+  function recordOutboundLink(link, category, action) {
+    _gat._getTrackerByName()._trackEvent(category, action);
+    //setTimeout('document.location = "' + link.href + '"', 100);
+  }
+</script>
+
+<a id="link_play" href="../../eng/play/" onclick="javascript: return popUp('../../eng/play/')">Play</a>
+<ul id="menu1">
+	<li><a id="link_boombang" href="../../eng/">BoomBang</a></li>
+	<li><a id="link_safety" href="../../eng/safety/">Safety</a></li>
+	<li><a id="link_parents" href="../../eng/parents/">Parents Guide</a></li>
+	<li><a id="link_credits" href="../../eng/credits/">Credits</a></li>
+	<li><a id="link_members" href="../../eng/members/">Members</a></li>
+	<li><a id="link_contact" href="../../eng/contact/">Contact</a></li>
+	<li><a id="link_platform" href="../../esp/">esp</a></li>
+		<li><a id="link_partner" href="http://www.minijuegos.com" onClick="recordOutboundLink(this, 'Links Externos', 'minijuegos.com');" target="_blank">Minijuegos</a></li>
+	</ul>
+<ul id="menu2">
+		<li><a id="link_shots" href="../../eng/screenshots/">Screenshots</a></li>
+	<li><a id="link_fanart" href="../../eng/fanart/" target="_blank">Fanart</a></li>
+	<li><a id="link_shop" href="../../eng/shop/">Shop</a></li>
+	<li><a id="link_rankings" href="../../eng/rankings/">Rankings</a></li>
+		<li><a id="link_contest" href="../../eng/islands/" target="_blank">Contest</a></li>
+	</ul>
+<h2>Pics about BoomBang, its citizens and mysteries!</h2>
+<div id="content">
+	<p>BoomBang is a virtual world where players make friends, decorate their islands, express their feelings, and interact with others in a fun and seamless way.</p>	<div id="screenshot_thumbs">
+		<div class="screenshot">
+			<a id="screenshot_link_15" href="../../images/screenshots/15.jpg">
+				<img  id="screenshot_thumb_15" class="thumbnail" src="../../images/screenshots/15t.png" />
+			</a>
+		</div>
+	</div>
+	<div id="screenshot_thumbs">
+		<div class="screenshot">
+			<a id="screenshot_link_14" href="../../images/screenshots/14.jpg">
+				<img  id="screenshot_thumb_14" class="thumbnail" src="../../images/screenshots/14t.png" />
+			</a>
+		</div>
+	</div>
+	<div id="screenshot_thumbs">
+		<div class="screenshot">
+			<a id="screenshot_link_13" href="../../images/screenshots/13.jpg">
+				<img  id="screenshot_thumb_13" class="thumbnail" src="../../images/screenshots/13t.png" />
+			</a>
+		</div>
+	</div>
+	<div id="screenshot_thumbs">
+		<div class="screenshot">
+			<a id="screenshot_link_12" href="../../images/screenshots/12.jpg">
+				<img  id="screenshot_thumb_12" class="thumbnail" src="../../images/screenshots/12t.png" />
+			</a>
+		</div>
+	</div>
+	<div id="screenshot_thumbs">
+		<div class="screenshot">
+			<a id="screenshot_link_11" href="../../images/screenshots/11.jpg">
+				<img  id="screenshot_thumb_11" class="thumbnail" src="../../images/screenshots/11t.png" />
+			</a>
+		</div>
+	</div>
+	<div id="screenshot_thumbs">
+		<div class="screenshot">
+			<a id="screenshot_link_10" href="../../images/screenshots/10.jpg">
+				<img  id="screenshot_thumb_10" class="thumbnail" src="../../images/screenshots/10t.png" />
+			</a>
+		</div>
+	</div>
+	<div id="screenshot_thumbs">
+		<div class="screenshot">
+			<a id="screenshot_link_9" href="../../images/screenshots/9.jpg">
+				<img  id="screenshot_thumb_9" class="thumbnail" src="../../images/screenshots/9t.png" />
+			</a>
+		</div>
+	</div>
+	<div id="screenshot_thumbs">
+		<div class="screenshot">
+			<a id="screenshot_link_8" href="../../images/screenshots/8.jpg">
+				<img  id="screenshot_thumb_8" class="thumbnail" src="../../images/screenshots/8t.png" />
+			</a>
+		</div>
+	</div>
+	<div id="screenshot_thumbs">
+		<div class="screenshot">
+			<a id="screenshot_link_7" href="../../images/screenshots/7.jpg">
+				<img  id="screenshot_thumb_7" class="thumbnail" src="../../images/screenshots/7t.png" />
+			</a>
+		</div>
+	</div>
+	<div id="screenshot_thumbs">
+		<div class="screenshot">
+			<a id="screenshot_link_6" href="../../images/screenshots/6.jpg">
+				<img  id="screenshot_thumb_6" class="thumbnail" src="../../images/screenshots/6t.png" />
+			</a>
+		</div>
+	</div>
+	<div id="screenshot_thumbs">
+		<div class="screenshot">
+			<a id="screenshot_link_5" href="../../images/screenshots/5.jpg">
+				<img  id="screenshot_thumb_5" class="thumbnail" src="../../images/screenshots/5t.png" />
+			</a>
+		</div>
+	</div>
+	<div id="screenshot_thumbs">
+		<div class="screenshot">
+			<a id="screenshot_link_4" href="../../images/screenshots/4.jpg">
+				<img  id="screenshot_thumb_4" class="thumbnail" src="../../images/screenshots/4t.png" />
+			</a>
+		</div>
+	</div>
+	<div id="screenshot_thumbs">
+		<div class="screenshot">
+			<a id="screenshot_link_3" href="../../images/screenshots/3.jpg">
+				<img  id="screenshot_thumb_3" class="thumbnail" src="../../images/screenshots/3t.png" />
+			</a>
+		</div>
+	</div>
+	<div id="screenshot_thumbs">
+		<div class="screenshot">
+			<a id="screenshot_link_2" href="../../images/screenshots/2.jpg">
+				<img  id="screenshot_thumb_2" class="thumbnail" src="../../images/screenshots/2t.png" />
+			</a>
+		</div>
+	</div>
+	<div id="screenshot_thumbs">
+		<div class="screenshot">
+			<a id="screenshot_link_1" href="../../images/screenshots/1.jpg">
+				<img  id="screenshot_thumb_1" class="thumbnail" src="../../images/screenshots/1t.png" />
+			</a>
+		</div>
+	</div>
+</div>
+<div id="bottomlinks">
+	&copy; BoomBang 2014|
+	<a href="javascript:popUpLegal('../../eng/terms/popup/')">Terms and conditions</a> |
+	<a href="javascript:popUpLegal('../../eng/privacy/popup/')">Privacy policy</a>
+</div>
+<div id="banner_partner"></div>
+<!-- Publicidad.net - Retargeting Pixel -->
+<script src="http://bt.spublicidad.net/rt/boombang/ai/"></script>
+<div id="screenshot_window">
+	<div id="screenshot_content">
+		<div id="screenshot_window_prev">Previous</div>
+		<img id="screenshot_window_image" src="" />
+		<div id="screenshot_window_next">Next</div>
+		<div id="screenshot_window_close">Close</div>
+	</div>
+	<div id="screenshot_window_bg"></div>
+</div>
+
+</div>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-1615984-1']);
+  _gaq.push(['_setDomainName', 'none']);
+  _gaq.push(['_setAllowLinker', true]);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</body>
+</html>
+

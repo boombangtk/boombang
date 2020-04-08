@@ -1,0 +1,1535 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<texto>
+	<loader conectando="Connecting..." paqueteLogin="Login"
+		paqueteFlowerPower="Flower Power" paqueteChooseIsla="Island"
+		paqueteEscenario="Scenery" paqueteInterfaz="Interface"
+		paquetePersonajes="Characters" paqueteCreateLocalization="Localization"
+		paqueteMultiplayerGames="Multiplayer Games"
+		descNovedad1="Resist the temptation to eat it or you won't be able to open it on Easter! Contains an exclusive item."
+		descNovedad2="You'll get 2 Space Eggs for this price; give one to a friend and connect both your islands!"
+		descNovedad3="Sir Harvey and his family will join us this Easter in BoomBang!."
+		descNovedad4="Some people call it noise. We think it's art."
+		descNovedad5="Ice eggs are back: this time with new creatures inside!"
+		descNovedad6="Baby bunny|So cute you just won't stop hugging him" />
+	<avisoBB conectado="Connecting..." cerrar="Close"
+		info="The area to which you wish to enter is now full. Try again later."
+		waiting="Loading..." />
+	<guest
+		textoHtml00='&lt;FONT COLOR="#FFFFFF"&gt;Register, become a BoomBang citizen and get all the benefits!&lt;/FONT&gt; &lt;FONT COLOR="#FFFF00"&gt;It is free!&lt;/FONT&gt;'
+		texto00="Get 100 Silver|Coins as a|welcome gift!" texto01="Create an Island, decorate your house with items!"
+		texto02="Get free items|after you register|and one each day" texto03="Make friends|and use the|Pad"
+		texto04="Register" texto05="Its Free!" textoFinGuest00="30:00"
+		textoFinGuest01="Wow! You've been playing for 30 minutes!|Why not Register and discover all BoomBang has to offer?"
+		textoFinGuest02="Register" textoFinGuest03="Its Free!" />
+
+	<login jugar="Play" login="Got an account?" nick="Nick" pass="Password"
+		cerrar="Close" continuar="Continue" enviar="Send" proximo="Next"
+		anterior="Back" descNavidad="christmas|is here!" facebookBtn="Connect with Facebook" >
+
+	<baseGlobo hasOlvidadoPass="Forgot your password?" recuperar="Retrieve"
+		codigoTardar="The Code has been sent to|your Email. Be patient, it may|take 1 minute to arrive!"
+		noCodigo="You must write the code!" verificalo="Check it!"
+		codigoIncorrecto="The Code is|INCORRECY.||Please check it again and make sure you are writing it without errors"
+		piensaPassDiferente="Chose a new Password, and make sure it is different!||Never tell it to anybody"
+		passDesigual="Attention!||Make sure you write the new Password in both fieds!"
+		enviamosMailConPass="We have sent an email to you with your new Password!||Just so you don't forget it!"
+		probarNewPass="Go on!||Get in the Game and try your new Password!"
+		usuarioInexistente="This is not a|valid acount||Try again!"
+		yaEstasDentro="This user is|already|connected!||Try again!"
+		verificando="Verify!" camposVacios="Please complete ALL the fields!"
+		mailIncorrecto="This email is not correct." minimoLargoPass="Your password must have at least|4 characters!"
+		operacionIncompleta="There has|been a problem during the operation.||Try again!"
+		passFacil="The password is too easy, please try another one" yingo="|||¡ Nuevos objetos exclusivos de Yingo !" />
+
+	<baseLogin hasOlvidadoPass="Forgot your password?"
+		daleNombre="Write the name|of your character!" nombrePersonaje="Character Name"
+		recuperarPersonaje="Retrieve Password" escribeMail="Email (you registered with)"
+		hemosEnviadoCodigo="A Code has been sent to that Email: go get it to recover the toon!"
+		escribeCodigo="Write the Code:"
+		codigoCorrecto="The Code is correct!||Think a new Password for your toon. Click Next to create a new one."
+		nuevoPass="Create New Password" escribeNuevoPass="My new Password is"
+		confirmaNuevoPass="Repeat new Password"
+		cuentaRecuperada="Congratulations!|Your new password has been confirmed and set.||Now go ahead and try it!"
+		cuentaRecuperadaIncorrecto="We are sorry, we haven't been able to recover your account."
+		maxIntentos="Please restart all the process again; we will send a new mail.||You have reached the maxi-mum number of attempts."
+		hola="Hello" vacio="Empty" registroTitle="New Player"
+		registroDescription="Register to Create Account" recuperarTitle="I lost my Password!"
+		recuperarDescription="We will send it to your email" cancelarTitle="Cancel"
+		cancelarDescription="Go back to Main Page" validarCodigo="Validate Code"
+		mailEnviado="An Email has been sent to you with a Code: go get it!||You will need the Code to reset your Password."
+		rememberPass="Remember my|Password" rememberComputer="Remember me on|this Computer"
+		advertenciaTitle="Attention:"
+		advertenciaDescription='Make sure to activate the feature "Remember my Password" ONLY if you are now playing from a PC at home'
+		avisoTitulo="Special weekend Offer!"
+		avisoTexto="Get the double the Credits for the same price!|Allowed for all payment methods.|Have a nice weekend!|BoomBang Team"
+		crearCuenta="Create|Account"
+		descCrearCuenta='Choose your character|and get inside a new,|crazy and funny world!| &lt;FONT COLOR="#FFFF00"&gt;Its free!&lt;/FONT&gt;'
+		vincularTitle="To link up a Facebook account to Boombang, get into the game and follow these instructions:"
+		burbujaFacebook="How to link up Facebook to an existing account. Click here."
+		conectando="Connecting..."
+		errorMenores="You cannot register through Facebook because you are under 14. You must use the Boombang traditional registration."
+		error="Error. We are sorry, you cannot register right now. Please try later." />
+</login>
+	<chooseScene
+		problemasClaves="Due to problems, some codes haven't worked; you can now activate these codes as usual!">
+		<fichaUnderAge
+			underAgeText0="Your parent will have to click on the link we have sent|to your email in order to complete|your validation. It can|take few minutes."
+			underAgeText1="If you don't receive the email|with the link, try this:"
+			underAgeText2="Look into the spam folder"
+			underAgeText3="Add this address to your contacts|noreply@boombang.tv|We will send you Boombang's|emails from this address."
+			underAgeText4="Take a Boombang's old email and and press|'Mark as safe'"
+			underAgeText5="If you don't find it, we|can send it to you again"
+			underAgeReenviar="Forward email" underAgeReenviando="Forwarding email"
+			underAgeEnviado="Forwarded email" underAgeError="Email forwarding error" />
+		<fichaAreasIslas areas="Areas" islas="Islands" full="Full Area!"
+			irAll="Go There!" agregarFavoritos="add to fav's" quitarFavoritos="Remove from fav's"
+			descripcionBusquedaNick="Search by Nickname" descripcionBusquedaIsla="Search by Island"
+			toolTipFavoritos="My Favs" toolTipIslas="Islands" toolTipBuscar="Search"
+			toolTipTusIslas="My Islands" singleplayer="Singleplayer|Game"
+			multiplayer="Multiplayer|Game" allAreas="All" />
+		<fichaTips titulo="Security Tips" siguiente="Next"
+			importante="Important"
+			tip0="Never tell anyone your real name, home address, telephone number or email address."
+			tip1="A real Moderator will NEVER ask for your MSN or account password"
+			tip2="It is not possible to clone or duplicate items,  anyone claiming he can, is only trying to scam you."
+			tip3="Never write your password in an unknown website. You will not get free credits and may end up hacked."
+			tip4="Keep your email and msn a secret: never tell them to anybody, you risk losing your account and items forever!"
+			tip5="Never accept supposedly &quot;valid codes&quot; in exchange of your items, you'll end up tricked."
+			tip6="How to identify a real MOD: MOD's have a yellow panel portrait and also chat with a yellow color."
+			tituloNew="Safety tips by Tim"
+			tipNewT0='"Keep your email a secret, that way your BoomBang account will be safe"'
+			tipNewd1_0="Create a new email just for BoomBang, and don't tell anyone about it"
+			tipNewd2_0="If you use MSN,  make sure you don't use your BoomBang email"
+			tipNewd3_0="If somebody wants to know your email you can report him!"
+			tipNewT1='"Webpages explaining how to get free items or Credits are all FAKE"'
+			tipNewd1_1="Those webpages are fake and created by by scammers to hack your account"
+			tipNewd2_1="They will ask for your email and password to steal your account"
+			tipNewd3_1="Never write your email and password in another website!"
+			tipNewT2='"Never download programs or clic on suspicious links"'
+			tipNewd1_2="Many scammers create programs and links so you clic and they can hack you"
+			tipNewd2_2="Those programs and links you download have a virus"
+			tipNewd3_2="The scammer can see all your account information with that virus"
+			tipNewT3='"Many players claim to be real Moderators to steal your account"'
+			tipNewd1_3="A true MOD has a yellow panel when you select him"
+			tipNewd2_3="A true MOD may only chat and talk with a yellow color text"
+			tipNewd3_3="A true MOD will never ask you for your email or password!"
+			tipNewT4='"Never tell other players your real name or where you live"'
+			tipNewd1_4="It is always better to be cautious and never tell anyone about yourself"
+			tipNewd2_4="You don't need to ask or share that information to have fun in BoomBang"
+			tipNewd3_4="If a player insists or harasses you can always report him" />
+		<fichaMarketingViral titulo="Invite friends &amp; win free Credits"
+			tituloEnviadas='You have sent  &lt;FONT COLOR="#FFFF00"&gt;CANTENVIADAS&lt;/FONT&gt; invitations'
+			invitar="Invite"
+			texto1="Invite your friends to BoomBang! You will have fun together and you'll get some free Credits!"
+			texto2="This is how it works: each time the friend you invite buys credits, you will receive a 10% of the total nº of Credits he has purchased! For free!"
+			texto3="This panel indicates the number of friends that have registered thanks to your invitation!"
+			enviar="Send"
+			enviarPostal="Send a postcard to your friends!|You can invite up to 5 each day."
+			escribeNombre="Write your name:" escribeEmails="Write your friend's email:"
+			invitacionesEnviadas='&lt;FONT COLOR="#009999"&gt;Postcards sent! Your friends will now receive an email invitation from you!&lt;/FONT&gt;'
+			invitacionesEnviadasLimite='&lt;FONT COLOR="#009999"&gt;You have reached the daily limit of invitations! Send more tomorrow&lt;/FONT&gt;'
+			emailEnviado="Email sent succesfully" emailRepetido="You have already invited this friend"
+			emailError="Not a valid email" />
+		<fichaCambioPassword
+			deseaCambiarPassword="Do you want to change the password for this character?||We must verify you are the true owner of this account."
+			emailEnviado="An Email has been sent to you with a Code: go get it!||You will need the Code to change your password"
+			bichoBuscaEnTuEmail='&lt;FONT COLOR="#0091FF"&gt;Search in your email Ibox!&lt;/FONT&gt;||Be patient, it may take 1 min to arrive'
+			bichoCodigoIncorrecto="The Code is INCORRECT!|Please check it again and make sure you are writing it without errors"
+			bichoClavesNoCoinciden="Passwords don't match!!||Please make sure both are the same."
+			emailEnviado2="The Code has been sent to your Email. Be patient, it may take 1 min to arrive!"
+			escribeCodigo="Write your Code here" seguir="Next" cerrar="Close"
+			siguiente="Continue" validarCodigo="Validate Code" enviar="Send"
+			finalizar="Finish!" cambiaTuPassword="Assign a new password:" clave1="New Password"
+			clave2="Confirm your new Password"
+			passwordCambiado="Done! You have succesfully assigned a new password.||Its secret: never tell your password to anyone!"
+			maximoIntentos="You have reached maximum number of attempts. You must restart all the whole process again."
+			bichoErrorServidor="There has been a problem during the operation. Try again!"
+			bichoDebesIngresarCodigo='&lt;FONT COLOR="#0091FF"&gt;You must write the code!&lt;/FONT&gt;|||||Check it!'
+			bichoClaveCorta='&lt;FONT COLOR="#FFFF00"&gt;Your password must have at least 4 characters!&lt;/FONT&gt;'
+			passFacil="The password is too easy, please try another one"
+
+			ingresarMailTitulo="Please enter the email associated with this account"
+			ingresarMailTexto0="Enter your email here"
+
+			mailIncorrectoTitulo="That is not the email you have associated with your account!||Remember that you have a total of 5 attempts."
+			mailIncorrectoBoton="Back" />
+		<fichaBaja
+			deseaDarLaBaja="Do you want to cancel your account? ||We must verify you are the true owner of this account."
+			emailEnviado="An Email has been sent to you with a Code: go get it!||You will need it to delete your account."
+			bichoBuscaEnTuEmail='&lt;FONT COLOR="#0091FF"&gt;Search in your email Ibox!&lt;/FONT&gt;||Be patient, it may take 1 min to arrive'
+			bichoCodigoIncorrecto="The Code is INCORRECT!|Please check it again and make sure you are writing it without errors"
+			emailEnviado2="The Code has been sent to your Email. Be patient, it may take 1 min to arrive!"
+			escribeCodigo="Write your Code here" seguir="Next" cerrar="Close"
+			siguiente="Continue" validarCodigo="Validate Code"
+			maximoIntentos="You have reached maximum number of attempts. You must restart all the whole process again."
+			bichoErrorServidor="There has been a problem during the operation. Try again!"
+			bichoDebesIngresarCodigo='&lt;FONT COLOR="#0091FF"&gt;You must write the code!&lt;/FONT&gt;|||||Check it!'
+			advertenciaFinal="Attention, your account will be deactivated. Your avatar and objects will be deleted!"
+			estasTotalSeguro="Are you sure?" oopsNo="Oops, no" aceptar="Accept"
+			textoFinal="Your account has been succesfully deleted. We hope you enjoyed your stay in BoomBang!" />
+		<fichaRecuperarCuenta deseaRecuperarLaCuenta="Reactivate Account"
+			textoFinal="Your account is now active, please sign in again tu use your account!"
+			cuentaRecuperadaIncorrecto="Sorry, we have not been able to recover your account." />
+		<fichaCambioEmail
+			deseaCambiarEmail="Do you want to change the Email for this character?||We must verify you are the true owner of this account."
+			emailEnviado="An Email has been sent to you with a Code: go get it!||You will need the Code to change your Email"
+			bichoBuscaEnTuEmail='&lt;FONT COLOR="#0091FF"&gt;Search in your email Ibox!&lt;/FONT&gt;||Be patient, it may take 1 min to arrive'
+			bichoCodigoIncorrecto="The Code is INCORRECT!|Please check it again and make sure you are writing it without errors"
+			bichoEmailsNoCoinciden="EMails don't match!!||Please make sure both are the same."
+			emailEnviado2="The Code has been sent to your Email. Be patient, it may take 1 min to arrive!"
+			escribeCodigo="Write your Code here" seguir="Next" cerrar="Close"
+			siguiente="Continue" validarCodigo="Validate Code" cambiaTuEmail="Write your NEW Email:"
+			email1="My new Email is:" email2="Confirm your new Email:"
+			emailCambiado="Email confirmed! The process is finished: Attention! from now on your email for this account will be:"
+			maximoIntentos="You have reached maximum number of attempts. You must restart all the whole process again."
+			bichoErrorServidor="There has been a problem during the operation. Try again!"
+			bichoDebesIngresarCodigo='&lt;FONT COLOR="#0091FF"&gt;You must write the code!&lt;/FONT&gt;|||||Check it!'
+			bichoEmailInvalido='&lt;FONT COLOR="#0091FF"&gt;El mail no es correcto!&lt;/FONT&gt;|||||Verifícalo!'
+			duenioConfirmado="Correct! We have verified you are the true owner of this account. To assign a NEW Email for this character please click Continue."
+			nuevoEmailEnviado="A NEW Code; has been sent to your NEW Email: we need you to confirm it is correct!|The Code was sent to:" />
+		<fichaValidarEmail title="Validate your email "
+			fichaPanelTexto="You will get 100 silver credits" ficha1Texto="Validate your email and get 100 silver credits"
+			ficha1Email="Email" ficha1RepetirEmail="Repeat your email"
+			ficha1Newsletter="I want to receive newsletter" ficha1BtnAceptar="Accept"
+			ficha1BtnCancelar="Cancel" ficha1Error1="Invalid email" ficha1Error2="Invalid email"
+			ficha2Texto="Error, try again" ficha3Texto="Sending email..."
+			ficha4Texto="In order to complete the process, you must click on the link we sent you by email" />
+		<fichaCambioDatosPersonales titulo="User I.D."
+			actualizar="Update your personal profile" fechaNacimiento="Birthday"
+			pais="Country (choose)" ciudad="City"
+			newsletter="Yes, send me the BoomBang newsletter!" terminar="Finish"
+			listadoPaises="18|United Kingdom|11|United States|3|Argentina|4|Australia|5|Austria|6|Belgium|30|Bolivia|31|Brazil|7|Canada|32|Chile|8|China|33|Colombia|34|Costa Rica|35|Cuba|9|Denmark|12|East Europe|36|Ecuador|37|El Salvador|13|Finland|14|France|1|Germany|38|Guatemala|15|Holland|16|Hong Kong|17|India|19|Italy|20|Japan|21|Korea|22|Luxembourg|39|Mexico|24|New Zealand|40|Nicaragua|23|Norway|41|Panama|42|Paraguay|43|Peru|44|Puerto Rico|45|Republica Dominicana|25|Singapore|10|Spain|27|Sweden|28|Switzerland|29|Taiwan|46|Uruguay|26|Venezuela|2|Others" />
+		<cajaSorpresa cadaDia="A new gift each day" abrirTitulo="Open your gift.."
+			abrirTexto="Patience! You will be able to open your gift after 30 minutes of game time!||And remember: a new gift will be waiting for you here tomorrow!"
+			abrirCerrar="Close" abrelo="OPEN IT!" otroRegalo="Tomorrow a new box!"
+			hasGanado="Your gift is:" malaSuerte="Bad Luck!" cargando="Loading"
+			felizNavidad="Merry Christmas!" regalo="Gift" />
+		<fichaValidarEmailAlta titulo="Welcome to BoomBang! Protect your account:"
+			validar1="We need a valid email for your BoomBang account"
+			validar2="We will use this email to get in touch with you from now on (send your password, etc)"
+			ingFecha="You're almost over!|Choose your Birthday:"
+			meses="January,February,March,April,May,June,July,August,September,October,November,December"
+			dia="Day" mes="Month" ano="Year"
+			eresMenor1="If you are not yet 14 years old, we will require your parents consent to store your email in BoomBang."
+			eresMenor2="Please tell them to write an email to: parents@boombang.tv"
+			completarFecha="We need all your Birthday details!" siguiente="Next"
+			validarEmail="Verify Email to Play"
+			emailEnviado="An email has been sent to you with a Code: go get it!||You will need the Code to activate your Account"
+			bichoBuscaEnTuEmail='&lt;FONT COLOR="#0091FF"&gt;Search in your email Inbox!&lt;/FONT&gt;||Be patient, it may take 1 min to arrive!'
+			bichoCodigoIncorrecto="The Code is INCORRECT.||Please check it again and make sure you are writing it without errors"
+			bichoDebesIngresarCodigo='&lt;FONT COLOR="#0091FF"&gt;You must write the code!&lt;/FONT&gt;|||||Check it!'
+			bichoEmailsNoCoinciden="EMails don't match!!||Please make sure both are the same."
+			bichoErrorServidor="There has been a problem during the operation. Try again!"
+			bichoEmailInvalido='&lt;FONT COLOR="#0091FF"&gt;This email is not correct.&lt;/FONT&gt;|||||Check it!'
+			bichoNecesitamosEmail='&lt;FONT COLOR="#0091FF"&gt;We need your email!&lt;/FONT&gt;||It needs to be real, we will verify it!'
+			bichoPuedesCambiarEmail="&lt;FONT COLOR=&quot;#0091FF&quot;&gt;If you've typed an incorrect email you still have time to change it. GO back to do so&lt;/FONT&gt;"
+			bichoCuentaSegura="Your account is now secure!||We hope you enjoy and make new friends in BoomBang!"
+			emailEnviado2="The Code has been sent to your Email. Be patient, it may take 1 min to arrive!"
+			escribeCodigo="Write the Code:" seguir="Next" enviar="Send" volver="Back"
+			terminar="Finish!" email1="Write your valid email" email2="Confirm your email" />
+		<fichaBarraInferior tooltipCrearIsla="Island"
+			tooltipEditarPersonaje="Options" tooltipMarketingViral="Invite"
+			tooltipMember="VIP!" tooltipMiCasa="Home" toolTipMonedas="Coins"
+			toolTipNoticias="News!" toolTipBonus="25 Gifts" />
+
+		<fichaBaneos tituloBaneo="Your account has been banned!"
+			mensajeBaneo="Our moderators have temporarily forbidden your access to BoomBang"
+
+			tip1Baneo="Why have I been banned?" tip2Baneo="Time left until you can play again"
+
+			horas="Hour" minutos="Minute" segundos="Second"
+
+			tituloNoSePudoConectar="Problems connecting to your server!"
+			mensajeNoSePudoConectar="It seems there is a problem and you can't connect to BoomBang. This might be caused by:"
+
+			tip1NoSePudoConectar="You are trying to play through a Proxy"
+			tip2NoSePudoConectar="A firewall on your computer blocking BoomBang. Make sure you allow both inbound and outbound traffic."
+			tip3NoSePudoConectar="Don't download music or games while trying to connect"
+
+			mensaje2NoSePudoConectar="We suggest you to contact your network administrator or the person who installed your computer to help you."
+
+			tituloMultiplesConexiones="Multiple connections have been detected!"
+			mensajeMultiplesConexiones="We have detected another account trying to log in from this computer. For security reasons this account has been disconnected."
+
+			tip1MultiplesConexiones="Please remember: you can have and create as many accounts as you like, but you can only play with one at any given time."
+
+			tituloMantenimiento="Maintenance!"
+			mensajeMantenimiento="BoomBang is currently under maintenance. Please check back in a few minutes."
+
+			tituloConexionPerdida="Connection was lost!"
+			mensajeConexionPerdida="This might happen if your computer is slow, or internet connection weak. We suggest that you stop downloading any files while playing (like other games or music) and close any other programs. This will improve  performance.||Close this browser window and try connecting again www.boombang.tv"
+
+			tituloCuentaDesactivada="Your account has been deactivated"
+
+			mensajeUrlOficial="Hi, visit the official website www.boombang.tv to play and create your account in this virtual world!"
+			mensajeGuestTiempoLimite="We have reached our maximun number of players, please try to enter again in a few minutes."
+			mensajeGuestError="An error ocurred, please try to enter again in a few minutes." />
+		<fichaConcurso
+			mensaje="0,1,2,3,4,5,6,7,8,9,10,11,MANIS|TOTALES, GARLIC|DESTROYED,FREED|FAIRIES,15,16,17,18,19,20,21,22,23,RECOGE OBJETOS|PSU Y GANA UN|NETBOOK!,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,GREAT WHITE EGG,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,GOALS,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100,101,102,103,104,105,GHOSTS,107,108,109,110,CHRISTMAS HAT,112,113,114,115,BONES"
+			titulos="0,1,2,3,4,5,6,7,8,9,10,11,12,Elaf the Vampire,Free the fairies!,15,16,17,18,19,20,21,22,23,Operación PSU,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,Great White Egg,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,BoomBang World Cup,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100,101,102,103,104,105,Ghost Capture,107,108,109,110,Christmas Contest,112,113,114,115,Collect bones"
+			descripcion13="We prefer candy and sweets to garlic xD The higher the nº of garlics you destroy the better your reward will be!|You have my word."
+			descripcion14="We still don't know who dared capture the fairies! Fairies carry tiny magic particles on their wings..|Perhaps somebody wants to ban magic from BoomBang forever?"
+			descripcion25="Los objetos PSU desaparecerán al acabar el concurso."
+			descripcion44="Capture all the 36 bits and rebuild the mythical White Egg, an adventure just a few will be able to finish. Will you?"
+			descripcion80="Get ready and participate in the World Cup to become the Top Scorer! The more goals the  higher the chance to win the World Cup!"
+			descripcion106="Capture all the ghost as you can! Help Crastin ghost to find the ghosts that scaped from the cemetery!"
+			descripcion111="Santa is searching for his most hardworking assistant: collect as many christmas hats as you can to prove that you are precisely the one he is looking for!"
+			descripcion116="Centuries ago dinosaurs roamed around BoomBang freely.||The search has started: recollect the bones and build them once more!"
+			close="0,1,2,3,4,5,6,7,8,9,10,11,12,Close,Close,15,16,17,18,19,20,21,22,23,24,Close,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,Close,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,Close,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100,101,102,103,104,105,Close,107,108,109,110,Close,112,113,114,115,Close" />
+		<fichaPromocion titulo="Special Promotion!" paga="PAY"
+			recibe="RECEIVE" free="FREE"
+			descripcion='We want to celebrate 2009 with a very special promotion:||Purchase Credits using your &lt;FONT COLOR="#007A5B"&gt;Credit Card&lt;/FONT&gt; and get DOUBLE the number of Credits for the same price!||What are you waiting for!?|Its only available during this week!' />
+		<fichaPromocionMascota titulo="Pets price 50 Only 1 week"
+			descripcion="BoomBang celebrates its 5th Anniversary and this promotion is only the beginning!" />
+		<fichaTelefonoCancelado titulo="SMS / Text Message"
+			comentarioChile="Purchase with Phone / SMS to Chile has been blocked."
+			descripcionChile="From now on you can only buy with your Credit Card Prepaid located at Blockbuster, Panini and Feria de Disco."
+			comentarioVenezuela="Phone and SMS purchases from Venezuela have been blocked."
+			descripcionVenezuela="You can now buy your Credits using a Credit Card or with Western Union via Paybycash" />
+		<fichaTelefonoNoFunciona titulo="USA Credits Line NOT Working"
+			descripcion="Attention: the number 94444 used by players in USA to purchase Credits with their cellphones is currently not working.||The service will be shut down for some days. Please don't send any text message as we can't guarantee it will work.||We are working on a solution and will let you know when everything is fixed again.|Thanks!" />
+		<fichaTelefonoNuevo titulo="USA - A new number available!"
+			descripcion='Players from USA may once again purchase Credits with their Telephones!||Dial &lt;FONT SIZE="+2"&gt;1900 868 2220&lt;/FONT&gt; with your home Telephone, hold the line and write down your Code.||The cost is $7 and you get 10,000 Credits!|This is a special promotion!'
+			descripcion2="This Service will ONLY work for normal home phone Telephones (NOT Cellphones)" />
+		<fichaPascuas titulo="News!"
+			descripcion="|Tomorrow we will be definitely removing the Ice, Vader Eggs &amp; the Evil Choco Bunny from the catalogue! You're warned :-)" />
+		<fichaBienvenidoBoombang titulo="Welcome to BoomBang!"
+			descripcion="A unique world full of surprises where you'll have the time of your life: live it!"
+
+			subtitulo1="Explore the World:"
+			subdescripcion1="Travel and meet people, head to the areas on the left to start!"
+			subtitulo2="Meet and make new friends: "
+			subdescripcion2="Have fun, interact and share exciting adventures with new friends!"
+			subtitulo3="Create your Island"
+			subdescripcion3="Decorate it with plants, pets, trees, secret hideouts and.. eggs!" />
+		<fichaPromocionPortales titulo="Magic Portal: Last Days!"
+			descripcion="Get an exclusive Magical Portal for free: only this month! How? With any purchase you make above $5 with Ultimate Game Card, Ukash or Credit Card you will receive the Credits PLUS the Magic Portal as a gift!" />
+		<fichaPromocionHalloween titulo="Halloween: The Jelly Spider!"
+			descripcion="Get an exclusive Jelly Spider for free: only this month! How? With any purchase you make from $10 or more with Ultimate Game Card, Ukash or Credit Card you will receive the Credits PLUS the Spider as a gift!"
+			descripcion2='"A terrific candy!"' />
+		<fichaPromocionCalabaza titulo="Only 2 days left!"
+			descripcion="Get your huge Pumpkin Mansion, only during this 2 weeks, with a special 50% discount! And get ready to receive an unexpected visit.... (youre warned!)" />
+		<fichaPromocionPreciosEnero titulo="Sales 50%! Only during 1 week"
+			descripcion="January Sales are here! Get your favorite objects now with a 50% discount!" />
+		<fichaRebajasEnero titulo="Discount extended to Games!"
+			texto0="During Friday, Saturday and Sunday you will be able to compete for 75 Creds!"
+			texto1="Items at only 50%" texto2="Games at 75%" texto3="Glove price|down to 200 Cr."
+			texto4="Special offer only this Weekend!|Sales will be gone on Monday ;)" />
+
+		<fichaVarias sanValentinTitulo="A VERY special Gift!"
+			sanValentinTexto1="Valentine's Day special edition: only available in the catalogue during 2 weeks!"
+			sanValentinTexto2="You will only be able to open this gift box after Valentine's Day: give it to somebody that's special for you!"
+			cienCreditosPlataTitulo="FREE: You earn 100 Silver Coins"
+			cienCreditosPlataDesc="With Silver Coins you can purchase lots of objects for free from our catalogue to decorate your island!|Each time you log to your account you wil get some free Silver Coins!"
+			halloweenTitulo="2 Halloween Boxes!!" halloweenTexto0="Terrorific items inside!"
+			halloweenTexto1="2 Halloween boxes on the Catalogue:"
+			halloweenTexto2="The Wicked Box and the Cursed Box. Open to get terrifically beautiful items!"
+
+			halloweenLlavesTitulo="Get your Halloween Key!"
+			halloweenLlavesTexto0="Click on it to get|the broken key.|you need 2 parts"
+			halloweenLlavesTexto1="find this|tombstone" halloweenLlavesTexto2="visit the|ghouls inside|the crypt"
+			halloweenLlavesTexto3="he will give|you the full|halloween|key for your|room"
+
+			halloweenObjetosTitulo="New key and Silver Coin Items!"
+			halloweenObjetosTexto0="Unlock a new door in your house with the wooden key you'll find in the catalogue and try the new items!"
+
+			halloweenPocionesTitulo="New Potions!"
+			halloweenPocionesTexto0="Visit the witch in the Crypt,|try the new potions!"
+			halloweenPocionesTexto1="teleport 2" halloweenPocionesTexto2="advanced intramolecular shift"
+			halloweenPocionesTexto3="ghost" halloweenPocionesTexto4="walk between the living"
+			halloweenPocionesTexto5="wraith" halloweenPocionesTexto6="become an undead creaturea"
+			halloweenPocionesTexto7="stink" halloweenPocionesTexto8="obnoxious cloud on victim"
+
+			promoBibliotecaTitulo="Free with Game and Credit Cards!"
+			promoBibliotecaTexto0="Activate a Game|Card and get this|cute bear as a|christmas gift!"
+			promoBibliotecaTexto1="How? With any purchase you make of $5 or more with Ultimate Game Card, Ukash or Credit Card you will receive the Credits PLUS the Bear as a gift!"
+
+			concursoFacebookTitulo="Facebook Contest win Credits!"
+			concursoFacebookTexto0="Become a BoomBang FAN in Facebook!"
+			concursoFacebookTexto1='What would YOU do for 50 Gold Bags!? Write it in the Wall. The Fans that get more "likes" the 20th of Dec will earn the prize!'
+			concursoFacebookTexto2="Click here to participate!" />
+
+	</chooseScene>
+
+	<fichaLlaves puertaCerradaTitulo="Door is Closed!"
+		puertaCerradaDesc="This room is locked with a Key!" abrirPuerta="Use your Key to unlock and open the door?"
+		yes="Yes" no="No" noTienesLlave="You don't have the Key to unlock this room:"
+		buscaEnLugar0="This door has no key yet." buscaEnLugar1=""
+		buscaEnLugar2="You can find the Key to open this door inside the Graveyard ONLY during Halloween!"
+		buscaEnLugar3="" buscaEnLugar4="Buy the Wooden Key from the catalogue"
+		buscaEnLugar5="Buy the Bronze Key from the catalogue"
+		buscaEnLugar6="To get the Christmas key speak with the elf inside the White Forest"
+		buscaEnLugar7="To get the Saint Valentine key speak with Cupid in Jungle Love"
+		buscaEnLugar8="Buy the Bones Key from the catalogue"
+		buscaEnLugar9="To get the Easter Key speak with the easter rabbit inside the Easter Forest"
+		buscaEnLugar10="Buy the Kitchen Key from the catalogue"
+		buscaEnLugar11="Buy the Bathroom Key from the catalogue" 
+		buscaEnLugar12="Buy the Submarine Room Key from the catalogue"
+		buscaEnLugar13="Buy the Catacombs Key from the catalogue" 
+		buscaEnLugar14="d" puertaAbierta="The door is open!"
+		hazUsadoLlaveEnPuerta="You used the Key to open the door."
+		hazClickParaEntrar="Click on the door to get inside the room!"
+		errorAlAbrirPuerta="An error occurred while attempting to open the door!" />
+	<chooseIsla>
+		<fichaLocaciones localizaciones="Locations" volver="Back"
+			editar="Edit" addArea="Add area" nuevoNombre="New name"
+			borrarLocacion="Are you sure?" Password="Password" ingresaPass="Enter the code!"
+			eliminarIslaBoton="Delete|island"
+			descripcionPorDefecto="Describe your island! Visitors will be able to read this." />
+		<capsulaInfo
+			estoEsTuIsla="This is your Island!|Click the add area button to go on!"
+			punch="Punch! click here to allow or FORBID uppercut in your island"
+			cambiarNombre="Name click to change the name of your island"
+			editarMensaje="Edit! click to change the names and/or delete areas"
+			candado="Key! click here to add a secret password to this area"
+			passwordIncorrecto="The code|is not valid!"
+			eliminarIsla="Delete! Dont worry: all your items will be safe in your Backpack"
+			islaRepedida="Name not available|Try another name please!" cancelar="Cancel"
+			eliminarLocacion="Delete this location,|objects will go to your backpack"
+			cambiarNombreLocacion="Write a new name for this location" />
+		<FichasAmigosEnemigos mejoresAmigos="Your best|friends!"
+			mejoresEnemigos="Your black|list!" />
+		<createIsla etapa1Descripcion="Let's start! Choose one island!"
+			etapa2Descripcion="Name your island!" advertencia="That name already exists!"
+			anterior="Previous" siguiente="Next" aceptar="Ok" />
+	</chooseIsla>
+	<bpad flowerPower="Flower Power" bandejaEntra="InBox"
+		agendaAmigos="Friends" addAmigo="Add friend!" busca="Search" mensajes="messages"
+		usuarios="Users" usuario="user" recibido="Received" ultimaConexion="Last visit:"
+		responder="Reply" siguiente="Next" destinatario="Writing to:" enviar="Send"
+		cancelar="Cancel" aceptar="Accept" escribir="Write" borrar="Delete"
+		contacto="contact!" contactos="contacts!" informacion="Info about:"
+		fraceBorrarContacto="Are you sure? Accepting means you'll delete all selected contacts from your B-Pad||Agree?"
+		escogeUsuario="Select user!"
+		fraceEscogeUsuario="Select the user you wish to add to your friend List.||Simply click on the shadow under the user's feet!"
+		fraceAddUsuario="Done! A message has been sent to this user requesting him to be your friend!||Once he accepts both of you will be able to keep in touch and send messages using the B-Pad!"
+		escribeNick="Nickname!" addAgenda="Add to List" irAlli="Take me there!"
+		paraLeer="Waiting to be read!" quierenSeaAmigo="Wish to be your friend!"
+		peticionDe="Request from" cofirmacionAddUsuario="Wishes to be|your Friend, add|to List?"
+		anios="years" vacio="Empty"
+		noExiste="There's nobody with that name in our Data Base!||Try again! Write another nickname and click on the search button."
+		denunciaMensajeBPad="Report this message" denunciaMensaje="Report Message!"
+		denunciaMensajeTexto="If you have received an offensive message you may report it.||A staff member will recieve a copy of the message, and can take action after reading it; banning the player.||Don't lie or use this tool for fun, you could get banned!"
+		denunciaEnviada="Report Sent!"
+		denunciaEnviadaTexto="Your complaint has been sent! A staff member will investigate and study your case.||If we find your complaint to be justifed we will make sure that player doesn't bother you or others again in the future!||Thanks for helping us keep boombang clean of rotten apples!"
+		denunciarUsuario="Report Player!"
+		denunciarUsuarioTexto="You may report any player who is harassing you or others, trying to cheat or using foul language.||A staff member will receive a copy of the conversation, and can take action after reading all the evidence.||Don't lie or use this tool for fun, you could get banned!"
+		denunciarIsla="Report Island!"
+		denunciarIslaTexto="You may report this Island if you fell offended by its name, areas or description.||A staff member will check the Island and take action, usually deleting the Island and banning its owner´s account.||Don't lie or use this tool for fun you could get banned!"
+		limiteAlzanzado="Limit reached!" limiteContactos="200"
+		maxCantidadContactos="We are sorry! You´ve exceded the maximum number of friends allowed in your B-Pad!||Remember you can´t have more than 200 friends!"
+		maxCantidadContactosDelOtro="This user has already reached the maximum number of contacts allowed in his B-Pad!|Remember you can´t have more than 200 friends!"
+		limiteContactosMember="300"
+		maxCantidadContactosMember="We are sorry! You´ve exceded as VIP the maximum number of friends allowed in your B-Pad!||Remember you can´t have more than 300 friends!"
+		volver="Back" tooltip="Friends" godName="BoomBang Team"
+		escribirATodos="Write to all"
+		advertenciaMensajeMasivos="Attention:|you may only send massive messages once every 4 min. |Time remaining: " />
+
+	<fichaMember inicioTitulo="This is an exclusive content for VIPs!"
+		inicioTexto="Become a VIP, get gifts and enjoy new features!"
+		inicioBoton="Become VIP" noMemberTitulo="Become a VIP and!"
+		noMemberMesUno="1 Month" noMemberMesDos="3 Months" noMemberMesTres="6 Months"
+		noMemberPrecioUno="10,000 Credits" noMemberPrecioDos="25,000 Credits"
+		noMemberPrecioTres="45,000 Credits" noMemberAdvertencia="You're currently not a VIP"
+		noMemberPagar="Pay" noMemberVentajaTitulo="Some of the benefits you will enjoy as VIP:"
+		noMemberVentajaUno="You'll get a rare monthly during 3 years"
+		noMemberVentajaDos="5 exclusive welcome gifts" noMemberVentajaTres="New models for your House (4)"
+		noMemberVentajaBpad="Up to 300 friends in your B-Pad"
+		noMemberVentajaFicha="A special Card for VIPs"
+
+		pagoRealizadoTitulo="Congratulations! You are now a citizen in BoomBang!"
+		pagoRealizadoObjetos="Your new items are inside your Backpack"
+		pagoRealizadoModelo="You can now customize your House!"
+		pagoRealizadoRenovar="You will be able to update VIP 15 days before it ends"
+		pagoRealizadoMembership="Your VIP ends:" creditosInsuficientesTitulo="Attention: You don't have enough Credits!"
+		creditosInsuficientesTexto="There are several ways you can earn Credits: with your cellphone, home phone, prepaid cards and special offers"
+		creditosInsuficientesBoton="Buy Credits" creditosInsuficientesMoneda="1,000"
+
+		siMemberTitulo="Renew your VIP before it ends!" renovarTitulo="You currently are a VIP!"
+		renovarExtender="You can renew and update your Membership 15 days before it ends!"
+		renovarMensajeBpad="We will send a notification reminder to your B-Pad"
+
+		errorTitulo="Attention: You can't update your VIP yet"
+		errorTexto="Remember you only can update VIP 15 days before it ends. Your VIP ends: " />
+
+	<interface>
+		<ficha 
+			beso="Kisses"
+			cocktails="Drinks"
+			flores="Flowers"
+			uppercuts="Uppercuts"
+			cocos="Coconuts"
+			ring="Ring"
+			cocosGame="crazyCoco"
+			lianasGame="Hidden Path"
+			enviados="Sent"
+			recibidos="Received"
+			ganados="Win"
+			perdidos="Lost"
+			deseos="Wishes"
+			hobbies="Hobbies"
+			editar="Edit"
+			chivato="Squealer"
+			baboso="Slimy"
+			agresivo="Aggressive"
+			legal="Bold"
+			sexy="Sexy"
+			simpatico="Cheerful"
+			votos="Votes"
+			enviado="Sent"
+			enviadoA="to"
+			ninja="Ninja Level"
+			ninjalevel="Level: "
+			ninjaProgress="100/100"
+			esperando_respuesta="Waiting|Reply" 
+			help_emoticon1="Express your feelings! Click and see!"
+			help_emoticon2="Interact with this user: it´s fun!"
+			help_hobbies1="Click on the fields and edit the information anytime you want!"
+			help_hobbies2="Learn about my hobbies and interests in life!"
+			help_stat1="Statistics about my actions in BoomBang!" 
+			help_stat2="Statics about my actions in BoomBang!"
+			help_votos1="This is what other users think about yourself!"
+			help_votos2="You can vote up 5 times each day!" 
+			help_intercambios="Swap items with this user!"
+			help_add_friend="Add this player to your friends list!"
+			help_chat_private="Press to start a private conversation!"
+			help_ignorar="Press to ignore anything this user says" 
+			help_report="Report this player for bad behaviour"
+			aviso="Alert" 
+			sin_creditos="Not enough credits!" 
+			ponte_al_lado="Get closer: either left or right!"
+			sin_votos="You can´t vote anymore today!" 
+			usr_intercambiando="This user is busy right now!."
+			limite_obj="Too many objects!" 
+			limite_masc="Too many pets!"
+			usr_ocupado="This user is busy right now!" 
+			usr_bloqueado="This user is busy right now!"
+			limiteClicks="Action not send" 
+			ok="ok" 
+			anios="years"
+			noPuedesIntercambiar="You cant trade this item" 
+			errorIntercambio="Error, click again on the item" 
+			disfraces = "Costume"
+			complementos = "Hats"
+		/>
+	</interface>
+	<habilitarIntercambio
+		deseaActivarIntercambios="Wish to change some of your stuff with other friends?||We must verify you're the true owner of this account"
+
+		emailEnviado="An Email has been sent to you with a Code: go get it!||You will need the Code to activate changes for this session"
+
+		emailEnviado2="The Code has been sent to your Email. Be patient, it may take 1 min to arrive!"
+		escribeCodigo="Write your Code here" seguir="Next" cerrar="Close"
+		continuar="Continue" validarCodigo="Validate Code" volverAIntentar="Try Again"
+		recordarPc="Remember this PC" terminar="Finish"
+
+		codigoIncorrecto="The code is NOT CORRECT. Go read again the email and make sure the Code you wrote is exactly the same as in the email you received!"
+		codigoCorrecto="Code is CORRECT!|You may now change your items with other friends: just make sure the change is fair before accepting!"
+
+		juegasDesdeCasa="Playing from your home|If youre playing from a safe computer; check the box and we won't send you the code next time you connect in order to make changes"
+
+		maximoIntentos="You have reached maximum number of attempts. You must restart all the whole process again."
+
+		error="This service is currently under maintenance; please try again later."
+
+		ingresarMailTitulo="Please enter the email associated with this account"
+		ingresarMailTexto0="Enter your email here"
+		mailIncorrecto="That is not the email you have associated with your account!||Remember that you have a total of 5 attempts."
+		volver="Back" />
+	<baseChat publico="Public" aceptarCambios="Allow|Changes"
+		rechazo="rejects your offer!"
+		password="Attention: never say your password! Don't trust a player who asks your password!"
+		tooltipMochila="BACKPACK" tooltipExit="EXIT"
+
+		cumplido0="NAME you're sweeter than my Diabolic Cotton!" cumplido1="NAME you're skin is as soft as my Numbdino :)"
+		cumplido2="NAME I feel so happy when I see you, almost as happy as finding a Dino Lee inside my egg!"
+		cumplido3="NAME, you're truly RARE"
+		cumplido4="NAME, your eyes sparkle with the intensity of my raresaur's fire"
+		cumplido5="NAME; you're as beautiful as Beluga Beach at dusk"
+		cumplido6="NAME, I'd rather be with you than alone in my island with all the MODS!"
+		cumplido7="NAME, you seem so friendly I deleted a MOD from my PAD to add you  :) "
+		cumplido8="NAME, my clones will follow you day and night so that nobody else may kiss you!"
+		cumplido9="NAME, did you know my password is your name?"
+		cumplido10="NAME, did you know I wrote your name with bushes in my island???"
+		cumplido11="NAME, I wouldn't trade your friendship, not eve for 1,000 golden eggs"
+		cumplido12="NAME, I've begged BoomBang Team for a fanart section exclusively about you!"
+		cumplido13="NAME, I've been banned for placing God your name -.-"
+		cumplido14="NAME, how can love feel so REAL if this is a VIRTUAL world?="
+
+		cumplido15="NAME, whenever I see you my internet conection goes dead!"
+		cumplido16="NAME, I am even jealous of my avatar, after all he is the one kissing you :)"
+		cumplido17="NAME, you're supermehyperspecial to me"
+		cumplido18="NAME - My parrot whispers your name every time I go to my island"
+		cumplido19="NAME - My heart beats faster and stronger when I see you: Boom-Bang, Boom-Bang"
+		cumplido20="NAME - Is there a cheat or hack I can use to win your heart?"
+		cumplido21="NAME, I scream as loud as a Rexie when your avatar accepts somebody elses kiss :/"
+		cumplido22="NAME, I could spend all day thinking on a compliment for you, but none will make you justice"
+		cumplido23="NAME I'd bann everybody in BoomBang so that we could be alone and together!"
+		cumplido24="NAME Playing BoomBang was only worth it because I got to meet you"
+		cumplido25="NAME I keep opening Rare in a Row hoping to find you inside"
+		cumplido26="NAME I bathed in shifting gum so that when I hug you you wouldn't be able to leave me!"
+		cumplido27="NAME Look at my stats: just 1 kiss, the one I gave you!"
+		cumplido28="NAME My tears float down like sakura leaves whenever youre not with me"
+		cumplido29="NAME You're the only reason I log to BoomBang each day"
+		cumplido30="NAME I'll do anything for you, even cancel my account ;S"
+		cumplido31="NAME Does your heart have a password?"
+		cumplido32="NAME I would remove my Royal Art Egg's crown so that you can wear it"
+		cumplido33="NAME I doubted love at first sight existed, until I met you!"
+		cumplido34="NAME When ever I see you I tremble more than Christmas reindeers"
+		cumplido35="NAME I've declined being a MOD, I wouldnt have time to be with you :)"
+		cumplido36="NAME Your friendship is everlasting just like the raresaur roar, bold and fierce but somehow sweet."
+		cumplido37="NAME I wouldn't risk losing you, even for 10 million bags of gold creds"
+		cumplido38="NAME Even the ladybird in Flower Power admires your beauty"
+		cumplido39="NAME Your kisses are sweeter than the blackberries on my wild hedge"
+		cumplido40="NAME You're as special as my first day in BoomBang"
+		cumplido41="NAME, I like you so much I would leave the Ring for you... even If I only had one vic left for golden :'$"
+		cumplido42="NAME, My love is so strong that I got hacked 15 times, and I kept creating accounts just to be with you."
+		cumplido43="NAME, I didn't click on a Gold Chest to give you a kiss instead."
+		cumplido44="NAME, My love for you is as big as a house made with BBox."
+		cumplido45="NAME, An unwatered Ant Tree only lasts one day, but our love will last a lifetime."
+		cumplido46="NAME, If I lose you, I'd feel as if I had been scammed a Chocobunny 1."
+		cumplido47="NAME, My love for you is as big as the head of the DJ."
+		cumplido48="NAME, Your sexy votes are wrong. They should be infinity."
+		cumplido49="NAME, I love you so much I would fly with you in the Love Globe until the end of the world."
+		cumplido50="NAME, You are more beautiful than watching the sunrise from the top of Vertigo."
+
+		titMonedasPlata="Silver Coins"
+		descMonedasPlata1="Silver coins can be used|to buy catalog's items.|Use them|to decorate your island, your home,|make gifts,throw away potions... "
+		descMonedasPlata2='You can get up to &lt;FONT COLOR="#B92478"&gt;50 coins|(5 coins every 15 minutes)&lt;/FONT&gt;'
+		descMonedasPlata3="¡There are more ways|to get silver coins: playing|games or collecting silver chests in areas and islands!"
+		hour="h" min="min" sec="sec" activarCambios="Allow Changes"
+		desactivarCambios="Forbid Changes" />
+	<compraCreditos tituloCompraCreditos="Buy Credits:"
+		descripcionCompraCreditos="With credits you can purchase virtual objects for your island and much more!"
+
+		telefonoMovil="Telephone / Cell" tarjetaCredito="Credit Card"
+		tarjetaPrepago="Prepaid Card + PaybyCash" advertencia='&lt;FONT COLOR="#00B3FF"&gt;Attention&lt;/FONT&gt;'
+		mensajeAdvertencia='&lt;FONT COLOR="#00B3FF"&gt;Remember credits are not free, they cost real money. Make sure you ask permission to the bill payer or your parents before using this service.&lt;/FONT&gt;'
+		advertenciaAccion='&lt;FONT COLOR="#00B3FF"&gt;Attention!&lt;/FONT&gt;'
+		mensajeAdvertenciaAccion='&lt;FONT COLOR="#00B3FF"&gt;You need Credits to use the boxing glove and throw coconuts!&lt;/FONT&gt;'
+		advertenciaObjeto='&lt;FONT COLOR="#00B3FF"&gt;Attention!&lt;/FONT&gt;'
+		mensajeAdvertenciaObjeto='&lt;FONT COLOR="#00B3FF"&gt;You need more Credits to purchase this object for your island!&lt;/FONT&gt;'
+
+		tituloTelefonoMovil="Telephone / Cell Phone" descripcionTelefonoMovil="You can buy a maximum of 200 Codes each month"
+
+		tituloClave="Validate your Code !" descripcionClave="You can buy a maximum of 200 Codes each month"
+
+		consigueClave="Purchase your Code"
+		descConsigueClave="Make a call with your telephone or send a text message with your cell"
+		popup="A new window will open with instructions for each country"
+		compra="Buy" convierteClave="Activate your Code"
+		descConvierteClave="Got your Code? You now just need to verify it below to get the Credits!"
+		valida="Verify" claveInvalida="The code is NOT valid"
+		validaClave="Please make sure you write exactly the same Code you received"
+		volver="Back" claveOk="The code is valid!"
+		creditosCargados="Your Credits have been successfully added to your account."
+
+		tituloIrregularidades="Attention"
+		mensajeIrregularidades="This account is under investigation. Payments for this account have been disabled due to irregularities. Please contact our team by email."
+		tituloLimiteDiaClaves="Limit reached!"
+		mensajeLimiteDiaClaves='For your safety there is a limit to the nº of purchases you can make each day.|&lt;FONT COLOR="#FFFF00"&gt;Remember each day you can buy a maximum of 10 codes.&lt;/FONT&gt;'
+		tituloLimiteDiaImporte="Limit reached!"
+		mensajeLimiteDiaImporte='For your safety there is a limit to the nº of purchases you can make each day.|&lt;FONT COLOR="#FFFF00"&gt;Remember each day you can spend a maximum of $100 in codes.&lt;/FONT&gt;'
+		tituloLimiteMesImporte="Limit reached!"
+		mensajeLimiteMesImporte='For your safety there is a limit to the nº of purchases you can make each month.|&lt;FONT COLOR="#FFFF00"&gt;Remember each month you can spend a maximum of $50 in codes.&lt;/FONT&gt;'
+		tituloLimiteMesSms="Limit reached!" mensajeLimiteMesSms="You can buy a maximum of 200 Codes each month"
+		tituloError="Error"
+		mensajeError="At this moment we can't process your request! Try again later"
+
+		tituloTarjetaCredito="Credit Card"
+		descripcionTarjetaCredito="Buy credits from any country in the world!|Limit: $50 month"
+		escojaOpcion="Did you know:|That for safety reasons, one Credit Card may only be used to purchase credits for one unique account?"
+
+		prefijoMoneda="$" sufijoCreditos=" Credits" tituloTarjetaCreditoFin="Credit Card"
+		descripcionTarjetaCreditoFin="A pop up window will open and you will be redirected to Click and Buy official site.||Follow the instructions to complete your purchase and we will automatically add the Credits to your account.||Thanks"
+		tituloTarjetaCreditoError="Service unavailable"
+		descripcionTarjetaCreditoError="This service is currently under maintenance.||Sorry for the inconvenience."
+		descripcionTarjetaCreditoErrorRetry="This service is currently under maintenance; please try again later.||Sorry for the inconvenience."
+
+		espera="Waiting..." comprar="Buy" creditos="Credits"
+		codigosCAB="33375240,33375251,33375261,33375265" codigosPREPAGO="5,6,7,8"
+
+		tituloTarjetaPrepago="Prepaid Card + PayByCash"
+		descripcionTarjetaPrepago="Select the amount you wish to buy!|Limit: $50 month"
+		escojaOpcionPrepago="Did you know:|PayByCash offers customers up to 70 different payment options you can use to purchase Credits. Give it a try!"
+
+		tituloTarjetaPrepagoFin="Prepaid Card + PayByCash"
+		descripcionTarjetaPrepagoFin="A pop up window will open with the necessary instructions to complete your purchase. Please make sure you select your prefered Payment method option. We will automatically add the Credits to your current account after the payment is accepted. Thanks"
+		tituloTarjetaPrepagoError="Service unavailable"
+		descripcionTarjetaPrepagoError="This service is currently under maintenance.||Sorry for the inconvenience."
+		descripcionTarjetaPrepagoErrorRetry="This service is currently under maintenance; please try again later.||Sorry for the inconvenience."
+
+		ingresaClave="Got your Code? Click here to validate it" />
+	<compraObjetos catalogo1="Items" catalogo2="Forest Set"
+		catalogo3="Pets and more!" catalogo4="Scary Set" catalogo5="Indian Set"
+		catalogo6="Ice Set" catalogo7="Valentine's Day" catalogo8="Gifts"
+		catalogo9="Alien Set" catalogo10="Easter Set" catalogo11="Pirate Set"
+		catalogo12="Anniversary Set" catalogo13="Oriental Set" catalogo14="Magic Set"
+		catalogo15="Easter Set" catalogo16="House Set" catalogo17="News"
+		catalogo19="Plants" comprar="Buy" peque="Small" normal="Normal"
+		grande="Big" vacio="EMPTY" aceptar="Validate" cancelar="Cancel"
+		cargando="Loading" listo="Done!" tituloCompraOk="Purchase complete!"
+		mensajeCompraOk="The item you've just bought is in your Backpack. Access your Island and place it wherever you like!"
+		mensajeObjetoMember="Exclusive item for VIPs." noMonedasPlata="You don't have the Silver coins to buy it!" />
+	<createLoc eligeFondo="Choose a location" loading="Loading..."
+		nameLocation="Name this location!" customizeLocation="CUSTOMIZE THE COLORS"
+		escogeColores="Choose any of these colors" personalizaColor="Or customize ONE yourself!"
+		anterior="Previous" siguiente="Next" aceptar="Ok" finalizar="FINISH"
+
+		cielo="Sky" cesped="Grass" roca="Stones" cascada="Waterfall" plantas="Leaves"
+		mar="Sea" montanas="Mountains" jungla="Jungle" arena="Sand" muelle="Dock"
+		hojas="Leaves" luna="Moon" cienaga="Pond" tierra="Ground" puerta="Iron Door"
+		tumba="Tomb" lava="Lava" fuego="Fire" oceano="Ocean" pajaro="Bird"
+		arboles="Trees" cabana="Cabin" troncos="Trunks" desierto="Desert"
+		cactus="Cactus" frog="Frog" oasis="Oasis" tronco="Trunk" cocos="Coconuts"
+		scorpion="Scorpion" charco="Puddle" crab="Crab" RoofInside="RoofInside"
+		Nail="Nail" Fence="Fence" Ivy="Ivy" DoorHole="DoorHole" Door="Door"
+		DoorFrame="DoorFrame" Window="Window" HouseSpirals="HouseSpirals"
+		House="House" GroundHouse="GroundHouse" Shape1Color1="Shape1Color1"
+		Shape1Color2="Shape1Color2" Shape2="Shape2" Ground="Ground"
+		Palmtree1Part1="Palmtree1Part1" Palmtree1Part2="Palmtree1Part2"
+		Palmtree2Part1="Palmtree2Part1" Palmtree2Part2="Palmtree2Part2"
+		Palmtree3Part1="Palmtree3Part1" Palmtree3Part2="Palmtree3Part2"
+		Palmtree4Part1="Palmtree4Part1" Palmtree4Part2="Palmtree4Part2"
+		Palmtree5Part1="Palmtree5Part1" Palmtree5Part2="Palmtree5Part2"
+		Tree1Part1="Tree1Part1" Tree1Part2="Tree1Part2" Tree2Part1="Tree2Part1"
+		Tree2Part2="Tree2Part2" Tree3Part1="Tree3Part1" Tree3Part2="Tree3Part2"
+		Tree4Part1="Tree4Part1" Tree4Part2="Tree4Part2" Tree5Part1="Tree5Part1"
+		Tree5Part2="Tree5Part2" Pinetree1Part1="Pinetree1Part1"
+		Pinetree1Part2="Pinetree1Part2" Pinetree2Part1="Pinetree2Part1"
+		Pinetree2Part2="Pinetree2Part2" Pinetree3Part1="Pinetree3Part1"
+		Pinetree3Part2="Pinetree3Part2" Pinetree4Part1="Pinetree4Part1"
+		Pinetree4Part2="Pinetree4Part2" Pinetree5Part1="Pinetree5Part1"
+		Pinetree5Part2="Pinetree5Part2" Hill1="Hill1" Hill2="Hill2" Hill3="Hill3"
+		Hill4="Hill4" Hill5="Hill5" Hill6="Hill6" Hill7="Hill7" Hill8="Hill8"
+		Hill9="Hill9" Cloud="Cloud" Sky="Sky" mcLobbyFloor_4="Floor 4"
+		mcLobbyFloor_3="Floor 3" mcLobbyWall_6="Wall 6" mcLobbyWall_5="Wall 5"
+		mcLobbyWall_4="Wall 4" mcLobbyWall_3="Wall 3" mcLobbyFloor_2="Floor 2"
+		mcLobbyWall_2="Wall 2" mcLobbyWall_1="Wall 1" mcLobbyFloor_1="Floor 1"
+
+		mcOfficeWall="Wall" mcOfficeSkin01_Part01="Lower wall"
+		mcOfficeFloor01_Part01="Floor" mcOfficeWallLight01_OFF_Part01="Light Wall Off"
+		mcOfficeWallLight01_ON_Part01="Light Wall On"
+		mcOfficeCeilingLamp03_OFF_Part02="Light Ceiling Off"
+		mcOfficeCeilingLamp03_OFF_Part01="Light Ceiling Off"
+		mcOfficeCeilingLamp03_ON_Part02="Light Ceiling On"
+		mcOfficeCeilingLamp03_ON_Part01="Light Ceiling On" BedroomPart1="Part 1"
+		BedroomPart2="Part 2" BedroomHandle="Handle" BedroomDoor="Door"
+		BedroomSkin01="Skin" BedroomPart3="Part 3" mcPart03="Wall"
+		mcSkins_Part01="Skin" mcFloors_Part01="Floor" mcPoster04_Part02="Poster Part 2"
+		mcPoster04_Part01="Poster Part 1" mcPoster02_Part01="Poster Part 3"
+		mcCeilingLamp02_Part01="Light Ceiling" mcCeilingLamp02_Part01_On="Light Ceiling"
+
+		mcLoungeWall="Wall" mcLoungeSkin01_Part01="Lower Wall"
+		mcLoungeDoor01_Part01="Door" mcLoungeDoor01_Handle_Part01="Door Handle"
+		mcLoungeFloors_Part01="Floor" mcLoungeCeilingLamp02_OFF_Part01="Light Ceiling Off"
+		mcLoungeCeilingLamp02_ON_Part01="Light Ceiling On"
+		mcLoungeWallLight03_OFF_Part03="Light Wall Off"
+		mcLoungeWallLight03_OFF_Part02="Light Wall Off"
+		mcLoungeWallLight03_OFF_Part01="Light Wall Off"
+		mcLoungeWallLight03_ON_Part03="Light Wall On"
+		mcLoungeWallLight03_ON_Part02="Light Wall On"
+		mcLoungeWallLight03_ON_Part01="Light Wall On" mcDinningPart01="Wall"
+		mcDinningSkins_Part01="Lower Wall" mcDinningDoor01_Door_Part01="Door"
+		mcDinningDoor01_Handle_Part01="Door Handle" mcDinningFloor01_Part02="Parquet"
+		mcDinningFloor01_Part01="Carpet" mc_Lounge2_Wall_Part02="Wall Part 2"
+		mc_Lounge2_Wall_Part01="Wall Part 1" mc_Lounge2_Skin01_Part02="Skin Part 2"
+		mc_Lounge2_Skin01_Part01="Skin Part 1" mc_Lounge2_Door01_Part01="Door"
+		mc_Lounge2_Door01_Handle_Part01="Handle" mc_Lounge2_Floor01_Part01="Floor"
+		mc_Lounge2_WallLight03_OFF_Part03="Light Wall Part 3"
+		mc_Lounge2_WallLight03_OFF_Part02="Light Wall Part 2"
+		mc_Lounge2_WallLight03_OFF_Part01="Light Wall Part 1"
+		mc_Lounge2_WallLight03_ON_Part03="Light Wall Part 3"
+		mc_Lounge2_WallLight03_ON_Part02="Light Wall Part 2"
+		mc_Lounge2_WallLight03_ON_Part01="Light Wall Part 1"
+		mc_Lounge2_CeilingLamp05_OFF_Part01="Light Ceiling"
+		mc_Lounge2_CeilingLamp05_ON_Part01="Light Ceiling" cave_Wall="Wall"
+		cave_Floor="Floor" cave_Lamp="Lamp" batCave_Floor="Floor"
+		batCave_Wall="Wall" batCave_Caves="Caves" batCave_Rock="Rock"
+		batCave_Foreground="Cave Entrance" gyserCave_Sky="Sky"
+		gyserCave_Floor="Floor" gyserCave_Rock="Rock" gyserCave_Gyser="Gyeser"
+		gyserCave_Steam="Steam" moleCave_Water="Water" moleCave_Wall="Wall"
+		moleCave_Floor="Floor" moleCave_Rock2="Cliff" moleCave_Rock="Rock" />
+	<editObjetos
+		moverObjeto="Decorate your Island:|Click and drag an item|from your Backpack to|your Island."
+		tamNormal="Normal" tamSmall="Small" tamBig="Big" colores="Colors"
+		quitar="Remove" voltear="Flip" tamanio="Size" volver="Back" restaurar="Originals"
+		personalizar="Personalize" curentSkin="Current Template" onlyMember="Only Vips" />
+	<mochila 
+		mochila="BackPack" 
+		contiene="Contains:" 
+		objetos="objects"
+		vacio="EMPTY" 
+		arrastra="Drag!" 
+		cambia="Swap" 
+		todos="All" 
+		nuevos="New"
+		setTitulo="Set" 
+		set1="ALL" 
+		set2="Rares" 
+		set3="Items" 
+		set4="Forest"
+		set5="Pets" 
+		set6="Scary" 
+		set7="Indian" 
+		set8="Ice" 
+		set9="S.Valentin"
+		set10="Gifts" 
+		set11="Aliens" 
+		set12="Pirates" 
+		set13="Anniversary"
+		set14="Oriental" 
+		set15="Magic" 
+		set16="Easter" 
+		set17="House" 
+		set18="Potions"
+		set19="Plants" 
+		set20="Christmas" 
+		set21="BBox"
+		set22 = "Effect"
+		set23 = "Sports"
+		numeroObjetos="Nº Objects"
+		volver="Back" 
+		tituloHelp="Backpack Colors!"
+		textoHelp01="Means you can drag this item and use it to decorate the current room"
+		textoHelp02="Means you can't drag this item to decorate this particular room you are in"
+		textoHelp03="Special item you can use to trade with NPC's"
+		textoHelp04="This is an interactive item: click on it to use!"
+		textoTeleportDirigido="Click the spot where you would like to appear"
+		textoPocionAvion="Message" textoAdvertencia="Attention!"
+		textodecorarIsla="You can only use this|item to decorate an|ISLAND."
+		textodecorarCasa="You can only use this|item to decorate your|HOUSE"
+		abrirCarpeta="Open Folder" />
+	<intercambios vacio="EMPTY" unico="UNIQUE" casiUnico="NEAR UNIQUE"
+		muyRare="VERY RARE" rare="RARE" aceptar="Validate" cancelar="Cancel"
+		listo="Done!" cambiar="Cambiar"
+		error="Error!"
+		descripcionMia="Open your Backpack and click on the items you want to swap"
+		descripcionOtro="Check the boxes below: the items you see will be yours after the transaction ends"
+		tusObjetos="Your items:" susObjetos="His items:" total="Total"
+		cancelado="Canceled" tituloTenCuidado="Pay attention!"
+		descripcionTenCuidado="It seems you are giving more items than you are receiving.. are you sure you want to complete this trade? Remember:"
+		bullet1TenCuidado="It is not possible to clone items, don't let people scam you"
+		bullet2TenCuidado="If someone trades you a rare item, make sure its there"
+		seguir="NEXT" />
+	<creacionObjetos precio="Price" preparar="Prepare"
+		cambiar="Trade" volver="Back" siguiente="Next" help="Help?"
+		tituloBruja="Matilda" descripcionBruja="List of all available Potions"
+		tituloVampiroMedianoche="Lizzy 'Sweety' Romanov"
+		descripcionVampiroMedianoche="Choose Candy!" tituloVampiroBeluga="Quizi 'Miope' Romanov"
+		descripcionVampiroBeluga="Choose Candy!" tituloVampiroUfo="Barón Gustav Romanov"
+		descripcionVampiroUfo="Choose Candy!" tituloVampiroMinikong="Elaf 'Miope' Romanov"
+		descripcionVampiroMinikong="Choose Candy!" tituloVampiroMafia="Mischi 'Gloomy' Romanov"
+		descripcionVampiroMafia="Choose Candy!"
+		descHelp="How to move around and what to do:||-Explore the graveyard: walk with your avatar until you are on top of a stone with an arrow. That way you will pass on to the next area and get deeper inside the graveyard.||-Gather the stuff you find while exploring, step on top of the desired item to send it to your backpack. Tip: search also in tombstones and removed earth!||Happy Halloween!"
+
+		tituloNavidadIceage="Wiki, duende 'Pastelero'"
+		descripcionNavidadIceage="Trade with the elves!" tituloNavidadIgloo="Snow"
+		descripcionNavidadIgloo="Trade with the Yeti!" tituloNavidadLaponia="Santa"
+		descripcionNavidadLaponia="Trade with Santa!" tituloNavidadPenguin="Willy a 'Super-Elf'"
+		descripcionNavidadPenguin="Trade with the elves!"
+		descHelpGnomo="How does it work?||-Simply gather the snowballs you see on the ground!||-The Yeti will be able to craft a Giant Snow Avatar for you||-Don't worry it won't melt!"
+
+		tituloPascuasConejoBoy="Marvin, Easter Bunny" descripcionConejoBoy="Easter Bunny"
+		tituloPascuasConejoGirl="Bianca, Easter Bunny" descripcionConejoGirl="Easter Bunny"
+		tituloPascuasConejoDad="Sir Harvey, Easter Bunny"
+		descripcionConejoDad="Easter Bunny" tituloPascuasConejoMum="Molly, Easter Bunny"
+		descripcionConejoMum="Easter Bunny"
+		descHelpPascuas="-Find the 4 Easter Bunnies in Boombang!||-The chocolate chests contain coins you may use to trade with the Easter Bunnies to get special exclusive items.||-You can also try to gather the 36 pieces and build the Great B'n'W Egg, it won't be easy!"
+
+		tituloBrujaCalabaza="List of all available Potions"
+		descripcionBrujaCalabaza="Choose your potion!"
+		descHelpBruja="-Get the ingredients for the potions in the cemetery||-You can only have one potion active.||-Happy Halloween"
+
+		tituloZombie="Shy Zombie" descripcionZombie="Shy Zombie"
+		descHelpZombie="-You've caught the Shy Zombie unaware: Empty his pockets before he vanishes once more in the graveyard shadows!"
+
+		tituloNpcCrypta="Slovenly Ghoul" descripcionNpcCrypta="Slovenly Ghoul"
+		descHelpNpcCrypta="-With the Ghoul's help you will be able to mend your Halloween Key and even bring Frankenstein back to life: search on the graveyard!||-Don't delay yourself too much inside the Crypt... I believe the Ghoul is eyeing you suspiciously, and its lunch time ;)"
+
+		tituloFelicidades="Object Created!" descripcionFelicidadesInicio="Congratulations!||-You get '"
+		descripcionFelicidadesFinal="', it's in your backpack."
+		
+		tituloError = "Error in the creation."
+		descripcionErrorInicio = "Try it later."
+		descripcionErrorCostumeInicio = "This object has already been created."
+		
+		tituloNpcBondadoso="Kindly elf" descripcionNpcBondadoso="Choose an item"
+		descHelpNpcBondadoso="||Walking through the snowy forest, you'll see gifts in the snow, keep them as you used to do trade with the goblins and get things in return."
+
+		tituloNpcPastelero="Christmas receipts" descripcionNpcPastelero="Choose an item"
+		descHelpNpcPastelero="||Walking through the snowy forest, you'll see gifts in the snow, keep them as you used to do trade with the goblins and get things in return."
+
+		tituloNpcMinero="Mischievous Elf" descripcionNpcMinero="Choose an item"
+		descHelpNpcMinero="" tituloNpcAuto="Presents with unexpected surprises"
+		descripcionNpcAuto="Choose an item" descHelpNpcAuto=""
+
+		tituloNpcSanta="Choose your Christmas Gift" descripcionNpcSanta="Choose an item"
+		descHelpNpcSanta="Santa needs as many presents as you can find; walk around the White Forest to get them, and bring them back to Santa, he will give you some well deserved rewards!"
+
+		tituloNpcNieve="Elf, Winter Artist" descripcionNpcNieve="Choose an item"
+		descHelpNpcNieve="This elf has a talent: |bring him some snowballs and a few credits and he will create amazing snow sculptures and other snow artifacts!"
+
+		tituloNpcCupido="Naive Cupid" descripcionNpcCupido="Choose an item"
+		descHelpNpcCupido="Just for Valentine's Day.| You can get into the daily gift box the 2 parts that make up the key to your room of Valentin's Day. Give me both sides and i will give you the complete key!"
+
+		tituloNpcWoody="Woody" descripcionNpcWoody="Choose an item"
+		descHelpNpcWoody="Help cleaning the Burrow out of mushrooms, bring them to Woody and he'll give you funny objects."
+
+		tituloNpcYoga="Elph" descripcionNpcYoga="Choose an item"
+		descHelpNpcYoga="Help cleaning the Burrow out of mushrooms, bring them to Elph and he'll give you funny objects."
+
+		tituloNpcAmphibia="Amphibia" descripcionNpcAmphibia="Choose an item"
+		descHelpNpcAmphibia="What happened? A bright light shone in the sky followed by a strong sound. Seems like we are being invaded by aliens from another planet.|What should we do? Maybe they come in peace, or they are agressive... Or there are both kinds.|Right now, someone is asking for your help to repair her ship. Will you help her?" />
+
+	<helpManager
+		fraseWelcome="Welcome, check out this fast tutorial|and learn how to decorate your island!"
+		fraseConsigueMonedas="It will only take 1 minute and you|will get some free silver coins as a gift :)"
+		fraseAbreMochila="Open the BackPack (click on it) and|check what items you have inside"
+		fraseObjectsWin="Te hemos regalado algunos objetos |para decorar tu isla!"
+		fraseDragObjects="Drag them from the BackPack into your|island. Place them wherever you want"
+		frasePressTractor="You can change an Item's Color: Click|first on the yellow machine to the left"
+		frasePressTractorOk="Great! The Icon is 'blinking'|this means you are now in EDIT MODE"
+		fraseSelectObject="Now select any item or object|in your island by clicking on it"
+		fraseDescPanelSelObject="This panel presents all the options|you may customize for the selected item"
+		fraseCambiaColor="Choose new colors: click on the Brush|Icon and select what parts to change"
+		fraseCambiaColorOK="Excellent! From this panel you may|alter color, size and edit options for items"
+		frasePressTractorFinish="Finished? Remember to click again on|the yellow machine to leave Edit Mode"
+		fraseFinModoEdicion="Good! You are on Normal Mode again|and can walk with your avatar"
+		fraseWinMonedasPlata="You will now receive some free|silver coins as a gift!"
+		fraseDescWinMonedasPlata="It is easy to earn many more Silver|Coins each day. How? ||-Every 15 min of playtime! (up to 2h)|-Inviting your friends|-Participate in contests / quizz|-Catching some chests|-etc!"
+		fraseOpenCatalogo="Open the Catalogue box and decide|what to buy with your coins!"
+		fraseOpenCatalogo2="Click on the red box with stars|to your left to open your catalogue"
+		fraseAhorra="No es necesario que gastes ahora|tus|monedas! Puedes ahorrar"
+		fraseMuchosObjetos="There's many objects and pets you|may decorate your island with!"
+		fraseInvitaAmigos="And remember you can create many|more Islands and invite your friends!" />
+
+	<textsEscenarios>
+		<private18 pirata="Pirate"
+			cancion1="Fifteen men on a dead man's chest|Yo ho ho and a bottle of rum|Drink and the devil had done for the rest|Yo ho ho and a bottle of rum.|Fifteen men of the whole ship's list|Yo ho ho and a bottle of rum!|Dead and be damned and the rest gone whist!|Yo ho ho and a bottle of rum!"
+			cancion2="We're rascals, scoundrels, villains, and knaves|Drink up me hearties, yo ho|We're devils and black sheep, really bad eggs|Drink up me hearties, yo ho|We're beggars and blighters and ne'er do-well cads|Drink up me hearties, yo ho|Aye, but we're loved by our mommies and dads|Drink up me hearties, yo ho" />
+		<private23 tfTexto0="Strawberry" tfTexto1="Blueberry"
+			tfTexto2="Orange" tfTexto3="Mint" tfTextoMaquina=" swallows a "
+			tfTextoMaquinaEnd=" gum" />
+		<private15 npcName="Witch" azar="Choose your Potion!"
+			rollover="I got something you might want!" />
+		<private25 Hill1="Hill" Hill2="Hill" Hill3="Hill" Hill4="Hill"
+			Hill5="Hill" Hill6="Hill" Hill7="Hill" Hill8="Hill" Hill9="Hill"
+			Tree01Forest="Tree" Tree02Forest="Tree" Tree03Forest="Tree"
+			Tree04Forest="Tree" Tree05Forest="Tree" Tree01Desert="Palm Tree"
+			Tree02Desert="Palm Tree" Tree03Desert="Palm Tree" Tree04Desert="Palm Tree"
+			Tree05Desert="Palm Tree" Tree01Hielo="Pine Tree" Tree02Hielo="Pine Tree"
+			Tree03Hielo="Pine Tree" Tree04Hielo="Pine Tree" Tree05Hielo="Pine Tree"
+			GroundForest="Land" GroundDesert="Land" GroundHielo="Land" Shape01="Lake"
+			LineTexture="House" FlowerLineTexture="Petals" LineWindowLineTexture="Window"
+			FrontDoorCastle="Door" IvyLineTexture="Creeper"
+			RoundWindowLineTexture="Window" RoofLineTexture="Roof"
+			WoodFenceLineTexture="Wood Fence" FrontDoorLineTexture="Door"
+			SphereEmptyTexture="House" SphereRoundeTexture="House" SphereStrip="House"
+			StripTexture="Design" TennisTexture="House" FrontDoorTennisTexture="Door"
+			ShadowHouse="Shadow" SphereBricks="Castle" BricksWindowRight="Castle"
+			BricksWindowLeft="Castle" BricksBothWindows="Castle" Horns="Horns"
+			StoneWalls="Wall" ShadowHouseRobot="Shadow" RobotSphere="Robot"
+			DoorRobot="Door" RobotArms="Mechanic Arms" EvilFaceHead="Evil House"
+			EvilFaceEye="Eyes" Hill="Hill" TroncoForest="Tree" CopaForest="Tree Top"
+			TroncoDesert="Tree" CopaDesert="Tree Top" TroncoHielo="Tree"
+			CopaHielo="Tree Top" GroundForestMini="Land" GroundDesertMini="Land"
+			GroundHieloMini="Land" Shape1Color1="Water" Shape1Color2="Water"
+			Sphere="House" LineMiddleTexture="Line" LineDownTexture="Line"
+			FlowerTexture="Petal" LineWindow="Window" FrontDoorOut="Door Frame"
+			FrontDoorIn="Door" Ivy="Creeper" RoundWindowOutside="Window Frame"
+			RoundWindowInside="Window" RoundWindowGlass="Glass" Roof="Roof"
+			WoodFence="Wood Fence" WoodFenceNail="Nail" Strip01="Texture  1"
+			Strip02="Texture  2" Strip03="Texture  3" StripDots="Dots"
+			ShadowHouseMini="Shadow" HornsMini="Horns" StoneWallsMini="Wall"
+			RobotMini="Robot" RobotU="Robot U" RobotRightLegColor="Mechanic Leg"
+			RobotLeftArmShoulderIn="Shoulder 1" RobotLeftArmShoulderOut="Shoulder 2"
+			RobotLeftArmHand="Hand 1" RobotLeftArmHandUp="Hand 2" EvilFaceNose="Nose"
+			EvilFaceTheet="Teeth" EvilFaceForeHead="Frown"
+			EvilFaceRightEyeOutside="Right Eye 1" EvilFaceRightEyeInside="Right Eye 2"
+			EvilFaceLeftEyeOutside="Left Eye 1" EvilFaceLeftEyeInside="Left Eye 2"
+			SpheresTexture="Texture" BricksWindowRightInside="Groove"
+			BricksWindowLeftInside="Groove" MenuHill="Hill" MenuTree1="Tree 1"
+			MenuTree2="Tree 2" MenuTree3="Tree 3" MenuTree4="Tree 4" MenuTree5="Tree 5"
+			MenuTextureCasa="Texture House" MenuPetalo="Petals" MenuWindow="Window"
+			MenuBarricades="Barricades" MenuEnredadera="Creeper" MenuVarios="Several"
+			MenuFence="Wood Fence" MenuElectricFence="Electric Fence"
+			MenuShadowHouse="Shadow" MenuHorns="Horns" MenuStoneWalls="Wall"
+			MenuRobotHeadEyes="Eyes" templateForest="Forest" templateDesert="Desert"
+			templateHielo="Snow" templateLineHouse="House 1" />
+		<public86 npcName="Marvin" azar="I know, its not an Egg, but it rocks! :)"
+			rollover="Lets trade! You need some chocolate coins." />
+		<public2 vampiro="Barón" azar="Feliz Halloween! Hacemos un trato?"
+			rollover="Tienes algo que pueda interesarme?" />
+		<public95 npcName="Sir Harvey" azar="I have a mission for you!"
+			rollover="Did you find all the missing pieces to build the Big Black Egg?" />
+		<public6 npcName="Bianca" azar=" I've created my first Easter egg!"
+			rollover="Lets trade! You need some chocolate coins." />
+		<public4 npcName="Molly" azar="I've prepared some beautiful Easter eggs!"
+			rollover="Lets trade! You need some chocolate coins." />
+		<public5 vampiro="Lizzy" azar="Happy Halloween! Trick or treat!?"
+			rollover="Got something interesting for me?" />
+		<public9 npcName="Snow Yeti" azar="I'm Big, make snow avatar big!"
+			rollover="GRRR!" />
+		<public10 npcName="Naive Cupid"
+			azar="Already have the 2 parts to get the full key?" rollover="Get the key to open Valentine's room in your house!" />
+		<public17 npcName="Willy"
+			azar="Oops.. help me get all the presents before Santa notices they are missing"
+			rollover="Merry Christmas!" />
+		<public12 npcName="Santa"
+			azar="The elves lost the presents, please help me get them back!"
+			rollover="Merry Christmas!" />
+		<public21 frase0="Quieres salir en la tele?"
+			frase1="Graba tu spot y envialo a ColaCao, haz clic" />
+		<public25 guitarra="¿Te atreves a tocar la guitarra de los Jonas Brothers?"
+			microfono="¡No te pierdas a Mitchie Torres cantando con este micro las canciones de Camp Rock 2!"
+			sombrero="¡Nate se ha dejado su sombrero en el campamento!"
+			parlantes="¡Escucha en primicia algunos de los temas de la BSO de Camp Rock 2!" />
+		<public26 npcName="Elaf" azar="Happy Halloween! Trick or treat!?"
+			rollover="Got something interesting for me?" />
+		<public30 npcName="Mischi" azar="Happy Halloween! Trick or treat!?"
+			rollover="Got something interesting for me?" />
+		<public38 npcName="Barón" azar="Happy Halloween! Trick or treat!?"
+			rollover="Got something interesting for me?" />
+		<public46 npcName="Lizzy" azar="Happy Halloween! Trick or treat!?"
+			rollover="Got something interesting for me?" />
+		<public50 npcName="Quizi" azar="Happy Halloween! Trick or treat!?"
+			rollover="Got something interesting for me?" />
+		<public51
+			frase0="No te pierdas el último capítulo de Ben10: La Batalla Final" />
+		<public52 npcName="Ghoul" azar="Who invited you inside?"
+			rollover="Who invited you inside? Hmmm.. do you by any chance carry a comb with you?" />
+		<public37 npcName="Zombie" azar="How did you find me?"
+			rollover="How did you find me?... Leave me alone!" />
+		<public54 frase0="Pasalo Boing!" />
+		<public56 frase0="Ponte tus zapatillas con luz e ilumina todas tus aventuras" />
+		<public55 npcName="Witch"
+			azar="Bring the ingredients to me and I'll prepares some potions!"
+			rollover="To find ingredients search the removed soil on the graveyard" />
+		<public63 npcName="Baker"
+			azar="You will lick your fingers after tasting my recipes!" rollover="Hmmm delicious" />
+		<public62 npcName="Elf Artist"
+			azar="Bring me some snowballs and see what I can do with them!"
+			rollover="Bring me some snowballs and see what I can do with them!" />
+		<public64 npcName="Kind Elf" azar="Toys handcrafted directly from Laponia!"
+			rollover="Toys handcrafted directly from Laponia!" />
+		<public71 npcName="Mischievous Elf" azar="Whats inside each gift?"
+			rollover="Get unforgettable gifts for your friends.. :)" />
+		<public73 npcName="Mischievous Elf"
+			azar="Take this gift and give it to a good friend for a memorable moment"
+			rollover="Aja! You managed to sneak past the bear, you deserve a reward" />
+		<public74 npcName="Santa"
+			azar="I have presents for every kid in BoomBang HO-HO-HO" rollover="Happy Christmas" />
+		<public75 frase0="Phineas y Ferb te desean una muy Feliz Perry-Navidad!" />
+		<public76
+			frase0="Los fines de semana por la mañana en Boing, ¡avisa a tus amigos!" />
+		<public77
+			frase0="Anímate y canta conmigo en el coro más divertido del mundo!" />
+		<public88 npcName="Bianca" azar=" I've created my first Easter egg!"
+			rollover="Lets trade! You need some chocolate coins." />
+		<public83 npcName="Molly" azar="I've prepared some beautiful Easter eggs!"
+			rollover="Lets trade! You need some chocolate coins." />
+		<public94 frase0="En cines el 15 de Abril!" />
+		<public97 frase0="Frase Grefusa" />
+		<multiuserGame2 viejo="Sage" frase="Are you ready???" />
+
+		<multiuserGame3 viejo="Sage" frase="Are you ready???" />
+	</textsEscenarios>
+
+	<textsObjects>
+		<dragon titulo="Moving your Dragon:"
+			descripcion="Activate the icon on the left side of your screen and move your dragon"
+			tecla="CTRL Key" />
+		<dino7 titulo="Moving your Dino:"
+			descripcion="Activate the icon on the left side of your screen and move your dino"
+			tecla="CTRL Key" />
+		<helicoptero titulo="Moving your Helicopter:"
+			descripcion="Activate the icon on the left side of your screen and move your helicopter"
+			tecla="CTRL Key" />
+		<loro_002 nombre="Parrot" volver="Back" tituloInicial="Customize your parrot:"
+			descripcionInicial="Your parrot can talk, welcome visitors and say funny things. Teach him!"
+			tituloTexto1="Welcome message:"
+			descripcionTexto1="How will your parrot welcome visitors to your island? Write it here:"
+			tituloTexto2="Proximity message:"
+			descripcionTexto2="How will your parrot react to strangers nearby? Write it here:"
+			tituloTexto3="Activation message:"
+			descripcionTexto3="Click the parrot's icon: he will say something everybody will see!" />
+			
+		<loro_002_new nombre="Parrot" volver="Back" tituloInicial="Customize your parrot:"
+			descripcionInicial="Your parrot can talk, welcome visitors and say funny things. Teach him!"
+			tituloTexto1="Welcome message:"
+			descripcionTexto1="How will your parrot welcome visitors to your island? Write it here:"
+			tituloTexto2="Proximity message:"
+			descripcionTexto2="How will your parrot react to strangers nearby? Write it here:"
+			tituloTexto3="Activation message:"
+			descripcionTexto3="Click the parrot's icon: he will say something everybody will see!" />
+			
+		<pirate_parrot nombre="Parrot" volver="Back"
+			tituloInicial="Customize your parrot:"
+			descripcionInicial="Your parrot can talk, welcome visitors and say funny things. Teach him!"
+			tituloTexto1="Welcome message:"
+			descripcionTexto1="How will your parrot welcome visitors to your island? Write it here:"
+			tituloTexto2="Proximity message:"
+			descripcionTexto2="How will your parrot react to strangers nearby? Write it here:"
+			tituloTexto3="Activation message:"
+			descripcionTexto3="Click the parrot's icon: he will say something everybody will see!" />
+		<PSU_Laptop nombre="Parrot" volver="Back" tituloInicial="Customize your parrot:"
+			descripcionInicial="Your parrot can talk, welcome visitors and say funny things. Teach him!"
+			tituloTexto1="Welcome message:"
+			descripcionTexto1="How will your parrot welcome visitors to your island? Write it here:"
+			tituloTexto2="Proximity message:"
+			descripcionTexto2="How will your parrot react to strangers nearby? Write it here:"
+			tituloTexto3="Activation message:"
+			descripcionTexto3="Click the parrot's icon: he will say something everybody will see!" />
+		<Nieve_Bush nombre="Christmas Bush" volver="Back"
+			tituloInicial="Make your own sequence!" descripcionInicial="Make your own light sequence!"
+			tituloTexto1="Light Sequence 1" descripcionTexto1="Make your own light sequence!"
+			tituloTexto2="Light Sequence 2" descripcionTexto2="Make your own light sequence!" />
+		<Nieve_Gramopho nombre="Gramophone" volver="Back"
+			tituloInicial="Play your Christmas tune" descripcionInicial="Choose between 7 Christmas carols!"
+			tituloTexto1="Play your Christmas tune" descripcionTexto1="Choose between 7 Christmas carols!"
+			tituloTexto2="Play your Christmas tune" descripcionTexto2="Choose between 7 Christmas carols!" />
+		<Musical_Love nombre="Gramophone" volver="Back"
+			tituloInicial="Play your Christmas tune" descripcionInicial="Choose between 7 Christmas carols!"
+			tituloTexto1="Play your Christmas tune" descripcionTexto1="Choose between 7 Christmas carols!"
+			tituloTexto2="Play your Christmas tune" descripcionTexto2="Choose between 7 Christmas carols!" />
+		<Nieve_Tree nombre="Christmas Bush" volver="Back"
+			tituloInicial="Make your own sequence!" descripcionInicial="Make your own light sequence!"
+			tituloTexto1="Light Sequence 1" descripcionTexto1="Make your own light sequence!"
+			tituloTexto2="Light Sequence 2" descripcionTexto2="Make your own light sequence!"
+			tituloTexto3="Light Sequence 3" descripcionTexto3="Make your own light sequence!"
+			tituloTexto4="Light Sequence 4" descripcionTexto4="Make your own light sequence!"
+			tituloTexto5="Light Sequence 5" descripcionTexto5="Make your own light sequence!" />
+		<cheetosKeko nombre="Cheeto" volver="Back"
+			tituloInicial="Customize your Cheeto:"
+			descripcionInicial="Cheeto can talk, welcome visitors and say funny things. Teach him!"
+			tituloTexto1="Welcome message:"
+			descripcionTexto1="How will Cheeto welcome visitors to your island? Write it here:"
+			tituloTexto2="Proximity message:"
+			descripcionTexto2="How will Cheeto react to strangers nearby? Write it here:"
+			tituloTexto3="Activation message:"
+			descripcionTexto3="Click Cheeto's icon: he will say something everybody will see!" />
+		<Nieve_Turkey mensaje1Pre=""
+			mensaje1Post=" gazes at the barbecue wondering... what's that rubber turkey doing there?"
+			mensaje2Pre="It seems " mensaje2Post="'s turkey was left on the oven for too long.."
+			mensaje3Pre="" mensaje3Post="'s burnt christmas turkey is ready! Yuks!"
+			mensaje4Pre="" mensaje4Post="'s delicious turkey is ready: you're all invited!" />
+		<Nieve_GingerB mensaje1Pre="" mensaje1Post=" bites the Gingerbreadman!" />
+		<mapa
+			paises="Spain,Argentina,England,Germany,Italy,France,Brazil,Chile,Canada,USA,Mexico,Portugal,UK,Australia,China,Russia" />
+		<gato accion="Action" />
+		<perro accion="Action" />
+		
+		<ChristmasPet_Robot
+			accion = "Click anywhere on the floor, and your pet will move there."
+		/>
+		<ChristmasPet_Jet
+			accion = "Click anywhere on the floor, and your pet will move there."
+		/>
+		<ChristmasPet_Moto
+			accion = "Click anywhere on the floor, and your pet will move there."
+		/>
+		<ChristmasPet_Drummer
+			accion = "Click anywhere on the floor, and your pet will move there."
+		/>
+		<ChristmasPet_Crocodile
+			accion = "Click anywhere on the floor, and your pet will move there."
+		/>
+		
+		
+		<log volver="Back" tituloInicial="Carve your message"
+			descripcionInicial="Carve your love message on the treetrunk!"
+			tituloTexto1="Name 1" descripcionTexto1="Carve your love message on the treetrunk!"
+			tituloTexto2="Name 2" descripcionTexto2="Carve your love message on the treetrunk!"
+			usuario1="User 1" usuario2="User 2" />
+		<alien_person nombre="Ithoriano" volver="Back"
+			tituloInicial="Customize your alien:"
+			descripcionInicial="Your alien can talk, welcome visitors and say funny things. Teach him!"
+			tituloTexto1="Welcome message:"
+			descripcionTexto1="How will your alien welcome visitors to your island? Write it here:"
+			tituloTexto2="Proximity message:"
+			descripcionTexto2="How will your alien react to strangers nearby? Write it here:"
+			tituloTexto3="Activation message:"
+			descripcionTexto3="Click the alien's icon: he will say something everybody will see!"
+			texto1="taH pagh taHbe', DaH mu'tlheghvam vIqelnIS" texto2="Heghlu'meH QaQ jajvam"
+			texto3="bIjatlh 'e' yImev" />
+		<alien_person nombre="Ithoriana" volver="Back"
+			tituloInicial="Customize your alien:"
+			descripcionInicial="Your alien can talk, welcome visitors and say funny things. Teach him!"
+			tituloTexto1="Welcome message:"
+			descripcionTexto1="How will your alien welcome visitors to your island? Write it here:"
+			tituloTexto2="Proximity message:"
+			descripcionTexto2="How will your alien react to strangers nearby? Write it here:"
+			tituloTexto3="Activation message:"
+			descripcionTexto3="Click the alien's icon: he will say something everybody will see!"
+			texto1="taH pagh taHbe', DaH mu'tlheghvam vIqelnIS" texto2="Heghlu'meH QaQ jajvam"
+			texto3="bIjatlh 'e' yImev" />
+		<alien_fly_sauce volver="Back" tituloSubir="Entertain your guests!"
+			descripcionSubir="Select a player and accept to give him control of your UFO" />
+		<Balloon_Love volver="Back" tituloSubir="Get up the selected player"
+			descripcionSubir="Get up the selected player" />
+		<Vuelta_Mundo volver="Back" tituloSubir="Get up the selected player"
+			descripcionSubir="Get up the selected player" />
+		<alien_ship_arm titulo="Moving your Ovi:"
+			descripcion="Activate the icon on the left side of your screen and move your ovni"
+			tecla="CTRL Key" />
+		<space_suit volver="Back" tituloSubir="Entertain your guests!"
+			descripcionSubir="Select a player and accept to give him control of your Space Suit" />
+		<pirate_cannon titulo="Your cannon shots!"
+			descripcion="Activate the icon on the left side of your screen and aim"
+			tecla="CTRL Key" />
+		<pirate_monkey1 nombre="Silly Willy" frase="Climb Aboooooooooard!" />
+		<pirate_monkey2 nombre="Black Jack" frase="Burp!" />
+		<Sign_Game volver="Back" tituloInicial="Game Sign"
+			descripcionInicial="Let everybody know youre looking for new friends to play with in your island!"
+			tituloTexto="Game Sign"
+			descripcionTexto="Let everybody know youre looking for new friends to play with in your island!" />
+		<Sign_Skull volver="Back" tituloInicial="Danger Sign"
+			descripcionInicial="Explain why visitors reading this sign shouldn't walk any further!"
+			tituloTexto="Danger Sign"
+			descripcionTexto="Explain why visitors reading this sign shouldn't walk any further!" />
+		<Sign_Piranha volver="Back" tituloInicial="Fish Sign"
+			descripcionInicial="Let people know its not safe to swim in your island"
+			tituloTexto="Fish Sign" descripcionTexto="Let people know its not safe to swim in your island" />
+		<Sign_Heart volver="Back" tituloInicial="Love Sign"
+			descripcionInicial="Carve your love message here... and edit it again whenever your feel like it."
+			tituloTexto="Love Sign"
+			descripcionTexto="Carve your love message here... and edit it again whenever your feel like it." />
+		<Miedo_Boom volver="Back" tituloInicial="Coffin"
+			descripcionInicial="Who's sleeping inside this coffin?" tituloTexto="Coffin"
+			descripcionTexto="Who's sleeping inside this coffin?" />
+		<Miedo_Bruja volver="Back" tituloInicial="Coffin"
+			descripcionInicial="Who's sleeping inside this coffin?" tituloTexto="Coffin"
+			descripcionTexto="Who's sleeping inside this coffin?" />
+		<Miedo_Cascos volver="Back" tituloInicial="Coffin"
+			descripcionInicial="Who's sleeping inside this coffin?" tituloTexto="Coffin"
+			descripcionTexto="Who's sleeping inside this coffin?" />
+		<Miedo_Cholo volver="Back" tituloInicial="Coffin"
+			descripcionInicial="Who's sleeping inside this coffin?" tituloTexto="Coffin"
+			descripcionTexto="Who's sleeping inside this coffin?" />
+		<Miedo_Empo volver="Back" tituloInicial="Coffin"
+			descripcionInicial="Who's sleeping inside this coffin?" tituloTexto="Coffin"
+			descripcionTexto="Who's sleeping inside this coffin?" />
+		<Miedo_Gata volver="Back" tituloInicial="Coffin"
+			descripcionInicial="Who's sleeping inside this coffin?" tituloTexto="Coffin"
+			descripcionTexto="Who's sleeping inside this coffin?" />
+		<Miedo_India volver="Back" tituloInicial="Coffin"
+			descripcionInicial="Who's sleeping inside this coffin?" tituloTexto="Coffin"
+			descripcionTexto="Who's sleeping inside this coffin?" />
+		<Miedo_Intelec volver="Back" tituloInicial="Coffin"
+			descripcionInicial="Who's sleeping inside this coffin?" tituloTexto="Coffin"
+			descripcionTexto="Who's sleeping inside this coffin?" />
+		<Miedo_Rasta volver="Back" tituloInicial="Coffin"
+			descripcionInicial="Who's sleeping inside this coffin?" tituloTexto="Coffin"
+			descripcionTexto="Who's sleeping inside this coffin?" />
+		<Miedo_Seta volver="Back" tituloInicial="Coffin"
+			descripcionInicial="Who's sleeping inside this coffin?" tituloTexto="Coffin"
+			descripcionTexto="Who's sleeping inside this coffin?" />
+		<Miedo_Yayo volver="Back" tituloInicial="Coffin"
+			descripcionInicial="Who's sleeping inside this coffin?" tituloTexto="Coffin"
+			descripcionTexto="Who's sleeping inside this coffin?" />
+		<Miedo_Gravesize volver="Back" tituloInicial="Grave"
+			descripcionInicial="Edit and write a name for the Gravestone"
+			tituloTexto="Grave" descripcionTexto="Edit and write a name for the Gravestone" />
+
+		<!-- España -->
+
+		<statue_big_1_s texto="firenox.5, ranked 1st on the Easter Egg Contest 2009" />
+		<statue_big_2_s texto="Zionn, ranked 2nd on the Easter Egg Contest 2009" />
+		<statue_big_3_s texto="jackmi2, ranked 3rd on the Easter Egg Contest 2009" />
+		<statue_big_4_s texto="uli,uli, ranked 4th on the Easter Egg Contest 2009" />
+		<statue_big_5_s
+			texto="elmosquito , ranked 5th on the Easter Egg Contest 2009" />
+		<statue_big_6_s
+			texto="erick-brasil, ranked 6th on the Easter Egg Contest 2009" />
+		<statue_big_7_s texto="roboloto, ranked 7th on the Easter Egg Contest 2009" />
+		<statue_big_8_s texto=":VeKeR:, ranked 8th on the Easter Egg Contest 2009" />
+		<statue_big_9_s texto="TlMbErLaN, ranked 9th on the Easter Egg Contest 2009" />
+		<statue_big_10_s texto="JeEzE, ranked 10th on the Easter Egg Contest 2009" />
+		<statue_big_11_s texto="T.aire, ranked 11th on the Easter Egg Contest 2009" />
+
+		<!-- USA -->
+
+		<statue_big_1_e texto="haz88, ranked 1st on the Easter Egg Contest 2009" />
+		<statue_big_2_e texto="Shike, ranked 2nd on the Easter Egg Contest 2009" />
+		<statue_big_3_e
+			texto="..UNKNOWN.., ranked 3rd on the Easter Egg Contest 2009" />
+		<statue_big_4_e
+			texto="ExtinctioN, ranked 4th on the Easter Egg Contest 2009" />
+		<statue_big_5_e
+			texto="-x-CeSaR-x-, ranked 5th on the Easter Egg Contest 2009" />
+		<statue_big_6_e
+			texto=".:PLAYA1994:., ranked 6th on the Easter Egg Contest 2009" />
+		<statue_big_7_e texto="Fotocopia, ranked 7th on the Easter Egg Contest 2009" />
+		<statue_big_8_e texto="policia, ranked 8th on the Easter Egg Contest 2009" />
+		<statue_big_9_e
+			texto=".x.kate07.x., ranked 9th on the Easter Egg Contest 2009" />
+		<statue_big_10_e
+			texto="IL0VEY0U, ranked 10th on the Easter Egg Contest 2009" />
+		<orientInsense
+			frase0="Orange blossom: the scent of these delicate white petals captivate your imagination."
+			frase1="Lavender: the scent fills the air with tranquility and peace...sweet dreams!"
+			frase2="Sandalwood: a warm, soft, gentle and sweet woody fragrance arouses."
+			frase3="Vanilla: the fresh and vital scent arouses inspiration and creativity."
+			frase4="Cinamon: this special scent creates a bridge between sweet and sour, harmonising your mood."
+			frase5="Rose: fresh and sweet, the rose petal scent attracts love and creates a charming mood."
+			frase6="Jasmine: the fragrance transports you to an exotic place where stillness and peace reign."
+			frase7="Patchouli:the heavy and strong scent disperses scattered thinking and makes you feel good" />
+		<radio frase="" />
+		<Skate_Colacao frase0="Consigue tu skate en los ColaCao grandes" />
+		<ColaCao_Zapatos
+			frase0="Consigue tus zapatillas con luz en los Colacao grandes" />
+		<Ben10_Furgoneta
+			frase0="No te pierdas el último capítulo de Ben10: La Batalla Final" />
+		<Grefusa_Abril
+			frase0="¿Todavía no has ganado premios Grefushow? Participa en www.grefusateam.com!!" />
+		<Hop_Egg frase0="En cines el 15 de Abril!" />
+		<Ben10_Watch
+			frase0="Los fines de semana por la mañana en Boing, ¡avisa a tus amigos!" />
+		<Nokia_Phone
+			frase0="¿A qué esperas?, Descarga Ovi Chat de Nokia y ponte en marcha." />
+		<Boing_Tv frase0="Pasalo Boing!" />
+		<Phineas_Ferb_Navidad
+			frase0="Phineas y Ferb te desean una muy Feliz Perry-Navidad!" />
+		<ColaCao_Camera frase0="Quieres salir en la tele?"
+			frase1="Graba tu spot y envialo a ColaCao, haz clic" />
+		<Nocilla_Bisbal
+			frase0="Coge tu micro y prepárate para cantar con David Bisbal!" />
+		<spiderman
+			frase0 = "Nueva serie. Gran estreno el 8 de Septiembre en Disney XD"	
+		/>
+	</textsObjects>
+
+	<choosePerson
+		selectPerson='&lt;FONT COLOR="#000000"&gt;Choose a character to start!&lt;/FONT&gt; ||&lt;FONT COLOR="#0072C6"&gt;Click on the one you like!&lt;/FONT&gt;'
+		seguro="Sure?" colores="Colors!" si="YES" selColor="Choose a color for your:"
+		selColors="Choose a color for your:" rastas="Pelo" cinta="Bandana"
+		ojos="Eyes" piel="Body" banador="Short" pelo="Hairs" cabello="Hairs"
+		camisa="Shirt" cinturon="Belt" short="Short" lupas="Glasses" vestido="Dress"
+		jacket="Jacket" pantacas="Pants" poncho="Dress" gomas="Gomas"
+		talisman="Talisman" gallumbos="Pants" gorro="Hat" top="Top" falda="Skirt"
+		kimono="Kimono" camisola="Dress" campanilla="Small Bell" lupasboom="Glasses"
+
+		siguiente="Next" anterior="Previous"
+
+		leeAntes="Please make sure you read our Terms and Conditions. Ask your parents if you're under 14 years."
+		leeTerminos="Read Terms and Conditions" leePrivacidad="Read Privacy Pledge"
+		newsletter="Yes, send me news about BoomBang to my email!" agree="Yes, I accept the Terms and Conditions"
+		crear="Join" leeElTexto="Please read|all the text!"
+		marcarCasilla="Check the box to accept the Terms and Conditions" asi="Like this!"
+
+		volver="Back" registrar="Register" escribeNombre="Write the name|of your character!"
+		nick="Character Name" password="Password" passwordConfirm="Password (repeat)"
+
+		completaLosDatos='&lt;FONT COLOR="#000000"&gt;Please, check all the fields!&lt;/FONT&gt; |||&lt;FONT COLOR="#0072C6"&gt;Try again!&lt;/FONT&gt;'
+		passwordMin='&lt;FONT COLOR="#000000"&gt;Your Password|must have at least|4 characters!&lt;/FONT&gt; ||&lt;FONT COLOR="#0072C6"&gt;Try again!&lt;/FONT&gt;'
+		passwordDontMatch='&lt;FONT COLOR="#000000"&gt;The passwords|don&apos;t match!&lt;/FONT&gt; |||&lt;FONT COLOR="#0072C6"&gt;Try again!&lt;/FONT&gt;'
+		nombreExistente="This name already exists!|Try with:"
+		nombreExistente2='&lt;FONT COLOR="#000000"&gt;This name|already exists!&lt;/FONT&gt; ||&lt;FONT COLOR="#0072C6"&gt;Try another|name.&lt;/FONT&gt;'
+		verificando="Checking..." nameDisponible="User Name Available!"
+		menorEdad='&lt;FONT COLOR="#000000"&gt;You are under 14 years old, so your parent has to confirm it!&lt;/FONT&gt;|&lt;FONT COLOR="#0072C6"&gt;Write his/her email!&lt;/FONT&gt;'
+		passFacil="The password is too easy, please try another one"
+		emailError='&lt;FONT COLOR="#000000"&gt;Your Email don&apos;t match!&lt;/FONT&gt;|&lt;FONT COLOR="#0072C6"&gt;Try again!&lt;/FONT&gt;'
+		emailInvalido='&lt;FONT COLOR="#000000"&gt;Your Email is not valid!&lt;/FONT&gt;|&lt;FONT COLOR="#0072C6"&gt;Try again!&lt;/FONT&gt;'
+		edadIncorrecta='&lt;FONT COLOR="#000000"&gt;Your Age is not valid!&lt;/FONT&gt;|&lt;FONT COLOR="#0072C6"&gt;Enter an age between 1 and 60!&lt;/FONT&gt;' />
+	<fichaRegistro registrate="Register" nombre="Character name"
+		password="Password" edad="Age" emailNormal="Email" repEmailNormal="Repeat Email"
+		emailPadre="Parent's Email" repEmailPadre="Repeat parent's Email"
+		condiciones="I agree terms and conditions|and privacy policy"
+		advertencia="When you are getting|register don't use never your real||   name. Don't give your personal|information to anybody (real name, |phone number, home address).||Don't give never your password|or email or maybe somebody can steal||       your account. Have fun, make new|        friends and don't be rude. ||    Clean game: don't cheat|    and don't use external|           programs: your account| can be blocked!"
+		crear="Create" />
+	<fichaAyudaCodigo
+		titulo="If our email containing the Code doesnt arrive try this:"
+		item1="Check your junk or Spam folders, it might be there"
+		item2='&lt;FONT COLOR="#23B2FF"&gt;Add to your Contact list:&lt;/FONT&gt;|&lt;FONT COLOR="#66FF00"&gt;noreply@boombang.tv&lt;/FONT&gt;|&lt;FONT COLOR="#23B2FF"&gt;We will send you emails using that email address&lt;/FONT&gt;'
+		item3='&lt;FONT COLOR="#23B2FF"&gt;Select any previous email from BoomBang and be sure to&lt;/FONT&gt; &lt;FONT COLOR="#66FF00"&gt;"Mark as Safe"&lt;/FONT&gt;'
+		item4='Make sure you are not blocking our emails: look in Options / Safe and Blocked Senders' />
+	<takePhoto fotografiar="Take Photo" cancelar="Cancel"
+		enviando="Sending...." verFoto="View Photo" cerrar="Close"
+		fichaAcercaTitulo='Participate in the|"Best Island Contest"'
+		fichaAcercaItem1="Choose your favorite Island|to take the photograph"
+		fichaAcercaItem2="You may only submit|ONE photograph"
+		fichaAcercaItem3="If you take several photos|from different islands, ONLY|the last one will participate"
+		fichaAcercaItem4="Invite your friends and take|the photo with them!"
+		fichaEndTitulo="Congratulations!|Your photo was saved"
+		fichaEndItem1='Check the "Contest" section on the website to find your Island picture and vote other players islands!'
+		fichaEndItem2='You may also search islands from other players by writing their name on the Search Box'
+		fichaEndItem3="This photo will replace any previous one you had before"
+		fichaErrorTitulo="Attention!|An error has occurred" fichaErrorItem1='We were unable to save|your picture successfully'
+		fichaErrorItem2='You must repeat your|photograph again!' />
+	<multiplayerGames
+		descAviso="Get ready, the game will start soon!.||You will be automatically summoned in 10 seconds.||Your opponents are already waiting for you." />
+	<mGameRing reglas="Rules" practicar="Practice" torneo="Compete"
+		dimeMas="More info" volver="Back" masTarde="Cancel" pagar="Pay" o_o="O.O"
+		ojos="-.-'" ok="OK" meRetiro="WITHDRAW" esperare="I'll wait"
+		tituloBienvenido="Welcome Novice,"
+		descBienvenido="Are you ready to challenge other players? Check the rules, defeat your rivals, earn fame and prizes!"
+		tituloReglas="Combat Rules:"
+		descReglas0="In this game you will fight against 7 other players that will try to defeat you as fast as possible."
+		descReglas1="Sign up for the Tournament with credits and win to get a prize.|Or practice for free using Silver coins."
+		descReglas2="You will be summoned 60 seconds before the game starts, so you'll have time to intimidate your opponents xD"
+		descReglas3="It doesn't really matter how many opponents you defeat, the winner will be the 'last man standing'"
+		descReglas4="You will be able to throw up to 3 free coconuts to block other players!"
+		descReglas5="Prizes? Depending on the number of Tournaments you win you'll earn a new glove with a different color!"
+		descReglas6="There are several different colors you can achieve, some will require a few wins, others a lifetime.."
+		descReglas7="Remember, only the last player standing will win!"
+		tituloAceptarInscripcion="Sign up?"
+		descAceptarInscripcion="El próximo torneo comenzará muy pronto. Si me das 250 monedas de oro te inscribiré y serás convocado."
+		tituloAbandonado="Pfffft!"
+		descAbandonado="You're weaker than I thought... Come back when you're ready!"
+		tituloEsperar="Hey relax!"
+		descEsperar="Just go and stretch your legs a bit, don't worry, I will summon you before the tournament starts"
+		tituloPracticar="Practice Match"
+		descPracticar="Puedes practicar a cambio de 1 moneda de plata.|No podrás conseguir un guante de color practicando."
+		tituloCreditosInsuficientes="Aja! Trying to cheat me?"
+		descCreditosInsuficientes="I have a feeling youre trying to trick me... you don't have the necessary Credits to sign up for the Tournament!"
+		descCreditosInsuficientesPlata="I have a feeling youre trying to trick me.. you don't have the necessary Silver Coins to sign!"
+		tituloInscripcionOk="right?"
+		descInscripcionOk="You have signed up for the game. Get ready, I will summon you automatically before the challenge starts!"
+		tituloRecuerda="And remember..." descRecuerda="Only the last player standing will win!"
+		tituloAbandonar="The game is not ready yet.."
+		descAbandonar="Have a little patience! Its not easy to find rivals willing to challenge you, you will be summoned when everybody is ready."
+		tituloError="An error has occured!"
+		descError="Im afraid there has been a system error... nothing serious don't worry; just try again please!"
+		elVencedor="The winner is" empate="Timeout" tituloFichaPunch="Tournament Prizes:"
+		descFichaPunch="Con cada Victoria consigue 500 Créditos y estos guantes de colores"
+		descGuante0="Red|0 Victorys" descGuante1="Pink|1 Victorys"
+		descGuante2="Orange|10 Victorys" descGuante3="Green|25 Victorys"
+		descGuante4="Blue|50 Victorys" descGuante5="White|100 Victorys"
+		descGuante6="Purple|200 Victorys" descGuante7="Brown|500 Victorys"
+		descGuante8="Black|1000 Victorys" descGuante9="Golden|2000 Victorys" />
+	<mGameCocos reglas="Rules" practicar="Practice" torneo="Compete"
+		dimeMas="More info" volver="Back" masTarde="Cancel" pagar="Pay" o_o="O.O"
+		ojos="-.-'" ok="OK" meRetiro="WITHDRAW" esperare="I'll wait"
+		tituloBienvenido="Want to play with us!?"
+		descBienvenido="Hi little human, we invite you to participate in a very special game. We will test your speed and wits, do you accept?"
+		tituloReglas="Game Rules:"
+		descReglas0="In this game you'll play against 5 other players. Think fast, move faster and you'll be the winner!"
+		descReglas1="Every 30 seconds and at my signal, monkeys will throw some coconuts. Walk to a 'safe spot' to avoid getting hit by one."
+		descReglas2="'Safe spots' will be highlighted on the ground before each round, make sure to memorize them and run fast!"
+		descReglas3="Each round there will be fewer 'safe spots' until the find round, where only 1 'safe spot' will be available."
+		descReglas4="If you don't reach a 'safe spot' in time before the countdown a monkey will throw a coconut to you, and you'll be disqualified!"
+		descReglas5="You can use 2 coconuts to delay your opponents, make sure you use them wisely!"
+		tituloAceptarInscripcion="Sign up to compete?"
+		descAceptarInscripcion="The game will start soon enough, but if you want|to participate you should give me 250 Credits!"
+		tituloAbandonado="Youre leaving.."
+		descAbandonado="Oh... come on little one, why are you leaving? I was secretly hoping to throw some coconuts to you :) See you around!"
+		tituloEsperar="Hey relax!"
+		descEsperar="Just go and stretch your legs a bit, don't worry, I will summon you before the tournament starts"
+		tituloPracticar="Want to practice?"
+		descPracticar="You may practice for 1 silver coins.|You can only win a Treasure Chest on Tournament mode."
+		tituloCreditosInsuficientes="Stop right there!"
+		descCreditosInsuficientes="Even though I'm a monkey, it seems I'm better at maths than you are: you don't have enough Credits!"
+		descCreditosInsuficientesPlata="I have a feeling youre trying to trick me.. you don't have the necessary Silver Coins to sign!"
+		tituloInscripcionOk="right?"
+		descInscripcionOk="Ok you've signed up; I will summon you when the game is ready, you can go elsewhere in the meantime."
+		tituloRecuerda="And remember..."
+		descRecuerda="Reach the safe spots fast and delay your friends with coconuts!"
+		tituloAbandonar="The game is not ready!"
+		descAbandonar="Its not the time yet! Don't worry, you signed up, I will tell you when the game is ready!"
+		tituloError="An error has occured!"
+		descError="Im afraid there has been a system error... nothing serious don't worry; just try again please!"
+		elVencedor="The winner is" empate="Timeout" tituloFichaCocos="Tournament Prizes:"
+		descFichaCocos="Con cada Victoria consigue 500 Créditos y estos cocos"
+		descCoco0="Coconut|0 Points" descCoco1="Snowball|5 Points" descCoco2="Shoe|10 Points"
+		descCoco3="Cake|25 Points" descCoco4="Flowerpot|50 Points" descCoco5="Honeycomb|75 Points"
+		descCoco6="Trash|100 Points" descCoco7="Watermelon|150 Points"
+		descCoco8="Anvil|200 Points" descCoco9="Piano|300 Points" />
+	<mGameLianas reglas="Rules" practicar="Practice" torneo="Compete"
+		dimeMas="More info" volver="Back" masTarde="Cancel" pagar="Pay" o_o="O.O"
+		ojos="-.-'" ok="OK" meRetiro="WITHDRAW" esperare="I'll wait"
+		tituloBienvenido="Halt adventurer!"
+		descBienvenido="Are you brave enough to travel through the jungle path filled with 1000 invisible vines?"
+		tituloReglas="Game Rules:"
+		descReglas0="In this adventure, you'll complete against 2 opponents. You'll attempt to walk and reach the cross without springing a trap."
+		descReglas1="Seems easy? There is only one correct path :). Only a brave tracker will make it to the end without failing."
+		descReglas2="Check where other adventurers step and where there are traps."
+		descReglas3="One simple mistake or false step and you'll go to the initial position! Make it to the cross and win 100 credits per opponent"
+		tituloAceptarInscripcion="Sign up to compete?"
+		descAceptarInscripcion="Want to compete? You need: 100 credits.|If you win you'll get: 200 credits + Treasure Chest"
+		tituloAbandonado="So you're quitting?"
+		descAbandonado="Today you've escaped from our traps, but I never forget a face, soon we will meet again."
+		tituloEsperar="Hey relax!"
+		descEsperar="Just go and stretch your legs a bit, don't worry, I will summon you before the tournament starts"
+		tituloPracticar="Want to practice?"
+		descPracticar="You may practice for 1 silver coins.|You can only win a Treasure Chest on Tournament mode."
+		tituloCreditosInsuficientes="Stop right there!"
+		descCreditosInsuficientes="Even with the paint on my face I can see you don't carry the necessary Credits to Compete!"
+		descCreditosInsuficientesPlata="I have a feeling youre trying to trick me.. you don't have the necessary Silver Coins to sign!"
+		tituloInscripcionOk="right?"
+		descInscripcionOk="Get ready: focus and sharpen your senses, I'll summon you automatically when more players sign up!"
+		tituloRecuerda="And remember..." descRecuerda="The fastest to get to the cross will win the prize!"
+		tituloAbandonar="Patience!"
+		descAbandonar="You can't start this adventure alone: I'll summon you when everybody is ready, you can go elsewhere in the meantime."
+		tituloError="An error has occured!"
+		descError="Im afraid there has been a system error... nothing serious don't worry; just try again please!"
+		elVencedor="The winner is" empate="Timeout" />
+	<mGameShuriken reglas="Rules" practicar="Practice"
+		torneo="Compete" dimeMas="More info" volver="Back" masTarde="Cancel"
+		pagar="Pay" o_o="O.O" ojos="-.-'" ok="OK" meRetiro="WITHDRAW"
+		esperare="I'll wait" tituloBienvenido="The way of the Crane"
+		descBienvenido="To become a true Ninja you will need to follow and complete the Crane path. Are you ready?"
+		tituloReglas="Game Rules:"
+		descReglas0="In this game, you'll compete against 4 friends. Prove your speed and intuition throwing ninja stars to evil ninjas!"
+		descReglas1="Aim with your mouse and shoot a star by pressing your mouse button."
+		descReglas2="Your avatar will shoot a shuriken ONLY if you are the fastest player to succesfully aim and press your mouse button!"
+		descReglas3="Make sure you only shoot at evil ninjas, you will get negative points if you shoot against innocent passers by."
+		descReglas4="The first player to reach 200 points will win. All the players will gain some progress and points to become a true Ninja."
+		descReglas5="Black Ninja: 5 pts / Red Ninja: 10 pts / Special Ninja: 15 pts|Innocent: -20 pts"
+		tituloAceptarInscripcion="Sign up to compete?"
+		descAceptarInscripcion="Want to compete? You need: 100 credits.|Playing will make you advance to become a Ninja"
+		tituloAbandonado="Youre leaving.."
+		descAbandonado="When you make up your mind and decide to continue The Way of the Crane come to me."
+		tituloEsperar="Patience!"
+		descEsperar="I'm still trying to find more players: I'll summon you when everybody is ready, you can go elsewhere in the meantime."
+		tituloPracticar="Want to practice?"
+		descPracticar="You may practice for 1 silver coins.|You won't be able to become a Ninja in Practice Mode."
+		tituloCreditosInsuficientes="You can't Compete"
+		descCreditosInsuficientes="A ninja must show cunning, but you forget who I am:|you don't have enough Credits to Compete!"
+		descCreditosInsuficientesPlata="You don't have enough silver coins to practice!"
+		tituloInscripcionOk="right?"
+		descInscripcionOk="Today your Ninja abilities will increase. I will summon you when the game is ready."
+		tituloRecuerda="Remember:"
+		descRecuerda="only the first player to aim correctly will shoot the shuriken star."
+		tituloAbandonar="So you're quitting?"
+		descAbandonar="The way of the Crane requires speed and intuition, but also discipline, today you've showed you lack all of them.."
+		tituloError="An error has occured!"
+		descError="Im afraid there has been a system error... nothing serious don't worry; just try again please!"
+		elVencedor="The winner is" empate="Timeout" tituloFichaCinturon="Tournament Prizes:"
+		descCinturon0="You're a Ninja!|200 Points" descCinturon1="Pink|205 Points"
+		descCinturon2="Orange|210 Points" descCinturon3="Green|225 Points"
+		descCinturon4="Blue|250 Points" descCinturon5="White|275 Points"
+		descCinturon6="Purple|300 Points" descCinturon7="Brown|350 Points"
+		descCinturon8="Black|400 Points" descCinturon9="Golden|500 Points" />
+
+
+	<notificaciones silverPanel_textoFichaSilver="You have won [coins] silver coins."
+		silverPanel_textoFichaSilverEmail="You have won [coins] silver coins for validate your email."
+		dailyBonus_gifTitle1="Welcome Pack" dailyBonus_gifTitle2="Great! You have received:"
+		dailyBonus_gifTitle3="Great! You have received:" dailyBonus_gifTitle4="Great! You have received:"
+		dailyBonus_gifTitle5="Great! You have received:" dailyBonus_gifTitle6="Great! You have received:"
+		dailyBonus_gifTitle7="Great! You have received:" dailyBonus_gifTitle8="Great! You have received:"
+		dailyBonus_gifTitle9="Great! You have received:"
+		dailyBonus_gifTitle10="Great! You have received:"
+		dailyBonus_gifTitle11="Great! You have received:"
+		dailyBonus_gifTitle12="Great! You have received:"
+		dailyBonus_gifTitle13="Great! You have received:"
+		dailyBonus_gifTitle14="Great! You have received:"
+		dailyBonus_gifTitle15="Great! You have received:"
+		dailyBonus_gifTitle16="Great! You have received:"
+		dailyBonus_gifTitle17="Great! You have received:"
+		dailyBonus_gifTitle18="Great! You have received:"
+		dailyBonus_gifTitle19="Great! You have received:"
+		dailyBonus_gifTitle20="Great! You have received:"
+		dailyBonus_gifTitle21="Great! You have received:"
+		dailyBonus_gifTitle22="Great! You have received:"
+		dailyBonus_gifTitle23="Great! You have received:"
+		dailyBonus_gifTitle24="Great! You have received:"
+		dailyBonus_gifTitle25="Great! You have received:"
+		dailyBonus_fichaTitle="Get free gifts"
+		dailyBonus_fichaText="To get just |you have to play a |BoomBang! You can|use them to decorate|your house and your island."
+		dailyBonus_bubble1="There are" dailyBonus_bubble2="25"
+		dailyBonus_bubble3="different" dailyBonus_bubble4="gifts"
+		dailyBonus_timeText="Time for |Receive your |next gift" />
+
+</texto>

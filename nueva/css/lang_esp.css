@@ -1,0 +1,97 @@
+BODY#boombang.lang_eng	H1,
+BODY#rankings.lang_eng	H1,
+BODY#shop.lang_eng		H1,
+/*BODY#shots.lang_eng		H1 { background-image: url('../images/isla/h1_boombang_eng.png'); }*//*Imagen de fondo con el fondo verde*/
+BODY#shots.lang_esp		H1 { background-image: url('../images/partner/h1_boombang_esp.png'); }/*Imagen de fondo con el fondo azul*/
+BODY#safety.lang_eng 	H1 { background-image: url('../images/h1_safety_eng.jpg'); }
+BODY#parents.lang_eng 	H1 { background-image: url('../images/h1_parents_eng.jpg'); }
+BODY#credits.lang_eng 	H1 { background-image: url('../images/h1_credits_eng.jpg'); }
+BODY#members.lang_eng 	H1 { background-image: url('../images/h1_members_eng.jpg'); }
+BODY#contact.lang_eng	H1 { background-image: url('../images/h1_contact_eng.jpg'); }
+
+/* PLAY */
+BODY#boombang.lang_eng	A#link_play ,
+BODY#rankings.lang_eng	A#link_play ,
+BODY#shop.lang_eng		A#link_play ,
+/*BODY#shots.lang_eng		A#link_play { background-image: url('../images/isla/play_boombang_eng.jpg'); }*/ /*Play con fondo de color azul*/
+BODY#shots.lang_eng		A#link_play { background-image: url('../images/partner/play_boombang_eng.jpg'); } /*Play con fondo de color verde*/
+BODY#safety.lang_eng	A#link_play { background-image: url('../images/play_safety_eng.jpg'); }
+BODY#parents.lang_eng	A#link_play { background-image: url('../images/play_parents_eng.jpg'); }
+BODY#credits.lang_eng	A#link_play { background-image: url('../images/play_credits_eng.jpg'); }
+BODY#members.lang_eng	A#link_play { background-image: url('../images/play_members_eng.jpg'); }
+BODY#contact.lang_eng	A#link_play { background-image: url('../images/play_contact_eng.jpg'); }
+
+/* MENU 1 */
+BODY#boombang.lang_eng 	UL#menu1 A 	,
+BODY#rankings.lang_eng 	UL#menu1 A 	,
+BODY#shop.lang_eng 		UL#menu1 A 	,
+BODY#shots.lang_eng 	UL#menu1 A 	{ background-image: url('../images/plantas/menu1_boombang_eng.jpg'); }
+BODY#safety.lang_eng 	UL#menu1 A 	{ background-image: url('../images/menu1_safety_eng.jpg'); }
+BODY#parents.lang_eng 	UL#menu1 A	{ background-image: url('../images/menu1_parents_eng.jpg'); }
+BODY#credits.lang_eng 	UL#menu1 A	{ background-image: url('../images/menu1_credits_eng.jpg'); }
+BODY#members.lang_eng 	UL#menu1 A	{ background-image: url('../images/menu1_members_eng.jpg'); }
+BODY#news.lang_eng 		UL#menu1 A	{ background-image: url('../images/menu1_news_eng.jpg'); }
+BODY#contact.lang_eng 	UL#menu1 A	{ background-image: url('../images/menu1_contact_eng.jpg'); }
+
+BODY.lang_eng UL#menu1 A#link_boombang 	{ width: 109px; background-position: 0px 0px; }
+BODY.lang_eng UL#menu1 A#link_safety 	{ width: 108px; background-position: -109px 0px; }
+BODY.lang_eng UL#menu1 A#link_parents 	{ width: 108px; background-position: -217px 0px; }
+BODY.lang_eng UL#menu1 A#link_credits 	{ width: 109px; background-position: -325px 0px; }
+BODY.lang_eng UL#menu1 A#link_members 	{ width: 106px; background-position: -434px 0px; }
+BODY.lang_eng UL#menu1 A#link_contact 	{ width: 109px; background-position: -540px 0px; }
+BODY.lang_eng UL#menu1 A#link_platform	{ width: 110px; background-position: -649px 0px; }
+BODY.lang_eng UL#menu1 A#link_partner	{ width: 215px; background-position: -763px 0px; border-left: 4px solid white;}
+
+BODY#boombang.lang_eng UL#menu1 A#link_boombang ,
+BODY.lang_eng UL#menu1 A#link_boombang:hover 	{ background-position: 0px -32px; }
+BODY#safety.lang_eng UL#menu1 A#link_safety ,
+BODY.lang_eng UL#menu1 A#link_safety:hover 		{ background-position: -109px -32px; }
+BODY#parents.lang_eng UL#menu1 A#link_parents ,
+BODY.lang_eng UL#menu1 A#link_parents:hover 	{ background-position: -217px -32px; }
+BODY#credits.lang_eng UL#menu1 A#link_credits ,
+BODY.lang_eng UL#menu1 A#link_credits:hover 	{ background-position: -325px -32px; }
+BODY#members.lang_eng UL#menu1 A#link_members ,
+BODY.lang_eng UL#menu1 A#link_members:hover 	{ background-position: -434px -32px; }
+BODY#contact.lang_eng UL#menu1 A#link_contact ,
+BODY.lang_eng UL#menu1 A#link_contact:hover		{ background-position: -540px -32px; }
+BODY.lang_eng UL#menu1 A#link_platform:hover	{ background-position: -649px -32px; }
+BODY.lang_eng UL#menu1 A#link_partner:hover		{ background-position: -763px -32px; }
+
+/* MENU 2 */
+UL#menu2 LI A		{ background-image: url('../images/menu2_eng.png'); }
+
+BODY#boombang.lang_eng 	H2 { background-image: url('../images/plantas/h2_boombang_eng.png'); }
+BODY#safety.lang_eng 	H2 { background-image: url('../images/h2_safety_eng.png'); }
+BODY#parents.lang_eng 	H2 { background-image: url('../images/h2_parents_eng.png'); }
+BODY#credits.lang_eng 	H2 { background-image: url('../images/h2_credits_eng.png'); }
+BODY#members.lang_eng 	H2 { background-image: url('../images/h2_members_eng.png'); }
+BODY#blog.lang_eng 		H2 { background-image: url('../images/h2_news_eng.png'); }
+BODY#contact.lang_eng	H2 { background-image: url('../images/h2_contact_eng.png'); }
+BODY#shop.lang_eng 		H2 { background-image: url('../images/h2_shop_eng.png'); }
+BODY#shots.lang_eng 	H2 { background-image: url('../images/h2_shots_eng.png'); }
+
+BODY#boombang.lang_eng	DIV#box1	{ background-image: url('../images/plantas/boxes_boombang_eng.png'); }
+BODY#safety.lang_eng	DIV#box1	{ background-image: url('../images/boxes_safety_eng.png'); }
+BODY#parents.lang_eng	DIV#box1	{ background-image: url('../images/boxes_parents_eng.png'); }
+BODY#credits.lang_eng	DIV#box1	{ background-image: url('../images/boxes_credits_eng.png'); }
+BODY#members.lang_eng	DIV#box1	{ background-image: url('../images/boxes_members_eng.png'); }
+
+/* CREDITS */
+BODY#credits.lang_eng A#buy_btn { background-image: url('../images/buybtn_eng.png'); }
+
+/* CONTACT */
+BODY#contact.lang_eng A#contact_back { background-image: url('../images/contact_back_eng.png'); }
+BODY#contact.lang_eng A#contact_send { background-image: url('../images/contact_send_eng.png'); }
+
+/* SHOP */
+BODY#shop.lang_eng A#link_shirtcity	{ background-image: url('../images/shop_shirtcity_eng.png'); }
+BODY#shop.lang_eng A#link_cafepress { background-image: url('../images/shop_cafepress_eng.png'); }
+
+/* OPTOUT */
+BODY.optout_info_eng H1 		{ background-image: url('../images/optout_info_title_eng.png'); }
+BODY.optout_confirm_eng H1 		{ background-image: url('../images/optout_confirm_title_eng.png'); }
+BODY.optout_error_eng H1		{ background-image: url('../images/optout_error_title_eng.png'); }
+BODY.optout_success_eng H1 		{ background-image: url('../images/optout_success_title_eng.png'); }
+BODY.optout_wrongdata_eng H1 	{ background-image: url('../images/optout_wrongdata_title_eng.png'); }
+BODY.optout_confirm_eng FORM#confirm_form	{ background: url('../images/optout_confirm_formbg_eng.png') center left no-repeat; }
+BODY.optout_confirm_eng	BUTTON#confirm_submit { background: url('../images/optout_confirm_send_eng.png') top left no-repeat; }

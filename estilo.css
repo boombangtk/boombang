@@ -1,0 +1,1224 @@
+HTML
+{
+	background: black;
+}
+
+IMG { border: 0px; }
+
+BODY
+{
+	margin: 0px;
+	padding: 0px;
+	background: black url('/images/body_bg.png') repeat;
+}
+
+DIV.banner_728x90
+{
+	background: black;
+	width: inherit;
+	text-align: center;
+	border: 1px solid yellow;
+}
+
+BODY DIV#page
+{
+	cursor: default;
+	position: relative;
+	width: 978px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	color: white;
+	font-family: Verdana, Helvetica, Arial, sans-serif;
+	font-size: 15px;
+	background-image: url('images/page_bg.png');
+	background-repeat: repeat-y;
+	background-position:  759px 427px;
+	border: 6px solid white;
+}
+
+BODY#boombang	DIV#page { color: #ffffff; background-color: #c44a1d;}
+BODY#safety 	DIV#page { color: #667F00; background-color: #333300;}
+BODY#parents 	DIV#page { color: #1CFD1C; background-color: #007A52;}
+BODY#credits 	DIV#page { color: #ffffff; background-color: #F7447A;}
+BODY#members 	DIV#page { color: #ffffff; background-color: #ff6600;}
+BODY#news 		DIV#page { color: #ffffff; background-color: #06719B;}
+BODY#blog 		DIV#page { color: #ffffff; background-color: #06719B;}
+BODY#contact	DIV#page { color: #ffffff; background-color: #207D7C;}
+BODY#rankings	DIV#page { color: #ffffff; background-color: #ff9900;}
+BODY#optout		DIV#page { color: #1cfd1c; background-color: #026c6b;}
+BODY#shop		DIV#page { color: #ffffff; background-color: #005369;}
+BODY#shots		DIV#page { color: #ffffff; background-color: #207D7C;}
+
+H1
+{
+	color: white;
+	text-indent: -9000px;
+	margin: 0px;
+	width: 978px;
+	height: 385px;
+	border-bottom: 4px solid white;
+	background-position: left top;
+	background-repeat: no-repeat;
+}
+
+BODY#boombang	H1,
+BODY#rankings	H1,
+BODY#shop		H1,
+/*BODY#shots		H1 { background-color: #369831; }*/ /*Fondo de color verde*/
+BODY#shots		H1 { background-color: #2B68BE; } /*Fondo de color azul*/
+BODY#safety		H1 { background-color: #402e13; }
+BODY#parents	H1 { background-color: #009464; }
+BODY#credits	H1 { background-color: #7f3d59; }
+BODY#members	H1 { background-color: #ff9900; }
+BODY#contact	H1 { background-color: #155554; }
+
+DIV#social_follow_links
+{
+	position: absolute;
+	top: 344px;
+	left: 20px;
+	width: 187px;
+	height: 32px;
+	overflow: hidden;
+}
+
+DIV#social_follow_links UL
+{
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	position: relative;
+	z-index: 10;
+/*
+	left: 50%;
+*/
+}
+
+DIV#social_follow_links UL LI
+{
+	position: relative;
+	list-style: none inside;
+	float: left;
+/*
+	right: 50%;
+*/
+	margin: 0px 10px 0px 0px;
+	display: block;
+}
+DIV#social_follow_links UL LI A
+{
+	text-indent: -9000px;
+	width: 32px;
+	height: 32px;
+	display: block;
+	background-repeat: no-repeat;
+	position: relative;
+}
+
+DIV#social_follow_links UL LI A:active
+{
+	top: 1px;
+	left: 1px;
+}
+
+BODY#boombang DIV#social_follow_links A,
+BODY#shots DIV#social_follow_links A ,
+BODY#shop DIV#social_follow_links A ,
+BODY#rankings DIV#social_follow_links A { background-image: url('images/partner/social_logos_boombang.png'); }
+BODY#safety DIV#social_follow_links A { background-image: url('images/social_logos_safety.png'); }
+BODY#parents DIV#social_follow_links A { background-image: url('images/social_logos_parents.png'); }
+BODY#credits DIV#social_follow_links A { background-image: url('images/social_logos_credits.png'); }
+BODY#members DIV#social_follow_links A { background-image: url('images/social_logos_members.png'); }
+BODY#contact DIV#social_follow_links A { background-image: url('images/social_logos_contact.png'); }
+
+DIV#social_follow_links A#social_follow_facebook { background-position: 0px 0px; }
+DIV#social_follow_links A#social_follow_tuenti   { background-position: -32px 0px; }
+DIV#social_follow_links A#social_follow_twitter  { background-position: -64px 0px; }
+DIV#social_follow_links A#social_follow_youtube  { background-position: -96px 0px; }
+
+OBJECT#top_flash
+{
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	height: 385px;
+	z-index: 1;
+}
+
+H2
+{
+	position: absolute;
+	top: 425px;
+	left: 0px;
+	margin: 0px;
+	padding: 0px;
+	width: 440px;
+	height: 100px;
+	text-indent: -9000px;
+	background-position: 50px 20px;
+	background-repeat: no-repeat;
+}
+
+BODY#contact H2,
+BODY#shop H2 { width: 550px; } 
+
+
+H3
+{
+	margin: 0px;
+	margin-bottom: -10px;
+	padding: 0px;
+	padding-top: 5px;
+	padding-bottom: 10px;
+	padding-left: 50px;
+	font-size: 15px;
+	font-weight: bold;
+}
+BODY#boombang H3 { color: yellow; }
+
+H4
+{
+	margin: 0px;
+	padding-top: 5px;
+	padding-left: 50px;
+	padding-bottom: 5px;
+	font-weight: bold;
+	background-position: 10px 0px;
+	background-repeat: no-repeat;
+}
+
+H4 A
+{
+	color: white;
+	text-decoration: none;
+}
+
+H5
+{
+	margin: 0px;
+	padding-top: 5px;
+	padding-left: 50px;
+	padding-bottom: 5px;
+	font-size: 14px;
+	font-weight: bold;
+	background-position: 10px 0px;
+	background-repeat: no-repeat;
+}
+
+P
+{
+	margin: 0px;
+	margin-bottom: 10px;
+	padding-left: 50px;
+	color: white;
+	background-position: 10px 0px;
+	background-repeat: no-repeat;
+	font-size: 15px;
+	font-weight: bold;
+	width: 380px;
+}
+
+DIV#cookiesPolicy
+{
+	cursor: default;
+	position: relative;
+	width: 978px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	border: 6px solid white;
+	border-bottom-style: none;
+	background-color: #007A52;
+	display:none;
+	height:0px;
+}
+
+A#cookiesPolicyButton
+{
+	display: block;
+	background-image: url("images/boton_cookies.jpg");
+	background-position: 0px 0px;
+	background-repeat: no-repeat;
+	text-indent: -9000px;
+	width: 82px;
+	height: 26px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+A#cookiesPolicyInfoLink
+{
+	color: white;
+}
+
+A#cookiesPolicyButton:hover
+{
+	background-position: -82px 0px;
+}
+
+P#cookiesPolicyDescription
+{
+	padding-left:0px;
+	padding-top:10px;
+	margin-left:auto;
+	margin-right:auto;
+	color: white;
+	font-family: Verdana, Helvetica, Arial, sans-serif;
+	font-size: 15px;
+	width: 900px;
+	text-align:center;
+}
+
+BODY#boombang 	P { color: #ffffff; background-image: none; font-weight: normal; padding-bottom: 7px;}
+BODY#safety 	P { color: #667F00; background-image: url("images/pbg_safety.png"); }
+BODY#parents 	P { color: #1CFD1C; background-image: url("images/pbg_parents.png"); }
+BODY#credits 	P { color: #ffffff; background-image: url("images/pbg_credits.png"); }
+BODY#members 	P { color: #ffffff; background-image: url("images/pbg_members.png"); }
+BODY#contact	P { color: #ffffff; background-image: url("images/pbg_contact.png"); }
+BODY#rankings	P { color: #ffffff; }
+BODY#shop	 	P { color: #ffffff; background-image: url("images/pbg_shop.png"); }
+BODY#shots	 	P { color: #ffffff; background-image: none; }
+
+BODY#boombang P SPAN.titulo { font-weight: bold;}
+
+/* PLAY */
+
+A#link_play
+{
+	display: block;
+	position: absolute;
+	left: 20px;
+	top: 230px;
+	width: 187px;
+	height: 103px;
+	text-indent: -9000px;
+	background-position: 0px 0px;
+	background-repeat: no-repeat;
+	z-index: 10;
+}
+
+A#link_play:hover
+{
+	background-position: -187px 0px;
+}
+
+/* MENU 1*/
+
+UL#menu1
+{
+	position: absolute;
+	top: 389px;
+	left: 0px;
+	width: 978px;
+	height: 32px;
+	margin: 0px;
+	padding: 0px;
+	list-style: none inside;
+	border-bottom: 4px solid white;
+	overflow: hidden;
+}
+
+UL#menu1 LI
+{
+	display: block;
+	float: left;
+	margin: 0px;
+	padding: 0px;
+}
+
+UL#menu1 LI A
+{
+	display: block;
+	height: 32px;
+	margin: 0px;
+	padding: 0px;
+	text-indent: -9000px;
+}
+UL#menu1 LI A:link
+{
+	height: 32px;
+}
+
+/* MENU 2 */
+
+UL#menu2
+{
+	position: absolute;
+	top: 425px;
+	right: 0px;
+	width: 215px;
+	margin: 10px 0 0;
+	padding: 0px;
+	z-index: 10;
+	border-left: 4px solid white;
+}
+
+UL#menu2 LI
+{
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+
+UL#menu2 LI A
+{
+	display: block;
+	width: 215px;
+	text-indent: -9000px;
+}
+
+UL#menu2 A#link_forum			{ height: 74px; background-position: -8px 0px; }
+UL#menu2 A#link_forum:hover		{ background-position: -245px 0px; }
+
+UL#menu2 A#link_shots			{ height: 56px; background-position: -8px -74px; }
+UL#menu2 A#link_shots:hover		{ background-position: -245px -74px; }
+
+UL#menu2 A#link_fanart			{ height: 58px; background-position: -8px -130px; }
+UL#menu2 A#link_fanart:hover	{ background-position: -245px -130px; }
+
+UL#menu2 A#link_shop			{ height: 58px; background-position: -8px -188px; }
+UL#menu2 A#link_shop:hover		{ background-position: -245px -188px; }
+
+UL#menu2 A#link_rankings		{ height: 55px; background-position: -8px -246px; }
+UL#menu2 A#link_rankings:hover	{ background-position: -245px -246px; }
+
+UL#menu2 A#link_contest			{ height: 62px; background-position: -8px -301px; }
+UL#menu2 A#link_contest:hover	{ background-position: -245px -301px; }
+
+
+DIV#content
+{
+	width: 720px;
+	margin: 0px;
+	margin-top: 150px;
+	padding: 0px;
+	min-height: 500px;
+}
+
+BODY > DIV#content { height: auto;}
+BODY#boombang DIV#content { width: 380px; }
+BODY#safety DIV#content { width: 380px; }
+BODY#parents DIV#content { width: 380px; }
+BODY#credits DIV#content { width: 380px; }
+
+DIV#boxes 
+{
+	position: absolute;
+	top: 425px;
+	right: 219px;
+	padding: 10px;
+	width: 300px;
+/*
+	border: 1px solid yellow;
+*/
+}
+DIV#boxes IMG,
+DIV#boxes OBJECT
+{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+}
+
+DIV#boxes DIV.publi_header_300x
+{
+	display: none;
+}
+
+DIV#boxes IFRAME.publicidad
+{
+	border: none;
+	width: 300px;
+	height: 250px;
+	overflow: hidden;
+}
+
+DIV#boxes DIV.box 
+{
+	text-indent: -9000px;
+	background-position: center center;
+	background-repeat: no-repeat;
+	height: 316px;
+	width: 221px;
+	margin: 0px 0px 20px auto;
+}
+
+BODY#rankings DIV#boxes DIV#box1 { height: 300px; }
+
+BODY#boombang DIV#content HR
+{
+	border: none;
+	height: 4px;
+	width: 404px;
+	margin: 8px 0px 8px 50px;
+	padding: 0px 0px;
+	background-image: url('images/plantas/hr_bg.png');
+	background-repeat: repeat-x;
+	clear: left;
+}
+
+DIV#bottomlinks
+{
+	width: 750px;
+	height: 50px;
+	text-align: center;
+	font-size: 12px;
+	line-height: 37px;
+	clear: both;
+	background-position: top center;
+	background-repeat: no-repeat;
+}
+
+BODY#boombang	DIV#bottomlinks	{ color: #ffffff; }
+BODY#safety		DIV#bottomlinks	{ color: #333300; background-image: url('images/bottombg_safety.png'); }	
+BODY#parents 	DIV#bottomlinks	{ color: #007A52; background-image: url('images/bottombg_parents.png'); }
+BODY#credits 	DIV#bottomlinks	{ color: #F7447A; background-image: url('images/bottombg_credits.png'); }
+BODY#members	DIV#bottomlinks	{ color: #ffffff; background-image: url('images/bottombg_members.png'); }
+BODY#contact	DIV#bottomlinks	{ color: #207D7C; background-image: url('images/bottombg_contact.png'); }
+BODY#rankings	DIV#bottomlinks	{ color: #ffffff; background-image: url('images/bottombg_rankings.png'); }
+BODY#shop 		DIV#bottomlinks	{ color: #005369; background-image: url('images/bottombg_shop.png'); }
+BODY#shots 		DIV#bottomlinks	{ color: #207D7C; background-image: url('images/bottombg_shots.png'); }
+
+DIV#bottomlinks A
+{
+	color: white;
+	text-decoration: none;
+}
+DIV#bottomlinks A:hover { text-decoration: underline; }
+
+BODY#boombang	DIV#bottomlinks	A { color: #ffffff; }
+BODY#safety		DIV#bottomlinks	A { color: #333300; }
+BODY#parents 	DIV#bottomlinks	A { color: #007A52; }
+BODY#credits 	DIV#bottomlinks	A { color: #F7447A; }
+BODY#members	DIV#bottomlinks	A { color: #FFFFFF; }
+BODY#blog 		DIV#bottomlinks	A { color: #06719B; }
+BODY#contact	DIV#bottomlinks	A { color: #207D7C; }
+BODY#rankings	DIV#bottomlinks	A { color: #ffffff; }
+BODY#shop		DIV#bottomlinks	A { color: #005369; }
+BODY#shots		DIV#bottomlinks	A { color: #207D7C; }
+
+/* CREDITS */
+
+BODY#credits A#buy_btn
+{
+	display: block;
+	width: 77px;
+	height: 43px;
+	margin-left: 37px;
+	text-indent: -9000px;
+	background-position: 0px 0px;
+}
+BODY#credits A#buy_btn:hover
+{
+	background-position: -77px 0px;
+}
+BODY#credits A#buy_btn:active
+{
+	position: relative;
+	left: 1px;
+	top: 1px;
+}
+
+/* CONTACT */
+
+BODY#contact A#contact_back
+{
+	float: left;
+	display: block;
+	width: 69px;
+	height: 35px;
+	background-position: 0px 0px:
+	text-indent: -9000px;
+}
+BODY#contact A#contact_back:hover
+{
+	background-position: -69px 0px;
+}
+BODY#contact A#contact_back:active
+{
+	position: relative;
+	left: 1px;
+	top: 1px;
+}
+
+BODY#contact A#contact_send
+{
+	float: left;
+	display: block;
+	width: 79px;
+	height: 44px;
+	background-position: 0px 0px;
+	text-indent: -9000px;
+	margin-top: -2px;
+	margin-left: 0px;
+	position: relative;
+	left: 330px;
+}
+BODY#contact A#contact_send:hover
+{
+	background-position: -79px 0px;
+}
+BODY#contact A#contact_send:active
+{
+	position: relative;
+	left: 332px;
+	top: 2px;
+}
+
+/* SHOP */
+
+BODY#shop A.link_ext_shop
+{
+	display: block;
+	width: 599px;
+	clear: left;
+	background-position: top left;
+	background-repeat: no-repeat;
+	text-indent: -9999px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 40px;
+}
+
+A#link_shirtcity { height: 294px; }
+A#link_cafepress { height: 244px; }
+
+/* RANKINGS */
+
+BODY#rankings TABLE.ranking_equipos
+{
+	table-layout: fixed;
+	white-space: nowrap;
+	border-collapse: collapse;
+	width: 390px;
+	height: 180px;
+	margin-left: 50px;
+	margin-bottom: 20px;
+}
+
+BODY#rankings TABLE.ranking_equipos TR
+{
+	height: 90px;
+	background: #ff3366;
+	font-weight: bold;
+	font-size: 18px;
+}
+BODY#rankings TABLE.ranking_equipos TD
+{
+	border-top: 2px solid white;
+	border-bottom: 2px solid white;
+}
+
+BODY#rankings TABLE.ranking_equipos TR TD.team_name 	{ text-indent: 20px; }
+BODY#rankings TABLE.ranking_equipos TR TD.team_icon 	{ background: #ff3366 url('images/sv2010/ranking_heart.png') center center no-repeat; }
+BODY#rankings TABLE.ranking_equipos TR TD.team_score 	{ padding-right: 20px; text-align: right; }
+
+
+
+
+BODY#rankings TABLE.ranking
+{
+	table-layout: fixed;
+	white-space: nowrap;
+	border-collapse: collapse;
+	width: 325px;
+	margin-left: 50px;
+	margin-bottom: 20px;
+	color: white;
+	font-family: verdana;
+}
+
+BODY#rankings TABLE.ranking TR
+{
+	line-height: 35px;
+	font-size: 12px;
+}
+
+BODY#rankings TABLE.ranking TR.ranking_row_podium
+{
+	height: 45px;
+	line-height: 45px;
+	font-size: 14px;
+}
+
+BODY#rankings TABLE.ranking TD.ranking_posicion
+{
+	width: 160px;
+	text-align: center;
+	color: white;
+	background-position: center;
+	background-repeat: no-repeat;
+	border-top: 2px solid white;
+	border-bottom: 2px solid white;
+	font-size: 10px;
+	font-weight: bold;
+}
+
+BODY#rankings TABLE.ranking TR.ranking_row_podium TD.ranking_posicion
+{
+	font-weight: bold;
+	font-size: 14px;
+	border-top: 2px solid white;
+	border-bottom: 2px solid white;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+BODY#rankings TABLE.ranking TR.ranking_row_descalificado TD.ranking_posicion
+{
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+BODY#rankings TABLE.ranking TD.ranking_login
+{
+	text-align: left;
+	font-weight: bold;
+	border-top: 2px solid white;
+	border-bottom: 2px solid white;
+}
+
+BODY#rankings TABLE.ranking TD.ranking_cantidad
+{
+	text-align: left;
+	font-weight: bold;
+	width: 50px;
+	padding-left: 60px;
+	background-position: 5px;
+	background-repeat: no-repeat;
+	border-top: 2px solid white;
+	border-bottom: 2px solid white;
+}
+
+BODY#rankings TABLE.ranking TR.ranking_row_podium TD.ranking_cantidad
+{
+	text-align: left;
+	font-weight: bold;
+	width: 50px;
+	padding-left: 60px;
+	border-top: 2px solid white;
+	border-bottom: 2px solid white;
+	background-position: left;
+	background-repeat: no-repeat;
+}
+
+BODY#rankings TABLE.ranking FORM { display: inline; margin: 0px; padding: 0px; }
+
+BODY#rankings.ranking_sv2010.lang_dev H2 		{ background-image: url('images/sv2010/h2_rankings_esp.png');}
+BODY#rankings.ranking_sv2010.lang_esp H2 		{ background-image: url('images/sv2010/h2_rankings_esp.png');}
+BODY#rankings.ranking_sv2010.lang_eng H2 		{ background-image: url('images/sv2010/h2_rankings_eng.png');}
+BODY#rankings.ranking_sv2010.lang_chl H2 		{ background-image: url('images/sv2010/h2_rankings_chl.png');}
+BODY#rankings.ranking_sv2010.lang_mex H2 		{ background-image: url('images/sv2010/h2_rankings_mex.png');}
+BODY#rankings.ranking_sv2010 TABLE#ranking_tabla THEAD TR TH,
+BODY#rankings.ranking_sv2010 TABLE#ranking_tabla TFOOT TR TH								{ background-color: white; }
+BODY#rankings.ranking_sv2010 TABLE#ranking_tabla TBODY TR TD								{ background-color: #996699; }
+BODY#rankings.ranking_sv2010 TABLE#ranking_tabla TBODY TR TD.cantidad						{ background-image: url('images/sv2010/ranking_0_cantidad.png');}
+BODY#rankings.ranking_sv2010 TABLE#ranking_tabla TBODY TR.ranking_row_0 TD					{ color: white; background-color: #ffb500; }
+BODY#rankings.ranking_sv2010 TABLE#ranking_tabla TBODY TR.ranking_row_0 TD.ranking_posicion	{ color: white; }
+BODY#rankings.ranking_sv2010 TABLE#ranking_tabla TBODY TR.ranking_row_0 TD.ranking_cantidad	{ background-image: url('images/sv2010/ranking_0_cantidad.png');}
+BODY#rankings.ranking_sv2010 TABLE#ranking_tabla TBODY TR.ranking_row_1 TD					{ color: white; background-color: #222222;}
+BODY#rankings.ranking_sv2010 TABLE#ranking_tabla TBODY TR.ranking_row_1 TD.ranking_posicion	{ background-image: none;}
+BODY#rankings.ranking_sv2010 TABLE#ranking_tabla TBODY TR.ranking_row_1 TD.ranking_cantidad	{ background-image: url('images/sv2010/ranking_1_cantidad.png');}
+BODY#rankings.ranking_sv2010 TABLE#ranking_tabla TBODY TR.ranking_row_2 TD					{ color: white; background-color: #653232;}
+BODY#rankings.ranking_sv2010 TABLE#ranking_tabla TBODY TR.ranking_row_2 TD.ranking_posicion	{ background-image: none;}
+BODY#rankings.ranking_sv2010 TABLE#ranking_tabla TBODY TR.ranking_row_2 TD.ranking_cantidad	{ background-image: url('images/sv2010/ranking_2_cantidad.png');}
+BODY#rankings.ranking_sv2010 TABLE#ranking_tabla TBODY TR.ranking_row_3 TD					{ color: white; background-color: #660099;}
+BODY#rankings.ranking_sv2010 TABLE#ranking_tabla TBODY TR.ranking_row_3 TD.ranking_posicion	{ background-image: none;}
+BODY#rankings.ranking_sv2010 TABLE#ranking_tabla TBODY TR.ranking_row_3 TD.ranking_cantidad	{ background-image: url('images/sv2010/ranking_3_cantidad.png');}
+
+BODY#rankings.ranking_xmas2010 H2 				{ background-position: 50px 20px; }
+BODY#rankings.ranking_xmas2010.lang_dev H2 		{ background-image: url('images/xmas10b/h2_rankings_esp.png');}
+BODY#rankings.ranking_xmas2010.lang_esp H2 		{ background-image: url('images/xmas10b/h2_rankings_esp.png');}
+BODY#rankings.ranking_xmas2010.lang_eng H2 		{ background-image: url('images/xmas10b/h2_rankings_eng.png');}
+BODY#rankings.ranking_xmas2010.lang_chl H2 		{ background-image: url('images/xmas10b/h2_rankings_chl.png');}
+BODY#rankings.ranking_xmas2010.lang_mex H2 		{ background-image: url('images/xmas10b/h2_rankings_mex.png');}
+BODY#rankings.ranking_xmas2010 TABLE#ranking_tabla THEAD TR TH,
+BODY#rankings.ranking_xmas2010 TABLE#ranking_tabla TFOOT TR TH								{ background-color: white; }
+BODY#rankings.ranking_xmas2010 TABLE#ranking_tabla TBODY TR TD								{ background-color: #996699; }
+BODY#rankings.ranking_xmas2010 TABLE#ranking_tabla TBODY TR TD.cantidad						{ background-image: url('images/xmas10b/ranking_0_cantidad.png');}
+BODY#rankings.ranking_xmas2010 TABLE#ranking_tabla TBODY TR.ranking_row_0 TD					{ color: white; background-color: #ffb500; }
+BODY#rankings.ranking_xmas2010 TABLE#ranking_tabla TBODY TR.ranking_row_0 TD.ranking_posicion	{ color: white; }
+BODY#rankings.ranking_xmas2010 TABLE#ranking_tabla TBODY TR.ranking_row_0 TD.ranking_cantidad	{ background-image: url('images/xmas10b/ranking_0_cantidad.png');}
+BODY#rankings.ranking_xmas2010 TABLE#ranking_tabla TBODY TR.ranking_row_1 TD					{ color: white; background-color: #222222;}
+BODY#rankings.ranking_xmas2010 TABLE#ranking_tabla TBODY TR.ranking_row_1 TD.ranking_posicion	{ background-image: none;}
+BODY#rankings.ranking_xmas2010 TABLE#ranking_tabla TBODY TR.ranking_row_1 TD.ranking_cantidad	{ background-image: url('images/xmas10b/ranking_1_cantidad.png');}
+BODY#rankings.ranking_xmas2010 TABLE#ranking_tabla TBODY TR.ranking_row_2 TD					{ color: white; background-color: #653232;}
+BODY#rankings.ranking_xmas2010 TABLE#ranking_tabla TBODY TR.ranking_row_2 TD.ranking_posicion	{ background-image: none;}
+BODY#rankings.ranking_xmas2010 TABLE#ranking_tabla TBODY TR.ranking_row_2 TD.ranking_cantidad	{ background-image: url('images/xmas10b/ranking_2_cantidad.png');}
+BODY#rankings.ranking_xmas2010 TABLE#ranking_tabla TBODY TR.ranking_row_3 TD					{ color: white; background-color: #660099;}
+BODY#rankings.ranking_xmas2010 TABLE#ranking_tabla TBODY TR.ranking_row_3 TD.ranking_posicion	{ background-image: none;}
+BODY#rankings.ranking_xmas2010 TABLE#ranking_tabla TBODY TR.ranking_row_3 TD.ranking_cantidad	{ background-image: url('images/xmas10b/ranking_3_cantidad.png');}
+
+BODY#rankings.ranking_worldcup2010 H2 { background-position: 50px 20px; }
+BODY#rankings.ranking_worldcup2010.lang_dev H2 		{ background-image: url('images/worldcup2010/h2_rankings_esp.png');}
+BODY#rankings.ranking_worldcup2010.lang_esp H2 		{ background-image: url('images/worldcup2010/h2_rankings_esp.png');}
+BODY#rankings.ranking_worldcup2010.lang_eng H2 		{ background-image: url('images/worldcup2010/h2_rankings_eng.png');}
+BODY#rankings.ranking_worldcup2010.lang_chl H2 		{ background-image: url('images/worldcup2010/h2_rankings_chl.png');}
+BODY#rankings.ranking_worldcup2010.lang_mex H2 		{ background-image: url('images/worldcup2010/h2_rankings_mex.png');}
+BODY#rankings.ranking_worldcup2010 TABLE#ranking_tabla THEAD TR TH,
+BODY#rankings.ranking_worldcup2010 TABLE#ranking_tabla TFOOT TR TH								{ background-color: white; }
+BODY#rankings.ranking_worldcup2010 TABLE#ranking_tabla TBODY TR TD								{ background-color: #996699; }
+BODY#rankings.ranking_worldcup2010 TABLE#ranking_tabla TBODY TR TD.cantidad						{ background-image: url('images/worldcup2010/ranking_0_cantidad.png');}
+BODY#rankings.ranking_worldcup2010 TABLE#ranking_tabla TBODY TR.ranking_row_0 TD					{ color: white; background-color: #ffb500; }
+BODY#rankings.ranking_worldcup2010 TABLE#ranking_tabla TBODY TR.ranking_row_0 TD.ranking_posicion	{ color: white; }
+BODY#rankings.ranking_worldcup2010 TABLE#ranking_tabla TBODY TR.ranking_row_0 TD.ranking_cantidad	{ background-image: url('images/worldcup2010/ranking_0_cantidad.png');}
+BODY#rankings.ranking_worldcup2010 TABLE#ranking_tabla TBODY TR.ranking_row_1 TD					{ color: white; background-color: #222222;}
+BODY#rankings.ranking_worldcup2010 TABLE#ranking_tabla TBODY TR.ranking_row_1 TD.ranking_posicion	{ background-image: none;}
+BODY#rankings.ranking_worldcup2010 TABLE#ranking_tabla TBODY TR.ranking_row_1 TD.ranking_cantidad	{ background-image: url('images/worldcup2010/ranking_1_cantidad.png');}
+BODY#rankings.ranking_worldcup2010 TABLE#ranking_tabla TBODY TR.ranking_row_2 TD					{ color: white; background-color: #653232;}
+BODY#rankings.ranking_worldcup2010 TABLE#ranking_tabla TBODY TR.ranking_row_2 TD.ranking_posicion	{ background-image: none;}
+BODY#rankings.ranking_worldcup2010 TABLE#ranking_tabla TBODY TR.ranking_row_2 TD.ranking_cantidad	{ background-image: url('images/worldcup2010/ranking_2_cantidad.png');}
+BODY#rankings.ranking_worldcup2010 TABLE#ranking_tabla TBODY TR.ranking_row_3 TD					{ color: white; background-color: #660099;}
+BODY#rankings.ranking_worldcup2010 TABLE#ranking_tabla TBODY TR.ranking_row_3 TD.ranking_posicion	{ background-image: none;}
+BODY#rankings.ranking_worldcup2010 TABLE#ranking_tabla TBODY TR.ranking_row_3 TD.ranking_cantidad	{ background-image: url('images/worldcup2010/ranking_3_cantidad.png');}
+BODY#rankings.ranking_worldcup2010 TABLE#ranking_tabla TBODY TR.ranking_row_4 TD					{ color: white; background-color: #8e9d3b;}
+BODY#rankings.ranking_worldcup2010 TABLE#ranking_tabla TBODY TR.ranking_row_4 TD.ranking_posicion	{ background-image: none;}
+BODY#rankings.ranking_worldcup2010 TABLE#ranking_tabla TBODY TR.ranking_row_4 TD.ranking_cantidad	{ background-image: url('images/worldcup2010/ranking_4_cantidad.png');}
+
+BODY#rankings.ranking_ghost2010 H2 { background-position: 50px 20px; }
+BODY#rankings.ranking_ghost2010.lang_dev H2 		{ background-image: url('images/ghost2010/h2_rankings_esp.png');}
+BODY#rankings.ranking_ghost2010.lang_esp H2 		{ background-image: url('images/ghost2010/h2_rankings_esp.png');}
+BODY#rankings.ranking_ghost2010.lang_eng H2 		{ background-image: url('images/ghost2010/h2_rankings_eng.png');}
+BODY#rankings.ranking_ghost2010.lang_chl H2 		{ background-image: url('images/ghost2010/h2_rankings_chl.png');}
+BODY#rankings.ranking_ghost2010.lang_mex H2 		{ background-image: url('images/ghost2010/h2_rankings_mex.png');}
+BODY#rankings.ranking_ghost2010 TABLE#ranking_tabla THEAD TR TH,
+BODY#rankings.ranking_ghost2010 TABLE#ranking_tabla TFOOT TR TH								{ background-color: white; }
+BODY#rankings.ranking_ghost2010 TABLE#ranking_tabla TBODY TR TD								{ background-color: #996699; }
+BODY#rankings.ranking_ghost2010 TABLE#ranking_tabla TBODY TR TD.cantidad						{ background-image: url('images/ghost2010/ranking_0_cantidad.png');}
+BODY#rankings.ranking_ghost2010 TABLE#ranking_tabla TBODY TR.ranking_row_0 TD					{ color: white; background-color: #ffb500; }
+BODY#rankings.ranking_ghost2010 TABLE#ranking_tabla TBODY TR.ranking_row_0 TD.ranking_posicion	{ color: white; }
+BODY#rankings.ranking_ghost2010 TABLE#ranking_tabla TBODY TR.ranking_row_0 TD.ranking_cantidad	{ background-image: url('images/ghost2010/ranking_0_cantidad.png');}
+BODY#rankings.ranking_ghost2010 TABLE#ranking_tabla TBODY TR.ranking_row_1 TD					{ color: white; background-color: #222222;}
+BODY#rankings.ranking_ghost2010 TABLE#ranking_tabla TBODY TR.ranking_row_1 TD.ranking_posicion	{ background-image: none;}
+BODY#rankings.ranking_ghost2010 TABLE#ranking_tabla TBODY TR.ranking_row_1 TD.ranking_cantidad	{ background-image: url('images/ghost2010/ranking_1_cantidad.png');}
+BODY#rankings.ranking_ghost2010 TABLE#ranking_tabla TBODY TR.ranking_row_2 TD					{ color: white; background-color: #653232;}
+BODY#rankings.ranking_ghost2010 TABLE#ranking_tabla TBODY TR.ranking_row_2 TD.ranking_posicion	{ background-image: none;}
+BODY#rankings.ranking_ghost2010 TABLE#ranking_tabla TBODY TR.ranking_row_2 TD.ranking_cantidad	{ background-image: url('images/ghost2010/ranking_2_cantidad.png');}
+BODY#rankings.ranking_ghost2010 TABLE#ranking_tabla TBODY TR.ranking_row_3 TD					{ color: white; background-color: #660099;}
+BODY#rankings.ranking_ghost2010 TABLE#ranking_tabla TBODY TR.ranking_row_3 TD.ranking_posicion	{ background-image: none;}
+BODY#rankings.ranking_ghost2010 TABLE#ranking_tabla TBODY TR.ranking_row_3 TD.ranking_cantidad	{ background-image: url('images/ghost2010/ranking_3_cantidad.png');}
+BODY#rankings.ranking_ghost2010 TABLE#ranking_tabla TBODY TR.ranking_row_4 TD					{ color: white; background-color: #8e9d3b;}
+BODY#rankings.ranking_ghost2010 TABLE#ranking_tabla TBODY TR.ranking_row_4 TD.ranking_posicion	{ background-image: none;}
+BODY#rankings.ranking_ghost2010 TABLE#ranking_tabla TBODY TR.ranking_row_4 TD.ranking_cantidad	{ background-image: url('images/ghost2010/ranking_4_cantidad.png');}
+
+BODY#rankings.ranking_easter2009.lang_dev H2 		{ background-image: url('images/easter2009/h2_rankings_esp.png');}
+BODY#rankings.ranking_easter2009.lang_esp H2 		{ background-image: url('images/easter2009/h2_rankings_esp.png');}
+BODY#rankings.ranking_easter2009.lang_eng H2 		{ background-image: url('images/easter2009/h2_rankings_eng.png');}
+BODY#rankings.ranking_easter2009.lang_chl H2 		{ background-image: url('images/easter2009/h2_rankings_chl.png');}
+BODY#rankings.ranking_easter2009.lang_mex H2 		{ background-image: url('images/easter2009/h2_rankings_mex.png');}
+BODY#rankings.ranking_easter2009 TABLE#ranking_tabla THEAD TR TH,
+BODY#rankings.ranking_easter2009 TABLE#ranking_tabla TFOOT TR TH								{ background-color: white; }
+BODY#rankings.ranking_easter2009 TABLE#ranking_tabla TBODY TR TD								{ background-color: #996699; }
+BODY#rankings.ranking_easter2009 TABLE#ranking_tabla TBODY TR TD.cantidad						{ background-image: url('images/easter2009/ranking_0_cantidad.png');}
+BODY#rankings.ranking_easter2009 TABLE#ranking_tabla TBODY TR.ranking_row_0 TD					{ color: white; background-color: #ffb500; }
+BODY#rankings.ranking_easter2009 TABLE#ranking_tabla TBODY TR.ranking_row_0 TD.ranking_posicion	{ color: white; }
+BODY#rankings.ranking_easter2009 TABLE#ranking_tabla TBODY TR.ranking_row_0 TD.ranking_cantidad	{ background-image: url('images/easter2009/ranking_0_cantidad.png');}
+BODY#rankings.ranking_easter2009 TABLE#ranking_tabla TBODY TR.ranking_row_1 TD					{ color: white; background-color: #222222;}
+BODY#rankings.ranking_easter2009 TABLE#ranking_tabla TBODY TR.ranking_row_1 TD.ranking_posicion	{ background-image: none;}
+BODY#rankings.ranking_easter2009 TABLE#ranking_tabla TBODY TR.ranking_row_1 TD.ranking_cantidad	{ background-image: url('images/easter2009/ranking_1_cantidad.png');}
+BODY#rankings.ranking_easter2009 TABLE#ranking_tabla TBODY TR.ranking_row_2 TD					{ color: white; background-color: #653232;}
+BODY#rankings.ranking_easter2009 TABLE#ranking_tabla TBODY TR.ranking_row_2 TD.ranking_posicion	{ background-image: none;}
+BODY#rankings.ranking_easter2009 TABLE#ranking_tabla TBODY TR.ranking_row_2 TD.ranking_cantidad	{ background-image: url('images/easter2009/ranking_2_cantidad.png');}
+BODY#rankings.ranking_easter2009 TABLE#ranking_tabla TBODY TR.ranking_row_3 TD					{ color: white; background-color: #660099;}
+BODY#rankings.ranking_easter2009 TABLE#ranking_tabla TBODY TR.ranking_row_3 TD.ranking_posicion	{ background-image: none;}
+BODY#rankings.ranking_easter2009 TABLE#ranking_tabla TBODY TR.ranking_row_3 TD.ranking_cantidad	{ background-image: url('images/easter2009/ranking_3_cantidad.png');}
+
+BODY#rankings.ranking_hadas.lang_dev H2 		{ background-image: url('images/hadas/h2_rankings_esp.png');}
+BODY#rankings.ranking_hadas.lang_esp H2 		{ background-image: url('images/hadas/h2_rankings_esp.png');}
+BODY#rankings.ranking_hadas.lang_eng H2 		{ background-image: url('images/hadas/h2_rankings_eng.png');}
+BODY#rankings.ranking_hadas.lang_chl H2 		{ background-image: url('images/hadas/h2_rankings_chl.png');}
+BODY#rankings.ranking_hadas.lang_mex H2 		{ background-image: url('images/hadas/h2_rankings_mex.png');}
+BODY#rankings.ranking_hadas TABLE#ranking_tabla THEAD TR TH,
+BODY#rankings.ranking_hadas TABLE#ranking_tabla TFOOT TR TH									{ background-color: white; }
+BODY#rankings.ranking_hadas TABLE#ranking_tabla TBODY TR TD									{ background-color: #d4ffb1; }
+BODY#rankings.ranking_hadas TABLE#ranking_tabla TBODY TR.ranking_row_0 TD					{ color: black; background-color: #ace7ff; }
+BODY#rankings.ranking_hadas TABLE#ranking_tabla TBODY TR.ranking_row_0 TD.ranking_posicion	{ color: black; }
+BODY#rankings.ranking_hadas TABLE#ranking_tabla TBODY TR.ranking_row_0 TD.ranking_cantidad	{ background-image: url('images/hadas/ranking_0_cantidad.png');}
+BODY#rankings.ranking_hadas TABLE#ranking_tabla TBODY TR.ranking_row_1 TD					{ color: black; background-color: #a4fff2;}
+BODY#rankings.ranking_hadas TABLE#ranking_tabla TBODY TR.ranking_row_1 TD.ranking_posicion	{ background-image: none;}
+BODY#rankings.ranking_hadas TABLE#ranking_tabla TBODY TR.ranking_row_1 TD.ranking_cantidad	{ background-image: url('images/hadas/ranking_1_cantidad.png');}
+BODY#rankings.ranking_hadas TABLE#ranking_tabla TBODY TR.ranking_row_2 TD					{ color: black; background-color: #fdf7ba;}
+BODY#rankings.ranking_hadas TABLE#ranking_tabla TBODY TR.ranking_row_2 TD.ranking_posicion	{ background-image: none;}
+BODY#rankings.ranking_hadas TABLE#ranking_tabla TBODY TR.ranking_row_2 TD.ranking_cantidad	{ background-image: url('images/hadas/ranking_2_cantidad.png');}
+BODY#rankings.ranking_hadas TABLE#ranking_tabla TBODY TR.ranking_row_3 TD					{ color: black; background-color: #d4ffb1;}
+BODY#rankings.ranking_hadas TABLE#ranking_tabla TBODY TR.ranking_row_3 TD.ranking_posicion	{ background-image: none;}
+BODY#rankings.ranking_hadas TABLE#ranking_tabla TBODY TR.ranking_row_3 TD.ranking_cantidad	{ background-image: url('images/hadas/ranking_3_cantidad.png');}
+
+BODY#rankings.ranking_cocos.lang_dev H2 		{ background-image: url('images/cocos/h2_rankings_esp.png');}
+BODY#rankings.ranking_cocos.lang_esp H2 		{ background-image: url('images/cocos/h2_rankings_esp.png');}
+BODY#rankings.ranking_cocos.lang_eng H2 		{ background-image: url('images/cocos/h2_rankings_eng.png');}
+BODY#rankings.ranking_cocos.lang_chl H2 		{ background-image: url('images/cocos/h2_rankings_chl.png');}
+BODY#rankings.ranking_cocos.lang_mex H2 		{ background-image: url('images/cocos/h2_rankings_mex.png');}
+BODY#rankings.ranking_cocos TABLE#ranking_tabla THEAD TR TH,
+BODY#rankings.ranking_cocos TABLE#ranking_tabla TFOOT TR TH									{ background-color: white; }
+BODY#rankings.ranking_cocos TABLE#ranking_tabla TBODY TR TD									{ background-color: green; }
+BODY#rankings.ranking_cocos TABLE#ranking_tabla TBODY TR.ranking_row_1 TD					{ color: white; background-color: #990000; }
+BODY#rankings.ranking_cocos TABLE#ranking_tabla TBODY TR.ranking_row_1 TD.ranking_posicion	{ color: white; }
+BODY#rankings.ranking_cocos TABLE#ranking_tabla TBODY TR.ranking_row_1 TD.ranking_cantidad	{ background-image: url('images/cocos/ranking_1_cantidad.png');}
+BODY#rankings.ranking_cocos TABLE#ranking_tabla TBODY TR.ranking_row_2 TD					{ color: white; background-color: #ff3300; }
+BODY#rankings.ranking_cocos TABLE#ranking_tabla TBODY TR.ranking_row_2 TD.ranking_posicion	{ color: white; }
+BODY#rankings.ranking_cocos TABLE#ranking_tabla TBODY TR.ranking_row_2 TD.ranking_cantidad	{ background-image: url('images/cocos/ranking_2_cantidad.png');}
+BODY#rankings.ranking_cocos TABLE#ranking_tabla TBODY TR.ranking_row_3 TD					{ color: white; background-color: #006600; }
+BODY#rankings.ranking_cocos TABLE#ranking_tabla TBODY TR.ranking_row_3 TD.ranking_posicion	{ color: white; }
+BODY#rankings.ranking_cocos TABLE#ranking_tabla TBODY TR.ranking_row_3 TD.ranking_cantidad	{ background-image: url('images/cocos/ranking_3_cantidad.png');}
+BODY#rankings.ranking_cocos TABLE#ranking_tabla TBODY TR.ranking_row_4 TD					{ color: white; background-color: #003399; }
+BODY#rankings.ranking_cocos TABLE#ranking_tabla TBODY TR.ranking_row_4 TD.ranking_posicion	{ color: white; }
+BODY#rankings.ranking_cocos TABLE#ranking_tabla TBODY TR.ranking_row_4 TD.ranking_cantidad	{ background-image: url('images/cocos/ranking_4_cantidad.png');}
+BODY#rankings.ranking_cocos TABLE#ranking_tabla TBODY TR.ranking_row_5 TD					{ color: white; background-color: #aaaa00; }
+BODY#rankings.ranking_cocos TABLE#ranking_tabla TBODY TR.ranking_row_5 TD.ranking_posicion	{ color: white; }
+BODY#rankings.ranking_cocos TABLE#ranking_tabla TBODY TR.ranking_row_5 TD.ranking_cantidad	{ background-image: url('images/cocos/ranking_5_cantidad.png');}
+BODY#rankings.ranking_cocos TABLE#ranking_tabla TBODY TR.ranking_row_6 TD					{ color: white; background-color: #0066cc; }
+BODY#rankings.ranking_cocos TABLE#ranking_tabla TBODY TR.ranking_row_6 TD.ranking_posicion	{ color: white; }
+BODY#rankings.ranking_cocos TABLE#ranking_tabla TBODY TR.ranking_row_6 TD.ranking_cantidad	{ background-image: url('images/cocos/ranking_6_cantidad.png');}
+BODY#rankings.ranking_cocos TABLE#ranking_tabla TBODY TR.ranking_row_7 TD					{ color: white; background-color: #660099; }
+BODY#rankings.ranking_cocos TABLE#ranking_tabla TBODY TR.ranking_row_7 TD.ranking_posicion	{ color: white; }
+BODY#rankings.ranking_cocos TABLE#ranking_tabla TBODY TR.ranking_row_7 TD.ranking_cantidad	{ background-image: url('images/cocos/ranking_7_cantidad.png');}
+BODY#rankings.ranking_cocos TABLE#ranking_tabla TBODY TR.ranking_row_8 TD					{ color: white; background-color: #653232; }
+BODY#rankings.ranking_cocos TABLE#ranking_tabla TBODY TR.ranking_row_8 TD.ranking_posicion	{ color: white; }
+BODY#rankings.ranking_cocos TABLE#ranking_tabla TBODY TR.ranking_row_8 TD.ranking_cantidad	{ background-image: url('images/cocos/ranking_8_cantidad.png');}
+BODY#rankings.ranking_cocos TABLE#ranking_tabla TBODY TR.ranking_row_9 TD					{ color: white; background-color: #222222; }
+BODY#rankings.ranking_cocos TABLE#ranking_tabla TBODY TR.ranking_row_9 TD.ranking_posicion	{ color: white; }
+BODY#rankings.ranking_cocos TABLE#ranking_tabla TBODY TR.ranking_row_9 TD.ranking_cantidad	{ background-image: url('images/cocos/ranking_9_cantidad.png');}
+BODY#rankings.ranking_cocos TABLE#ranking_tabla TBODY TR.ranking_row_10 TD					{ color: white; background-color: #ffb500; }
+BODY#rankings.ranking_cocos TABLE#ranking_tabla TBODY TR.ranking_row_10 TD.ranking_posicion	{ color: white; }
+BODY#rankings.ranking_cocos TABLE#ranking_tabla TBODY TR.ranking_row_10 TD.ranking_cantidad	{ background-image: url('images/cocos/ranking_10_cantidad.png');}
+
+BODY#rankings.ranking_lianas.lang_dev H2 		{ background-image: url('images/lianas/h2_rankings_esp.png');}
+BODY#rankings.ranking_lianas.lang_esp H2 		{ background-image: url('images/lianas/h2_rankings_esp.png');}
+BODY#rankings.ranking_lianas.lang_eng H2 		{ background-image: url('images/lianas/h2_rankings_eng.png');}
+BODY#rankings.ranking_lianas.lang_chl H2 		{ background-image: url('images/lianas/h2_rankings_chl.png');}
+BODY#rankings.ranking_lianas.lang_mex H2 		{ background-image: url('images/lianas/h2_rankings_mex.png');}
+BODY#rankings.ranking_lianas TABLE#ranking_tabla THEAD TR TH,
+BODY#rankings.ranking_lianas TABLE#ranking_tabla TFOOT TR TH								{ background-color: white; }
+BODY#rankings.ranking_lianas TABLE#ranking_tabla TBODY TR TD								{ background-color: #d4ffb1; }
+BODY#rankings.ranking_lianas TABLE#ranking_tabla TBODY TR.ranking_row_0 TD					{ color: white; background-color: #0066cc; }
+BODY#rankings.ranking_lianas TABLE#ranking_tabla TBODY TR.ranking_row_0 TD.ranking_posicion	{ color: white; }
+BODY#rankings.ranking_lianas TABLE#ranking_tabla TBODY TR.ranking_row_0 TD.ranking_cantidad	{ background-image: url('images/lianas/ranking_0_cantidad.png');}
+BODY#rankings.ranking_lianas TABLE#ranking_tabla TBODY TR.ranking_row_1 TD					{ color: white; background-color: #660099; }
+BODY#rankings.ranking_lianas TABLE#ranking_tabla TBODY TR.ranking_row_1 TD.ranking_posicion	{ color: white; }
+BODY#rankings.ranking_lianas TABLE#ranking_tabla TBODY TR.ranking_row_1 TD.ranking_cantidad	{ background-image: url('images/lianas/ranking_1_cantidad.png');}
+BODY#rankings.ranking_lianas TABLE#ranking_tabla TBODY TR.ranking_row_2 TD					{ color: white; background-color: #653232; }
+BODY#rankings.ranking_lianas TABLE#ranking_tabla TBODY TR.ranking_row_2 TD.ranking_posicion	{ color: white; }
+BODY#rankings.ranking_lianas TABLE#ranking_tabla TBODY TR.ranking_row_2 TD.ranking_cantidad	{ background-image: url('images/lianas/ranking_2_cantidad.png');}
+BODY#rankings.ranking_lianas TABLE#ranking_tabla TBODY TR.ranking_row_3 TD					{ color: white; background-color: #222222; }
+BODY#rankings.ranking_lianas TABLE#ranking_tabla TBODY TR.ranking_row_3 TD.ranking_posicion	{ color: white; }
+BODY#rankings.ranking_lianas TABLE#ranking_tabla TBODY TR.ranking_row_3 TD.ranking_cantidad	{ background-image: url('images/lianas/ranking_3_cantidad.png');}
+BODY#rankings.ranking_lianas TABLE#ranking_tabla TBODY TR.ranking_row_4 TD					{ color: white; background-color: #ffb500; }
+BODY#rankings.ranking_lianas TABLE#ranking_tabla TBODY TR.ranking_row_4 TD.ranking_posicion	{ color: white; }
+BODY#rankings.ranking_lianas TABLE#ranking_tabla TBODY TR.ranking_row_4 TD.ranking_cantidad	{ background-image: url('images/lianas/ranking_4_cantidad.png');}
+
+BODY#rankings.ranking_ring.lang_dev H2 		{ background-image: url('images/ring/h2_rankings_esp.png');}
+BODY#rankings.ranking_ring.lang_esp H2 		{ background-image: url('images/ring/h2_rankings_esp.png');}
+BODY#rankings.ranking_ring.lang_eng H2 		{ background-image: url('images/ring/h2_rankings_eng.png');}
+BODY#rankings.ranking_ring.lang_chl H2 		{ background-image: url('images/ring/h2_rankings_chl.png');}
+BODY#rankings.ranking_ring.lang_mex H2 		{ background-image: url('images/ring/h2_rankings_mex.png');}
+BODY#rankings.ranking_ring TABLE#ranking_tabla THEAD TR TH,
+BODY#rankings.ranking_ring TABLE#ranking_tabla TFOOT TR TH									{ background-color: white; }
+BODY#rankings.ranking_ring TABLE#ranking_tabla TBODY TR TD									{ background-color: #d4ffb1; }
+BODY#rankings.ranking_ring TABLE#ranking_tabla TBODY TR.ranking_row_1 TD					{ color: white; background-color: #990000; }
+BODY#rankings.ranking_ring TABLE#ranking_tabla TBODY TR.ranking_row_1 TD.ranking_posicion	{ color: white; }
+BODY#rankings.ranking_ring TABLE#ranking_tabla TBODY TR.ranking_row_1 TD.ranking_cantidad	{ background-image: url('images/ring/ranking_0_cantidad.png');}
+BODY#rankings.ranking_ring TABLE#ranking_tabla TBODY TR.ranking_row_2 TD					{ color: white; background-color: #ff6699; }
+BODY#rankings.ranking_ring TABLE#ranking_tabla TBODY TR.ranking_row_2 TD.ranking_posicion	{ color: white; }
+BODY#rankings.ranking_ring TABLE#ranking_tabla TBODY TR.ranking_row_2 TD.ranking_cantidad	{ background-image: url('images/ring/ranking_1_cantidad.png');}
+BODY#rankings.ranking_ring TABLE#ranking_tabla TBODY TR.ranking_row_3 TD					{ color: white; background-color: #ff3300; }
+BODY#rankings.ranking_ring TABLE#ranking_tabla TBODY TR.ranking_row_3 TD.ranking_posicion	{ color: white; }
+BODY#rankings.ranking_ring TABLE#ranking_tabla TBODY TR.ranking_row_3 TD.ranking_cantidad	{ background-image: url('images/ring/ranking_2_cantidad.png');}
+BODY#rankings.ranking_ring TABLE#ranking_tabla TBODY TR.ranking_row_4 TD					{ color: white; background-color: #006600; }
+BODY#rankings.ranking_ring TABLE#ranking_tabla TBODY TR.ranking_row_4 TD.ranking_posicion	{ color: white; }
+BODY#rankings.ranking_ring TABLE#ranking_tabla TBODY TR.ranking_row_4 TD.ranking_cantidad	{ background-image: url('images/ring/ranking_3_cantidad.png');}
+BODY#rankings.ranking_ring TABLE#ranking_tabla TBODY TR.ranking_row_5 TD					{ color: white; background-color: #003399; }
+BODY#rankings.ranking_ring TABLE#ranking_tabla TBODY TR.ranking_row_5 TD.ranking_posicion	{ color: white; }
+BODY#rankings.ranking_ring TABLE#ranking_tabla TBODY TR.ranking_row_5 TD.ranking_cantidad	{ background-image: url('images/ring/ranking_4_cantidad.png');}
+BODY#rankings.ranking_ring TABLE#ranking_tabla TBODY TR.ranking_row_6 TD					{ color: black; background-color: #cccccc; }
+BODY#rankings.ranking_ring TABLE#ranking_tabla TBODY TR.ranking_row_6 TD.ranking_posicion	{ color: black; }
+BODY#rankings.ranking_ring TABLE#ranking_tabla TBODY TR.ranking_row_6 TD.ranking_cantidad	{ background-image: url('images/ring/ranking_5_cantidad.png');}
+BODY#rankings.ranking_ring TABLE#ranking_tabla TBODY TR.ranking_row_7 TD					{ color: white; background-color: #663399; }
+BODY#rankings.ranking_ring TABLE#ranking_tabla TBODY TR.ranking_row_7 TD.ranking_posicion	{ color: white; }
+BODY#rankings.ranking_ring TABLE#ranking_tabla TBODY TR.ranking_row_7 TD.ranking_cantidad	{ background-image: url('images/ring/ranking_6_cantidad.png');}
+BODY#rankings.ranking_ring TABLE#ranking_tabla TBODY TR.ranking_row_8 TD					{ color: white; background-color: #492525; }
+BODY#rankings.ranking_ring TABLE#ranking_tabla TBODY TR.ranking_row_8 TD.ranking_posicion	{ color: white; }
+BODY#rankings.ranking_ring TABLE#ranking_tabla TBODY TR.ranking_row_8 TD.ranking_cantidad	{ background-image: url('images/ring/ranking_7_cantidad.png');}
+BODY#rankings.ranking_ring TABLE#ranking_tabla TBODY TR.ranking_row_9 TD					{ color: white; background-color: #666666; }
+BODY#rankings.ranking_ring TABLE#ranking_tabla TBODY TR.ranking_row_9 TD.ranking_posicion	{ color: white; }
+BODY#rankings.ranking_ring TABLE#ranking_tabla TBODY TR.ranking_row_9 TD.ranking_cantidad	{ background-image: url('images/ring/ranking_8_cantidad.png');}
+BODY#rankings.ranking_ring TABLE#ranking_tabla TBODY TR.ranking_row_10 TD					{ color: black; background-color: #ffff00; }
+BODY#rankings.ranking_ring TABLE#ranking_tabla TBODY TR.ranking_row_10 TD.ranking_posicion	{ color: black; }
+BODY#rankings.ranking_ring TABLE#ranking_tabla TBODY TR.ranking_row_10 TD.ranking_cantidad	{ background-image: url('images/ring/ranking_9_cantidad.png');}
+
+BODY#rankings.ranking_ninja.lang_dev H2 		{ background-image: url('images/ninja/h2_rankings_esp.png');}
+BODY#rankings.ranking_ninja.lang_esp H2 		{ background-image: url('images/ninja/h2_rankings_esp.png');}
+BODY#rankings.ranking_ninja.lang_eng H2 		{ background-image: url('images/ninja/h2_rankings_eng.png');}
+BODY#rankings.ranking_ninja.lang_chl H2 		{ background-image: url('images/ninja/h2_rankings_chl.png');}
+BODY#rankings.ranking_ninja.lang_mex H2 		{ background-image: url('images/ninja/h2_rankings_mex.png');}
+BODY#rankings.ranking_ninja TABLE#ranking_tabla THEAD TR TH,
+BODY#rankings.ranking_ninja TABLE#ranking_tabla TFOOT TR TH									{ background-color: white; }
+BODY#rankings.ranking_ninja TABLE#ranking_tabla TBODY TR TD									{ background-color: #d4ffb1; }
+BODY#rankings.ranking_ninja TABLE#ranking_tabla TBODY TR.ranking_row_0 TD					{ color: white; background-color: #990000; }
+BODY#rankings.ranking_ninja TABLE#ranking_tabla TBODY TR.ranking_row_0 TD.ranking_posicion	{ color: white; }
+BODY#rankings.ranking_ninja TABLE#ranking_tabla TBODY TR.ranking_row_0 TD.ranking_cantidad	{ background-image: url('images/ninja/ranking_0_cantidad.png?2');}
+BODY#rankings.ranking_ninja TABLE#ranking_tabla TBODY TR.ranking_row_1 TD					{ color: white; background-color: black; }
+BODY#rankings.ranking_ninja TABLE#ranking_tabla TBODY TR.ranking_row_1 TD.ranking_posicion	{ color: white; }
+BODY#rankings.ranking_ninja TABLE#ranking_tabla TBODY TR.ranking_row_1 TD.ranking_cantidad	{ background-image: url('images/ninja/ranking_1_cantidad.png?2');}
+BODY#rankings.ranking_ninja TABLE#ranking_tabla TBODY TR.ranking_row_2 TD					{ color: white; background-color: #ff6699; }
+BODY#rankings.ranking_ninja TABLE#ranking_tabla TBODY TR.ranking_row_2 TD.ranking_posicion	{ color: white; }
+BODY#rankings.ranking_ninja TABLE#ranking_tabla TBODY TR.ranking_row_2 TD.ranking_cantidad	{ background-image: url('images/ninja/ranking_2_cantidad.png?2');}
+BODY#rankings.ranking_ninja TABLE#ranking_tabla TBODY TR.ranking_row_3 TD					{ color: white; background-color: #ff3300; }
+BODY#rankings.ranking_ninja TABLE#ranking_tabla TBODY TR.ranking_row_3 TD.ranking_posicion	{ color: white; }
+BODY#rankings.ranking_ninja TABLE#ranking_tabla TBODY TR.ranking_row_3 TD.ranking_cantidad	{ background-image: url('images/ninja/ranking_3_cantidad.png?2');}
+BODY#rankings.ranking_ninja TABLE#ranking_tabla TBODY TR.ranking_row_4 TD					{ color: white; background-color: #006600; }
+BODY#rankings.ranking_ninja TABLE#ranking_tabla TBODY TR.ranking_row_4 TD.ranking_posicion	{ color: white; }
+BODY#rankings.ranking_ninja TABLE#ranking_tabla TBODY TR.ranking_row_4 TD.ranking_cantidad	{ background-image: url('images/ninja/ranking_4_cantidad.png?2');}
+BODY#rankings.ranking_ninja TABLE#ranking_tabla TBODY TR.ranking_row_5 TD					{ color: white; background-color: #003399; }
+BODY#rankings.ranking_ninja TABLE#ranking_tabla TBODY TR.ranking_row_5 TD.ranking_posicion	{ color: white; }
+BODY#rankings.ranking_ninja TABLE#ranking_tabla TBODY TR.ranking_row_5 TD.ranking_cantidad	{ background-image: url('images/ninja/ranking_5_cantidad.png?2');}
+BODY#rankings.ranking_ninja TABLE#ranking_tabla TBODY TR.ranking_row_6 TD					{ color: black; background-color: #cccccc; }
+BODY#rankings.ranking_ninja TABLE#ranking_tabla TBODY TR.ranking_row_6 TD.ranking_posicion	{ color: black; }
+BODY#rankings.ranking_ninja TABLE#ranking_tabla TBODY TR.ranking_row_6 TD.ranking_cantidad	{ background-image: url('images/ninja/ranking_6_cantidad.png?2');}
+BODY#rankings.ranking_ninja TABLE#ranking_tabla TBODY TR.ranking_row_7 TD					{ color: white; background-color: #663399; }
+BODY#rankings.ranking_ninja TABLE#ranking_tabla TBODY TR.ranking_row_7 TD.ranking_posicion	{ color: white; }
+BODY#rankings.ranking_ninja TABLE#ranking_tabla TBODY TR.ranking_row_7 TD.ranking_cantidad	{ background-image: url('images/ninja/ranking_7_cantidad.png?2');}
+BODY#rankings.ranking_ninja TABLE#ranking_tabla TBODY TR.ranking_row_8 TD					{ color: white; background-color: #492525; }
+BODY#rankings.ranking_ninja TABLE#ranking_tabla TBODY TR.ranking_row_8 TD.ranking_posicion	{ color: white; }
+BODY#rankings.ranking_ninja TABLE#ranking_tabla TBODY TR.ranking_row_8 TD.ranking_cantidad	{ background-image: url('images/ninja/ranking_8_cantidad.png?2');}
+BODY#rankings.ranking_ninja TABLE#ranking_tabla TBODY TR.ranking_row_9 TD					{ color: white; background-color: #666666; }
+BODY#rankings.ranking_ninja TABLE#ranking_tabla TBODY TR.ranking_row_9 TD.ranking_posicion	{ color: white; }
+BODY#rankings.ranking_ninja TABLE#ranking_tabla TBODY TR.ranking_row_9 TD.ranking_cantidad	{ background-image: url('images/ninja/ranking_9_cantidad.png?2');}
+BODY#rankings.ranking_ninja TABLE#ranking_tabla TBODY TR.ranking_row_10 TD					{ color: black; background-color: #ffff00; }
+BODY#rankings.ranking_ninja TABLE#ranking_tabla TBODY TR.ranking_row_10 TD.ranking_posicion	{ color: black; }
+BODY#rankings.ranking_ninja TABLE#ranking_tabla TBODY TR.ranking_row_10 TD.ranking_cantidad	{ background-image: url('images/ninja/ranking_10_cantidad.png?2');}
+
+BODY#rankings.ranking_psu.lang_chl H2 		{ background-image: url('images/psu/h2_rankings_chl.png');}
+BODY#rankings.ranking_psu TABLE#ranking_tabla THEAD TR TH,
+BODY#rankings.ranking_psu TABLE#ranking_tabla TFOOT TR TH									{ background-color: white; }
+BODY#rankings.ranking_psu TABLE#ranking_tabla TBODY TR TD									{ background-color: #d4ffb1; }
+BODY#rankings.ranking_psu TABLE#ranking_tabla TBODY TR.ranking_row_0 TD						{ color: black; background-color: #ffb500; }
+BODY#rankings.ranking_psu TABLE#ranking_tabla TBODY TR.ranking_row_0 TD.ranking_posicion	{ color: black; }
+BODY#rankings.ranking_psu TABLE#ranking_tabla TBODY TR.ranking_row_0 TD.ranking_cantidad	{ background-image: url('images/psu/ranking_0_cantidad.png?2');}
+BODY#rankings.ranking_psu TABLE#ranking_tabla TBODY TR.ranking_row_1 TD						{ color: white; background-color: #336666; }
+BODY#rankings.ranking_psu TABLE#ranking_tabla TBODY TR.ranking_row_1 TD.ranking_posicion	{ color: white; }
+BODY#rankings.ranking_psu TABLE#ranking_tabla TBODY TR.ranking_row_1 TD.ranking_cantidad	{ background-image: url('images/psu/ranking_1_cantidad.png?2');}
+
+BODY#rankings.ranking_huesos2011.lang_dev H2 		{ background-image: url('images/huesos2011/h2_rankings_esp.png');}
+BODY#rankings.ranking_huesos2011.lang_esp H2 		{ background-image: url('images/huesos2011/h2_rankings_esp.png');}
+BODY#rankings.ranking_huesos2011.lang_eng H2 		{ background-image: url('images/huesos2011/h2_rankings_eng.png');}
+BODY#rankings.ranking_huesos2011.lang_chl H2 		{ background-image: url('images/huesos2011/h2_rankings_chl.png');}
+BODY#rankings.ranking_huesos2011.lang_mex H2 		{ background-image: url('images/huesos2011/h2_rankings_mex.png');}
+BODY#rankings.ranking_huesos2011 TABLE#ranking_tabla THEAD TR TH,
+BODY#rankings.ranking_huesos2011 TABLE#ranking_tabla TFOOT TR TH								{ background-color: white; }
+BODY#rankings.ranking_huesos2011 TABLE#ranking_tabla TBODY TR TD								{ background-color: #996699; }
+BODY#rankings.ranking_huesos2011 TABLE#ranking_tabla TBODY TR TD.cantidad						{ background-image: url('images/huesos2011/ranking_0_cantidad.png');}
+BODY#rankings.ranking_huesos2011 TABLE#ranking_tabla TBODY TR.ranking_row_0 TD					{ color: white; background-color: #ffb500; }
+BODY#rankings.ranking_huesos2011 TABLE#ranking_tabla TBODY TR.ranking_row_0 TD.ranking_posicion	{ color: white; }
+BODY#rankings.ranking_huesos2011 TABLE#ranking_tabla TBODY TR.ranking_row_0 TD.ranking_cantidad	{ background-image: url('images/huesos2011/ranking_0_cantidad.png');}
+BODY#rankings.ranking_huesos2011 TABLE#ranking_tabla TBODY TR.ranking_row_1 TD					{ color: white; background-color: #222222;}
+BODY#rankings.ranking_huesos2011 TABLE#ranking_tabla TBODY TR.ranking_row_1 TD.ranking_posicion	{ background-image: none;}
+BODY#rankings.ranking_huesos2011 TABLE#ranking_tabla TBODY TR.ranking_row_1 TD.ranking_cantidad	{ background-image: url('images/huesos2011/ranking_1_cantidad.png');}
+BODY#rankings.ranking_huesos2011 TABLE#ranking_tabla TBODY TR.ranking_row_2 TD					{ color: white; background-color: #653232;}
+BODY#rankings.ranking_huesos2011 TABLE#ranking_tabla TBODY TR.ranking_row_2 TD.ranking_posicion	{ background-image: none;}
+BODY#rankings.ranking_huesos2011 TABLE#ranking_tabla TBODY TR.ranking_row_2 TD.ranking_cantidad	{ background-image: url('images/huesos2011/ranking_2_cantidad.png');}
+BODY#rankings.ranking_huesos2011 TABLE#ranking_tabla TBODY TR.ranking_row_3 TD					{ color: white; background-color: #660099;}
+BODY#rankings.ranking_huesos2011 TABLE#ranking_tabla TBODY TR.ranking_row_3 TD.ranking_posicion	{ background-image: none;}
+BODY#rankings.ranking_huesos2011 TABLE#ranking_tabla TBODY TR.ranking_row_3 TD.ranking_cantidad	{ background-image: url('images/huesos2011/ranking_3_cantidad.png');}
+
+BODY#rankings.ranking_mapas_piratas_2011.lang_dev H2 		{ background-image: url('images/piratas2011/h2_rankings_esp.png');}
+BODY#rankings.ranking_mapas_piratas_2011.lang_esp H2 		{ background-image: url('images/piratas2011/h2_rankings_esp.png');}
+BODY#rankings.ranking_mapas_piratas_2011.lang_eng H2 		{ background-image: url('images/piratas2011/h2_rankings_eng.png');}
+BODY#rankings.ranking_mapas_piratas_2011.lang_chl H2 		{ background-image: url('images/piratas2011/h2_rankings_chl.png');}
+BODY#rankings.ranking_mapas_piratas_2011.lang_mex H2 		{ background-image: url('images/piratas2011/h2_rankings_mex.png');}
+BODY#rankings.ranking_mapas_piratas_2011 TABLE#ranking_tabla THEAD TR TH,
+BODY#rankings.ranking_mapas_piratas_2011 TABLE#ranking_tabla TFOOT TR TH								{ background-color: white; }
+BODY#rankings.ranking_mapas_piratas_2011 TABLE#ranking_tabla TBODY TR TD								{ background-color: #996699; }
+BODY#rankings.ranking_mapas_piratas_2011 TABLE#ranking_tabla TBODY TR TD.cantidad						{ background-image: url('images/piratas2011/ranking_0_cantidad.png');}
+BODY#rankings.ranking_mapas_piratas_2011 TABLE#ranking_tabla TBODY TR.ranking_row_0 TD					{ color: white; background-color: #ffb500; }
+BODY#rankings.ranking_mapas_piratas_2011 TABLE#ranking_tabla TBODY TR.ranking_row_0 TD.ranking_posicion	{ color: white; }
+BODY#rankings.ranking_mapas_piratas_2011 TABLE#ranking_tabla TBODY TR.ranking_row_0 TD.ranking_cantidad	{ background-image: url('images/piratas2011/ranking_0_cantidad.png');}
+BODY#rankings.ranking_mapas_piratas_2011 TABLE#ranking_tabla TBODY TR.ranking_row_1 TD					{ color: white; background-color: #222222;}
+BODY#rankings.ranking_mapas_piratas_2011 TABLE#ranking_tabla TBODY TR.ranking_row_1 TD.ranking_posicion	{ background-image: none;}
+BODY#rankings.ranking_mapas_piratas_2011 TABLE#ranking_tabla TBODY TR.ranking_row_1 TD.ranking_cantidad	{ background-image: url('images/piratas2011/ranking_1_cantidad.png');}
+BODY#rankings.ranking_mapas_piratas_2011 TABLE#ranking_tabla TBODY TR.ranking_row_2 TD					{ color: white; background-color: #653232;}
+BODY#rankings.ranking_mapas_piratas_2011 TABLE#ranking_tabla TBODY TR.ranking_row_2 TD.ranking_posicion	{ background-image: none;}
+BODY#rankings.ranking_mapas_piratas_2011 TABLE#ranking_tabla TBODY TR.ranking_row_2 TD.ranking_cantidad	{ background-image: url('images/piratas2011/ranking_2_cantidad.png');}
+BODY#rankings.ranking_mapas_piratas_2011 TABLE#ranking_tabla TBODY TR.ranking_row_3 TD					{ color: white; background-color: #660099;}
+BODY#rankings.ranking_mapas_piratas_2011 TABLE#ranking_tabla TBODY TR.ranking_row_3 TD.ranking_posicion	{ background-image: none;}
+BODY#rankings.ranking_mapas_piratas_2011 TABLE#ranking_tabla TBODY TR.ranking_row_3 TD.ranking_cantidad	{ background-image: url('images/piratas2011/ranking_3_cantidad.jpg');}
+
+BODY#rankings.ranking_xmas2011.lang_dev H2 		{ background-image: url('images/xmas2011/h2_rankings_esp.png');}
+BODY#rankings.ranking_xmas2011.lang_esp H2 		{ background-image: url('images/xmas2011/h2_rankings_esp.png');}
+BODY#rankings.ranking_xmas2011.lang_eng H2 		{ background-image: url('images/xmas2011/h2_rankings_eng.png');}
+BODY#rankings.ranking_xmas2011.lang_chl H2 		{ background-image: url('images/xmas2011/h2_rankings_chl.png');}
+BODY#rankings.ranking_xmas2011.lang_mex H2 		{ background-image: url('images/xmas2011/h2_rankings_mex.png');}
+BODY#rankings.ranking_xmas2011 TABLE#ranking_tabla THEAD TR TH,
+BODY#rankings.ranking_xmas2011 TABLE#ranking_tabla TFOOT TR TH								{ background-color: white; }
+BODY#rankings.ranking_xmas2011 TABLE#ranking_tabla TBODY TR TD								{ background-color: #996699; }
+BODY#rankings.ranking_xmas2011 TABLE#ranking_tabla TBODY TR TD.cantidad						{ background-image: url('images/xmas2011/ranking_0_cantidad.jpg');}
+BODY#rankings.ranking_xmas2011 TABLE#ranking_tabla TBODY TR.ranking_row_0 TD					{ color: white; background-color: #ffb500; }
+BODY#rankings.ranking_xmas2011 TABLE#ranking_tabla TBODY TR.ranking_row_0 TD.ranking_posicion	{ color: white; }
+BODY#rankings.ranking_xmas2011 TABLE#ranking_tabla TBODY TR.ranking_row_0 TD.ranking_cantidad	{ background-image: url('images/xmas2011/ranking_0_cantidad.jpg');}
+BODY#rankings.ranking_xmas2011 TABLE#ranking_tabla TBODY TR.ranking_row_1 TD					{ color: white; background-color: #222222;}
+BODY#rankings.ranking_xmas2011 TABLE#ranking_tabla TBODY TR.ranking_row_1 TD.ranking_posicion	{ background-image: none;}
+BODY#rankings.ranking_xmas2011 TABLE#ranking_tabla TBODY TR.ranking_row_1 TD.ranking_cantidad	{ background-image: url('images/xmas2011/ranking_1_cantidad.jpg');}
+BODY#rankings.ranking_xmas2011 TABLE#ranking_tabla TBODY TR.ranking_row_2 TD					{ color: white; background-color: #653232;}
+BODY#rankings.ranking_xmas2011 TABLE#ranking_tabla TBODY TR.ranking_row_2 TD.ranking_posicion	{ background-image: none;}
+BODY#rankings.ranking_xmas2011 TABLE#ranking_tabla TBODY TR.ranking_row_2 TD.ranking_cantidad	{ background-image: url('images/xmas2011/ranking_2_cantidad.jpg');}
+BODY#rankings.ranking_xmas2011 TABLE#ranking_tabla TBODY TR.ranking_row_3 TD					{ color: white; background-color: #660099;}
+BODY#rankings.ranking_xmas2011 TABLE#ranking_tabla TBODY TR.ranking_row_3 TD.ranking_posicion	{ background-image: none;}
+BODY#rankings.ranking_xmas2011 TABLE#ranking_tabla TBODY TR.ranking_row_3 TD.ranking_cantidad	{ background-image: url('images/xmas2011/ranking_3_cantidad.jpg');}
+
+BODY#rankings.ranking_rose2012.lang_dev H2 		{ background-image: url('images/rose2012/h2_rankings_esp.png');}
+BODY#rankings.ranking_rose2012.lang_esp H2 		{ background-image: url('images/rose2012/h2_rankings_esp.png');}
+BODY#rankings.ranking_rose2012.lang_eng H2 		{ background-image: url('images/rose2012/h2_rankings_eng.png');}
+BODY#rankings.ranking_rose2012.lang_chl H2 		{ background-image: url('images/rose2012/h2_rankings_chl.png');}
+BODY#rankings.ranking_rose2012.lang_mex H2 		{ background-image: url('images/rose2012/h2_rankings_mex.png');}
+BODY#rankings.ranking_rose2012 TABLE#ranking_tabla THEAD TR TH,
+BODY#rankings.ranking_rose2012 TABLE#ranking_tabla TFOOT TR TH								{ background-color: white; }
+BODY#rankings.ranking_rose2012 TABLE#ranking_tabla TBODY TR TD								{ background-color: #996699; }
+BODY#rankings.ranking_rose2012 TABLE#ranking_tabla TBODY TR TD.cantidad						{ background-image: url('images/rose2012/ranking_0_cantidad.jpg');}
+BODY#rankings.ranking_rose2012 TABLE#ranking_tabla TBODY TR.ranking_row_0 TD					{ color: white; background-color: #ffb500; }
+BODY#rankings.ranking_rose2012 TABLE#ranking_tabla TBODY TR.ranking_row_0 TD.ranking_posicion	{ color: white; }
+BODY#rankings.ranking_rose2012 TABLE#ranking_tabla TBODY TR.ranking_row_0 TD.ranking_cantidad	{ background-image: url('images/rose2012/ranking_0_cantidad.jpg');}
+BODY#rankings.ranking_rose2012 TABLE#ranking_tabla TBODY TR.ranking_row_1 TD					{ color: white; background-color: #222222;}
+BODY#rankings.ranking_rose2012 TABLE#ranking_tabla TBODY TR.ranking_row_1 TD.ranking_posicion	{ background-image: none;}
+BODY#rankings.ranking_rose2012 TABLE#ranking_tabla TBODY TR.ranking_row_1 TD.ranking_cantidad	{ background-image: url('images/rose2012/ranking_1_cantidad.jpg');}
+BODY#rankings.ranking_rose2012 TABLE#ranking_tabla TBODY TR.ranking_row_2 TD					{ color: white; background-color: #653232;}
+BODY#rankings.ranking_rose2012 TABLE#ranking_tabla TBODY TR.ranking_row_2 TD.ranking_posicion	{ background-image: none;}
+BODY#rankings.ranking_rose2012 TABLE#ranking_tabla TBODY TR.ranking_row_2 TD.ranking_cantidad	{ background-image: url('images/rose2012/ranking_2_cantidad.jpg');}
+BODY#rankings.ranking_rose2012 TABLE#ranking_tabla TBODY TR.ranking_row_3 TD					{ color: white; background-color: #660099;}
+BODY#rankings.ranking_rose2012 TABLE#ranking_tabla TBODY TR.ranking_row_3 TD.ranking_posicion	{ background-image: none;}
+BODY#rankings.ranking_rose2012 TABLE#ranking_tabla TBODY TR.ranking_row_3 TD.ranking_cantidad	{ background-image: url('images/rose2012/ranking_3_cantidad.jpg');}
+
+BODY#rankings.ranking_easter_egg2012.lang_dev H2 		{ background-image: url('images/easter_egg2012/h2_rankings_esp.png');}
+BODY#rankings.ranking_easter_egg2012.lang_esp H2 		{ background-image: url('images/easter_egg2012/h2_rankings_esp.png');}
+BODY#rankings.ranking_easter_egg2012.lang_eng H2 		{ background-image: url('images/easter_egg2012/h2_rankings_eng.png');}
+BODY#rankings.ranking_easter_egg2012.lang_chl H2 		{ background-image: url('images/easter_egg2012/h2_rankings_chl.png');}
+BODY#rankings.ranking_easter_egg2012.lang_mex H2 		{ background-image: url('images/easter_egg2012/h2_rankings_mex.png');}
+BODY#rankings.ranking_easter_egg2012 TABLE#ranking_tabla THEAD TR TH,
+BODY#rankings.ranking_easter_egg2012 TABLE#ranking_tabla TFOOT TR TH								{ background-color: white; }
+BODY#rankings.ranking_easter_egg2012 TABLE#ranking_tabla TBODY TR TD								{ background-color: #996699; }
+BODY#rankings.ranking_easter_egg2012 TABLE#ranking_tabla TBODY TR TD.cantidad						{ background-image: url('images/easter_egg2012/ranking_0_cantidad.png');}
+BODY#rankings.ranking_easter_egg2012 TABLE#ranking_tabla TBODY TR.ranking_row_0 TD					{ color: white; background-color: #ffb500; }
+BODY#rankings.ranking_easter_egg2012 TABLE#ranking_tabla TBODY TR.ranking_row_0 TD.ranking_posicion	{ color: white; }
+BODY#rankings.ranking_easter_egg2012 TABLE#ranking_tabla TBODY TR.ranking_row_0 TD.ranking_cantidad	{ background-image: url('images/easter_egg2012/ranking_0_cantidad.png');}
+BODY#rankings.ranking_easter_egg2012 TABLE#ranking_tabla TBODY TR.ranking_row_1 TD					{ color: white; background-color: #222222;}
+BODY#rankings.ranking_easter_egg2012 TABLE#ranking_tabla TBODY TR.ranking_row_1 TD.ranking_posicion	{ background-image: none;}
+BODY#rankings.ranking_easter_egg2012 TABLE#ranking_tabla TBODY TR.ranking_row_1 TD.ranking_cantidad	{ background-image: url('images/easter_egg2012/ranking_1_cantidad.png');}
+BODY#rankings.ranking_easter_egg2012 TABLE#ranking_tabla TBODY TR.ranking_row_2 TD					{ color: white; background-color: #653232;}
+BODY#rankings.ranking_easter_egg2012 TABLE#ranking_tabla TBODY TR.ranking_row_2 TD.ranking_posicion	{ background-image: none;}
+BODY#rankings.ranking_easter_egg2012 TABLE#ranking_tabla TBODY TR.ranking_row_2 TD.ranking_cantidad	{ background-image: url('images/easter_egg2012/ranking_2_cantidad.png');}
+BODY#rankings.ranking_easter_egg2012 TABLE#ranking_tabla TBODY TR.ranking_row_3 TD					{ color: white; background-color: #660099;}
+BODY#rankings.ranking_easter_egg2012 TABLE#ranking_tabla TBODY TR.ranking_row_3 TD.ranking_posicion	{ background-image: none;}
+BODY#rankings.ranking_easter_egg2012 TABLE#ranking_tabla TBODY TR.ranking_row_3 TD.ranking_cantidad	{ background-image: url('images/easter_egg2012/ranking_3_cantidad.png');}
+
+BODY#rankings.ranking_eurocopa2012.lang_dev H2 		{ background-image: url('images/eurocopa2012/h2_rankings_esp.png');}
+BODY#rankings.ranking_eurocopa2012.lang_esp H2 		{ background-image: url('images/eurocopa2012/h2_rankings_esp.png');}
+BODY#rankings.ranking_eurocopa2012.lang_eng H2 		{ background-image: url('images/eurocopa2012/h2_rankings_eng.png');}
+BODY#rankings.ranking_eurocopa2012.lang_chl H2 		{ background-image: url('images/eurocopa2012/h2_rankings_chl.png');}
+BODY#rankings.ranking_eurocopa2012.lang_mex H2 		{ background-image: url('images/eurocopa2012/h2_rankings_mex.png');}
+BODY#rankings.ranking_eurocopa2012 TABLE#ranking_tabla THEAD TR TH,
+BODY#rankings.ranking_eurocopa2012 TABLE#ranking_tabla TFOOT TR TH								{ background-color: white; }
+BODY#rankings.ranking_eurocopa2012 TABLE#ranking_tabla TBODY TR TD								{ background-color: #996699; }
+BODY#rankings.ranking_eurocopa2012 TABLE#ranking_tabla TBODY TR TD.cantidad						{ background-image: url('images/eurocopa2012/ranking_0_cantidad.png');}
+BODY#rankings.ranking_eurocopa2012 TABLE#ranking_tabla TBODY TR.ranking_row_0 TD					{ color: white; background-color: #ffb500; }
+BODY#rankings.ranking_eurocopa2012 TABLE#ranking_tabla TBODY TR.ranking_row_0 TD.ranking_posicion	{ color: white; }
+BODY#rankings.ranking_eurocopa2012 TABLE#ranking_tabla TBODY TR.ranking_row_0 TD.ranking_cantidad	{ background-image: url('images/eurocopa2012/ranking_0_cantidad.png');}
+BODY#rankings.ranking_eurocopa2012 TABLE#ranking_tabla TBODY TR.ranking_row_1 TD					{ color: white; background-color: #222222;}
+BODY#rankings.ranking_eurocopa2012 TABLE#ranking_tabla TBODY TR.ranking_row_1 TD.ranking_posicion	{ background-image: none;}
+BODY#rankings.ranking_eurocopa2012 TABLE#ranking_tabla TBODY TR.ranking_row_1 TD.ranking_cantidad	{ background-image: url('images/eurocopa2012/ranking_1_cantidad.png');}
+BODY#rankings.ranking_eurocopa2012 TABLE#ranking_tabla TBODY TR.ranking_row_2 TD					{ color: white; background-color: #653232;}
+BODY#rankings.ranking_eurocopa2012 TABLE#ranking_tabla TBODY TR.ranking_row_2 TD.ranking_posicion	{ background-image: none;}
+BODY#rankings.ranking_eurocopa2012 TABLE#ranking_tabla TBODY TR.ranking_row_2 TD.ranking_cantidad	{ background-image: url('images/eurocopa2012/ranking_2_cantidad.png');}
+BODY#rankings.ranking_eurocopa2012 TABLE#ranking_tabla TBODY TR.ranking_row_3 TD					{ color: white; background-color: #660099;}
+BODY#rankings.ranking_eurocopa2012 TABLE#ranking_tabla TBODY TR.ranking_row_3 TD.ranking_posicion	{ background-image: none;}
+BODY#rankings.ranking_eurocopa2012 TABLE#ranking_tabla TBODY TR.ranking_row_3 TD.ranking_cantidad	{ background-image: url('images/eurocopa2012/ranking_3_cantidad.png');}
+
+BODY#rankings.ranking_copos2012.lang_dev H2 		{ background-image: url('images/copos2012/h2_rankings_esp.png');}
+BODY#rankings.ranking_copos2012.lang_esp H2 		{ background-image: url('images/copos2012/h2_rankings_esp.png');}
+BODY#rankings.ranking_copos2012.lang_eng H2 		{ background-image: url('images/copos2012/h2_rankings_eng.png');}
+BODY#rankings.ranking_copos2012.lang_chl H2 		{ background-image: url('images/copos2012/h2_rankings_chl.png');}
+BODY#rankings.ranking_copos2012.lang_mex H2 		{ background-image: url('images/copos2012/h2_rankings_mex.png');}
+BODY#rankings.ranking_copos2012 TABLE#ranking_tabla THEAD TR TH,
+BODY#rankings.ranking_copos2012 TABLE#ranking_tabla TFOOT TR TH								{ background-color: white; }
+BODY#rankings.ranking_copos2012 TABLE#ranking_tabla TBODY TR TD								{ background-color: #996699; }
+BODY#rankings.ranking_copos2012 TABLE#ranking_tabla TBODY TR TD.cantidad						{ background-image: url('images/copos2012/ranking_0_cantidad.png');}
+BODY#rankings.ranking_copos2012 TABLE#ranking_tabla TBODY TR.ranking_row_0 TD					{ color: white; background-color: #ffb500; }
+BODY#rankings.ranking_copos2012 TABLE#ranking_tabla TBODY TR.ranking_row_0 TD.ranking_posicion	{ color: white; }
+BODY#rankings.ranking_copos2012 TABLE#ranking_tabla TBODY TR.ranking_row_0 TD.ranking_cantidad	{ background-image: url('images/copos2012/ranking_0_cantidad.png');}
+BODY#rankings.ranking_copos2012 TABLE#ranking_tabla TBODY TR.ranking_row_1 TD					{ color: white; background-color: #222222;}
+BODY#rankings.ranking_copos2012 TABLE#ranking_tabla TBODY TR.ranking_row_1 TD.ranking_posicion	{ background-image: none;}
+BODY#rankings.ranking_copos2012 TABLE#ranking_tabla TBODY TR.ranking_row_1 TD.ranking_cantidad	{ background-image: url('images/copos2012/ranking_1_cantidad.png');}
+BODY#rankings.ranking_copos2012 TABLE#ranking_tabla TBODY TR.ranking_row_2 TD					{ color: white; background-color: #653232;}
+BODY#rankings.ranking_copos2012 TABLE#ranking_tabla TBODY TR.ranking_row_2 TD.ranking_posicion	{ background-image: none;}
+BODY#rankings.ranking_copos2012 TABLE#ranking_tabla TBODY TR.ranking_row_2 TD.ranking_cantidad	{ background-image: url('images/copos2012/ranking_2_cantidad.png');}
+BODY#rankings.ranking_copos2012 TABLE#ranking_tabla TBODY TR.ranking_row_3 TD					{ color: white; background-color: #660099;}
+BODY#rankings.ranking_copos2012 TABLE#ranking_tabla TBODY TR.ranking_row_3 TD.ranking_posicion	{ background-image: none;}
+BODY#rankings.ranking_copos2012 TABLE#ranking_tabla TBODY TR.ranking_row_3 TD.ranking_cantidad	{ background-image: url('images/copos2012/ranking_3_cantidad.png');}
+
+BODY#rankings.ranking_easter_egg2013.lang_dev H2 		{ background-image: url('images/easter_egg2013/h2_rankings_esp.png');}
+BODY#rankings.ranking_easter_egg2013.lang_esp H2 		{ background-image: url('images/easter_egg2013/h2_rankings_esp.png');}
+BODY#rankings.ranking_easter_egg2013.lang_eng H2 		{ background-image: url('images/easter_egg2013/h2_rankings_eng.png');}
+BODY#rankings.ranking_easter_egg2013.lang_chl H2 		{ background-image: url('images/easter_egg2013/h2_rankings_chl.png');}
+BODY#rankings.ranking_easter_egg2013.lang_mex H2 		{ background-image: url('images/easter_egg2013/h2_rankings_mex.png');}
+BODY#rankings.ranking_easter_egg2013 TABLE#ranking_tabla THEAD TR TH,
+BODY#rankings.ranking_easter_egg2013 TABLE#ranking_tabla TFOOT TR TH								{ background-color: white; }
+BODY#rankings.ranking_easter_egg2013 TABLE#ranking_tabla TBODY TR TD								{ background-color: #996699; }
+BODY#rankings.ranking_easter_egg2013 TABLE#ranking_tabla TBODY TR TD.cantidad						{ background-image: url('images/easter_egg2013/ranking_0_cantidad.png');}
+BODY#rankings.ranking_easter_egg2013 TABLE#ranking_tabla TBODY TR.ranking_row_0 TD					{ color: white; background-color: #ffb500; }
+BODY#rankings.ranking_easter_egg2013 TABLE#ranking_tabla TBODY TR.ranking_row_0 TD.ranking_posicion	{ color: white; }
+BODY#rankings.ranking_easter_egg2013 TABLE#ranking_tabla TBODY TR.ranking_row_0 TD.ranking_cantidad	{ background-image: url('images/easter_egg2013/ranking_0_cantidad.png');}
+BODY#rankings.ranking_easter_egg2013 TABLE#ranking_tabla TBODY TR.ranking_row_1 TD					{ color: white; background-color: #222222;}
+BODY#rankings.ranking_easter_egg2013 TABLE#ranking_tabla TBODY TR.ranking_row_1 TD.ranking_posicion	{ background-image: none;}
+BODY#rankings.ranking_easter_egg2013 TABLE#ranking_tabla TBODY TR.ranking_row_1 TD.ranking_cantidad	{ background-image: url('images/easter_egg2013/ranking_1_cantidad.png');}
+BODY#rankings.ranking_easter_egg2013 TABLE#ranking_tabla TBODY TR.ranking_row_2 TD					{ color: white; background-color: #653232;}
+BODY#rankings.ranking_easter_egg2013 TABLE#ranking_tabla TBODY TR.ranking_row_2 TD.ranking_posicion	{ background-image: none;}
+BODY#rankings.ranking_easter_egg2013 TABLE#ranking_tabla TBODY TR.ranking_row_2 TD.ranking_cantidad	{ background-image: url('images/easter_egg2013/ranking_2_cantidad.png');}
+BODY#rankings.ranking_easter_egg2013 TABLE#ranking_tabla TBODY TR.ranking_row_3 TD					{ color: white; background-color: #660099;}
+BODY#rankings.ranking_easter_egg2013 TABLE#ranking_tabla TBODY TR.ranking_row_3 TD.ranking_posicion	{ background-image: none;}
+BODY#rankings.ranking_easter_egg2013 TABLE#ranking_tabla TBODY TR.ranking_row_3 TD.ranking_cantidad	{ background-image: url('images/easter_egg2013/ranking_3_cantidad.png');}
+
+BODY#rankings.ranking_egyptian2013.lang_dev H2 		{ background-image: url('images/egyptian2013/h2_rankings_esp.png');}
+BODY#rankings.ranking_egyptian2013.lang_esp H2 		{ background-image: url('images/egyptian2013/h2_rankings_esp.png');}
+BODY#rankings.ranking_egyptian2013.lang_eng H2 		{ background-image: url('images/egyptian2013/h2_rankings_eng.png');}
+BODY#rankings.ranking_egyptian2013.lang_chl H2 		{ background-image: url('images/egyptian2013/h2_rankings_chl.png');}
+BODY#rankings.ranking_egyptian2013.lang_mex H2 		{ background-image: url('images/egyptian2013/h2_rankings_mex.png');}
+BODY#rankings.ranking_egyptian2013 TABLE#ranking_tabla THEAD TR TH,
+BODY#rankings.ranking_egyptian2013 TABLE#ranking_tabla TFOOT TR TH								{ background-color: white; }
+BODY#rankings.ranking_egyptian2013 TABLE#ranking_tabla TBODY TR TD								{ background-color: #996699; }
+BODY#rankings.ranking_egyptian2013 TABLE#ranking_tabla TBODY TR TD.cantidad						{ background-image: url('images/egyptian2013/ranking_0_cantidad.png');}
+BODY#rankings.ranking_egyptian2013 TABLE#ranking_tabla TBODY TR.ranking_row_0 TD					{ color: white; background-color: #ffb500; }
+BODY#rankings.ranking_egyptian2013 TABLE#ranking_tabla TBODY TR.ranking_row_0 TD.ranking_posicion	{ color: white; }
+BODY#rankings.ranking_egyptian2013 TABLE#ranking_tabla TBODY TR.ranking_row_0 TD.ranking_cantidad	{ background-image: url('images/egyptian2013/ranking_0_cantidad.png');}
+BODY#rankings.ranking_egyptian2013 TABLE#ranking_tabla TBODY TR.ranking_row_1 TD					{ color: white; background-color: #222222;}
+BODY#rankings.ranking_egyptian2013 TABLE#ranking_tabla TBODY TR.ranking_row_1 TD.ranking_posicion	{ background-image: none;}
+BODY#rankings.ranking_egyptian2013 TABLE#ranking_tabla TBODY TR.ranking_row_1 TD.ranking_cantidad	{ background-image: url('images/egyptian2013/ranking_1_cantidad.png');}
+BODY#rankings.ranking_egyptian2013 TABLE#ranking_tabla TBODY TR.ranking_row_2 TD					{ color: white; background-color: #653232;}
+BODY#rankings.ranking_egyptian2013 TABLE#ranking_tabla TBODY TR.ranking_row_2 TD.ranking_posicion	{ background-image: none;}
+BODY#rankings.ranking_egyptian2013 TABLE#ranking_tabla TBODY TR.ranking_row_2 TD.ranking_cantidad	{ background-image: url('images/egyptian2013/ranking_2_cantidad.png');}
+BODY#rankings.ranking_egyptian2013 TABLE#ranking_tabla TBODY TR.ranking_row_3 TD					{ color: white; background-color: #660099;}
+BODY#rankings.ranking_egyptian2013 TABLE#ranking_tabla TBODY TR.ranking_row_3 TD.ranking_posicion	{ background-image: none;}
+BODY#rankings.ranking_egyptian2013 TABLE#ranking_tabla TBODY TR.ranking_row_3 TD.ranking_cantidad	{ background-image: url('images/egyptian2013/ranking_3_cantidad.png');}
+
+BODY#rankings.ranking_mapas_piratas_2013.lang_dev H2 		{ background-image: url('images/piratas2013/h2_rankings_esp.png');}
+BODY#rankings.ranking_mapas_piratas_2013.lang_esp H2 		{ background-image: url('images/piratas2013/h2_rankings_esp.png');}
+BODY#rankings.ranking_mapas_piratas_2013.lang_eng H2 		{ background-image: url('images/piratas2013/h2_rankings_eng.png');}
+BODY#rankings.ranking_mapas_piratas_2013.lang_chl H2 		{ background-image: url('images/piratas2013/h2_rankings_chl.png');}
+BODY#rankings.ranking_mapas_piratas_2013.lang_mex H2 		{ background-image: url('images/piratas2013/h2_rankings_mex.png');}
+BODY#rankings.ranking_mapas_piratas_2013 TABLE#ranking_tabla THEAD TR TH,
+BODY#rankings.ranking_mapas_piratas_2013 TABLE#ranking_tabla TFOOT TR TH								{ background-color: white; }
+BODY#rankings.ranking_mapas_piratas_2013 TABLE#ranking_tabla TBODY TR TD								{ background-color: #996699; }
+BODY#rankings.ranking_mapas_piratas_2013 TABLE#ranking_tabla TBODY TR TD.cantidad						{ background-image: url('images/piratas2013/ranking_0_cantidad.png');}
+BODY#rankings.ranking_mapas_piratas_2013 TABLE#ranking_tabla TBODY TR.ranking_row_0 TD					{ color: white; background-color: #ffb500; }
+BODY#rankings.ranking_mapas_piratas_2013 TABLE#ranking_tabla TBODY TR.ranking_row_0 TD.ranking_posicion	{ color: white; }
+BODY#rankings.ranking_mapas_piratas_2013 TABLE#ranking_tabla TBODY TR.ranking_row_0 TD.ranking_cantidad	{ background-image: url('images/piratas2013/ranking_0_cantidad.png');}
+BODY#rankings.ranking_mapas_piratas_2013 TABLE#ranking_tabla TBODY TR.ranking_row_1 TD					{ color: white; background-color: #222222;}
+BODY#rankings.ranking_mapas_piratas_2013 TABLE#ranking_tabla TBODY TR.ranking_row_1 TD.ranking_posicion	{ background-image: none;}
+BODY#rankings.ranking_mapas_piratas_2013 TABLE#ranking_tabla TBODY TR.ranking_row_1 TD.ranking_cantidad	{ background-image: url('images/piratas2013/ranking_1_cantidad.png');}
+BODY#rankings.ranking_mapas_piratas_2013 TABLE#ranking_tabla TBODY TR.ranking_row_2 TD					{ color: white; background-color: #653232;}
+BODY#rankings.ranking_mapas_piratas_2013 TABLE#ranking_tabla TBODY TR.ranking_row_2 TD.ranking_posicion	{ background-image: none;}
+BODY#rankings.ranking_mapas_piratas_2013 TABLE#ranking_tabla TBODY TR.ranking_row_2 TD.ranking_cantidad	{ background-image: url('images/piratas2013/ranking_2_cantidad.png');}
+BODY#rankings.ranking_mapas_piratas_2013 TABLE#ranking_tabla TBODY TR.ranking_row_3 TD					{ color: white; background-color: #660099;}
+BODY#rankings.ranking_mapas_piratas_2013 TABLE#ranking_tabla TBODY TR.ranking_row_3 TD.ranking_posicion	{ background-image: none;}
+BODY#rankings.ranking_mapas_piratas_2013 TABLE#ranking_tabla TBODY TR.ranking_row_3 TD.ranking_cantidad	{ background-image: url('images/piratas2013/ranking_3_cantidad.jpg');}

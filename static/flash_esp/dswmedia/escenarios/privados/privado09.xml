@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<escenario id="9" maxBBoxHeight="5"> 
+   	<nameScene name="hielo land"/>
+	<matrix>
+		<row id="0"   data="1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1"/> 
+		<row id="1"   data="1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0"/> 
+		<row id="2"   data="1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0"/> 
+    	<row id="3"   data="1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0"/> 
+  	  	<row id="4"   data="1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0"/> 
+    	<row id="5"   data="1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0"/> 
+   	 	<row id="6"   data="1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0"/> 
+    	<row id="7"   data="1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0"/> 
+    	<row id="8"   data="1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0"/> 
+    	<row id="9"   data="1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0"/> 
+   		<row id="10"  data="1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 2, 1, 3, 3, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0"/> 
+   		<row id="11"  data="1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 2, 1, 3, 3, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0"/> 
+   		<row id="12"  data="1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 2, 1, 3, 3, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0"/> 
+   		<row id="13"  data="1, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 2, 1, 3, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0"/> 
+    	<row id="14"  data="1, 0, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 3, 3, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0"/> 
+    	<row id="15"  data="1, 0, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 3, 3, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0"/> 
+		<row id="16"  data="1, 0, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 3, 3, 3, 1, 1, 1, 1, 1, 1, 1, 1, 0"/> 
+		<row id="17"  data="1, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 3, 1, 1, 1, 1, 1, 1, 1, 1, 0"/>
+		<row id="18"  data="1, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0"/>
+		<row id="19"  data="1, 0, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 1, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0"/>
+		<row id="20"  data="1, 0, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0"/>
+		<row id="21"  data="1, 0, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0"/>
+		<row id="22"  data="1, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0"/>
+		<row id="23"  data="1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 2, 2, 2, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0"/>
+		<row id="24"  data="1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 2, 2, 2, 2, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0"/>
+		<row id="25"  data="1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 2, 2, 2, 2, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0"/>
+		<row id="26"  data="1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 2, 2, 2, 2, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0"/>
+		<row id="27"  data="1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0"/> 
+		<row id="28"  data="1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0"/> 
+		<row id="29"  data="1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0"/> 
+		<row id="30"  data="1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0"/> 
+		<row id="31"  data="1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0"/> 
+		<row id="32"  data="1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0"/>  
+	</matrix>                
+	
+	<coordenates x="-840" y="337"/>    
+   	<grupoScene id="1"/>
+    
+    <layers>
+    	<layer id="0" name="mcCielo" idprof="0" regpointx="0" regpointy="0" idcolor="0"/>
+    	<layer id="1" name="mcMar" idprof="0" regpointx="0" regpointy="0" idcolor="1"/>
+    	<layer id="2" name="mcBackground" idprof="0" regpointx="0" regpointy="0" idcolor="-1"/>
+    	<layer id="3" name="mcMar2" idprof="0" regpointx="0" regpointy="0" idcolor="1"/>
+    	<layer id="4" name="mcCuerpo_pajaro" idprof="2" regpointx="0" regpointy="0" idcolor="2"/>
+    	<layer id="5" name="mcForeground" idprof="2" regpointx="0" regpointy="0" idcolor="-1"/>    	
+    	<layer id="6" name="mcPajaro" idprof="2" regpointx="0" regpointy="0" idcolor="-1"/>
+    </layers> 
+
+    <colors idAlpha="-1">
+    	<color id="0" rgb="32d3fe" alpha="100" pointx="14" pointy="84" name="cielo">
+    		<colorsRef>
+				<colorRef id= "0" rgb="32D3FE" alpha="100" pointx="14" pointy="84"/>
+				<colorRef id= "1" rgb="9598D7" alpha="85" pointx="59" pointy="90"/>
+				<colorRef id= "2" rgb="3F3C90" alpha="57" pointx="51" pointy="108"/>
+				<colorRef id= "3" rgb="E4C18A" alpha="90" pointx="94" pointy="54"/>
+				<colorRef id= "4" rgb="FE9B8D" alpha="100" pointx="103" pointy="67"/>
+				<colorRef id= "5" rgb="5CB665" alpha="72" pointx="50" pointy="42"/>
+    		</colorsRef>
+    	</color>
+    	<color id="1" rgb="5480cb" alpha="80" pointx="37" pointy="97" name="oceano">
+    		<colorsRef>
+				<colorRef id= "0" rgb="5480CB" alpha="80" pointx="37" pointy="97"/>
+				<colorRef id= "1" rgb="5ECBB3" alpha="80" pointx="33" pointy="62"/>
+				<colorRef id= "2" rgb="C873C4" alpha="79" pointx="88" pointy="97"/>
+				<colorRef id= "3" rgb="E79943" alpha="91" pointx="115" pointy="44"/>
+				<colorRef id= "4" rgb="FEB3C4" alpha="100" pointx="92" pointy="76"/>
+				<colorRef id= "5" rgb="E4C156" alpha="90" pointx="103" pointy="39"/>
+    		</colorsRef>
+    	</color>
+    	<color id="2" rgb="fea53b" alpha="100" pointx="118" pointy="41" name="pajaro">
+    		<colorsRef>
+				<colorRef id= "0" rgb="FEA53B" alpha="100" pointx="118" pointy="41"/>
+				<colorRef id= "1" rgb="56B6CB" alpha="80" pointx="30" pointy="79"/>
+				<colorRef id= "2" rgb="31D224" alpha="83" pointx="45" pointy="17"/>
+				<colorRef id= "3" rgb="D2CA68" alpha="83" pointx="92" pointy="41"/>
+				<colorRef id= "4" rgb="FE646E" alpha="100" pointx="115" pointy="74"/>
+				<colorRef id= "5" rgb="246DD0" alpha="82" pointx="21" pointy="105"/>
+    		</colorsRef>
+    	</color>
+    	
+    </colors>
+</escenario>
